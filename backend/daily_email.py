@@ -12,11 +12,11 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime, timedelta
 
-# 配置
-SMTP_SERVER = os.getenv("SMTP_SERVER", "smtp.gmail.com")
+# 配置 - QQ邮箱SMTP
+SMTP_SERVER = os.getenv("SMTP_SERVER", "smtp.qq.com")
 SMTP_PORT = int(os.getenv("SMTP_PORT", "587"))
-SMTP_USER = os.getenv("SMTP_USER", "")
-SMTP_PASSWORD = os.getenv("SMTP_PASSWORD", "")
+SMTP_USER = os.getenv("SMTP_USER", "liuchu_pku@foxmail.com")
+SMTP_PASSWORD = os.getenv("SMTP_PASSWORD", "")  # 需要QQ邮箱授权码
 FROM_EMAIL = os.getenv("FROM_EMAIL", SMTP_USER)
 TO_EMAIL = "liuchu_pku@foxmail.com"
 
