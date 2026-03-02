@@ -21,6 +21,7 @@ MINIMAX_BASE_URL = "https://api.minimaxi.com/v1/text/chatcompletion_v2"
 
 # ArXiv 经济学相关分类
 ARXIV_CATEGORIES = [
+    # 量化金融 (Quantitative Finance)
     "q-fin.EC",
     "q-fin.GN", 
     "q-fin.MF",
@@ -28,6 +29,17 @@ ARXIV_CATEGORIES = [
     "q-fin.RM",
     "q-fin.ST",
     "q-fin.TR",
+    # 经济分类 (Economics)
+    "econ.GN",
+    "econ.EM",
+    "econ.CO",
+    "econ.EC",
+    "econ.HO",
+    "econ.IV",
+    "econ.ME",
+    "econ.MA",
+    "econ.PE",
+    "econ.WR",
 ]
 
 

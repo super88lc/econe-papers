@@ -25,9 +25,9 @@ export default function DaySection({ dayPapers, selectedCategory }: DaySectionPr
     day: 'numeric'
   });
   
-  // 显示逻辑：默认显示前10篇，点击"更多"展开全部
-  const displayPapers = showAll ? filteredPapers : filteredPapers.slice(0, 10);
-  const hasMore = filteredPapers.length > 10;
+  // 显示逻辑：默认显示前5篇，点击"更多"展开全部
+  const displayPapers = showAll ? filteredPapers : filteredPapers.slice(0, 5);
+  const hasMore = filteredPapers.length > 5;
   
   return (
     <section className="mb-6">
