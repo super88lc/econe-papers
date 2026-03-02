@@ -30,7 +30,7 @@ export default function DaySection({ dayPapers, selectedCategory }: DaySectionPr
   });
   
   const totalPapers = allPapers.length;
-  const highRatedCount = allPapers.filter(p => (p.scores?.overall || 0) >= 6.5).length;
+  const highRatedCount = allPapers.filter(p => (p.scores?.overall || 0) >= 3.5).length;
   
   const categoryCount: Record<string, number> = {};
   allPapers.forEach(p => {
