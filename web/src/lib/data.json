@@ -26,8 +26,8 @@
           "scores": {
             "overall": 6.0,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.1,
+            "readability": 4.8
           },
           "summary": "This paper examines the impact of introducing a Ra",
           "tags": [
@@ -62,7 +62,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.9,
-            "novelty": 5.0,
+            "novelty": 4.4,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -92,8 +92,8 @@
           "scores": {
             "overall": 5.9,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.2,
+            "readability": 4.9
           },
           "summary": "In the linear-in-means model, endogeneity arises n",
           "tags": [
@@ -121,8 +121,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.5,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.1,
+            "quality": 4.4,
             "readability": 5.0
           },
           "summary": "We propose a difference-in-differences (DiD) frame",
@@ -153,8 +153,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.1,
+            "quality": 4.4,
             "readability": 5.0
           },
           "summary": "This study proposes the General Bayes framework fo",
@@ -183,7 +183,7 @@
           "scores": {
             "overall": 6.0,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.4,
             "readability": 5.0
           },
           "summary": "This paper develops a unifying theory of peer effe",
@@ -222,7 +222,7 @@
           "scores": {
             "overall": 6.6,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.0,
             "readability": 5.0
           },
           "summary": "The advancement of large language models (LLMs) ha",
@@ -251,8 +251,8 @@
           "scores": {
             "overall": 6.2,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.7,
+            "readability": 4.7
           },
           "summary": "The US economy is transitioning away from fossil f",
           "tags": [
@@ -283,8 +283,8 @@
           "scores": {
             "overall": 5.9,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.7,
+            "readability": 4.6
           },
           "summary": "We construct a stochastic dynamical systems theory",
           "tags": [
@@ -314,7 +314,7 @@
           "keywords": [],
           "scores": {
             "overall": 6.2,
-            "novelty": 5.0,
+            "novelty": 4.2,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -376,7 +376,7 @@
           "scores": {
             "overall": 5.9,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.8,
             "readability": 5.0
           },
           "summary": "Switchback experiments--alternating treatment and ",
@@ -435,7 +435,7 @@
             "overall": 5.4,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.5
           },
           "summary": "Recent papers in communication games construct equ",
           "tags": [
@@ -461,9 +461,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.5,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "novelty": 4.5,
+            "quality": 4.6,
+            "readability": 4.6
           },
           "summary": "This paper embeds a signaling friction into the co",
           "tags": [
@@ -499,9 +499,9 @@
           "keywords": [],
           "scores": {
             "overall": 6.4,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "novelty": 4.5,
+            "quality": 4.2,
+            "readability": 4.8
           },
           "summary": "Dynamic-weight AMMs (aka Temporal Function Market ",
           "tags": [
@@ -532,8 +532,8 @@
           "scores": {
             "overall": 6.1,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.7,
+            "readability": 4.9
           },
           "summary": "Networks underpin systems that range from finance ",
           "tags": [
@@ -564,8 +564,8 @@
           "keywords": [],
           "scores": {
             "overall": 6.0,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.4,
+            "quality": 4.5,
             "readability": 5.0
           },
           "summary": "In matching markets such as kidney exchanges and f",
@@ -604,7 +604,7 @@
             "overall": 6.1,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.7
           },
           "summary": "Given the challenge of achieving societal welfare ",
           "tags": [
@@ -636,8 +636,8 @@
           "scores": {
             "overall": 6.1,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.3,
+            "readability": 4.9
           },
           "summary": "Artificial intelligence (AI) is advancing exponent",
           "tags": [
@@ -724,9 +724,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.2,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "novelty": 4.5,
+            "quality": 4.1,
+            "readability": 4.8
           },
           "summary": "This paper develops a general method of inference ",
           "tags": [
@@ -754,8 +754,8 @@
           "keywords": [],
           "scores": {
             "overall": 6.0,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.5,
+            "quality": 4.4,
             "readability": 5.0
           },
           "summary": "We study the $n$-dimensional contest between two a",
@@ -787,7 +787,7 @@
           "scores": {
             "overall": 6.5,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.6,
             "readability": 5.0
           },
           "summary": "Congestion pricing has emerged as an effective too",
@@ -816,7 +816,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.4,
-            "novelty": 5.0,
+            "novelty": 4.8,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -857,8 +857,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.8,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.5,
+            "quality": 4.5,
             "readability": 5.0
           },
           "summary": "We generalize the seminal framework of Kyle (1985)",
@@ -888,7 +888,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.8,
-            "novelty": 5.0,
+            "novelty": 4.5,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -916,8 +916,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.8,
+            "quality": 4.4,
             "readability": 5.0
           },
           "summary": "Parametric Portfolio Policies (PPP) estimate optim",
@@ -949,8 +949,8 @@
           "scores": {
             "overall": 5.5,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.2,
+            "readability": 4.5
           },
           "summary": "This paper develops a unified framework that links",
           "tags": [
@@ -979,7 +979,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.8,
-            "novelty": 5.0,
+            "novelty": 4.2,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -1011,9 +1011,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.1,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "novelty": 4.8,
+            "quality": 4.1,
+            "readability": 4.9
           },
           "summary": "We study spillover effects in corporate toxic emis",
           "tags": [
@@ -1075,7 +1075,7 @@
           "scores": {
             "overall": 6.1,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.0,
             "readability": 5.0
           },
           "summary": "For millennia, human cognition was the primary eng",
@@ -1109,7 +1109,7 @@
             "overall": 5.4,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.8
           },
           "summary": "As LLMs become embedded in research workflows and ",
           "tags": [
@@ -1136,8 +1136,8 @@
           "scores": {
             "overall": 6.3,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.2,
+            "readability": 4.9
           },
           "summary": "We develop an empirical Bayes framework for experi",
           "tags": [
@@ -1167,7 +1167,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.6,
-            "novelty": 5.0,
+            "novelty": 4.9,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -1198,9 +1198,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.6,
-            "novelty": 5.0,
+            "novelty": 4.5,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.7
           },
           "summary": "The long-standing unitary-actor assumption in stra",
           "tags": [
@@ -1230,7 +1230,7 @@
             "overall": 5.7,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.8
           },
           "summary": "The Vickrey-Clarke-Groves (VCG) mechanism is infam",
           "tags": [
@@ -1260,7 +1260,7 @@
             "overall": 5.7,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.7
           },
           "summary": "In practice, auction data are often endogenously c",
           "tags": [
@@ -1326,8 +1326,8 @@
           "scores": {
             "overall": 6.2,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.0,
+            "readability": 4.8
           },
           "summary": "This paper describes a discrete-time model of regu",
           "tags": [
@@ -1359,7 +1359,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.3,
-            "novelty": 5.0,
+            "novelty": 4.0,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -1392,8 +1392,8 @@
           "scores": {
             "overall": 6.2,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.6,
+            "readability": 4.6
           },
           "summary": "Corporate insiders trade for diverse reasons, ofte",
           "tags": [
@@ -1428,7 +1428,7 @@
             "overall": 5.1,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.6
           },
           "summary": "VOLARE (VOLatility Archive for Realized Estimates ",
           "tags": [
@@ -1460,7 +1460,7 @@
           "scores": {
             "overall": 6.0,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.1,
             "readability": 5.0
           },
           "summary": "Market-order flow in financial markets exhibits lo",
@@ -1489,7 +1489,7 @@
           "scores": {
             "overall": 6.2,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.3,
             "readability": 5.0
           },
           "summary": "Concentrated liquidity provision in decentralized ",
@@ -1521,7 +1521,7 @@
           "scores": {
             "overall": 5.3,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.5,
             "readability": 5.0
           },
           "summary": "Demographics in Malaysia and Viet Nam are evolving",
@@ -1549,8 +1549,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.3,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.8,
+            "quality": 4.4,
             "readability": 5.0
           },
           "summary": "Background. Low earnings are associated with house",
@@ -1583,8 +1583,8 @@
           "scores": {
             "overall": 5.8,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.4,
+            "readability": 4.8
           },
           "summary": "Purpose. This paper examines the extent to which j",
           "tags": [
@@ -1615,7 +1615,7 @@
             "overall": 6.3,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.9
           },
           "summary": "Why do some community-cooperation projects catalys",
           "tags": [
@@ -1644,8 +1644,8 @@
           "scores": {
             "overall": 5.6,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.2,
+            "readability": 4.7
           },
           "summary": "This paper reformulates the Greenwood and Guner (2",
           "tags": [
@@ -1671,9 +1671,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.5,
-            "novelty": 5.0,
+            "novelty": 4.7,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.7
           },
           "summary": "We study the conditions under which technological ",
           "tags": [
@@ -1704,8 +1704,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.4,
+            "quality": 4.1,
             "readability": 5.0
           },
           "summary": "Two-sided platforms must recommend users to users,",
@@ -1736,7 +1736,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.9,
-            "novelty": 5.0,
+            "novelty": 4.5,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -1767,8 +1767,8 @@
           "keywords": [],
           "scores": {
             "overall": 6.4,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.1,
+            "quality": 4.5,
             "readability": 5.0
           },
           "summary": "This paper synthesises the existing research on th",
@@ -1802,8 +1802,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.4,
+            "quality": 4.3,
             "readability": 5.0
           },
           "summary": "Heterogeneous treatment effects (HTEs) are increas",
@@ -1838,7 +1838,7 @@
           "scores": {
             "overall": 5.7,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.9,
             "readability": 5.0
           },
           "summary": "We study the Gaussian sequence compound decision p",
@@ -1867,8 +1867,8 @@
           "scores": {
             "overall": 5.8,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.4,
+            "readability": 4.6
           },
           "summary": "Sentiment towards the Chinese real estate sector h",
           "tags": [
@@ -1896,8 +1896,8 @@
           "keywords": [],
           "scores": {
             "overall": 6.5,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.9,
+            "quality": 4.8,
             "readability": 5.0
           },
           "summary": "High-dimensional regression specification and anal",
@@ -1958,9 +1958,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.6,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "novelty": 4.2,
+            "quality": 4.8,
+            "readability": 4.8
           },
           "summary": "This paper presents a Hayashi-Yoshida type estimat",
           "tags": [
@@ -1989,8 +1989,8 @@
           "scores": {
             "overall": 6.3,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.5,
+            "readability": 4.7
           },
           "summary": "We show how pre-averaging can be applied to the pr",
           "tags": [
@@ -2019,9 +2019,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.3,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "novelty": 4.9,
+            "quality": 4.8,
+            "readability": 4.8
           },
           "summary": "I prove that competitive market outcomes require c",
           "tags": [
@@ -2047,9 +2047,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.3,
-            "novelty": 5.0,
+            "novelty": 4.5,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.9
           },
           "summary": "We study incentive design when multiple principals",
           "tags": [
@@ -2078,7 +2078,7 @@
             "overall": 6.1,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.6
           },
           "summary": "A principal screens an agent with an arbitrary set",
           "tags": [
@@ -2140,7 +2140,7 @@
             "overall": 6.2,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.7
           },
           "summary": "This paper studies the efficiency of battery stora",
           "tags": [
@@ -2177,8 +2177,8 @@
           "scores": {
             "overall": 5.9,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.4,
+            "readability": 4.9
           },
           "summary": "This paper documents the work of the Clean Air Tas",
           "tags": [
@@ -2206,8 +2206,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.2,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.1,
+            "quality": 4.8,
             "readability": 5.0
           },
           "summary": "A growing literature documents how religious insti",
@@ -2236,7 +2236,7 @@
           "keywords": [],
           "scores": {
             "overall": 6.0,
-            "novelty": 5.0,
+            "novelty": 4.5,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -2264,7 +2264,7 @@
           "keywords": [],
           "scores": {
             "overall": 6.0,
-            "novelty": 5.0,
+            "novelty": 4.8,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -2297,7 +2297,7 @@
             "overall": 6.1,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.7
           },
           "summary": "Regression discontinuity and kink designs are typi",
           "tags": [
@@ -2325,7 +2325,7 @@
           "keywords": [],
           "scores": {
             "overall": 6.3,
-            "novelty": 5.0,
+            "novelty": 4.6,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -2355,7 +2355,7 @@
             "overall": 5.9,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.6
           },
           "summary": "Distributional effects, characterized by quantile ",
           "tags": [
@@ -2414,9 +2414,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.4,
-            "novelty": 5.0,
+            "novelty": 4.3,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.6
           },
           "summary": "The BLP model is the workhorse framework in empiri",
           "tags": [
@@ -2451,7 +2451,7 @@
           "keywords": [],
           "scores": {
             "overall": 6.4,
-            "novelty": 5.0,
+            "novelty": 4.4,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -2485,8 +2485,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.5,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.5,
+            "quality": 4.2,
             "readability": 5.0
           },
           "summary": "Post-hoc explainability is central to credit risk ",
@@ -2514,7 +2514,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.5,
-            "novelty": 5.0,
+            "novelty": 4.5,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -2543,7 +2543,7 @@
           "keywords": [],
           "scores": {
             "overall": 6.2,
-            "novelty": 5.0,
+            "novelty": 4.8,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -2574,7 +2574,7 @@
           "scores": {
             "overall": 5.4,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.4,
             "readability": 5.0
           },
           "summary": "We propose a new principal-agent framework where a",
@@ -2609,8 +2609,8 @@
           "keywords": [],
           "scores": {
             "overall": 7.0,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.5,
+            "quality": 4.8,
             "readability": 5.0
           },
           "summary": "This paper extends our previous work in Chee et al",
@@ -2641,8 +2641,8 @@
           "keywords": [],
           "scores": {
             "overall": 6.7,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.6,
+            "quality": 4.6,
             "readability": 5.0
           },
           "summary": "Recent advances in continuous-time optimal stoppin",
@@ -2670,8 +2670,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.6,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.1,
+            "quality": 4.9,
             "readability": 5.0
           },
           "summary": "We study the Merton portfolio management problem w",
@@ -2702,8 +2702,8 @@
           "scores": {
             "overall": 6.2,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.1,
+            "readability": 4.7
           },
           "summary": "Reliable real estate price indicators are typicall",
           "tags": [
@@ -2730,7 +2730,7 @@
           "keywords": [],
           "scores": {
             "overall": 6.0,
-            "novelty": 5.0,
+            "novelty": 4.5,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -2761,8 +2761,8 @@
           "scores": {
             "overall": 5.9,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.7,
+            "readability": 4.7
           },
           "summary": "This paper develops a House Price-at-Risk framewor",
           "tags": [
@@ -2826,7 +2826,7 @@
             "overall": 6.5,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.5
           },
           "summary": "We study prior-independent pricing for selling a s",
           "tags": [
@@ -2860,7 +2860,7 @@
           "scores": {
             "overall": 6.0,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.6,
             "readability": 5.0
           },
           "summary": "Traditional models of market efficiency assume tha",
@@ -2892,8 +2892,8 @@
           "scores": {
             "overall": 6.0,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.3,
+            "readability": 4.6
           },
           "summary": "In this paper, we analyse the impacts of exogenous",
           "tags": [
@@ -2920,9 +2920,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.4,
-            "novelty": 5.0,
+            "novelty": 4.2,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.8
           },
           "summary": "We explore local risk-minimization, a quadratic he",
           "tags": [
@@ -2955,7 +2955,7 @@
             "overall": 6.0,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.7
           },
           "summary": "Portfolio Management is the process of overseeing ",
           "tags": [
@@ -2985,7 +2985,7 @@
           "scores": {
             "overall": 6.4,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.5,
             "readability": 5.0
           },
           "summary": "This study establishes the causal effects of marke",
@@ -3020,7 +3020,7 @@
             "overall": 6.1,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.6
           },
           "summary": "Background: Many workers with disabilities face ne",
           "tags": [
@@ -3048,9 +3048,9 @@
           "keywords": [],
           "scores": {
             "overall": 6.0,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "novelty": 4.8,
+            "quality": 4.6,
+            "readability": 4.5
           },
           "summary": "We test whether lying aversion can steer equilibri",
           "tags": [
@@ -3086,7 +3086,7 @@
             "overall": 6.6,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.8
           },
           "summary": "Efficient estimation of causal and structural para",
           "tags": [
@@ -3119,7 +3119,7 @@
             "overall": 5.3,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.9
           },
           "summary": "Generative modeling builds on and substantially ad",
           "tags": [
@@ -3147,8 +3147,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.0,
+            "quality": 4.2,
             "readability": 5.0
           },
           "summary": "We study independent private values auction enviro",
@@ -3221,8 +3221,8 @@
           "scores": {
             "overall": 6.1,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.3,
+            "readability": 4.6
           },
           "summary": "We study Stackelberg Equilibria (Bowley optima) in",
           "tags": [
@@ -3250,7 +3250,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.9,
-            "novelty": 5.0,
+            "novelty": 4.6,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -3281,7 +3281,7 @@
             "overall": 6.2,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.7
           },
           "summary": "We study entropy-regularized mean-variance portfol",
           "tags": [
@@ -3307,8 +3307,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.3,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.5,
+            "quality": 4.2,
             "readability": 5.0
           },
           "summary": "Caratheodory's axiom of adiabatic inaccessibility ",
@@ -3338,7 +3338,7 @@
           "scores": {
             "overall": 5.9,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.8,
             "readability": 5.0
           },
           "summary": "Money-back guarantees (MBGs) are features of poole",
@@ -3369,7 +3369,7 @@
           "keywords": [],
           "scores": {
             "overall": 6.0,
-            "novelty": 5.0,
+            "novelty": 4.3,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -3432,9 +3432,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.2,
-            "novelty": 5.0,
+            "novelty": 4.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.8
           },
           "summary": "This paper studies the Model Selection Confidence ",
           "tags": [
@@ -3496,7 +3496,7 @@
           "scores": {
             "overall": 6.5,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.5,
             "readability": 5.0
           },
           "summary": "In empirical research, when we have multiple estim",
@@ -3525,7 +3525,7 @@
           "keywords": [],
           "scores": {
             "overall": 6.0,
-            "novelty": 5.0,
+            "novelty": 4.2,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -3563,7 +3563,7 @@
           "keywords": [],
           "scores": {
             "overall": 6.2,
-            "novelty": 5.0,
+            "novelty": 4.4,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -3596,9 +3596,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.8,
-            "novelty": 5.0,
+            "novelty": 4.6,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.7
           },
           "summary": "We analyze numerically the performance of Quantum ",
           "tags": [
@@ -3625,9 +3625,9 @@
           "keywords": [],
           "scores": {
             "overall": 6.1,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "novelty": 4.0,
+            "quality": 4.4,
+            "readability": 4.8
           },
           "summary": "Task-based models of AI and labor hold organizatio",
           "tags": [
@@ -3657,7 +3657,7 @@
             "overall": 5.2,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.8
           },
           "summary": "This article provides an overview of the history o",
           "tags": [
@@ -3684,7 +3684,7 @@
           "scores": {
             "overall": 5.8,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.8,
             "readability": 5.0
           },
           "summary": "This paper presents a longitudinal open dataset of",
@@ -3717,7 +3717,7 @@
             "overall": 6.4,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.6
           },
           "summary": "Nonconvexities in markets with discrete decisions ",
           "tags": [
@@ -3746,7 +3746,7 @@
           "scores": {
             "overall": 5.8,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.4,
             "readability": 5.0
           },
           "summary": "This paper's objective is pedagogical and interpre",
@@ -3784,9 +3784,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.8,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "novelty": 4.5,
+            "quality": 4.2,
+            "readability": 4.9
           },
           "summary": "In June 2026, the UK government will set its carbo",
           "tags": [
@@ -3820,7 +3820,7 @@
           "scores": {
             "overall": 5.9,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.6,
             "readability": 5.0
           },
           "summary": "Estimating population quantities such as mean outc",
@@ -3853,7 +3853,7 @@
           "scores": {
             "overall": 6.2,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.8,
             "readability": 5.0
           },
           "summary": "Reproducibility is central to research credibility",
@@ -3884,9 +3884,9 @@
           "keywords": [],
           "scores": {
             "overall": 6.2,
-            "novelty": 5.0,
+            "novelty": 4.5,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.5
           },
           "summary": "Understanding the causal effects of text on downst",
           "tags": [
@@ -3948,7 +3948,7 @@
             "overall": 5.6,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.9
           },
           "summary": "This article investigates the causal antecedents o",
           "tags": [
@@ -3978,9 +3978,9 @@
           "keywords": [],
           "scores": {
             "overall": 6.0,
-            "novelty": 5.0,
+            "novelty": 4.1,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.8
           },
           "summary": "Adaptive randomized experiments update treatment p",
           "tags": [
@@ -4016,7 +4016,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.2,
-            "novelty": 5.0,
+            "novelty": 4.6,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -4045,9 +4045,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.7,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "novelty": 4.6,
+            "quality": 4.6,
+            "readability": 4.9
           },
           "summary": "This paper develops a novel nonparametric signific",
           "tags": [
@@ -4075,9 +4075,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "novelty": 4.8,
+            "quality": 4.6,
+            "readability": 4.6
           },
           "summary": "We demonstrate that a ubiquitous feature of networ",
           "tags": [
@@ -4105,7 +4105,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.5,
-            "novelty": 5.0,
+            "novelty": 4.8,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -4138,7 +4138,7 @@
             "overall": 6.5,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.8
           },
           "summary": "Complex change is often described as \"evolutionary",
           "tags": [
@@ -4171,8 +4171,8 @@
           "scores": {
             "overall": 5.8,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.0,
+            "readability": 4.8
           },
           "summary": "Minimizing volatility and adjustment costs is of c",
           "tags": [
@@ -4201,7 +4201,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.5,
-            "novelty": 5.0,
+            "novelty": 4.9,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -4237,9 +4237,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.8,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "novelty": 4.9,
+            "quality": 4.9,
+            "readability": 4.7
           },
           "summary": "This paper investigates the impact of the Shanghai",
           "tags": [
@@ -4271,7 +4271,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.4,
-            "novelty": 5.0,
+            "novelty": 4.9,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -4302,8 +4302,8 @@
           "keywords": [],
           "scores": {
             "overall": 6.2,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.3,
+            "quality": 4.2,
             "readability": 5.0
           },
           "summary": "We generalize classical results on the existence o",
@@ -4332,7 +4332,7 @@
           "scores": {
             "overall": 5.5,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.7,
             "readability": 5.0
           },
           "summary": "The paper treats the financial market as a communi",
@@ -4365,7 +4365,7 @@
             "overall": 6.2,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.7
           },
           "summary": "Portfolio optimization under strict cardinality co",
           "tags": [
@@ -4395,9 +4395,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.6,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "novelty": 4.4,
+            "quality": 4.0,
+            "readability": 4.7
           },
           "summary": "This paper investigates the impact of environmenta",
           "tags": [
@@ -4431,7 +4431,7 @@
             "overall": 5.5,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.6
           },
           "summary": "Autodeleveraging (ADL) is a last-resort loss socia",
           "tags": [
@@ -4461,9 +4461,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.7,
-            "novelty": 5.0,
+            "novelty": 4.8,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.7
           },
           "summary": "Quasi Monte Carlo (QMC) and Global Sensitivity Ana",
           "tags": [
@@ -4494,7 +4494,7 @@
             "overall": 6.0,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.7
           },
           "summary": "We study the dynamics of token launched on Pump.fu",
           "tags": [
@@ -4530,7 +4530,7 @@
           "scores": {
             "overall": 6.2,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.0,
             "readability": 5.0
           },
           "summary": "Formulaic alpha factor mining is a critical yet ch",
@@ -4560,8 +4560,8 @@
           "scores": {
             "overall": 6.1,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.2,
+            "readability": 4.9
           },
           "summary": "This paper examines the effects of the 2019 univer",
           "tags": [
@@ -4589,7 +4589,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.8,
-            "novelty": 5.0,
+            "novelty": 4.4,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -4623,8 +4623,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.8,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.1,
+            "quality": 4.5,
             "readability": 5.0
           },
           "summary": "Sensitivity analysis is widely used to assess the ",
@@ -4654,7 +4654,7 @@
           "keywords": [],
           "scores": {
             "overall": 6.4,
-            "novelty": 5.0,
+            "novelty": 4.9,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -4817,8 +4817,8 @@
           "keywords": [],
           "scores": {
             "overall": 6.2,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.5,
+            "quality": 4.5,
             "readability": 5.0
           },
           "summary": "In many consumer electronics and appliance markets",
@@ -4883,9 +4883,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.8,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "novelty": 4.5,
+            "quality": 4.2,
+            "readability": 4.8
           },
           "summary": "This brief note clarifies that the scenario descri",
           "tags": [
@@ -4921,8 +4921,8 @@
           "keywords": [],
           "scores": {
             "overall": 6.2,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.5,
+            "quality": 4.6,
             "readability": 5.0
           },
           "summary": "The classical Merton investment problem predicts d",
@@ -4953,8 +4953,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.4,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.3,
+            "quality": 4.5,
             "readability": 5.0
           },
           "summary": "Travel time prediction is central to transport geo",
@@ -4983,8 +4983,8 @@
           "scores": {
             "overall": 5.6,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.1,
+            "readability": 4.9
           },
           "summary": "This paper studies bargaining when buyers can cont",
           "tags": [
@@ -5016,8 +5016,8 @@
           "scores": {
             "overall": 6.0,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.8,
+            "readability": 4.7
           },
           "summary": "Forecasting presents a complex estimation challeng",
           "tags": [
@@ -5046,7 +5046,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.7,
-            "novelty": 5.0,
+            "novelty": 4.8,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -5106,9 +5106,9 @@
           "keywords": [],
           "scores": {
             "overall": 6.3,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "novelty": 4.8,
+            "quality": 4.0,
+            "readability": 4.9
           },
           "summary": "Appropriate decisions depend on information gather",
           "tags": [
@@ -5173,7 +5173,7 @@
           "keywords": [],
           "scores": {
             "overall": 6.0,
-            "novelty": 5.0,
+            "novelty": 4.8,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -5209,8 +5209,8 @@
           "scores": {
             "overall": 6.2,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.4,
+            "readability": 4.7
           },
           "summary": "Conditional Value-at-Risk (CoVaR) quantifies syste",
           "tags": [
@@ -5238,9 +5238,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.3,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "novelty": 4.9,
+            "quality": 4.1,
+            "readability": 4.8
           },
           "summary": "Collective decision-making can be viewed as the pr",
           "tags": [
@@ -5270,8 +5270,8 @@
           "scores": {
             "overall": 5.9,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.8,
+            "readability": 4.7
           },
           "summary": "Generative AI is directional: it performs well in ",
           "tags": [
@@ -5299,8 +5299,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.9,
+            "quality": 4.3,
             "readability": 5.0
           },
           "summary": "Data on marriage flows are not available in most d",
@@ -5329,8 +5329,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.6,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.1,
+            "quality": 4.8,
             "readability": 5.0
           },
           "summary": "Using a representative survey of Korean workers, w",
@@ -5358,9 +5358,9 @@
           "keywords": [],
           "scores": {
             "overall": 6.5,
-            "novelty": 5.0,
+            "novelty": 4.1,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.6
           },
           "summary": "When estimating treatment effects with two-way fix",
           "tags": [
@@ -5391,9 +5391,9 @@
           "keywords": [],
           "scores": {
             "overall": 6.4,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "novelty": 4.9,
+            "quality": 4.1,
+            "readability": 4.9
           },
           "summary": "Algorithms for computing equilibria, optima, and f",
           "tags": [
@@ -5421,8 +5421,8 @@
           "keywords": [],
           "scores": {
             "overall": 6.0,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.4,
+            "quality": 4.7,
             "readability": 5.0
           },
           "summary": "While ex-ante screening and static price caps are ",
@@ -5449,7 +5449,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.2,
-            "novelty": 5.0,
+            "novelty": 4.8,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -5481,9 +5481,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.6,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "novelty": 4.5,
+            "quality": 4.2,
+            "readability": 4.5
           },
           "summary": "A defining feature of digital goods is that replic",
           "tags": [
@@ -5514,7 +5514,7 @@
             "overall": 6.1,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.8
           },
           "summary": "State delegations are often chosen through single-",
           "tags": [
@@ -5575,7 +5575,7 @@
             "overall": 5.7,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.7
           },
           "summary": "We study agents playing a pure coordination game o",
           "tags": [
@@ -5608,9 +5608,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.4,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "novelty": 4.0,
+            "quality": 4.3,
+            "readability": 4.6
           },
           "summary": "The aim of this article is to provide the solution",
           "tags": [
@@ -5641,7 +5641,7 @@
             "overall": 5.5,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.7
           },
           "summary": "Liquidation of collateral are the primary safeguar",
           "tags": [
@@ -5674,7 +5674,7 @@
             "overall": 6.4,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.7
           },
           "summary": "In finance, sequential decision problems are often",
           "tags": [
@@ -5702,7 +5702,7 @@
             "overall": 5.3,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.6
           },
           "summary": "This paper asks whether regulatory monitoring exhi",
           "tags": [
@@ -5732,7 +5732,7 @@
             "overall": 5.2,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.6
           },
           "summary": "Price controls kill the incentive for arbitrage. W",
           "tags": [
@@ -5760,8 +5760,8 @@
           "keywords": [],
           "scores": {
             "overall": 6.1,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.1,
+            "quality": 4.6,
             "readability": 5.0
           },
           "summary": "We conduct a pre-registered randomized controlled ",
@@ -5795,7 +5795,7 @@
           "scores": {
             "overall": 5.3,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.8,
             "readability": 5.0
           },
           "summary": "Obtaining reliable inferences with traditional dif",
@@ -5825,7 +5825,7 @@
           "keywords": [],
           "scores": {
             "overall": 6.4,
-            "novelty": 5.0,
+            "novelty": 4.2,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -5858,7 +5858,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.7,
-            "novelty": 5.0,
+            "novelty": 4.2,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -5893,7 +5893,7 @@
           "scores": {
             "overall": 6.5,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.2,
             "readability": 5.0
           },
           "summary": "Two-sided matching markets rely on preferences fro",
@@ -5923,8 +5923,8 @@
           "scores": {
             "overall": 5.9,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.7,
+            "readability": 4.9
           },
           "summary": "We analyze strategic communication when advice is ",
           "tags": [
@@ -5950,9 +5950,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.7,
-            "novelty": 5.0,
+            "novelty": 4.7,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.8
           },
           "summary": "Assessing an individual's contribution within a te",
           "tags": [
@@ -5985,7 +5985,7 @@
             "overall": 5.6,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.6
           },
           "summary": "We present a collaboration ring model -- a network",
           "tags": [
@@ -6058,7 +6058,7 @@
           "scores": {
             "overall": 5.9,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.9,
             "readability": 5.0
           },
           "summary": "Micro-structural models of contagion and systemic ",
@@ -6087,7 +6087,7 @@
           "scores": {
             "overall": 5.8,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.5,
             "readability": 5.0
           },
           "summary": "We study same-source multi-view learning and adver",
@@ -6120,7 +6120,7 @@
             "overall": 5.6,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.9
           },
           "summary": "We develop a mixed control framework that combines",
           "tags": [
@@ -6149,7 +6149,7 @@
           "scores": {
             "overall": 5.4,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.5,
             "readability": 5.0
           },
           "summary": "Urban parks play a vital role in delivering variou",
@@ -6182,7 +6182,7 @@
           "scores": {
             "overall": 6.8,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.2,
             "readability": 5.0
           },
           "summary": "Combining forecasts from multiple experts often yi",
@@ -6210,8 +6210,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.5,
+            "quality": 4.9,
             "readability": 5.0
           },
           "summary": "It is well established that the US prewar output w",
@@ -6240,8 +6240,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.8,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.8,
+            "quality": 4.1,
             "readability": 5.0
           },
           "summary": "This paper develops an asymptotic theory for two-s",
@@ -6275,8 +6275,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.7,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.4,
+            "quality": 4.4,
             "readability": 5.0
           },
           "summary": "Finding, counting, or determining the existence of",
@@ -6303,7 +6303,7 @@
           "keywords": [],
           "scores": {
             "overall": 6.2,
-            "novelty": 5.0,
+            "novelty": 4.7,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -6334,8 +6334,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.4,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.6,
+            "quality": 4.0,
             "readability": 5.0
           },
           "summary": "We study identification in models of aggregate cho",
@@ -6367,7 +6367,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.8,
-            "novelty": 5.0,
+            "novelty": 4.2,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -6437,7 +6437,7 @@
             "overall": 6.1,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.6
           },
           "summary": "We introduce a new class of automated market maker",
           "tags": [
@@ -6465,9 +6465,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.7,
-            "novelty": 5.0,
+            "novelty": 4.4,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.8
           },
           "summary": "We study a monopolistic insurance market with hidd",
           "tags": [
@@ -6502,7 +6502,7 @@
           "scores": {
             "overall": 6.2,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.9,
             "readability": 5.0
           },
           "summary": "The rapid advancement of Large Language Models (LL",
@@ -6540,9 +6540,9 @@
           "keywords": [],
           "scores": {
             "overall": 6.2,
-            "novelty": 5.0,
+            "novelty": 4.9,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.8
           },
           "summary": "The bounded mean betting procedure serves as a cru",
           "tags": [
@@ -6571,8 +6571,8 @@
           "scores": {
             "overall": 6.2,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.5,
+            "readability": 4.8
           },
           "summary": "We revisit the classical Merton consumption--inves",
           "tags": [
@@ -6600,9 +6600,9 @@
           "keywords": [],
           "scores": {
             "overall": 6.2,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "novelty": 4.2,
+            "quality": 4.4,
+            "readability": 4.6
           },
           "summary": "Asset Liability Management (ALM) represents a fund",
           "tags": [
@@ -6633,7 +6633,7 @@
             "overall": 6.3,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.7
           },
           "summary": "Modeling time series with long- or short-memory ch",
           "tags": [
@@ -6672,7 +6672,7 @@
           "keywords": [],
           "scores": {
             "overall": 6.3,
-            "novelty": 5.0,
+            "novelty": 4.4,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -6705,7 +6705,7 @@
             "overall": 5.9,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.8
           },
           "summary": "This paper addresses a key challenge in CDO modeli",
           "tags": [
@@ -6733,9 +6733,9 @@
           "keywords": [],
           "scores": {
             "overall": 6.2,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "novelty": 4.2,
+            "quality": 4.4,
+            "readability": 4.7
           },
           "summary": "This study provides a novel perspective on the met",
           "tags": [
@@ -6774,8 +6774,8 @@
           "keywords": [],
           "scores": {
             "overall": 6.1,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.4,
+            "quality": 4.0,
             "readability": 5.0
           },
           "summary": "Genetic Programming yields interpretable programs,",
@@ -6813,7 +6813,7 @@
           "keywords": [],
           "scores": {
             "overall": 6.1,
-            "novelty": 5.0,
+            "novelty": 4.5,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -6846,7 +6846,7 @@
           "scores": {
             "overall": 6.1,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.3,
             "readability": 5.0
           },
           "summary": "This study proposes a linear-rational joint surviv",
@@ -6908,9 +6908,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.0,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "novelty": 4.9,
+            "quality": 4.9,
+            "readability": 4.7
           },
           "summary": "Reliable financial reasoning requires knowing not ",
           "tags": [
@@ -6961,7 +6961,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.9,
-            "novelty": 5.0,
+            "novelty": 4.1,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -7000,8 +7000,8 @@
           "scores": {
             "overall": 5.4,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.8,
+            "readability": 4.6
           },
           "summary": "We establish a universal approximation theorem for",
           "tags": [
@@ -7029,8 +7029,8 @@
           "scores": {
             "overall": 5.3,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.1,
+            "readability": 4.6
           },
           "summary": "The skew stickiness ratio is a statistic that capt",
           "tags": [
@@ -7058,7 +7058,7 @@
           "scores": {
             "overall": 5.5,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.6,
             "readability": 5.0
           },
           "summary": "I construct a Market Stress Probability Index (MSP",
@@ -7090,7 +7090,7 @@
           "keywords": [],
           "scores": {
             "overall": 6.0,
-            "novelty": 5.0,
+            "novelty": 4.2,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -7120,7 +7120,7 @@
           "scores": {
             "overall": 5.7,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.5,
             "readability": 5.0
           },
           "summary": "This paper examines whether SEC Form 4 insider pur",
@@ -7166,8 +7166,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.6,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.9,
+            "quality": 4.9,
             "readability": 5.0
           },
           "summary": "Mention markets, a type of prediction market in wh",
@@ -7199,7 +7199,7 @@
           "scores": {
             "overall": 5.5,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.6,
             "readability": 5.0
           },
           "summary": "In the streaming era, music revenues distributed t",
@@ -7267,8 +7267,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.7,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.4,
+            "quality": 4.4,
             "readability": 5.0
           },
           "summary": "Prediction markets provide a unique setting where ",
@@ -7298,9 +7298,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.4,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "novelty": 4.3,
+            "quality": 4.3,
+            "readability": 4.6
           },
           "summary": "We investigate whether cryptocurrency markets diff",
           "tags": [
@@ -7342,8 +7342,8 @@
           "keywords": [],
           "scores": {
             "overall": 6.1,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.0,
+            "quality": 4.9,
             "readability": 5.0
           },
           "summary": "This paper explores advancements in quantum algori",
@@ -7376,8 +7376,8 @@
           "keywords": [],
           "scores": {
             "overall": 6.7,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.6,
+            "quality": 4.5,
             "readability": 5.0
           },
           "summary": "We establish dual attainment for the multimarginal",
@@ -7412,7 +7412,7 @@
           "scores": {
             "overall": 6.7,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.9,
             "readability": 5.0
           },
           "summary": "This paper proposes a machine learning-based frame",
@@ -7480,7 +7480,7 @@
             "overall": 6.4,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.9
           },
           "summary": "This paper evaluates the causal impact of Generati",
           "tags": [
@@ -7547,8 +7547,8 @@
           "scores": {
             "overall": 5.8,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.1,
+            "readability": 4.7
           },
           "summary": "Finding similar bonds remains challenging in fixed",
           "tags": [
@@ -7580,7 +7580,7 @@
           "keywords": [],
           "scores": {
             "overall": 6.5,
-            "novelty": 5.0,
+            "novelty": 4.6,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -7617,9 +7617,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.5,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.9
+            "novelty": 4.6,
+            "quality": 4.2,
+            "readability": 5.0
           },
           "summary": "Recent works have increasingly applied Large Langu",
           "tags": [
@@ -7688,8 +7688,8 @@
           "scores": {
             "overall": 6.2,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.2,
+            "readability": 4.5
           },
           "summary": "We introduce the Aggregated Systemic Risk Index (A",
           "tags": [
@@ -7716,9 +7716,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.1,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "novelty": 4.9,
+            "quality": 4.6,
+            "readability": 4.8
           },
           "summary": "Benoit Mandelbrot's scientific legacy spans an ext",
           "tags": [
@@ -7745,7 +7745,7 @@
           "keywords": [],
           "scores": {
             "overall": 6.0,
-            "novelty": 5.0,
+            "novelty": 4.2,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -7814,8 +7814,8 @@
           "scores": {
             "overall": 6.1,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.5,
+            "readability": 4.5
           },
           "summary": "We develop a non-standard analysis framework for c",
           "tags": [
@@ -7845,7 +7845,7 @@
           "scores": {
             "overall": 6.6,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.9,
             "readability": 5.0
           },
           "summary": "We document stable cross-asset patterns in cryptoc",
@@ -7873,7 +7873,7 @@
           "scores": {
             "overall": 5.5,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.4,
             "readability": 5.0
           },
           "summary": "This study examines the effects of Trump-era tarif",
@@ -7915,7 +7915,7 @@
             "overall": 5.5,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.6
           },
           "summary": "We propose a microstructural model for the order f",
           "tags": [
@@ -7942,8 +7942,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.7,
+            "quality": 4.7,
             "readability": 5.0
           },
           "summary": "We study whether generative AI can automate featur",
@@ -7973,7 +7973,7 @@
           "scores": {
             "overall": 6.0,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.7,
             "readability": 5.0
           },
           "summary": "Financial markets exhibit temporal organization th",
@@ -8011,7 +8011,7 @@
           "keywords": [],
           "scores": {
             "overall": 6.6,
-            "novelty": 5.0,
+            "novelty": 4.6,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -8042,8 +8042,8 @@
           "scores": {
             "overall": 5.8,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.9,
+            "readability": 4.8
           },
           "summary": "This paper investigates the impact of Trade Policy",
           "tags": [
@@ -8072,9 +8072,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.8,
-            "novelty": 5.0,
+            "novelty": 4.6,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.9
           },
           "summary": "This paper proposes a new multivariate model speci",
           "tags": [
@@ -8141,8 +8141,8 @@
           "scores": {
             "overall": 5.9,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.8,
+            "readability": 4.7
           },
           "summary": "This paper examines whether a major U.S. regulator",
           "tags": [
@@ -8172,7 +8172,7 @@
           "keywords": [],
           "scores": {
             "overall": 6.2,
-            "novelty": 5.0,
+            "novelty": 4.7,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -8204,7 +8204,7 @@
           "scores": {
             "overall": 6.1,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.4,
             "readability": 5.0
           },
           "summary": "Survival analysis has become a standard approach f",
@@ -8235,7 +8235,7 @@
           "scores": {
             "overall": 5.6,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.9,
             "readability": 5.0
           },
           "summary": "Prediction markets offer a natural testbed for tra",
@@ -8267,7 +8267,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.7,
-            "novelty": 5.0,
+            "novelty": 4.2,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -8306,8 +8306,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.6,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.5,
+            "quality": 4.3,
             "readability": 5.0
           },
           "summary": "Pricing advanced data products - particularly in c",
@@ -8340,7 +8340,7 @@
           "scores": {
             "overall": 6.0,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.2,
             "readability": 5.0
           },
           "summary": "This paper assumes a robust stochastic model where",
@@ -8372,8 +8372,8 @@
           "scores": {
             "overall": 5.9,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.9,
+            "readability": 4.6
           },
           "summary": "This paper investigates whether structural econome",
           "tags": [
@@ -8437,7 +8437,7 @@
           "scores": {
             "overall": 6.3,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.5,
             "readability": 5.0
           },
           "summary": "We show that the Markowitz portfolio is a scalar m",
@@ -8468,7 +8468,7 @@
           "scores": {
             "overall": 6.3,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.5,
             "readability": 5.0
           },
           "summary": "USDC and USDT are the dominant stablecoins pegged ",
@@ -8508,7 +8508,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.7,
-            "novelty": 5.0,
+            "novelty": 4.8,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -8549,7 +8549,7 @@
             "overall": 6.0,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.8
           },
           "summary": "Decentralized Finance (DeFi) has revolutionized fi",
           "tags": [
@@ -8580,7 +8580,7 @@
           "scores": {
             "overall": 5.9,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.8,
             "readability": 5.0
           },
           "summary": "We present a study of the short-maturity asymptoti",
@@ -8612,7 +8612,7 @@
             "overall": 5.7,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.8
           },
           "summary": "The Fundamental Review of the Trading Book (FRTB) ",
           "tags": [
@@ -8640,7 +8640,7 @@
           "keywords": [],
           "scores": {
             "overall": 6.0,
-            "novelty": 5.0,
+            "novelty": 4.6,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -8670,7 +8670,7 @@
           "scores": {
             "overall": 6.1,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.3,
             "readability": 5.0
           },
           "summary": "We propose a structural framework for the geometry",
@@ -8711,7 +8711,7 @@
           "keywords": [],
           "scores": {
             "overall": 6.3,
-            "novelty": 5.0,
+            "novelty": 4.7,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -8744,9 +8744,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.7,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "novelty": 4.9,
+            "quality": 4.6,
+            "readability": 4.7
           },
           "summary": "Compositional time series, vectors of proportions ",
           "tags": [
@@ -8784,7 +8784,7 @@
             "overall": 5.9,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.7
           },
           "summary": "Prediction markets are often described as mechanis",
           "tags": [
@@ -8817,7 +8817,7 @@
           "scores": {
             "overall": 5.6,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.1,
             "readability": 5.0
           },
           "summary": "This paper addresses stock price movement predicti",
@@ -8848,7 +8848,7 @@
             "overall": 6.8,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.9
           },
           "summary": "We propose Mixed-Panels-Transformer Encoder (MPTE)",
           "tags": [
@@ -8907,7 +8907,7 @@
           "scores": {
             "overall": 5.7,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.1,
             "readability": 5.0
           },
           "summary": "Overfitting remains a critical challenge in data-d",
@@ -8978,7 +8978,7 @@
           "keywords": [],
           "scores": {
             "overall": 6.0,
-            "novelty": 5.0,
+            "novelty": 4.9,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -9009,7 +9009,7 @@
           "scores": {
             "overall": 5.9,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.8,
             "readability": 5.0
           },
           "summary": "In an incomplete financial market with general con",
@@ -9038,8 +9038,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.6,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.3,
+            "quality": 4.9,
             "readability": 5.0
           },
           "summary": "We develop a mathematical framework to optimize le",
@@ -9070,7 +9070,7 @@
           "keywords": [],
           "scores": {
             "overall": 6.6,
-            "novelty": 5.0,
+            "novelty": 4.7,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -9136,8 +9136,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.8,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.8,
+            "quality": 4.6,
             "readability": 5.0
           },
           "summary": "Time series encountered in practice are rarely sta",
@@ -9171,7 +9171,7 @@
             "overall": 5.9,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.5
           },
           "summary": "Healthcare sector indices consolidate the economic",
           "tags": [
@@ -9208,7 +9208,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.5,
-            "novelty": 5.0,
+            "novelty": 4.1,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -9240,7 +9240,7 @@
             "overall": 6.0,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.9
           },
           "summary": "Dealers in foreign exchange markets provide bid an",
           "tags": [
@@ -9269,7 +9269,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.9,
-            "novelty": 5.0,
+            "novelty": 4.2,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -9300,7 +9300,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.3,
-            "novelty": 5.0,
+            "novelty": 4.9,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -9333,9 +9333,9 @@
           "keywords": [],
           "scores": {
             "overall": 6.2,
-            "novelty": 5.0,
+            "novelty": 4.1,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.8
           },
           "summary": "Detecting anomalous trajectories in decentralized ",
           "tags": [
@@ -9369,8 +9369,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.7,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.7,
+            "quality": 4.3,
             "readability": 5.0
           },
           "summary": "Generative models for financial time series often ",
@@ -9406,7 +9406,7 @@
             "overall": 6.0,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.7
           },
           "summary": "In this work, we propose to apply a new model fusi",
           "tags": [
@@ -9439,7 +9439,7 @@
           "keywords": [],
           "scores": {
             "overall": 6.0,
-            "novelty": 5.0,
+            "novelty": 4.2,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -9473,9 +9473,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.7,
-            "novelty": 5.0,
+            "novelty": 4.5,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.6
           },
           "summary": "Algorithmic stablecoins promise decentralized mone",
           "tags": [
@@ -9504,9 +9504,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.5,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "novelty": 4.9,
+            "quality": 4.5,
+            "readability": 4.8
           },
           "summary": "We investigate the ordering between two fundamenta",
           "tags": [
@@ -9541,7 +9541,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.6,
-            "novelty": 5.0,
+            "novelty": 4.0,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -9573,8 +9573,8 @@
           "scores": {
             "overall": 6.1,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.3,
+            "readability": 4.9
           },
           "summary": "We analyze daily lead-time distributions for two A",
           "tags": [
@@ -9608,7 +9608,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.3,
-            "novelty": 5.0,
+            "novelty": 4.7,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -9641,8 +9641,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.8,
+            "quality": 4.5,
             "readability": 5.0
           },
           "summary": "We present a simple, numerically efficient but hig",
@@ -9669,8 +9669,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.5,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.4,
+            "quality": 4.8,
             "readability": 5.0
           },
           "summary": "Three traits of decentralized finance are studied.",
@@ -9701,7 +9701,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.7,
-            "novelty": 5.0,
+            "novelty": 4.5,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -9733,7 +9733,7 @@
           "scores": {
             "overall": 6.4,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.6,
             "readability": 5.0
           },
           "summary": "We attempt to mitigate the persistent tradeoff bet",
@@ -9763,7 +9763,7 @@
           "scores": {
             "overall": 5.8,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.5,
             "readability": 5.0
           },
           "summary": "Achieving net-zero carbon emissions requires a tra",
@@ -9796,7 +9796,7 @@
             "overall": 5.8,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.5
           },
           "summary": "Credit risk models are a critical decision-support",
           "tags": [
@@ -9860,7 +9860,7 @@
           "keywords": [],
           "scores": {
             "overall": 6.3,
-            "novelty": 5.0,
+            "novelty": 4.6,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -9890,7 +9890,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.8,
-            "novelty": 5.0,
+            "novelty": 4.7,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -9990,8 +9990,8 @@
           "scores": {
             "overall": 5.9,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.6,
+            "readability": 4.9
           },
           "summary": "We formulate a dynamic reinsurance problem in whic",
           "tags": [
@@ -10021,7 +10021,7 @@
             "overall": 5.6,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.6
           },
           "summary": "We introduce the multivariate Log S-fBM model (mLo",
           "tags": [
@@ -10055,9 +10055,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.7,
-            "novelty": 5.0,
+            "novelty": 4.6,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.7
           },
           "summary": "In quantitative finance, the gap between training ",
           "tags": [
@@ -10091,7 +10091,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.4,
-            "novelty": 5.0,
+            "novelty": 4.3,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -10150,7 +10150,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.8,
-            "novelty": 5.0,
+            "novelty": 4.5,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -10182,7 +10182,7 @@
             "overall": 6.2,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.8
           },
           "summary": "The martingale expansion provides a refined approx",
           "tags": [
@@ -10209,9 +10209,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.8,
-            "novelty": 5.0,
+            "novelty": 4.2,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.6
           },
           "summary": "Robo-advisors (RAs) are automated portfolio manage",
           "tags": [
@@ -10315,9 +10315,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.4,
-            "novelty": 5.0,
+            "novelty": 4.7,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.5
           },
           "summary": "Do vulnerabilities in Decentralized Finance (DeFi)",
           "tags": [
@@ -10353,7 +10353,7 @@
           "scores": {
             "overall": 5.5,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.9,
             "readability": 5.0
           },
           "summary": "Financial markets alternate between tranquil perio",
@@ -10413,8 +10413,8 @@
           "scores": {
             "overall": 6.0,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.2,
+            "readability": 4.7
           },
           "summary": "Following several episodes of financial market tur",
           "tags": [
@@ -10443,7 +10443,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.7,
-            "novelty": 5.0,
+            "novelty": 4.1,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -10479,8 +10479,8 @@
           "scores": {
             "overall": 6.5,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.4,
+            "readability": 4.6
           },
           "summary": "This study develops a robust machine learning fram",
           "tags": [
@@ -10513,7 +10513,7 @@
             "overall": 6.4,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.8
           },
           "summary": "Copy trading has become the dominant entry strateg",
           "tags": [
@@ -10547,8 +10547,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.8,
+            "quality": 4.3,
             "readability": 5.0
           },
           "summary": "We estimate risk premia in the cross-section of cr",
@@ -10576,9 +10576,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.8,
-            "novelty": 5.0,
+            "novelty": 4.6,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.6
           },
           "summary": "Universal basic income (UBI) is a tax scheme that ",
           "tags": [
@@ -10607,7 +10607,7 @@
           "scores": {
             "overall": 5.9,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.3,
             "readability": 5.0
           },
           "summary": "We provide an explicit solution for optimal option",
@@ -10669,9 +10669,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.5,
-            "novelty": 5.0,
+            "novelty": 4.8,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.7
           },
           "summary": "Portfolio optimization under cardinality constrain",
           "tags": [
@@ -10701,8 +10701,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.8,
+            "quality": 4.2,
             "readability": 5.0
           },
           "summary": "We introduce Tab-TRM (Tabular-Tiny Recursive Model",
@@ -10735,9 +10735,9 @@
           "keywords": [],
           "scores": {
             "overall": 6.0,
-            "novelty": 5.0,
+            "novelty": 4.8,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.5
           },
           "summary": "Outstanding claim liabilities are revised repeated",
           "tags": [
@@ -10768,8 +10768,8 @@
           "keywords": [],
           "scores": {
             "overall": 6.1,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.7,
+            "quality": 4.9,
             "readability": 5.0
           },
           "summary": "This paper presents a meta-learning framework for ",
@@ -10806,7 +10806,7 @@
           "scores": {
             "overall": 5.7,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.2,
             "readability": 5.0
           },
           "summary": "We study portfolio choice when firm-level emission",
@@ -10837,7 +10837,7 @@
             "overall": 5.5,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.9
           },
           "summary": "Market integrity monitoring is difficult because s",
           "tags": [
@@ -10871,9 +10871,9 @@
           "keywords": [],
           "scores": {
             "overall": 6.0,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "novelty": 4.8,
+            "quality": 4.4,
+            "readability": 4.6
           },
           "summary": "This paper develops a structural framework for cha",
           "tags": [
@@ -10920,7 +10920,7 @@
           "scores": {
             "overall": 6.3,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.9,
             "readability": 5.0
           },
           "summary": "Multimodal large language models are playing an in",
@@ -10952,7 +10952,7 @@
             "overall": 5.8,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.5
           },
           "summary": "The classical mean-variance framework characterize",
           "tags": [
@@ -10982,8 +10982,8 @@
           "scores": {
             "overall": 6.5,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.5,
+            "readability": 4.6
           },
           "summary": "Forecasting accuracy is routinely optimised in fin",
           "tags": [
@@ -11013,7 +11013,7 @@
           "scores": {
             "overall": 6.0,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.1,
             "readability": 5.0
           },
           "summary": "The integration of cryptocurrencies into instituti",
@@ -11045,8 +11045,8 @@
           "keywords": [],
           "scores": {
             "overall": 6.0,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.4,
+            "quality": 4.4,
             "readability": 5.0
           },
           "summary": "We propose DeePM (Deep Portfolio Manager), a struc",
@@ -11081,8 +11081,8 @@
           "keywords": [],
           "scores": {
             "overall": 6.3,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.7,
+            "quality": 4.3,
             "readability": 5.0
           },
           "summary": "We study approximation limits of single-hidden-lay",
@@ -11111,9 +11111,9 @@
           "keywords": [],
           "scores": {
             "overall": 6.1,
-            "novelty": 5.0,
+            "novelty": 4.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.6
           },
           "summary": "We study the problem of forecasting and optimally ",
           "tags": [
@@ -11146,9 +11146,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.8,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "novelty": 4.3,
+            "quality": 4.5,
+            "readability": 4.7
           },
           "summary": "Quantitative understanding of stochastic dynamics ",
           "tags": [
@@ -11178,8 +11178,8 @@
           "scores": {
             "overall": 6.0,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.1,
+            "readability": 4.5
           },
           "summary": "This paper studies forward-looking stock-stock cor",
           "tags": [
@@ -11215,8 +11215,8 @@
           "scores": {
             "overall": 6.7,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 4.5,
+            "readability": 4.8
           },
           "summary": "This paper introduces an algorithmic framework for",
           "tags": [
@@ -11243,8 +11243,8 @@
           "keywords": [],
           "scores": {
             "overall": 5.7,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "novelty": 4.3,
+            "quality": 4.1,
             "readability": 5.0
           },
           "summary": "Improvements in return forecast accuracy do not al",
@@ -11308,7 +11308,7 @@
             "overall": 5.6,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.6
           },
           "summary": "Index tracking, also known as passive investing, h",
           "tags": [
@@ -11344,7 +11344,7 @@
             "overall": 6.4,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.5
           },
           "summary": "Reinforcement Learning (RL) has enabled Large Lang",
           "tags": [
@@ -11411,9 +11411,9 @@
           "keywords": [],
           "scores": {
             "overall": 6.1,
-            "novelty": 5.0,
+            "novelty": 4.9,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.6
           },
           "summary": "We consider an optimal trading problem under a mar",
           "tags": [
@@ -11448,7 +11448,7 @@
           "scores": {
             "overall": 5.4,
             "novelty": 5.0,
-            "quality": 5.0,
+            "quality": 4.8,
             "readability": 5.0
           },
           "summary": "High-Frequency trading (HFT) environments are char",
@@ -11488,7 +11488,7 @@
             "overall": 5.8,
             "novelty": 5.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.6
           },
           "summary": "Machine learning is central to empirical asset pri",
           "tags": [
@@ -11516,9 +11516,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.9,
-            "novelty": 5.0,
+            "novelty": 4.2,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.6
           },
           "summary": "Capital allocation is a procedure used to assess t",
           "tags": [
@@ -11550,7 +11550,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.5,
-            "novelty": 5.0,
+            "novelty": 4.6,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -11587,7 +11587,7 @@
           "keywords": [],
           "scores": {
             "overall": 5.6,
-            "novelty": 5.0,
+            "novelty": 4.7,
             "quality": 5.0,
             "readability": 5.0
           },
@@ -11621,9 +11621,9 @@
           "keywords": [],
           "scores": {
             "overall": 5.7,
-            "novelty": 5.0,
+            "novelty": 4.9,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 4.6
           },
           "summary": "Stablecoins have emerged as a rapidly growing digi",
           "tags": [
