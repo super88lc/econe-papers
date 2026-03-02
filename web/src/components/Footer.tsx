@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="border-t border-gray-200 bg-gray-50 py-6 mt-8">
       <div className="max-w-4xl mx-auto px-4 text-center text-sm text-gray-500">
         <p>
-          Powered by AI | 数据来源: <a 
+          Powered by AI | Data Source: <a 
             href="https://arxiv.org" 
             target="_blank" 
             rel="noopener noreferrer"
@@ -13,7 +13,7 @@ export default function Footer() {
           </a>
         </p>
         <p className="mt-1">
-          每日自动抓取 + AI 筛选分类
+          Daily auto-fetched + AI analysis
         </p>
       </div>
     </footer>

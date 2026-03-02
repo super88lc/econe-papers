@@ -29,7 +29,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper examines the impact of introducing a Ra"
+          "summary": "This paper examines the impact of introducing a Ra",
+          "tags": [
+            "Behavioral Economics",
+            "Labor Economics",
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.23784v1",
@@ -61,7 +66,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Foundation models have transformed domains from la"
+          "summary": "Foundation models have transformed domains from la",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.24215v1",
@@ -87,7 +95,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "In the linear-in-means model, endogeneity arises n"
+          "summary": "In the linear-in-means model, endogeneity arises n",
+          "tags": [
+            "Environmental Economics",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.23877v1",
@@ -113,7 +125,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We propose a difference-in-differences (DiD) frame"
+          "summary": "We propose a difference-in-differences (DiD) frame",
+          "tags": [
+            "Econometrics + ML"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.23672v1",
@@ -142,7 +157,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This study proposes the General Bayes framework fo"
+          "summary": "This study proposes the General Bayes framework fo",
+          "tags": [
+            "Technology Economics",
+            "Econometrics + ML"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.23594v1",
@@ -167,7 +186,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper develops a unifying theory of peer effe"
+          "summary": "This paper develops a unifying theory of peer effe",
+          "tags": [
+            "Game Theory",
+            "Behavioral Economics"
+          ]
         }
       ],
       "total": 6
@@ -202,7 +225,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "The advancement of large language models (LLMs) ha"
+          "summary": "The advancement of large language models (LLMs) ha",
+          "tags": [
+            "Experimental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.23462v1",
@@ -228,7 +254,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "The US economy is transitioning away from fossil f"
+          "summary": "The US economy is transitioning away from fossil f",
+          "tags": [
+            "Labor Economics",
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.23402v1",
@@ -256,7 +286,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We construct a stochastic dynamical systems theory"
+          "summary": "We construct a stochastic dynamical systems theory",
+          "tags": [
+            "Game Theory",
+            "Environmental Economics",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.22750v1",
@@ -283,7 +318,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "As generative AI commercializes, competitive advan"
+          "summary": "As generative AI commercializes, competitive advan",
+          "tags": [
+            "Digital Economy",
+            "Platform Economics",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.23482v1",
@@ -309,7 +349,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper develops inference methods for ratios o"
+          "summary": "This paper develops inference methods for ratios o",
+          "tags": [
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.23257v1",
@@ -336,7 +379,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Switchback experiments--alternating treatment and "
+          "summary": "Switchback experiments--alternating treatment and ",
+          "tags": [
+            "Game Theory",
+            "Econometrics + ML",
+            "Experimental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.23087v1",
@@ -361,7 +409,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We re-examine the traditional Mean-Squared Error ("
+          "summary": "We re-examine the traditional Mean-Squared Error (",
+          "tags": [
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.23098v1",
@@ -386,7 +437,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Recent papers in communication games construct equ"
+          "summary": "Recent papers in communication games construct equ",
+          "tags": [
+            "Game Theory"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.22836v1",
@@ -411,7 +465,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper embeds a signaling friction into the co"
+          "summary": "This paper embeds a signaling friction into the co",
+          "tags": [
+            "Technology Economics",
+            "Behavioral Economics",
+            "Labor Economics"
+          ]
         }
       ],
       "total": 9
@@ -444,7 +503,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Dynamic-weight AMMs (aka Temporal Function Market "
+          "summary": "Dynamic-weight AMMs (aka Temporal Function Market ",
+          "tags": [
+            "Game Theory"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.21869v1",
@@ -473,7 +535,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Networks underpin systems that range from finance "
+          "summary": "Networks underpin systems that range from finance ",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.22412v1",
@@ -503,7 +568,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "In matching markets such as kidney exchanges and f"
+          "summary": "In matching markets such as kidney exchanges and f",
+          "tags": [
+            "Game Theory",
+            "Behavioral Economics",
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.21971v1",
@@ -536,7 +606,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Given the challenge of achieving societal welfare "
+          "summary": "Given the challenge of achieving societal welfare ",
+          "tags": [
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.21843v1",
@@ -566,7 +639,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Artificial intelligence (AI) is advancing exponent"
+          "summary": "Artificial intelligence (AI) is advancing exponent",
+          "tags": [
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.21838v1",
@@ -594,7 +670,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Community detection based on modularity maximizati"
+          "summary": "Community detection based on modularity maximizati",
+          "tags": [
+            "Technology Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.21504v1",
@@ -620,7 +699,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We analyze how frequently instant runoff voting (I"
+          "summary": "We analyze how frequently instant runoff voting (I",
+          "tags": [
+            "Behavioral Economics",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.21903v1",
@@ -645,7 +728,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper develops a general method of inference "
+          "summary": "This paper develops a general method of inference ",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.21564v1",
@@ -672,7 +758,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We study the $n$-dimensional contest between two a"
+          "summary": "We study the $n$-dimensional contest between two a",
+          "tags": [
+            "Game Theory"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.21495v2",
@@ -701,7 +790,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Congestion pricing has emerged as an effective too"
+          "summary": "Congestion pricing has emerged as an effective too",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.21470v1",
@@ -728,7 +820,13 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We ask when a normal-form game yields a single equ"
+          "summary": "We ask when a normal-form game yields a single equ",
+          "tags": [
+            "Game Theory",
+            "Digital Economy",
+            "Platform Economics",
+            "Environmental Economics"
+          ]
         }
       ],
       "total": 11
@@ -763,7 +861,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We generalize the seminal framework of Kyle (1985)"
+          "summary": "We generalize the seminal framework of Kyle (1985)",
+          "tags": [
+            "Game Theory"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.20552v2",
@@ -791,7 +892,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We study an optimal control problem on infinite ti"
+          "summary": "We study an optimal control problem on infinite ti",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.21173v1",
@@ -816,7 +920,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Parametric Portfolio Policies (PPP) estimate optim"
+          "summary": "Parametric Portfolio Policies (PPP) estimate optim",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.20856v1",
@@ -845,7 +952,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper develops a unified framework that links"
+          "summary": "This paper develops a unified framework that links",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.20771v1",
@@ -873,7 +983,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We demonstrate market inefficiency in cryptoasset "
+          "summary": "We demonstrate market inefficiency in cryptoasset ",
+          "tags": [
+            "Game Theory",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.21434v1",
@@ -901,7 +1015,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We study spillover effects in corporate toxic emis"
+          "summary": "We study spillover effects in corporate toxic emis",
+          "tags": [
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.21091v1",
@@ -926,7 +1043,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Prediction markets suffer from reduced liquidity a"
+          "summary": "Prediction markets suffer from reduced liquidity a",
+          "tags": [
+            "Digital Economy",
+            "Platform Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.20946v2",
@@ -957,7 +1078,14 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "For millennia, human cognition was the primary eng"
+          "summary": "For millennia, human cognition was the primary eng",
+          "tags": [
+            "Game Theory",
+            "Technology Economics",
+            "Experimental Economics",
+            "Labor Economics",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.20440v2",
@@ -983,7 +1111,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "As LLMs become embedded in research workflows and "
+          "summary": "As LLMs become embedded in research workflows and ",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.20581v1",
@@ -1008,7 +1139,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We develop an empirical Bayes framework for experi"
+          "summary": "We develop an empirical Bayes framework for experi",
+          "tags": [
+            "Experimental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.20868v1",
@@ -1037,7 +1171,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We explore stability and fairness considerations i"
+          "summary": "We explore stability and fairness considerations i",
+          "tags": [
+            "Game Theory",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.20518v1",
@@ -1064,7 +1202,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "The long-standing unitary-actor assumption in stra"
+          "summary": "The long-standing unitary-actor assumption in stra",
+          "tags": [
+            "Behavioral Economics",
+            "Labor Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.20439v1",
@@ -1090,7 +1232,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "The Vickrey-Clarke-Groves (VCG) mechanism is infam"
+          "summary": "The Vickrey-Clarke-Groves (VCG) mechanism is infam",
+          "tags": [
+            "Game Theory"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.20429v2",
@@ -1117,7 +1262,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "In practice, auction data are often endogenously c"
+          "summary": "In practice, auction data are often endogenously c",
+          "tags": [
+            "Game Theory"
+          ]
         }
       ],
       "total": 14
@@ -1150,7 +1298,13 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We study generative modeling for time series using"
+          "summary": "We study generative modeling for time series using",
+          "tags": [
+            "Game Theory",
+            "Experimental Economics",
+            "Labor Economics",
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.19892v1",
@@ -1175,7 +1329,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper describes a discrete-time model of regu"
+          "summary": "This paper describes a discrete-time model of regu",
+          "tags": [
+            "Environmental Economics",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.19663v1",
@@ -1205,7 +1363,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "In this paper, we study how class imbalance, typic"
+          "summary": "In this paper, we study how class imbalance, typic",
+          "tags": [
+            "Game Theory"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.19841v1",
@@ -1234,7 +1395,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Corporate insiders trade for diverse reasons, ofte"
+          "summary": "Corporate insiders trade for diverse reasons, ofte",
+          "tags": [
+            "Technology Economics",
+            "Behavioral Economics",
+            "Econometrics + ML"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.19732v1",
@@ -1264,7 +1430,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "VOLARE (VOLatility Archive for Realized Estimates "
+          "summary": "VOLARE (VOLatility Archive for Realized Estimates ",
+          "tags": [
+            "Digital Economy",
+            "Platform Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.19590v1",
@@ -1293,7 +1463,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Market-order flow in financial markets exhibits lo"
+          "summary": "Market-order flow in financial markets exhibits lo",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.19419v1",
@@ -1319,7 +1492,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Concentrated liquidity provision in decentralized "
+          "summary": "Concentrated liquidity provision in decentralized ",
+          "tags": [
+            "Behavioral Economics",
+            "Experimental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.20378v1",
@@ -1347,7 +1524,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Demographics in Malaysia and Viet Nam are evolving"
+          "summary": "Demographics in Malaysia and Viet Nam are evolving",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.20356v1",
@@ -1373,7 +1553,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Background. Low earnings are associated with house"
+          "summary": "Background. Low earnings are associated with house",
+          "tags": [
+            "Labor Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.20327v1",
@@ -1403,7 +1586,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Purpose. This paper examines the extent to which j"
+          "summary": "Purpose. This paper examines the extent to which j",
+          "tags": [
+            "Labor Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.20009v1",
@@ -1431,7 +1617,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Why do some community-cooperation projects catalys"
+          "summary": "Why do some community-cooperation projects catalys",
+          "tags": [
+            "Game Theory",
+            "Technology Economics",
+            "Labor Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.19798v1",
@@ -1456,7 +1647,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper reformulates the Greenwood and Guner (2"
+          "summary": "This paper reformulates the Greenwood and Guner (2",
+          "tags": [
+            "Game Theory"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.19783v1",
@@ -1481,7 +1675,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We study the conditions under which technological "
+          "summary": "We study the conditions under which technological ",
+          "tags": [
+            "Technology Economics",
+            "Labor Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.19689v1",
@@ -1510,7 +1708,13 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Two-sided platforms must recommend users to users,"
+          "summary": "Two-sided platforms must recommend users to users,",
+          "tags": [
+            "Game Theory",
+            "Digital Economy",
+            "Platform Economics",
+            "Experimental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.19580v1",
@@ -1536,7 +1740,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We introduce Leap+Verify, a framework that applies"
+          "summary": "We introduce Leap+Verify, a framework that applies",
+          "tags": [
+            "Econometrics + ML"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.19488v1",
@@ -1564,7 +1771,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper synthesises the existing research on th"
+          "summary": "This paper synthesises the existing research on th",
+          "tags": [
+            "Technology Economics",
+            "Behavioral Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.20383v1",
@@ -1595,7 +1806,14 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Heterogeneous treatment effects (HTEs) are increas"
+          "summary": "Heterogeneous treatment effects (HTEs) are increas",
+          "tags": [
+            "Digital Economy",
+            "Platform Economics",
+            "Econometrics + ML",
+            "Experimental Economics",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.20115v1",
@@ -1623,7 +1841,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We study the Gaussian sequence compound decision p"
+          "summary": "We study the Gaussian sequence compound decision p",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.19740v1",
@@ -1649,7 +1870,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Sentiment towards the Chinese real estate sector h"
+          "summary": "Sentiment towards the Chinese real estate sector h",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.19705v1",
@@ -1676,7 +1900,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "High-dimensional regression specification and anal"
+          "summary": "High-dimensional regression specification and anal",
+          "tags": [
+            "Econometrics + ML",
+            "Experimental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.19703v1",
@@ -1703,7 +1931,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We propose a framework for testing the homogeneity"
+          "summary": "We propose a framework for testing the homogeneity",
+          "tags": [
+            "Econometrics + ML",
+            "Experimental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.19658v1",
@@ -1730,7 +1962,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper presents a Hayashi-Yoshida type estimat"
+          "summary": "This paper presents a Hayashi-Yoshida type estimat",
+          "tags": [
+            "Technology Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.19645v1",
@@ -1757,7 +1992,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We show how pre-averaging can be applied to the pr"
+          "summary": "We show how pre-averaging can be applied to the pr",
+          "tags": [
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.20415v1",
@@ -1785,7 +2023,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "I prove that competitive market outcomes require c"
+          "summary": "I prove that competitive market outcomes require c",
+          "tags": [
+            "Game Theory"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.20281v1",
@@ -1810,7 +2051,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We study incentive design when multiple principals"
+          "summary": "We study incentive design when multiple principals",
+          "tags": [
+            "Game Theory",
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.20087v1",
@@ -1835,7 +2080,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "A principal screens an agent with an arbitrary set"
+          "summary": "A principal screens an agent with an arbitrary set",
+          "tags": [
+            "Game Theory"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.19950v1",
@@ -1862,7 +2110,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We characterize the identified sets of a wide rang"
+          "summary": "We characterize the identified sets of a wide rang",
+          "tags": [
+            "Behavioral Economics",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.19660v1",
@@ -1890,7 +2142,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper studies the efficiency of battery stora"
+          "summary": "This paper studies the efficiency of battery stora",
+          "tags": [
+            "General"
+          ]
         }
       ],
       "total": 28
@@ -1925,7 +2180,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper documents the work of the Clean Air Tas"
+          "summary": "This paper documents the work of the Clean Air Tas",
+          "tags": [
+            "Environmental Economics",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.19388v1",
@@ -1951,7 +2210,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "A growing literature documents how religious insti"
+          "summary": "A growing literature documents how religious insti",
+          "tags": [
+            "Game Theory",
+            "Behavioral Economics",
+            "Labor Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.19100v1",
@@ -1976,7 +2240,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper investigates the extent of political re"
+          "summary": "This paper investigates the extent of political re",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.19384v1",
@@ -2001,7 +2268,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Robustness checks are routine in empirical work, b"
+          "summary": "Robustness checks are routine in empirical work, b",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.19290v1",
@@ -2029,7 +2299,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Regression discontinuity and kink designs are typi"
+          "summary": "Regression discontinuity and kink designs are typi",
+          "tags": [
+            "Econometrics + ML",
+            "Experimental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.19287v1",
@@ -2055,7 +2329,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "In this paper, we present a realized range-based m"
+          "summary": "In this paper, we present a realized range-based m",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.19279v1",
@@ -2080,7 +2357,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Distributional effects, characterized by quantile "
+          "summary": "Distributional effects, characterized by quantile ",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.19201v1",
@@ -2108,7 +2388,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper develops an asymptotic and inferential "
+          "summary": "This paper develops an asymptotic and inferential ",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.19154v1",
@@ -2135,7 +2418,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "The BLP model is the workhorse framework in empiri"
+          "summary": "The BLP model is the workhorse framework in empiri",
+          "tags": [
+            "Game Theory"
+          ]
         }
       ],
       "total": 9
@@ -2169,7 +2455,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper investigates whether short-term market "
+          "summary": "This paper investigates whether short-term market ",
+          "tags": [
+            "Behavioral Economics",
+            "Econometrics + ML",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.18895v1",
@@ -2198,7 +2489,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Post-hoc explainability is central to credit risk "
+          "summary": "Post-hoc explainability is central to credit risk ",
+          "tags": [
+            "Technology Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.18938v1",
@@ -2224,7 +2518,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We quantify the Tariff Laffer Curve for the U.S. u"
+          "summary": "We quantify the Tariff Laffer Curve for the U.S. u",
+          "tags": [
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.18820v1",
@@ -2250,7 +2547,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper investigates systemic risk transmission"
+          "summary": "This paper investigates systemic risk transmission",
+          "tags": [
+            "Game Theory",
+            "Behavioral Economics",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.18879v1",
@@ -2275,7 +2577,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We propose a new principal-agent framework where a"
+          "summary": "We propose a new principal-agent framework where a",
+          "tags": [
+            "Technology Economics"
+          ]
         }
       ],
       "total": 5
@@ -2308,7 +2613,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper extends our previous work in Chee et al"
+          "summary": "This paper extends our previous work in Chee et al",
+          "tags": [
+            "Technology Economics",
+            "Experimental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.18062v1",
@@ -2336,7 +2645,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Recent advances in continuous-time optimal stoppin"
+          "summary": "Recent advances in continuous-time optimal stoppin",
+          "tags": [
+            "Experimental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.18157v1",
@@ -2362,7 +2674,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We study the Merton portfolio management problem w"
+          "summary": "We study the Merton portfolio management problem w",
+          "tags": [
+            "Game Theory"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.18572v1",
@@ -2390,7 +2705,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Reliable real estate price indicators are typicall"
+          "summary": "Reliable real estate price indicators are typicall",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.18358v1",
@@ -2416,7 +2734,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Understanding how the composition of guest origin "
+          "summary": "Understanding how the composition of guest origin ",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.18592v1",
@@ -2443,7 +2764,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper develops a House Price-at-Risk framewor"
+          "summary": "This paper develops a House Price-at-Risk framewor",
+          "tags": [
+            "Labor Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.18380v1",
@@ -2473,7 +2797,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We prove that computing an $ε$-approximate Nash eq"
+          "summary": "We prove that computing an $ε$-approximate Nash eq",
+          "tags": [
+            "Game Theory"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.18038v1",
@@ -2501,7 +2828,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We study prior-independent pricing for selling a s"
+          "summary": "We study prior-independent pricing for selling a s",
+          "tags": [
+            "Game Theory"
+          ]
         }
       ],
       "total": 8
@@ -2533,7 +2863,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Traditional models of market efficiency assume tha"
+          "summary": "Traditional models of market efficiency assume tha",
+          "tags": [
+            "Technology Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.17373v1",
@@ -2562,7 +2895,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "In this paper, we analyse the impacts of exogenous"
+          "summary": "In this paper, we analyse the impacts of exogenous",
+          "tags": [
+            "Technology Economics",
+            "Econometrics + ML"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.17090v1",
@@ -2587,7 +2924,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We explore local risk-minimization, a quadratic he"
+          "summary": "We explore local risk-minimization, a quadratic he",
+          "tags": [
+            "Experimental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.17098v1",
@@ -2617,7 +2957,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Portfolio Management is the process of overseeing "
+          "summary": "Portfolio Management is the process of overseeing ",
+          "tags": [
+            "Technology Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.17851v1",
@@ -2645,7 +2988,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This study establishes the causal effects of marke"
+          "summary": "This study establishes the causal effects of marke",
+          "tags": [
+            "Technology Economics",
+            "Econometrics + ML"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.17790v1",
@@ -2675,7 +3022,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Background: Many workers with disabilities face ne"
+          "summary": "Background: Many workers with disabilities face ne",
+          "tags": [
+            "Labor Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.16973v1",
@@ -2702,7 +3052,14 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We test whether lying aversion can steer equilibri"
+          "summary": "We test whether lying aversion can steer equilibri",
+          "tags": [
+            "Game Theory",
+            "Behavioral Economics",
+            "Experimental Economics",
+            "Labor Economics",
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.17543v1",
@@ -2731,7 +3088,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Efficient estimation of causal and structural para"
+          "summary": "Efficient estimation of causal and structural para",
+          "tags": [
+            "Game Theory",
+            "Econometrics + ML"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.17052v1",
@@ -2760,7 +3121,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Generative modeling builds on and substantially ad"
+          "summary": "Generative modeling builds on and substantially ad",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.17812v1",
@@ -2787,7 +3151,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We study independent private values auction enviro"
+          "summary": "We study independent private values auction enviro",
+          "tags": [
+            "Game Theory",
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.17086v1",
@@ -2816,7 +3184,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Dynamic decision-making under model uncertainty is"
+          "summary": "Dynamic decision-making under model uncertainty is",
+          "tags": [
+            "Behavioral Economics",
+            "Environmental Economics"
+          ]
         }
       ],
       "total": 11
@@ -2852,7 +3224,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We study Stackelberg Equilibria (Bowley optima) in"
+          "summary": "We study Stackelberg Equilibria (Bowley optima) in",
+          "tags": [
+            "Game Theory"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.16232v1",
@@ -2879,7 +3254,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Calibration to a surface of option prices requires"
+          "summary": "Calibration to a surface of option prices requires",
+          "tags": [
+            "Experimental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.16862v1",
@@ -2905,7 +3283,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We study entropy-regularized mean-variance portfol"
+          "summary": "We study entropy-regularized mean-variance portfol",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.16539v1",
@@ -2930,7 +3311,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Caratheodory's axiom of adiabatic inaccessibility "
+          "summary": "Caratheodory's axiom of adiabatic inaccessibility ",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.16212v1",
@@ -2957,7 +3341,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Money-back guarantees (MBGs) are features of poole"
+          "summary": "Money-back guarantees (MBGs) are features of poole",
+          "tags": [
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.16387v1",
@@ -2986,7 +3373,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Modern financial networks are highly connected and"
+          "summary": "Modern financial networks are highly connected and",
+          "tags": [
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.16631v1",
@@ -3014,7 +3404,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "The share of construction trade jobs held by women"
+          "summary": "The share of construction trade jobs held by women",
+          "tags": [
+            "Technology Economics",
+            "Labor Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.16527v1",
@@ -3042,7 +3436,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper studies the Model Selection Confidence "
+          "summary": "This paper studies the Model Selection Confidence ",
+          "tags": [
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.16376v1",
@@ -3069,7 +3466,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We study inference for linear quantile regression "
+          "summary": "We study inference for linear quantile regression ",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.16310v1",
@@ -3099,7 +3499,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "In empirical research, when we have multiple estim"
+          "summary": "In empirical research, when we have multiple estim",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.16211v2",
@@ -3126,7 +3529,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We study a model of auction design where a seller "
+          "summary": "We study a model of auction design where a seller ",
+          "tags": [
+            "Game Theory",
+            "FinTech"
+          ]
         }
       ],
       "total": 11
@@ -3160,7 +3567,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "The chain-ladder (CL) method is the most widely us"
+          "summary": "The chain-ladder (CL) method is the most widely us",
+          "tags": [
+            "Technology Economics",
+            "Econometrics + ML"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.15474v1",
@@ -3189,7 +3600,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We analyze numerically the performance of Quantum "
+          "summary": "We analyze numerically the performance of Quantum ",
+          "tags": [
+            "Digital Economy",
+            "Platform Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.16078v1",
@@ -3214,7 +3629,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Task-based models of AI and labor hold organizatio"
+          "summary": "Task-based models of AI and labor hold organizatio",
+          "tags": [
+            "Technology Economics",
+            "Labor Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.15980v1",
@@ -3240,7 +3659,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This article provides an overview of the history o"
+          "summary": "This article provides an overview of the history o",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.16731v1",
@@ -3265,7 +3687,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper presents a longitudinal open dataset of"
+          "summary": "This paper presents a longitudinal open dataset of",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.15722v1",
@@ -3294,7 +3719,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Nonconvexities in markets with discrete decisions "
+          "summary": "Nonconvexities in markets with discrete decisions ",
+          "tags": [
+            "Game Theory",
+            "Experimental Economics",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.15699v1",
@@ -3319,7 +3749,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper's objective is pedagogical and interpre"
+          "summary": "This paper's objective is pedagogical and interpre",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.15607v1",
@@ -3355,7 +3788,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "In June 2026, the UK government will set its carbo"
+          "summary": "In June 2026, the UK government will set its carbo",
+          "tags": [
+            "Technology Economics",
+            "Labor Economics",
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.16061v1",
@@ -3385,7 +3823,13 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Estimating population quantities such as mean outc"
+          "summary": "Estimating population quantities such as mean outc",
+          "tags": [
+            "Game Theory",
+            "Digital Economy",
+            "Platform Economics",
+            "Experimental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.16733v1",
@@ -3412,7 +3856,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Reproducibility is central to research credibility"
+          "summary": "Reproducibility is central to research credibility",
+          "tags": [
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.15730v1",
@@ -3441,7 +3888,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Understanding the causal effects of text on downst"
+          "summary": "Understanding the causal effects of text on downst",
+          "tags": [
+            "Econometrics + ML",
+            "Experimental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.15690v2",
@@ -3467,7 +3918,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "The empirical literature on the relationship betwe"
+          "summary": "The empirical literature on the relationship betwe",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.15600v1",
@@ -3496,7 +3950,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This article investigates the causal antecedents o"
+          "summary": "This article investigates the causal antecedents o",
+          "tags": [
+            "Econometrics + ML",
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.15559v1",
@@ -3524,7 +3982,13 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Adaptive randomized experiments update treatment p"
+          "summary": "Adaptive randomized experiments update treatment p",
+          "tags": [
+            "Digital Economy",
+            "Platform Economics",
+            "Econometrics + ML",
+            "Experimental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.15312v1",
@@ -3556,7 +4020,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Accurately measuring consumer emotions and evaluat"
+          "summary": "Accurately measuring consumer emotions and evaluat",
+          "tags": [
+            "Behavioral Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.15289v1",
@@ -3582,7 +4049,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper develops a novel nonparametric signific"
+          "summary": "This paper develops a novel nonparametric signific",
+          "tags": [
+            "Experimental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.16071v2",
@@ -3609,7 +4079,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We demonstrate that a ubiquitous feature of networ"
+          "summary": "We demonstrate that a ubiquitous feature of networ",
+          "tags": [
+            "Game Theory"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.15986v1",
@@ -3636,7 +4109,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We study convergence rates of random-order best-re"
+          "summary": "We study convergence rates of random-order best-re",
+          "tags": [
+            "Game Theory",
+            "Behavioral Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.15957v1",
@@ -3663,7 +4140,13 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Complex change is often described as \"evolutionary"
+          "summary": "Complex change is often described as \"evolutionary",
+          "tags": [
+            "Game Theory",
+            "Technology Economics",
+            "Behavioral Economics",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.15686v1",
@@ -3691,7 +4174,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Minimizing volatility and adjustment costs is of c"
+          "summary": "Minimizing volatility and adjustment costs is of c",
+          "tags": [
+            "Game Theory",
+            "Behavioral Economics",
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.15674v1",
@@ -3717,7 +4205,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We propose a tractable unified framework to study "
+          "summary": "We propose a tractable unified framework to study ",
+          "tags": [
+            "Behavioral Economics",
+            "Environmental Economics"
+          ]
         }
       ],
       "total": 21
@@ -3749,7 +4241,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper investigates the impact of the Shanghai"
+          "summary": "This paper investigates the impact of the Shanghai",
+          "tags": [
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.15248v1",
@@ -3780,7 +4275,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Invoice or payment dilution is the gap between the"
+          "summary": "Invoice or payment dilution is the gap between the",
+          "tags": [
+            "Econometrics + ML",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.15177v1",
@@ -3807,7 +4306,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We generalize classical results on the existence o"
+          "summary": "We generalize classical results on the existence o",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.14575v1",
@@ -3833,7 +4335,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "The paper treats the financial market as a communi"
+          "summary": "The paper treats the financial market as a communi",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.14827v1",
@@ -3862,7 +4367,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Portfolio optimization under strict cardinality co"
+          "summary": "Portfolio optimization under strict cardinality co",
+          "tags": [
+            "Technology Economics",
+            "Environmental Economics",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.14439v1",
@@ -3889,7 +4399,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper investigates the impact of environmenta"
+          "summary": "This paper investigates the impact of environmenta",
+          "tags": [
+            "Environmental Economics",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.15182v1",
@@ -3919,7 +4433,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Autodeleveraging (ADL) is a last-resort loss socia"
+          "summary": "Autodeleveraging (ADL) is a last-resort loss socia",
+          "tags": [
+            "Game Theory"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.14354v1",
@@ -3948,7 +4465,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Quasi Monte Carlo (QMC) and Global Sensitivity Ana"
+          "summary": "Quasi Monte Carlo (QMC) and Global Sensitivity Ana",
+          "tags": [
+            "Technology Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.14860v1",
@@ -3976,7 +4496,13 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We study the dynamics of token launched on Pump.fu"
+          "summary": "We study the dynamics of token launched on Pump.fu",
+          "tags": [
+            "Game Theory",
+            "Digital Economy",
+            "Platform Economics",
+            "Behavioral Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.14670v1",
@@ -4007,7 +4533,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Formulaic alpha factor mining is a critical yet ch"
+          "summary": "Formulaic alpha factor mining is a critical yet ch",
+          "tags": [
+            "Experimental Economics",
+            "Labor Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.14774v1",
@@ -4033,7 +4563,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper examines the effects of the 2019 univer"
+          "summary": "This paper examines the effects of the 2019 univer",
+          "tags": [
+            "Behavioral Economics",
+            "Econometrics + ML",
+            "Labor Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.14455v1",
@@ -4058,7 +4593,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We evaluate how well state-dependent local project"
+          "summary": "We evaluate how well state-dependent local project",
+          "tags": [
+            "Labor Economics",
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.14414v1",
@@ -4088,7 +4627,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Sensitivity analysis is widely used to assess the "
+          "summary": "Sensitivity analysis is widely used to assess the ",
+          "tags": [
+            "Behavioral Economics",
+            "Econometrics + ML"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.15246v1",
@@ -4115,7 +4658,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We study how a decision-maker (DM) learns from dat"
+          "summary": "We study how a decision-maker (DM) learns from dat",
+          "tags": [
+            "Game Theory"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.14816v1",
@@ -4145,7 +4691,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "A central problem in multiagent systems is the fai"
+          "summary": "A central problem in multiagent systems is the fai",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.14631v2",
@@ -4173,7 +4722,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "In mainstream neoclassical economics, utility maxi"
+          "summary": "In mainstream neoclassical economics, utility maxi",
+          "tags": [
+            "Game Theory",
+            "Behavioral Economics",
+            "Experimental Economics"
+          ]
         }
       ],
       "total": 16
@@ -4207,7 +4761,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We develop a practical framework for identifying a"
+          "summary": "We develop a practical framework for identifying a",
+          "tags": [
+            "Behavioral Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.14223v1",
@@ -4236,7 +4793,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We propose a peer-to-peer (P2P) insurance scheme c"
+          "summary": "We propose a peer-to-peer (P2P) insurance scheme c",
+          "tags": [
+            "Game Theory"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.14288v1",
@@ -4261,7 +4821,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "In many consumer electronics and appliance markets"
+          "summary": "In many consumer electronics and appliance markets",
+          "tags": [
+            "Game Theory",
+            "Behavioral Economics",
+            "Experimental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.14331v1",
@@ -4293,7 +4858,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We develop a decision-theoretic model of human-AI "
+          "summary": "We develop a decision-theoretic model of human-AI ",
+          "tags": [
+            "Behavioral Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.22232v1",
@@ -4319,7 +4887,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This brief note clarifies that the scenario descri"
+          "summary": "This brief note clarifies that the scenario descri",
+          "tags": [
+            "General"
+          ]
         }
       ],
       "total": 5
@@ -4354,7 +4925,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "The classical Merton investment problem predicts d"
+          "summary": "The classical Merton investment problem predicts d",
+          "tags": [
+            "Experimental Economics",
+            "Labor Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.15069v1",
@@ -4382,7 +4957,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Travel time prediction is central to transport geo"
+          "summary": "Travel time prediction is central to transport geo",
+          "tags": [
+            "Technology Economics",
+            "Econometrics + ML"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.13707v1",
@@ -4407,7 +4986,14 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper studies bargaining when buyers can cont"
+          "summary": "This paper studies bargaining when buyers can cont",
+          "tags": [
+            "Game Theory",
+            "Digital Economy",
+            "Platform Economics",
+            "Behavioral Economics",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.13722v1",
@@ -4433,7 +5019,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Forecasting presents a complex estimation challeng"
+          "summary": "Forecasting presents a complex estimation challeng",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.13537v2",
@@ -4461,7 +5050,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper studies inference for quadratic forms o"
+          "summary": "This paper studies inference for quadratic forms o",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.13894v1",
@@ -4489,7 +5081,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Among two-candidate elections that treat the candi"
+          "summary": "Among two-candidate elections that treat the candi",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.13879v1",
@@ -4515,7 +5110,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Appropriate decisions depend on information gather"
+          "summary": "Appropriate decisions depend on information gather",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.13645v1",
@@ -4540,7 +5138,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "When multiple informative equilibria are possible "
+          "summary": "When multiple informative equilibria are possible ",
+          "tags": [
+            "Game Theory",
+            "Technology Economics",
+            "FinTech"
+          ]
         }
       ],
       "total": 8
@@ -4574,7 +5177,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Valuing corporate bonds in systemic economies is c"
+          "summary": "Valuing corporate bonds in systemic economies is c",
+          "tags": [
+            "Platform Economics",
+            "Technology Economics",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.12490v1",
@@ -4604,7 +5212,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Conditional Value-at-Risk (CoVaR) quantifies syste"
+          "summary": "Conditional Value-at-Risk (CoVaR) quantifies syste",
+          "tags": [
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.13499v1",
@@ -4631,7 +5242,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Collective decision-making can be viewed as the pr"
+          "summary": "Collective decision-making can be viewed as the pr",
+          "tags": [
+            "Game Theory",
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.12958v2",
@@ -4658,7 +5273,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Generative AI is directional: it performs well in "
+          "summary": "Generative AI is directional: it performs well in ",
+          "tags": [
+            "Technology Economics",
+            "Labor Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.12741v1",
@@ -4684,7 +5303,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Data on marriage flows are not available in most d"
+          "summary": "Data on marriage flows are not available in most d",
+          "tags": [
+            "Game Theory",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.12695v1",
@@ -4710,7 +5333,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Using a representative survey of Korean workers, w"
+          "summary": "Using a representative survey of Korean workers, w",
+          "tags": [
+            "Labor Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.13453v1",
@@ -4736,7 +5362,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "When estimating treatment effects with two-way fix"
+          "summary": "When estimating treatment effects with two-way fix",
+          "tags": [
+            "Game Theory",
+            "Econometrics + ML",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.13450v1",
@@ -4764,7 +5395,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Algorithms for computing equilibria, optima, and f"
+          "summary": "Algorithms for computing equilibria, optima, and f",
+          "tags": [
+            "Behavioral Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.12782v1",
@@ -4791,7 +5425,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "While ex-ante screening and static price caps are "
+          "summary": "While ex-ante screening and static price caps are ",
+          "tags": [
+            "Game Theory"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.12504v1",
@@ -4816,7 +5453,13 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Standard instrumental variables (IV) methods ident"
+          "summary": "Standard instrumental variables (IV) methods ident",
+          "tags": [
+            "Behavioral Economics",
+            "Econometrics + ML",
+            "Environmental Economics",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.13014v1",
@@ -4842,7 +5485,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "A defining feature of digital goods is that replic"
+          "summary": "A defining feature of digital goods is that replic",
+          "tags": [
+            "Digital Economy",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.12910v1",
@@ -4869,7 +5516,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "State delegations are often chosen through single-"
+          "summary": "State delegations are often chosen through single-",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.12897v1",
@@ -4895,7 +5545,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Consider a network game with linear best responses"
+          "summary": "Consider a network game with linear best responses",
+          "tags": [
+            "Game Theory"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.12571v1",
@@ -4924,7 +5577,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We study agents playing a pure coordination game o"
+          "summary": "We study agents playing a pure coordination game o",
+          "tags": [
+            "Game Theory"
+          ]
         }
       ],
       "total": 14
@@ -4956,7 +5612,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "The aim of this article is to provide the solution"
+          "summary": "The aim of this article is to provide the solution",
+          "tags": [
+            "Behavioral Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.12104v1",
@@ -4984,7 +5643,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Liquidation of collateral are the primary safeguar"
+          "summary": "Liquidation of collateral are the primary safeguar",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.12030v1",
@@ -5014,7 +5676,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "In finance, sequential decision problems are often"
+          "summary": "In finance, sequential decision problems are often",
+          "tags": [
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.12392v1",
@@ -5039,7 +5704,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper asks whether regulatory monitoring exhi"
+          "summary": "This paper asks whether regulatory monitoring exhi",
+          "tags": [
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.12066v1",
@@ -5066,7 +5734,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Price controls kill the incentive for arbitrage. W"
+          "summary": "Price controls kill the incentive for arbitrage. W",
+          "tags": [
+            "Game Theory"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.11992v1",
@@ -5093,7 +5764,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We conduct a pre-registered randomized controlled "
+          "summary": "We conduct a pre-registered randomized controlled ",
+          "tags": [
+            "Experimental Economics",
+            "Labor Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.12043v1",
@@ -5123,7 +5798,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Obtaining reliable inferences with traditional dif"
+          "summary": "Obtaining reliable inferences with traditional dif",
+          "tags": [
+            "Econometrics + ML"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.12023v1",
@@ -5151,7 +5829,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Applied work with interference typically models ou"
+          "summary": "Applied work with interference typically models ou",
+          "tags": [
+            "Game Theory",
+            "Experimental Economics",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.12270v1",
@@ -5179,7 +5862,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Copyright law focuses on whether a new work is \"su"
+          "summary": "Copyright law focuses on whether a new work is \"su",
+          "tags": [
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.12224v1",
@@ -5210,7 +5896,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Two-sided matching markets rely on preferences fro"
+          "summary": "Two-sided matching markets rely on preferences fro",
+          "tags": [
+            "Game Theory"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.12035v1",
@@ -5237,7 +5926,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We analyze strategic communication when advice is "
+          "summary": "We analyze strategic communication when advice is ",
+          "tags": [
+            "Game Theory"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.11831v1",
@@ -5262,7 +5954,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Assessing an individual's contribution within a te"
+          "summary": "Assessing an individual's contribution within a te",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.11601v1",
@@ -5292,7 +5987,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We present a collaboration ring model -- a network"
+          "summary": "We present a collaboration ring model -- a network",
+          "tags": [
+            "Game Theory",
+            "Labor Economics"
+          ]
         }
       ],
       "total": 13
@@ -5326,7 +6025,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This study introduces a novel approach to walk-for"
+          "summary": "This study introduces a novel approach to walk-for",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.10960v1",
@@ -5359,7 +6061,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Micro-structural models of contagion and systemic "
+          "summary": "Micro-structural models of contagion and systemic ",
+          "tags": [
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.11020v2",
@@ -5385,7 +6090,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We study same-source multi-view learning and adver"
+          "summary": "We study same-source multi-view learning and adver",
+          "tags": [
+            "Technology Economics",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.10798v2",
@@ -5413,7 +6122,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We develop a mixed control framework that combines"
+          "summary": "We develop a mixed control framework that combines",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.11442v1",
@@ -5440,7 +6152,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Urban parks play a vital role in delivering variou"
+          "summary": "Urban parks play a vital role in delivering variou",
+          "tags": [
+            "Experimental Economics",
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.11379v1",
@@ -5469,7 +6185,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Combining forecasts from multiple experts often yi"
+          "summary": "Combining forecasts from multiple experts often yi",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.11334v1",
@@ -5495,7 +6214,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "It is well established that the US prewar output w"
+          "summary": "It is well established that the US prewar output w",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.11333v1",
@@ -5522,7 +6244,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper develops an asymptotic theory for two-s"
+          "summary": "This paper develops an asymptotic theory for two-s",
+          "tags": [
+            "Technology Economics",
+            "Econometrics + ML"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.10966v1",
@@ -5553,7 +6279,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Finding, counting, or determining the existence of"
+          "summary": "Finding, counting, or determining the existence of",
+          "tags": [
+            "Game Theory"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.10821v1",
@@ -5578,7 +6307,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "A principal delegates choice to an agent whose dec"
+          "summary": "A principal delegates choice to an agent whose dec",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.10756v1",
@@ -5606,7 +6338,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We study identification in models of aggregate cho"
+          "summary": "We study identification in models of aggregate cho",
+          "tags": [
+            "Game Theory",
+            "Behavioral Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.10679v1",
@@ -5635,7 +6371,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "In a typical school choice application, the studen"
+          "summary": "In a typical school choice application, the studen",
+          "tags": [
+            "Game Theory",
+            "Technology Economics",
+            "Experimental Economics"
+          ]
         }
       ],
       "total": 12
@@ -5669,7 +6410,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This research explores how human-defined goals inf"
+          "summary": "This research explores how human-defined goals inf",
+          "tags": [
+            "Behavioral Economics",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.09887v1",
@@ -5694,7 +6439,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We introduce a new class of automated market maker"
+          "summary": "We introduce a new class of automated market maker",
+          "tags": [
+            "Game Theory"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.09967v1",
@@ -5721,7 +6469,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We study a monopolistic insurance market with hidd"
+          "summary": "We study a monopolistic insurance market with hidd",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.18481v1",
@@ -5754,7 +6505,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "The rapid advancement of Large Language Models (LL"
+          "summary": "The rapid advancement of Large Language Models (LL",
+          "tags": [
+            "Behavioral Economics",
+            "Experimental Economics"
+          ]
         }
       ],
       "total": 4
@@ -5789,7 +6544,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "The bounded mean betting procedure serves as a cru"
+          "summary": "The bounded mean betting procedure serves as a cru",
+          "tags": [
+            "Technology Economics",
+            "Behavioral Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.08527v1",
@@ -5815,7 +6574,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We revisit the classical Merton consumption--inves"
+          "summary": "We revisit the classical Merton consumption--inves",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.08228v1",
@@ -5842,7 +6604,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Asset Liability Management (ALM) represents a fund"
+          "summary": "Asset Liability Management (ALM) represents a fund",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.08182v1",
@@ -5870,7 +6635,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Modeling time series with long- or short-memory ch"
+          "summary": "Modeling time series with long- or short-memory ch",
+          "tags": [
+            "Behavioral Economics",
+            "Econometrics + ML",
+            "FinTech"
+          ]
         }
       ],
       "total": 4
@@ -5906,7 +6676,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We study the estimation of repeatedly nested expec"
+          "summary": "We study the estimation of repeatedly nested expec",
+          "tags": [
+            "Experimental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.08039v1",
@@ -5934,7 +6707,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper addresses a key challenge in CDO modeli"
+          "summary": "This paper addresses a key challenge in CDO modeli",
+          "tags": [
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.07841v2",
@@ -5961,7 +6737,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This study provides a novel perspective on the met"
+          "summary": "This study provides a novel perspective on the met",
+          "tags": [
+            "General"
+          ]
         }
       ],
       "total": 3
@@ -5999,7 +6778,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Genetic Programming yields interpretable programs,"
+          "summary": "Genetic Programming yields interpretable programs,",
+          "tags": [
+            "Game Theory",
+            "Behavioral Economics"
+          ]
         }
       ],
       "total": 1
@@ -6034,7 +6817,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Multivariate shortfall risk measures provide a pri"
+          "summary": "Multivariate shortfall risk measures provide a pri",
+          "tags": [
+            "Technology Economics",
+            "Experimental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.06415v1",
@@ -6062,7 +6849,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This study proposes a linear-rational joint surviv"
+          "summary": "This study proposes a linear-rational joint surviv",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.06401v1",
@@ -6089,7 +6879,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This study introduces a new analytical framework f"
+          "summary": "This study introduces a new analytical framework f",
+          "tags": [
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.07096v1",
@@ -6119,7 +6912,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Reliable financial reasoning requires knowing not "
+          "summary": "Reliable financial reasoning requires knowing not ",
+          "tags": [
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.07085v1",
@@ -6169,7 +6965,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Financial markets are noisy and non-stationary, ma"
+          "summary": "Financial markets are noisy and non-stationary, ma",
+          "tags": [
+            "Experimental Economics"
+          ]
         }
       ],
       "total": 5
@@ -6204,7 +7003,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We establish a universal approximation theorem for"
+          "summary": "We establish a universal approximation theorem for",
+          "tags": [
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.05241v1",
@@ -6230,7 +7032,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "The skew stickiness ratio is a statistic that capt"
+          "summary": "The skew stickiness ratio is a statistic that capt",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.07066v1",
@@ -6256,7 +7061,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "I construct a Market Stress Probability Index (MSP"
+          "summary": "I construct a Market Stress Probability Index (MSP",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.05155v1",
@@ -6286,7 +7094,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper studies decentralized risk-sharing on n"
+          "summary": "This paper studies decentralized risk-sharing on n",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.06198v1",
@@ -6312,7 +7123,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper examines whether SEC Form 4 insider pur"
+          "summary": "This paper examines whether SEC Form 4 insider pur",
+          "tags": [
+            "General"
+          ]
         }
       ],
       "total": 5
@@ -6356,7 +7170,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Mention markets, a type of prediction market in wh"
+          "summary": "Mention markets, a type of prediction market in wh",
+          "tags": [
+            "Experimental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.05007v1",
@@ -6385,7 +7202,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "In the streaming era, music revenues distributed t"
+          "summary": "In the streaming era, music revenues distributed t",
+          "tags": [
+            "Digital Economy",
+            "Platform Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.04219v1",
@@ -6412,7 +7233,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper investigates the robust optimal control"
+          "summary": "This paper investigates the robust optimal control",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.07048v2",
@@ -6447,7 +7271,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Prediction markets provide a unique setting where "
+          "summary": "Prediction markets provide a unique setting where ",
+          "tags": [
+            "Game Theory",
+            "Econometrics + ML"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.07046v2",
@@ -6474,7 +7302,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We investigate whether cryptocurrency markets diff"
+          "summary": "We investigate whether cryptocurrency markets diff",
+          "tags": [
+            "FinTech"
+          ]
         }
       ],
       "total": 5
@@ -6515,7 +7346,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper explores advancements in quantum algori"
+          "summary": "This paper explores advancements in quantum algori",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.02996v1",
@@ -6546,7 +7380,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We establish dual attainment for the multimarginal"
+          "summary": "We establish dual attainment for the multimarginal",
+          "tags": [
+            "Experimental Economics",
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.03325v1",
@@ -6577,7 +7415,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper proposes a machine learning-based frame"
+          "summary": "This paper proposes a machine learning-based frame",
+          "tags": [
+            "Technology Economics",
+            "Econometrics + ML"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.03903v1",
@@ -6602,7 +7444,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Risk forecasts drive trading constraints and capit"
+          "summary": "Risk forecasts drive trading constraints and capit",
+          "tags": [
+            "General"
+          ]
         }
       ],
       "total": 4
@@ -6637,7 +7482,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper evaluates the causal impact of Generati"
+          "summary": "This paper evaluates the causal impact of Generati",
+          "tags": [
+            "Technology Economics",
+            "Econometrics + ML"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.02816v2",
@@ -6665,7 +7514,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "The decision to annuitize wealth in retirement pla"
+          "summary": "The decision to annuitize wealth in retirement pla",
+          "tags": [
+            "Behavioral Economics",
+            "Labor Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.07020v1",
@@ -6697,7 +7550,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Finding similar bonds remains challenging in fixed"
+          "summary": "Finding similar bonds remains challenging in fixed",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.01912v1",
@@ -6728,7 +7584,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Rapidly evolving market conditions call for real-t"
+          "summary": "Rapidly evolving market conditions call for real-t",
+          "tags": [
+            "Experimental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.07023v1",
@@ -6762,7 +7621,11 @@
             "quality": 5.0,
             "readability": 4.9
           },
-          "summary": "Recent works have increasingly applied Large Langu"
+          "summary": "Recent works have increasingly applied Large Langu",
+          "tags": [
+            "Technology Economics",
+            "Behavioral Economics"
+          ]
         }
       ],
       "total": 5
@@ -6797,7 +7660,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "In this paper, we present a methodology for measur"
+          "summary": "In this paper, we present a methodology for measur",
+          "tags": [
+            "Environmental Economics",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.03874v2",
@@ -6824,7 +7691,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We introduce the Aggregated Systemic Risk Index (A"
+          "summary": "We introduce the Aggregated Systemic Risk Index (A",
+          "tags": [
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.01122v1",
@@ -6850,7 +7720,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Benoit Mandelbrot's scientific legacy spans an ext"
+          "summary": "Benoit Mandelbrot's scientific legacy spans an ext",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.07018v2",
@@ -6876,7 +7749,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Using the Crypto Fear & Greed Index and Bitcoin da"
+          "summary": "Using the Crypto Fear & Greed Index and Bitcoin da",
+          "tags": [
+            "Econometrics + ML",
+            "FinTech"
+          ]
         }
       ],
       "total": 4
@@ -6908,7 +7785,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We price European options in a class of models in "
+          "summary": "We price European options in a class of models in ",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.00784v1",
@@ -6937,7 +7817,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We develop a non-standard analysis framework for c"
+          "summary": "We develop a non-standard analysis framework for c",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.00776v1",
@@ -6965,7 +7848,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We document stable cross-asset patterns in cryptoc"
+          "summary": "We document stable cross-asset patterns in cryptoc",
+          "tags": [
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.00548v1",
@@ -6990,7 +7876,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This study examines the effects of Trump-era tarif"
+          "summary": "This study examines the effects of Trump-era tarif",
+          "tags": [
+            "Behavioral Economics"
+          ]
         }
       ],
       "total": 4
@@ -7028,7 +7917,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We propose a microstructural model for the order f"
+          "summary": "We propose a microstructural model for the order f",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.00196v1",
@@ -7054,7 +7946,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We study whether generative AI can automate featur"
+          "summary": "We study whether generative AI can automate featur",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.00383v1",
@@ -7081,7 +7976,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Financial markets exhibit temporal organization th"
+          "summary": "Financial markets exhibit temporal organization th",
+          "tags": [
+            "Experimental Economics"
+          ]
         }
       ],
       "total": 3
@@ -7117,7 +8015,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Overparameterized models have recently challenged "
+          "summary": "Overparameterized models have recently challenged ",
+          "tags": [
+            "Behavioral Economics",
+            "Experimental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.21447v1",
@@ -7143,7 +8045,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper investigates the impact of Trade Policy"
+          "summary": "This paper investigates the impact of Trade Policy",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.21272v1",
@@ -7171,7 +8076,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper proposes a new multivariate model speci"
+          "summary": "This paper proposes a new multivariate model speci",
+          "tags": [
+            "Experimental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.22113v2",
@@ -7198,7 +8106,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We present the first application of MAP-Elites, a "
+          "summary": "We present the first application of MAP-Elites, a ",
+          "tags": [
+            "Experimental Economics",
+            "Environmental Economics"
+          ]
         }
       ],
       "total": 4
@@ -7232,7 +8144,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper examines whether a major U.S. regulator"
+          "summary": "This paper examines whether a major U.S. regulator",
+          "tags": [
+            "Digital Economy",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.20643v1",
@@ -7260,7 +8176,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "The mean-variance model remains the most prevalent"
+          "summary": "The mean-variance model remains the most prevalent",
+          "tags": [
+            "Technology Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.20533v1",
@@ -7288,7 +8207,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Survival analysis has become a standard approach f"
+          "summary": "Survival analysis has become a standard approach f",
+          "tags": [
+            "Experimental Economics",
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.00133v1",
@@ -7315,7 +8238,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Prediction markets offer a natural testbed for tra"
+          "summary": "Prediction markets offer a natural testbed for tra",
+          "tags": [
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.20452v1",
@@ -7345,7 +8271,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Prediction markets mobilize financial incentives t"
+          "summary": "Prediction markets mobilize financial incentives t",
+          "tags": [
+            "Behavioral Economics"
+          ]
         }
       ],
       "total": 5
@@ -7381,7 +8310,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Pricing advanced data products - particularly in c"
+          "summary": "Pricing advanced data products - particularly in c",
+          "tags": [
+            "Technology Economics",
+            "Behavioral Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.19511v1",
@@ -7410,7 +8343,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper assumes a robust stochastic model where"
+          "summary": "This paper assumes a robust stochastic model where",
+          "tags": [
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.19321v1",
@@ -7439,7 +8375,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper investigates whether structural econome"
+          "summary": "This paper investigates whether structural econome",
+          "tags": [
+            "Technology Economics",
+            "Econometrics + ML",
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.19369v1",
@@ -7465,7 +8406,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We introduce a structural framework for the geomet"
+          "summary": "We introduce a structural framework for the geomet",
+          "tags": [
+            "General"
+          ]
         }
       ],
       "total": 4
@@ -7496,7 +8440,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We show that the Markowitz portfolio is a scalar m"
+          "summary": "We show that the Markowitz portfolio is a scalar m",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.18991v1",
@@ -7524,7 +8471,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "USDC and USDT are the dominant stablecoins pegged "
+          "summary": "USDC and USDT are the dominant stablecoins pegged ",
+          "tags": [
+            "Game Theory",
+            "Behavioral Economics"
+          ]
         }
       ],
       "total": 2
@@ -7561,7 +8512,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper introduces MarketGAN, a factor-based ge"
+          "summary": "This paper introduces MarketGAN, a factor-based ge",
+          "tags": [
+            "General"
+          ]
         }
       ],
       "total": 1
@@ -7597,7 +8551,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Decentralized Finance (DeFi) has revolutionized fi"
+          "summary": "Decentralized Finance (DeFi) has revolutionized fi",
+          "tags": [
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.17248v1",
@@ -7626,7 +8583,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We present a study of the short-maturity asymptoti"
+          "summary": "We present a study of the short-maturity asymptoti",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.00097v1",
@@ -7654,7 +8614,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "The Fundamental Review of the Trading Book (FRTB) "
+          "summary": "The Fundamental Review of the Trading Book (FRTB) ",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.17247v1",
@@ -7681,7 +8644,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "In this work, we investigate the market-making pro"
+          "summary": "In this work, we investigate the market-making pro",
+          "tags": [
+            "Game Theory"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.17245v1",
@@ -7707,7 +8673,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We propose a structural framework for the geometry"
+          "summary": "We propose a structural framework for the geometry",
+          "tags": [
+            "Game Theory",
+            "Behavioral Economics",
+            "FinTech"
+          ]
         }
       ],
       "total": 5
@@ -7744,7 +8715,13 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Cyber risk has become a critical financial threat "
+          "summary": "Cyber risk has become a critical financial threat ",
+          "tags": [
+            "Game Theory",
+            "Digital Economy",
+            "Behavioral Economics",
+            "Experimental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.16821v1",
@@ -7771,7 +8748,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Compositional time series, vectors of proportions "
+          "summary": "Compositional time series, vectors of proportions ",
+          "tags": [
+            "Game Theory",
+            "Technology Economics"
+          ]
         }
       ],
       "total": 2
@@ -7805,7 +8786,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Prediction markets are often described as mechanis"
+          "summary": "Prediction markets are often described as mechanis",
+          "tags": [
+            "Game Theory",
+            "Experimental Economics",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.00086v2",
@@ -7834,7 +8820,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper addresses stock price movement predicti"
+          "summary": "This paper addresses stock price movement predicti",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.16274v1",
@@ -7861,7 +8850,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We propose Mixed-Panels-Transformer Encoder (MPTE)"
+          "summary": "We propose Mixed-Panels-Transformer Encoder (MPTE)",
+          "tags": [
+            "Game Theory",
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.00082v1",
@@ -7888,7 +8881,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This study addresses the low-volatility Chinese Pu"
+          "summary": "This study addresses the low-volatility Chinese Pu",
+          "tags": [
+            "Labor Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.00080v1",
@@ -7914,7 +8910,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Overfitting remains a critical challenge in data-d"
+          "summary": "Overfitting remains a critical challenge in data-d",
+          "tags": [
+            "Econometrics + ML"
+          ]
         }
       ],
       "total": 5
@@ -7945,7 +8944,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We propose a projection method to estimate risk-ne"
+          "summary": "We propose a projection method to estimate risk-ne",
+          "tags": [
+            "General"
+          ]
         }
       ],
       "total": 1
@@ -7980,7 +8982,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We introduce Look-Ahead-Bench, a standardized benc"
+          "summary": "We introduce Look-Ahead-Bench, a standardized benc",
+          "tags": [
+            "Behavioral Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.14139v2",
@@ -8007,7 +9012,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "In an incomplete financial market with general con"
+          "summary": "In an incomplete financial market with general con",
+          "tags": [
+            "Technology Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.14005v1",
@@ -8034,7 +9042,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We develop a mathematical framework to optimize le"
+          "summary": "We develop a mathematical framework to optimize le",
+          "tags": [
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.13493v2",
@@ -8063,7 +9074,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We extend the results of (Liu and Firoozi, 2025), "
+          "summary": "We extend the results of (Liu and Firoozi, 2025), ",
+          "tags": [
+            "Game Theory"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.18811v2",
@@ -8093,7 +9107,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper presents a Quantum Reinforcement Learni"
+          "summary": "This paper presents a Quantum Reinforcement Learni",
+          "tags": [
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.00073v1",
@@ -8123,7 +9140,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Time series encountered in practice are rarely sta"
+          "summary": "Time series encountered in practice are rarely sta",
+          "tags": [
+            "Econometrics + ML"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.14062v1",
@@ -8153,7 +9173,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Healthcare sector indices consolidate the economic"
+          "summary": "Healthcare sector indices consolidate the economic",
+          "tags": [
+            "Technology Economics"
+          ]
         }
       ],
       "total": 7
@@ -8189,7 +9212,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "The balancing market in the energy sector plays a "
+          "summary": "The balancing market in the energy sector plays a ",
+          "tags": [
+            "Econometrics + ML",
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.13421v1",
@@ -8215,7 +9242,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Dealers in foreign exchange markets provide bid an"
+          "summary": "Dealers in foreign exchange markets provide bid an",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.12655v1",
@@ -8243,7 +9273,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper develops a dynamic insurance market mod"
+          "summary": "This paper develops a dynamic insurance market mod",
+          "tags": [
+            "Game Theory"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.13281v1",
@@ -8271,7 +9304,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We introduce a novel model for time-varying, asymm"
+          "summary": "We introduce a novel model for time-varying, asymm",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.12839v1",
@@ -8301,7 +9337,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Detecting anomalous trajectories in decentralized "
+          "summary": "Detecting anomalous trajectories in decentralized ",
+          "tags": [
+            "Behavioral Economics",
+            "Econometrics + ML",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.12990v1",
@@ -8332,7 +9373,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Generative models for financial time series often "
+          "summary": "Generative models for financial time series often ",
+          "tags": [
+            "Game Theory",
+            "Experimental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2602.00037v1",
@@ -8363,7 +9408,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "In this work, we propose to apply a new model fusi"
+          "summary": "In this work, we propose to apply a new model fusi",
+          "tags": [
+            "Technology Economics",
+            "Econometrics + ML"
+          ]
         }
       ],
       "total": 7
@@ -8394,7 +9443,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "No-arbitrage asset pricing characterizes valuation"
+          "summary": "No-arbitrage asset pricing characterizes valuation",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.22168v1",
@@ -8425,7 +9477,13 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Algorithmic stablecoins promise decentralized mone"
+          "summary": "Algorithmic stablecoins promise decentralized mone",
+          "tags": [
+            "Game Theory",
+            "Behavioral Economics",
+            "Experimental Economics",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.12414v2",
@@ -8450,7 +9508,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We investigate the ordering between two fundamenta"
+          "summary": "We investigate the ordering between two fundamenta",
+          "tags": [
+            "Behavioral Economics"
+          ]
         }
       ],
       "total": 3
@@ -8484,7 +9545,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Can fully agentic AI nowcast stock returns? We dep"
+          "summary": "Can fully agentic AI nowcast stock returns? We dep",
+          "tags": [
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.12175v1",
@@ -8512,7 +9576,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We analyze daily lead-time distributions for two A"
+          "summary": "We analyze daily lead-time distributions for two A",
+          "tags": [
+            "General"
+          ]
         }
       ],
       "total": 2
@@ -8545,7 +9612,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Mobilising private capital is a critical bottlenec"
+          "summary": "Mobilising private capital is a critical bottlenec",
+          "tags": [
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.11209v2",
@@ -8575,7 +9645,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We present a simple, numerically efficient but hig"
+          "summary": "We present a simple, numerically efficient but hig",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.11375v1",
@@ -8600,7 +9673,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Three traits of decentralized finance are studied."
+          "summary": "Three traits of decentralized finance are studied.",
+          "tags": [
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.11201v1",
@@ -8629,7 +9705,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Financial time series exhibit multiscale behavior,"
+          "summary": "Financial time series exhibit multiscale behavior,",
+          "tags": [
+            "Behavioral Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.17021v1",
@@ -8657,7 +9736,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We attempt to mitigate the persistent tradeoff bet"
+          "summary": "We attempt to mitigate the persistent tradeoff bet",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.11348v1",
@@ -8684,7 +9766,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Achieving net-zero carbon emissions requires a tra"
+          "summary": "Achieving net-zero carbon emissions requires a tra",
+          "tags": [
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.11134v1",
@@ -8713,7 +9798,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Credit risk models are a critical decision-support"
+          "summary": "Credit risk models are a critical decision-support",
+          "tags": [
+            "Game Theory",
+            "Experimental Economics",
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.11305v1",
@@ -8739,7 +9829,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "The rough Bergomi (rBergomi) model, characterised "
+          "summary": "The rough Bergomi (rBergomi) model, characterised ",
+          "tags": [
+            "General"
+          ]
         }
       ],
       "total": 8
@@ -8771,7 +9864,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "A growing share of the existing real estate stock "
+          "summary": "A growing share of the existing real estate stock ",
+          "tags": [
+            "Technology Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.10812v1",
@@ -8798,7 +9894,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "An agent holds a position in a perpetual contract "
+          "summary": "An agent holds a position in a perpetual contract ",
+          "tags": [
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.10851v1",
@@ -8826,7 +9925,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This study examines market behavior in critical mi"
+          "summary": "This study examines market behavior in critical mi",
+          "tags": [
+            "Behavioral Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.10591v1",
@@ -8856,7 +9958,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Time Series Foundation Models (TSFMs) have emerged"
+          "summary": "Time Series Foundation Models (TSFMs) have emerged",
+          "tags": [
+            "Game Theory",
+            "Technology Economics",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.10375v1",
@@ -8886,7 +9993,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We formulate a dynamic reinsurance problem in whic"
+          "summary": "We formulate a dynamic reinsurance problem in whic",
+          "tags": [
+            "Technology Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.10517v1",
@@ -8913,7 +10023,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We introduce the multivariate Log S-fBM model (mLo"
+          "summary": "We introduce the multivariate Log S-fBM model (mLo",
+          "tags": [
+            "Technology Economics",
+            "Behavioral Economics",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.10143v1",
@@ -8944,7 +10059,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "In quantitative finance, the gap between training "
+          "summary": "In quantitative finance, the gap between training ",
+          "tags": [
+            "Econometrics + ML",
+            "Experimental Economics"
+          ]
         }
       ],
       "total": 7
@@ -8976,7 +10095,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We introduce LemonadeBench v0.5, a minimal benchma"
+          "summary": "We introduce LemonadeBench v0.5, a minimal benchma",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.18801v1",
@@ -9004,7 +10126,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper develops a design-first econometric fra"
+          "summary": "This paper develops a design-first econometric fra",
+          "tags": [
+            "Experimental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.09872v1",
@@ -9029,7 +10154,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Classical Kyle-type models of informed trading typ"
+          "summary": "Classical Kyle-type models of informed trading typ",
+          "tags": [
+            "Game Theory",
+            "Behavioral Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.09324v2",
@@ -9055,7 +10184,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "The martingale expansion provides a refined approx"
+          "summary": "The martingale expansion provides a refined approx",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.09127v1",
@@ -9081,7 +10213,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Robo-advisors (RAs) are automated portfolio manage"
+          "summary": "Robo-advisors (RAs) are automated portfolio manage",
+          "tags": [
+            "Experimental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.09927v1",
@@ -9106,7 +10241,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Value-at-Risk (VaR) estimation at high confidence "
+          "summary": "Value-at-Risk (VaR) estimation at high confidence ",
+          "tags": [
+            "Game Theory",
+            "Behavioral Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.17008v1",
@@ -9141,7 +10280,14 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Algorithmic trading relies on machine learning mod"
+          "summary": "Algorithmic trading relies on machine learning mod",
+          "tags": [
+            "Game Theory",
+            "Behavioral Economics",
+            "Econometrics + ML",
+            "Experimental Economics",
+            "Environmental Economics"
+          ]
         }
       ],
       "total": 7
@@ -9173,7 +10319,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Do vulnerabilities in Decentralized Finance (DeFi)"
+          "summary": "Do vulnerabilities in Decentralized Finance (DeFi)",
+          "tags": [
+            "Game Theory",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.08571v1",
@@ -9206,7 +10356,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Financial markets alternate between tranquil perio"
+          "summary": "Financial markets alternate between tranquil perio",
+          "tags": [
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.08721v1",
@@ -9232,7 +10385,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "The integration of thematic satellite allocations "
+          "summary": "The integration of thematic satellite allocations ",
+          "tags": [
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.08598v1",
@@ -9260,7 +10416,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Following several episodes of financial market tur"
+          "summary": "Following several episodes of financial market tur",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.08540v1",
@@ -9288,7 +10447,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Systemic risk refers to the overall vulnerability "
+          "summary": "Systemic risk refers to the overall vulnerability ",
+          "tags": [
+            "Game Theory",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.08896v1",
@@ -9319,7 +10482,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This study develops a robust machine learning fram"
+          "summary": "This study develops a robust machine learning fram",
+          "tags": [
+            "Technology Economics",
+            "Econometrics + ML"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.08641v3",
@@ -9348,7 +10515,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Copy trading has become the dominant entry strateg"
+          "summary": "Copy trading has become the dominant entry strateg",
+          "tags": [
+            "General"
+          ]
         }
       ],
       "total": 7
@@ -9381,7 +10551,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We estimate risk premia in the cross-section of cr"
+          "summary": "We estimate risk premia in the cross-section of cr",
+          "tags": [
+            "Technology Economics",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.07626v1",
@@ -9406,7 +10580,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Universal basic income (UBI) is a tax scheme that "
+          "summary": "Universal basic income (UBI) is a tax scheme that ",
+          "tags": [
+            "Game Theory",
+            "Labor Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.07991v1",
@@ -9432,7 +10610,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We provide an explicit solution for optimal option"
+          "summary": "We provide an explicit solution for optimal option",
+          "tags": [
+            "Experimental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.07942v1",
@@ -9459,7 +10640,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Our work focuses on deep learning (DL) portfolio o"
+          "summary": "Our work focuses on deep learning (DL) portfolio o",
+          "tags": [
+            "Technology Economics",
+            "Econometrics + ML"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.07792v1",
@@ -9488,7 +10673,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Portfolio optimization under cardinality constrain"
+          "summary": "Portfolio optimization under cardinality constrain",
+          "tags": [
+            "Technology Economics",
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.07675v1",
@@ -9516,7 +10705,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We introduce Tab-TRM (Tabular-Tiny Recursive Model"
+          "summary": "We introduce Tab-TRM (Tabular-Tiny Recursive Model",
+          "tags": [
+            "Econometrics + ML"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.07637v1",
@@ -9547,7 +10739,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Outstanding claim liabilities are revised repeated"
+          "summary": "Outstanding claim liabilities are revised repeated",
+          "tags": [
+            "Game Theory"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.07588v1",
@@ -9577,7 +10772,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper presents a meta-learning framework for "
+          "summary": "This paper presents a meta-learning framework for ",
+          "tags": [
+            "Behavioral Economics",
+            "Environmental Economics",
+            "FinTech"
+          ]
         }
       ],
       "total": 8
@@ -9609,7 +10809,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We study portfolio choice when firm-level emission"
+          "summary": "We study portfolio choice when firm-level emission",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.15304v1",
@@ -9636,7 +10839,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Market integrity monitoring is difficult because s"
+          "summary": "Market integrity monitoring is difficult because s",
+          "tags": [
+            "Game Theory",
+            "Behavioral Economics"
+          ]
         }
       ],
       "total": 2
@@ -9668,7 +10875,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper develops a structural framework for cha"
+          "summary": "This paper develops a structural framework for cha",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.22162v1",
@@ -9713,7 +10923,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Multimodal large language models are playing an in"
+          "summary": "Multimodal large language models are playing an in",
+          "tags": [
+            "Environmental Economics",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.06271v1",
@@ -9740,7 +10954,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "The classical mean-variance framework characterize"
+          "summary": "The classical mean-variance framework characterize",
+          "tags": [
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.07852v1",
@@ -9768,7 +10985,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Forecasting accuracy is routinely optimised in fin"
+          "summary": "Forecasting accuracy is routinely optimised in fin",
+          "tags": [
+            "Game Theory",
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.14272v1",
@@ -9795,7 +11016,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "The integration of cryptocurrencies into instituti"
+          "summary": "The integration of cryptocurrencies into instituti",
+          "tags": [
+            "Environmental Economics",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.05975v1",
@@ -9824,7 +11049,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We propose DeePM (Deep Portfolio Manager), a struc"
+          "summary": "We propose DeePM (Deep Portfolio Manager), a struc",
+          "tags": [
+            "Game Theory",
+            "Econometrics + ML",
+            "Environmental Economics"
+          ]
         }
       ],
       "total": 6
@@ -9855,7 +11085,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We study approximation limits of single-hidden-lay"
+          "summary": "We study approximation limits of single-hidden-lay",
+          "tags": [
+            "Econometrics + ML"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.05085v2",
@@ -9882,7 +11115,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We study the problem of forecasting and optimally "
+          "summary": "We study the problem of forecasting and optimally ",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.04959v1",
@@ -9914,7 +11150,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Quantitative understanding of stochastic dynamics "
+          "summary": "Quantitative understanding of stochastic dynamics ",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.04602v1",
@@ -9942,7 +11181,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper studies forward-looking stock-stock cor"
+          "summary": "This paper studies forward-looking stock-stock cor",
+          "tags": [
+            "Technology Economics",
+            "Econometrics + ML"
+          ]
         }
       ],
       "total": 4
@@ -9975,7 +11218,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper introduces an algorithmic framework for"
+          "summary": "This paper introduces an algorithmic framework for",
+          "tags": [
+            "Technology Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.04062v3",
@@ -10001,7 +11247,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Improvements in return forecast accuracy do not al"
+          "summary": "Improvements in return forecast accuracy do not al",
+          "tags": [
+            "Technology Economics",
+            "Environmental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.03974v1",
@@ -10029,7 +11279,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Topological Data Analysis (TDA), an emerging field"
+          "summary": "Topological Data Analysis (TDA), an emerging field",
+          "tags": [
+            "Experimental Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.03927v1",
@@ -10057,7 +11310,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Index tracking, also known as passive investing, h"
+          "summary": "Index tracking, also known as passive investing, h",
+          "tags": [
+            "Econometrics + ML"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.03948v2",
@@ -10090,7 +11346,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Reinforcement Learning (RL) has enabled Large Lang"
+          "summary": "Reinforcement Learning (RL) has enabled Large Lang",
+          "tags": [
+            "Technology Economics",
+            "Experimental Economics",
+            "Environmental Economics"
+          ]
         }
       ],
       "total": 5
@@ -10124,7 +11385,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper develops a unified framework for analyz"
+          "summary": "This paper develops a unified framework for analyz",
+          "tags": [
+            "Technology Economics"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.03215v2",
@@ -10151,7 +11415,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "We consider an optimal trading problem under a mar"
+          "summary": "We consider an optimal trading problem under a mar",
+          "tags": [
+            "Behavioral Economics",
+            "Experimental Economics"
+          ]
         }
       ],
       "total": 2
@@ -10183,7 +11451,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "High-Frequency trading (HFT) environments are char"
+          "summary": "High-Frequency trading (HFT) environments are char",
+          "tags": [
+            "Experimental Economics",
+            "Environmental Economics"
+          ]
         }
       ],
       "total": 1
@@ -10218,7 +11490,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Machine learning is central to empirical asset pri"
+          "summary": "Machine learning is central to empirical asset pri",
+          "tags": [
+            "Econometrics + ML"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.00568v1",
@@ -10245,7 +11520,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Capital allocation is a procedure used to assess t"
+          "summary": "Capital allocation is a procedure used to assess t",
+          "tags": [
+            "General"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.00738v1",
@@ -10276,7 +11554,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "This paper examines the impact of reducing Ethereu"
+          "summary": "This paper examines the impact of reducing Ethereu",
+          "tags": [
+            "Behavioral Economics",
+            "Environmental Economics"
+          ]
         }
       ],
       "total": 3
@@ -10309,7 +11591,11 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Kladia Liquidity Deflator (KLD) is an XRPL-based, "
+          "summary": "Kladia Liquidity Deflator (KLD) is an XRPL-based, ",
+          "tags": [
+            "Game Theory",
+            "Digital Economy"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.00196v1",
@@ -10339,7 +11625,12 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "Stablecoins have emerged as a rapidly growing digi"
+          "summary": "Stablecoins have emerged as a rapidly growing digi",
+          "tags": [
+            "Digital Economy",
+            "Environmental Economics",
+            "FinTech"
+          ]
         },
         {
           "id": "http://arxiv.org/abs/2601.00281v1",
@@ -10365,7 +11656,10 @@
             "quality": 5.0,
             "readability": 5.0
           },
-          "summary": "The deviation of the efficient market hypothesis ("
+          "summary": "The deviation of the efficient market hypothesis (",
+          "tags": [
+            "FinTech"
+          ]
         }
       ],
       "total": 3

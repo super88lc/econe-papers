@@ -36,14 +36,12 @@ export default function PaperCard({ paper }: PaperCardProps) {
   const [expanded, setExpanded] = useState(false);
   const [userRating, setUserRating] = useState(0);
   
-  // 加载用户评分
   useEffect(() => {
     const ratings = JSON.parse(localStorage.getItem('paperRatings') || '{}');
     const paperId = paper.id.replace('http://arxiv.org/abs/', '');
     setUserRating(ratings[paperId] || 0);
   }, [paper.id]);
   
-  // 保存用户评分
   const handleRate = (rating: number) => {
     const ratings = JSON.parse(localStorage.getItem('paperRatings') || '{}');
     const paperId = paper.id.replace('http://arxiv.org/abs/', '');
@@ -53,6 +51,7 @@ export default function PaperCard({ paper }: PaperCardProps) {
   };
   
   const paperId = paper.id.replace('http://arxiv.org/abs/', '');
+  const tags = paper.tags || [];
   
   return (
     <div 
@@ -61,17 +60,22 @@ export default function PaperCard({ paper }: PaperCardProps) {
     >
       <div className="flex items-start justify-between gap-3">
         <div className="flex-1 min-w-0">
-          <div className="flex items-center gap-2 mb-1">
+          <div className="flex items-center gap-2 mb-1 flex-wrap">
             <span className="text-lg font-bold text-[#d4a574]">
               ★ {paper.scores.overall.toFixed(1)}
             </span>
             <span className="px-2 py-0.5 bg-blue-100 text-blue-700 text-xs rounded-full">
               {paper.researchField}
             </span>
+            {tags.slice(0, 2).map((tag: string) => (
+              <span key={tag} className="px-2 py-0.5 bg-green-50 text-green-700 text-xs rounded border border-green-200">
+                {tag}
+              </span>
+            ))}
           </div>
           
           <h3 className="font-semibold text-gray-900 mb-1 line-clamp-2">
-            {paper.chineseTitle}
+            {paper.title}
           </h3>
           
           <p className="text-sm text-gray-500 mb-2">
@@ -80,7 +84,7 @@ export default function PaperCard({ paper }: PaperCardProps) {
           
           {!expanded && (
             <p className="text-sm text-gray-600 line-clamp-3">
-              {paper.chineseAbstract || paper.summary}
+              {paper.abstract}
             </p>
           )}
         </div>
@@ -89,27 +93,27 @@ export default function PaperCard({ paper }: PaperCardProps) {
       {expanded && (
         <div className="mt-3 pt-3 border-t border-gray-100">
           <p className="text-sm text-gray-700 mb-3">
-            {paper.chineseAbstract}
+            {paper.abstract}
           </p>
           
           <div className="flex items-center gap-4 text-sm text-gray-600 mb-3">
             <span>
-              选题新颖度: <StarRating rating={paper.scores.novelty} readonly />
+              Novelty: <StarRating rating={paper.scores.novelty} readonly />
             </span>
             <span>
-              研究水平: <StarRating rating={paper.scores.quality} readonly />
+              Quality: <StarRating rating={paper.scores.quality} readonly />
             </span>
             <span>
-              可读性: <StarRating rating={paper.scores.readability} readonly />
+              Readability: <StarRating rating={paper.scores.readability} readonly />
             </span>
           </div>
           
-          {/* 用户评分 */}
+          {/* User rating */}
           <div className="flex items-center gap-3 mb-3 p-2 bg-yellow-50 rounded-lg">
-            <span className="text-sm text-gray-600">我的评分:</span>
+            <span className="text-sm text-gray-600">Your Rating:</span>
             <StarRating rating={userRating} onRate={handleRate} />
             {userRating > 0 && (
-              <span className="text-xs text-green-600">✓ 已保存</span>
+              <span className="text-xs text-green-600">✓ Saved</span>
             )}
           </div>
           
@@ -135,7 +139,7 @@ export default function PaperCard({ paper }: PaperCardProps) {
           </div>
           
           <div className="flex gap-2 mt-2 flex-wrap">
-            {paper.keywords.map((keyword) => (
+            {tags.map((keyword: string) => (
               <span 
                 key={keyword}
                 className="text-xs text-gray-500 bg-gray-100 px-2 py-0.5 rounded"

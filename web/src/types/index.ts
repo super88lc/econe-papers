@@ -8,11 +8,11 @@ export interface Paper {
   updated: string;
   pdfUrl: string;
   
-  // AI 处理后
   chineseTitle: string;
   chineseAbstract: string;
   researchField: string;
   keywords: string[];
+  tags?: string[];
   scores: {
     overall: number;
     novelty: number;
@@ -29,17 +29,18 @@ export interface DayPapers {
 }
 
 export type Category = 
-  | '全部'
-  | '宏观'
-  | '微观'
-  | '计量'
-  | '金融'
-  | '行为'
-  | '产业'
-  | '环境'
-  | '劳动'
-  | '其他';
+  | 'All'
+  | 'Finance'
+  | 'Econometrics'
+  | 'Theory'
+  | 'Macro'
+  | 'Micro'
+  | 'Behavioral'
+  | 'Industrial'
+  | 'Environmental'
+  | 'Labor'
+  | 'Other';
 
 export const CATEGORIES: Category[] = [
-  '全部', '宏观', '微观', '计量', '金融', '行为', '产业', '环境', '劳动', '其他'
+  'All', 'Finance', 'Econometrics', 'Theory', 'Macro', 'Micro', 'Behavioral', 'Industrial', 'Environmental', 'Labor', 'Other'
 ];
