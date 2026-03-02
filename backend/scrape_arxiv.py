@@ -9,7 +9,7 @@ import json
 import os
 import re
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 from urllib.parse import urlencode
 
 import requests
@@ -31,9 +31,9 @@ ARXIV_CATEGORIES = [
 ]
 
 
-def search_arxiv(category: str, max_results: int = 50) -> list:
-    """从 ArXiv 搜索论文"""
-    base_url = "http://export.arxiv.org/api/query"
+def search_arxiv(category: str, max_results: int = 200) -> list:
+    """从 ArXiv 搜索论文（不分日期）"""
+    base_url = "https://export.arxiv.org/api/query"
     query = f"cat:{category}"
     
     params = {
@@ -45,10 +45,10 @@ def search_arxiv(category: str, max_results: int = 50) -> list:
     }
     
     url = f"{base_url}?{urlencode(params)}"
-    print(f"  🔍 Searching {category}...")
+    print(f"  🔍 Searching {category} (max {max_results})...")
     
     try:
-        response = requests.get(url, timeout=30)
+        response = requests.get(url, timeout=60)
         response.raise_for_status()
         
         soup = BeautifulSoup(response.content, "html.parser")
@@ -171,8 +171,8 @@ def analyze_paper(paper: dict) -> dict:
 
 def main():
     parser = argparse.ArgumentParser(description="ArXiv 经济学论文抓取 + AI 分析")
-    parser.add_argument("--max", type=int, default=30, help="每个分类最多抓取数量")
-    parser.add_argument("--analyze", type=int, default=10, help="AI 分析前 N 篇论文")
+    parser.add_argument("--max", type=int, default=200, help="每个分类最多抓取数量")
+    parser.add_argument("--analyze", type=int, default=30, help="AI 分析前 N 篇论文（每天）")
     parser.add_argument("--output", type=str, default="papers.json", help="输出文件名")
     args = parser.parse_args()
     
@@ -182,6 +182,7 @@ def main():
         print("   Run: source ~/.zshrc before running this script")
     
     print(f"\n📡 抓取 ArXiv 经济学论文...")
+    print(f"   每个分类抓取 {args.max} 篇")
     
     all_papers = []
     
@@ -197,58 +198,83 @@ def main():
     
     print(f"\n📊 共抓取 {len(all_papers)} 篇论文")
     
-    # AI 分析
-    analyzed_papers = all_papers
-    if all_papers and MINIMAX_API_KEY:
-        print(f"\n✍️  AI 分析论文 (前 {args.analyze} 篇)...")
-        analyzed_papers = []
-        for i, paper in enumerate(all_papers[:args.analyze]):
-            print(f"  [{i+1}/{min(args.analyze, len(all_papers))}] Processing...")
-            analyzed = analyze_paper(paper)
-            analyzed_papers.append(analyzed)
-            time.sleep(1)  # 避免 API 限流
-        
-        # 剩余论文添加默认字段
-        for paper in all_papers[args.analyze:]:
-            analyzed_papers.append({
-                **paper,
-                "chineseTitle": paper["title"],
-                "chineseAbstract": paper["abstract"][:200] if paper["abstract"] else "",
-                "researchField": "其他",
-                "keywords": [],
-                "scores": {"overall": 5, "novelty": 3, "quality": 3, "readability": 3},
-                "summary": paper["abstract"][:50] if paper["abstract"] else ""
-            })
-    elif all_papers:
-        print("\n⚠️ 跳过 AI 分析（无 API Key）")
-        for paper in all_papers:
-            analyzed_papers.append({
-                **paper,
-                "chineseTitle": paper["title"],
-                "chineseAbstract": paper["abstract"][:200] if paper["abstract"] else "",
-                "researchField": "其他",
-                "keywords": [],
-                "scores": {"overall": 5, "novelty": 3, "quality": 3, "readability": 3},
-                "summary": paper["abstract"][:50] if paper["abstract"] else ""
-            })
-    
     # 按日期分组
     from collections import defaultdict
     by_date = defaultdict(list)
-    for paper in analyzed_papers:
+    for paper in all_papers:
         date = paper.get("published", "unknown")
         by_date[date].append(paper)
     
-    # 排序并精选
+    # 截止日期：2026年1月1日
+    cutoff_date = "2026-01-01"
+    
+    # AI 分析 - 按日期分别分析
+    analyzed_papers_by_date = {}
+    
+    if by_date and MINIMAX_API_KEY:
+        print(f"\n✍️  AI 分析论文...")
+        
+        for date_str in sorted(by_date.keys(), reverse=True):
+            if date_str < cutoff_date:
+                continue  # 跳过2026年1月1日之前的
+            
+            papers = by_date[date_str]
+            print(f"\n  📅 {date_str}: 分析前 {min(args.analyze, len(papers))} 篇")
+            
+            analyzed_day_papers = []
+            
+            # 分析前 N 篇
+            for i, paper in enumerate(papers[:args.analyze]):
+                print(f"     [{i+1}/{min(args.analyze, len(papers))}] Processing...")
+                analyzed = analyze_paper(paper)
+                analyzed_day_papers.append(analyzed)
+                time.sleep(0.8)  # 避免 API 限流
+            
+            # 剩余论文添加默认字段
+            for paper in papers[args.analyze:]:
+                analyzed_day_papers.append({
+                    **paper,
+                    "chineseTitle": paper["title"],
+                    "chineseAbstract": paper["abstract"][:200] if paper["abstract"] else "",
+                    "researchField": "其他",
+                    "keywords": [],
+                    "scores": {"overall": 5, "novelty": 3, "quality": 3, "readability": 3},
+                    "summary": paper["abstract"][:50] if paper["abstract"] else ""
+                })
+            
+            analyzed_papers_by_date[date_str] = analyzed_day_papers
+            
+    elif by_date:
+        print("\n⚠️ 跳过 AI 分析（无 API Key）")
+        for date_str, papers in by_date.items():
+            if date_str < cutoff_date:
+                continue
+            analyzed_day_papers = []
+            for paper in papers:
+                analyzed_day_papers.append({
+                    **paper,
+                    "chineseTitle": paper["title"],
+                    "chineseAbstract": paper["abstract"][:200] if paper["abstract"] else "",
+                    "researchField": "其他",
+                    "keywords": [],
+                    "scores": {"overall": 5, "novelty": 3, "quality": 3, "readability": 3},
+                    "summary": paper["abstract"][:50] if paper["abstract"] else ""
+                })
+            analyzed_papers_by_date[date_str] = analyzed_day_papers
+    
+    # 按日期分组并排序精选
     day_papers = []
-    for date in sorted(by_date.keys(), reverse=True):
-        papers = by_date[date]
+    for date_str in sorted(analyzed_papers_by_date.keys(), reverse=True):
+        papers = analyzed_papers_by_date[date_str]
         # 按评分排序
         papers.sort(key=lambda x: x.get("scores", {}).get("overall", 0), reverse=True)
         
+        # 精选 30 篇
+        selected = papers[:30]
+        
         day_papers.append({
-            "date": date,
-            "papers": papers[:10],  # 精选 10 篇
+            "date": date_str,
+            "papers": selected,
             "total": len(papers)
         })
     
@@ -274,7 +300,7 @@ def main():
     print(f"\n✅ 已保存到:")
     print(f"   - {output_path}")
     print(f"   - {web_data_path}")
-    print(f"\n📈 精选论文: {sum(d['total'] for d in day_papers)} 篇")
+    print(f"\n📈 精选论文: {sum(d['total'] for d in day_papers)} 篇，覆盖 {len(day_papers)} 天")
 
 
 if __name__ == "__main__":
