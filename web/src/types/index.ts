@@ -29,18 +29,18 @@ export interface DayPapers {
 }
 
 export type Category = 
-  | 'All'
-  | 'Finance'
-  | 'Econometrics'
-  | 'Theory'
-  | 'Macro'
-  | 'Micro'
-  | 'Behavioral'
-  | 'Industrial'
-  | 'Environmental'
-  | 'Labor'
-  | 'Other';
+  | '全部'
+  | '金融'
+  | '计量'
+  | '理论'
+  | '宏观'
+  | '微观'
+  | '行为'
+  | '产业'
+  | '环境'
+  | '劳动'
+  | '其他';
 
 export const CATEGORIES: Category[] = [
-  'All', 'Finance', 'Econometrics', 'Theory', 'Macro', 'Micro', 'Behavioral', 'Industrial', 'Environmental', 'Labor', 'Other'
+  '全部', '金融', '计量', '理论', '宏观', '微观', '行为', '产业', '环境', '劳动', '其他'
 ];

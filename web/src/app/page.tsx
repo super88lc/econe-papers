@@ -8,8 +8,8 @@ import PaperCard from '@/components/PaperCard';
 import { DayPapers, Paper, Category } from '@/types';
 
 export default function Home() {
-  const [category, setCategory] = useState<Category>('All');
-  const [selectedTag, setSelectedTag] = useState('All Tags');
+  const [category, setCategory] = useState<Category>('全部');
+  const [selectedTag, setSelectedTag] = useState('全部标签');
   const [days, setDays] = useState<DayPapers[]>([]);
   const [loading, setLoading] = useState(false);
   const [hasMore, setHasMore] = useState(true);
@@ -55,19 +55,32 @@ export default function Home() {
     init();
   }, []);
   
+  // Tag filter mapping
+  const tagMap: Record<string, string> = {
+    '博弈论': 'Game Theory',
+    '数字经济': 'Digital Economy',
+    '平台经济': 'Platform Economics',
+    '技术经济': 'Technology Economics',
+    '行为经济学': 'Behavioral Economics',
+    '计量+ML': 'Econometrics + ML',
+    '实验经济学': 'Experimental Economics',
+    '劳动经济学': 'Labor Economics',
+    '环境经济学': 'Environmental Economics',
+    '金融科技': 'FinTech'
+  };
+  
   useEffect(() => {
-    if (selectedTag !== 'All Tags') {
-      // Collect all papers with selected tag
+    if (selectedTag !== '全部标签') {
+      const enTag = tagMap[selectedTag] || selectedTag;
       const papers: Paper[] = [];
       days.forEach(day => {
         day.papers.forEach(paper => {
           const tags = paper.tags || [];
-          if (tags.includes(selectedTag)) {
+          if (tags.includes(enTag)) {
             papers.push(paper);
           }
         });
       });
-      // Sort by score
       papers.sort((a, b) => (b.scores?.overall || 0) - (a.scores?.overall || 0));
       setCategoryPapers(papers);
       setShowTagView(true);
@@ -82,7 +95,7 @@ export default function Home() {
   const [showTagView, setShowTagView] = useState(false);
   
   useEffect(() => {
-    if (category === 'All') {
+    if (category === '全部') {
       setShowCategoryView(false);
       setCategoryPapers([]);
       setShowTagView(false);
@@ -133,17 +146,17 @@ export default function Home() {
             <div className="flex items-center gap-3 mb-4">
               <div className="h-px flex-1 bg-gray-200"></div>
               <h2 className="text-sm font-medium text-gray-500">
-                📂 {category} ({categoryPapers.length} papers)
+                📂 {category}精选 {categoryPapers.length} 篇
               </h2>
               <div className="h-px flex-1 bg-gray-200"></div>
             </div>
             
             {categoryPapers.length === 0 ? (
               <div className="text-center py-12 text-gray-500">
-                No papers in this category
+                暂无{category}分类的论文
               </div>
-            )Papers.map((paper : (
-              category, idx) => (
+            ) : (
+              categoryPapers.map((paper, idx) => (
                 <PaperCard key={`${paper.id}-${idx}`} paper={paper} />
               ))
             )}
@@ -153,14 +166,14 @@ export default function Home() {
             <div className="flex items-center gap-3 mb-4">
               <div className="h-px flex-1 bg-gray-200"></div>
               <h2 className="text-sm font-medium text-gray-500">
-                🏷️ {selectedTag} ({categoryPapers.length} papers)
+                🏷️ {selectedTag} {categoryPapers.length} 篇
               </h2>
               <div className="h-px flex-1 bg-gray-200"></div>
             </div>
             
             {categoryPapers.length === 0 ? (
               <div className="text-center py-12 text-gray-500">
-                No papers with this tag
+                暂无该标签的论文
               </div>
             ) : (
               categoryPapers.map((paper, idx) => (
@@ -180,13 +193,13 @@ export default function Home() {
             
             {loading && (
               <div className="text-center py-8 text-gray-500">
-                Loading...
+                加载中...
               </div>
             )}
             
             {!hasMore && days.length > 0 && (
               <div className="text-center py-8 text-gray-400 text-sm">
-                End of content
+                已加载全部
               </div>
             )}
           </>

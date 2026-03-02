@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { DayPapers, Paper } from '@/types';
 import PaperCard from './PaperCard';
 
@@ -16,14 +16,14 @@ export default function DaySection({ dayPapers, selectedCategory }: DaySectionPr
     (a, b) => (b.scores?.overall || 0) - (a.scores?.overall || 0)
   );
   
-  const filteredPapers = selectedCategory === 'All' 
+  const filteredPapers = selectedCategory === '全部' 
     ? allPapers 
     : allPapers.filter(p => p.researchField.includes(selectedCategory));
   
   if (filteredPapers.length === 0) return null;
   
   const date = new Date(dayPapers.date);
-  const dateStr = date.toLocaleDateString('en-US', {
+  const dateStr = date.toLocaleDateString('zh-CN', {
     year: 'numeric',
     month: 'long',
     day: 'numeric'
@@ -49,13 +49,13 @@ export default function DaySection({ dayPapers, selectedCategory }: DaySectionPr
       <div className="bg-gradient-to-r from-[#1e3a5f] to-[#2a4a73] rounded-lg p-4 mb-4 text-white">
         <div className="flex items-center justify-between mb-3">
           <h2 className="text-lg font-bold">📅 {dateStr}</h2>
-          <span className="text-2xl font-bold">{totalPapers}</span>
+          <span className="text-2xl font-bold">{totalPapers}篇</span>
         </div>
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm">
           <div className="bg-white/10 rounded-lg p-2">
             <div className="text-yellow-400 font-bold text-lg">{highRatedCount}</div>
-            <div className="text-white/70">Recommended</div>
+            <div className="text-white/70">推荐阅读</div>
           </div>
           <div className="bg-white/10 rounded-lg p-2 col-span-2">
             <div className="flex flex-wrap gap-1">
@@ -78,7 +78,7 @@ export default function DaySection({ dayPapers, selectedCategory }: DaySectionPr
           onClick={() => setShowAll(!showAll)}
           className="w-full py-3 mt-2 text-center text-sm text-blue-600 hover:text-blue-800 hover:bg-blue-50 rounded-lg transition-colors"
         >
-          {showAll ? '▲ Show Less' : `▼ Show More ${filteredPapers.length - 5} Papers`}
+          {showAll ? '▲ 收起' : `▼ 显示更多 ${filteredPapers.length - 5} 篇`}
         </button>
       )}
     </section>

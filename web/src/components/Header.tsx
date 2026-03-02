@@ -2,20 +2,20 @@
 
 import { Category } from '@/types';
 
-const CATEGORIES = ['All', 'Finance', 'Econometrics', 'Theory', 'Macro', 'Micro', 'Behavioral', 'Industrial', 'Environmental', 'Labor', 'Other'];
+const CATEGORIES = ['全部', '金融', '计量', '理论', '宏观', '微观', '行为', '产业', '环境', '劳动', '其他'];
 
 const TAGS = [
-  'All Tags',
-  'Game Theory',
-  'Digital Economy', 
-  'Platform Economics',
-  'Technology Economics',
-  'Behavioral Economics',
-  'Econometrics + ML',
-  'Experimental Economics',
-  'Labor Economics',
-  'Environmental Economics',
-  'FinTech'
+  '全部标签',
+  '博弈论',
+  '数字经济', 
+  '平台经济',
+  '技术经济',
+  '行为经济学',
+  '计量+ML',
+  '实验经济学',
+  '劳动经济学',
+  '环境经济学',
+  '金融科技'
 ];
 
 interface HeaderProps {
@@ -25,8 +25,8 @@ interface HeaderProps {
   onTagChange?: (tag: string) => void;
 }
 
-export default function Header({ selectedCategory, onCategoryChange, selectedTag = 'All Tags', onTagChange }: HeaderProps) {
-  const today = new Date().toLocaleDateString('en-US', {
+export default function Header({ selectedCategory, onCategoryChange, selectedTag = '全部标签', onTagChange }: HeaderProps) {
+  const today = new Date().toLocaleDateString('zh-CN', {
     year: 'numeric',
     month: 'long',
     day: 'numeric'
@@ -40,12 +40,12 @@ export default function Header({ selectedCategory, onCategoryChange, selectedTag
             Econe Papers
           </h1>
           <span className="text-sm text-gray-500">
-            Updated: {today}
+            今日更新: {today}
           </span>
         </div>
         
         <div className="mb-3">
-          <div className="text-xs text-gray-500 mb-1">Category</div>
+          <div className="text-xs text-gray-500 mb-1">分类</div>
           <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide">
             {CATEGORIES.map((category) => (
               <button
@@ -65,7 +65,7 @@ export default function Header({ selectedCategory, onCategoryChange, selectedTag
         
         {onTagChange && (
           <div>
-            <div className="text-xs text-gray-500 mb-1">Tags</div>
+            <div className="text-xs text-gray-500 mb-1">标签</div>
             <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide">
               {TAGS.map((tag) => (
                 <button
