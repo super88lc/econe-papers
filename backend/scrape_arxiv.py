@@ -170,16 +170,95 @@ def analyze_paper(paper: dict) -> dict:
         except json.JSONDecodeError as e:
             print(f"  ⚠️ JSON parse error: {e}")
     
-    # 如果失败，返回原始数据 + 默认值
+    # 如果失败，返回原始数据 + 默认评分
+    scores = calculate_initial_scores(paper)
+    field = determine_research_field(paper)
+    
     return {
         **paper,
         "chineseTitle": paper["title"],
         "chineseAbstract": paper["abstract"][:200] if paper["abstract"] else "",
-        "researchField": "其他",
+        "researchField": field,
         "keywords": [],
-        "scores": {"overall": 5, "novelty": 3, "quality": 3, "readability": 3},
+        "scores": scores,
         "summary": paper["abstract"][:50] if paper["abstract"] else ""
     }
+
+
+def calculate_initial_scores(paper: dict) -> dict:
+    """基于论文特征计算初始评分"""
+    title = paper.get("title", "").lower()
+    abstract = paper.get("abstract", "").lower()
+    
+    novelty = 3.0
+    quality = 3.0
+    readability = 3.0
+    
+    # 关键词匹配提高选题新颖度
+    novelty_keywords = ["novel", "new", "first", "improve", "extend", "approach", "method", "theory"]
+    for kw in novelty_keywords:
+        if kw in abstract or kw in title:
+            novelty = min(5.0, novelty + 0.3)
+    
+    # 热门方法提高研究水平
+    method_keywords = ["deep learning", "neural network", "transformer", "causal", "reinforcement", 
+                      "bayesian", "randomized", "experiment", "robust", "optimal"]
+    for kw in method_keywords:
+        if kw in abstract:
+            quality = min(5.0, quality + 0.2)
+    
+    # 作者数量适中可读性更好
+    authors = paper.get("authors", [])
+    if 2 <= len(authors) <= 5:
+        readability = 4.0
+    elif len(authors) > 8:
+        readability = 2.5
+    
+    # 计算综合评分
+    overall = novelty * 0.4 + quality * 0.4 + readability * 0.2
+    
+    return {
+        "overall": round(overall, 1),
+        "novelty": round(novelty, 1),
+        "quality": round(quality, 1),
+        "readability": round(readability, 1)
+    }
+
+
+def determine_research_field(paper: dict) -> str:
+    """基于分类和内容确定研究领域"""
+    title = paper.get("title", "").lower()
+    abstract = paper.get("abstract", "").lower()
+    categories = paper.get("categories", [])
+    
+    field_keywords = {
+        "计量": ["econometrics", "regression", "causal", "treatment effect", "identification", 
+                 "instrumental", "propensity", "matching", "did", "estimator"],
+        "金融": ["finance", "market", "asset", "portfolio", "stock", "price", "trading",
+                 "investment", "risk", "option", "derivative", "bank", "credit"],
+        "宏观": ["macro", "gdp", "inflation", "monetary", "fiscal", "growth", "business cycle"],
+        "微观": ["micro", "consumer", "producer", "firm", "competition", "auction", "utility"],
+        "行为": ["behavior", "psychology", "cognitive", "bias", "heuristic", "nudge"],
+        "产业": ["industrial", "organization", "oligopoly", "merger", "antitrust"],
+        "劳动": ["labor", "employment", "wage", "skill", "education", "worker"],
+        "环境": ["environment", "climate", "carbon", "pollution", "energy", "sustainability"],
+        "理论": ["theory", "equilibrium", "game", "mechanism", "optimal", "proof"]
+    }
+    
+    for cat in categories:
+        if cat == "econ.EM": return "计量"
+        elif cat == "econ.TH": return "理论"
+        elif cat == "econ.MA": return "宏观"
+        elif cat == "econ.ME": return "微观"
+        elif cat == "econ.WR": return "劳动"
+        elif cat.startswith("q-fin."): return "金融"
+    
+    for field, keywords in field_keywords.items():
+        for kw in keywords:
+            if kw in abstract or kw in title:
+                return field
+    
+    return "其他"
 
 
 def main():
@@ -249,9 +328,9 @@ def main():
                     **paper,
                     "chineseTitle": paper["title"],
                     "chineseAbstract": paper["abstract"][:200] if paper["abstract"] else "",
-                    "researchField": "其他",
+                    "researchField": determine_research_field(paper),
                     "keywords": [],
-                    "scores": {"overall": 5, "novelty": 3, "quality": 3, "readability": 3},
+                    "scores": calculate_initial_scores(paper),
                     "summary": paper["abstract"][:50] if paper["abstract"] else ""
                 })
             
@@ -268,9 +347,9 @@ def main():
                     **paper,
                     "chineseTitle": paper["title"],
                     "chineseAbstract": paper["abstract"][:200] if paper["abstract"] else "",
-                    "researchField": "其他",
+                    "researchField": determine_research_field(paper),
                     "keywords": [],
-                    "scores": {"overall": 5, "novelty": 3, "quality": 3, "readability": 3},
+                    "scores": calculate_initial_scores(paper),
                     "summary": paper["abstract"][:50] if paper["abstract"] else ""
                 })
             analyzed_papers_by_date[date_str] = analyzed_day_papers
