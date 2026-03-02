@@ -106,7 +106,7 @@ export default function PaperCard({ paper }: PaperCardProps) {
           </p>
           
           {!expanded && (
-            <p className="text-sm text-gray-600 line-clamp-3">
+            <p className="text-sm text-gray-600 line-clamp-6">
               {displayAbstract}
             </p>
           )}
