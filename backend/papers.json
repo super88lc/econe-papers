@@ -24,10 +24,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 5.0,
-            "quality": 4.1,
-            "readability": 4.8
+            "overall": 3.1,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "This paper examines the impact of introducing a Ra",
           "tags": [
@@ -61,10 +61,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 4.4,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 4.0,
+            "novelty": 5.0,
+            "quality": 3.6,
+            "readability": 3.0
           },
           "summary": "Foundation models have transformed domains from la",
           "tags": [
@@ -90,10 +90,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 4.2,
-            "readability": 4.9
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.3,
+            "readability": 4.3
           },
           "summary": "In the linear-in-means model, endogeneity arises n",
           "tags": [
@@ -120,10 +120,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.5,
-            "novelty": 4.1,
-            "quality": 4.4,
-            "readability": 5.0
+            "overall": 3.9,
+            "novelty": 3.8,
+            "quality": 4.2,
+            "readability": 3.3
           },
           "summary": "We propose a difference-in-differences (DiD) frame",
           "tags": [
@@ -152,10 +152,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 4.1,
-            "quality": 4.4,
-            "readability": 5.0
+            "overall": 4.5,
+            "novelty": 5.0,
+            "quality": 4.0,
+            "readability": 4.3
           },
           "summary": "This study proposes the General Bayes framework fo",
           "tags": [
@@ -181,10 +181,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 5.0,
-            "quality": 4.4,
-            "readability": 5.0
+            "overall": 3.5,
+            "novelty": 4.2,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "This paper develops a unifying theory of peer effe",
           "tags": [
@@ -220,10 +220,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.6,
+            "overall": 3.8,
             "novelty": 5.0,
-            "quality": 4.0,
-            "readability": 5.0
+            "quality": 3.0,
+            "readability": 3.0
           },
           "summary": "The advancement of large language models (LLMs) ha",
           "tags": [
@@ -249,10 +249,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 5.0,
-            "quality": 4.7,
-            "readability": 4.7
+            "overall": 3.7,
+            "novelty": 3.8,
+            "quality": 3.4,
+            "readability": 4.3
           },
           "summary": "The US economy is transitioning away from fossil f",
           "tags": [
@@ -281,10 +281,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 4.7,
-            "readability": 4.6
+            "overall": 3.3,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 2.8
           },
           "summary": "We construct a stochastic dynamical systems theory",
           "tags": [
@@ -313,10 +313,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 4.2,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.8,
+            "novelty": 4.6,
+            "quality": 3.3,
+            "readability": 3.3
           },
           "summary": "As generative AI commercializes, competitive advan",
           "tags": [
@@ -344,10 +344,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.1,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.4,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "This paper develops inference methods for ratios o",
           "tags": [
@@ -374,10 +374,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
+            "overall": 3.8,
             "novelty": 5.0,
-            "quality": 4.8,
-            "readability": 5.0
+            "quality": 3.0,
+            "readability": 2.8
           },
           "summary": "Switchback experiments--alternating treatment and ",
           "tags": [
@@ -404,10 +404,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.6,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "We re-examine the traditional Mean-Squared Error (",
           "tags": [
@@ -432,10 +432,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.4,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.5
+            "overall": 3.3,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "Recent papers in communication games construct equ",
           "tags": [
@@ -460,10 +460,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.5,
-            "novelty": 4.5,
-            "quality": 4.6,
-            "readability": 4.6
+            "overall": 3.1,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "This paper embeds a signaling friction into the co",
           "tags": [
@@ -498,10 +498,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.4,
-            "novelty": 4.5,
-            "quality": 4.2,
-            "readability": 4.8
+            "overall": 3.3,
+            "novelty": 3.0,
+            "quality": 3.7,
+            "readability": 3.3
           },
           "summary": "Dynamic-weight AMMs (aka Temporal Function Market ",
           "tags": [
@@ -530,10 +530,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.1,
-            "novelty": 5.0,
-            "quality": 4.7,
-            "readability": 4.9
+            "overall": 3.6,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "Networks underpin systems that range from finance ",
           "tags": [
@@ -563,10 +563,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 4.4,
-            "quality": 4.5,
-            "readability": 5.0
+            "overall": 3.8,
+            "novelty": 4.6,
+            "quality": 3.3,
+            "readability": 3.3
           },
           "summary": "In matching markets such as kidney exchanges and f",
           "tags": [
@@ -601,10 +601,10 @@
           "researchField": "宏观",
           "keywords": [],
           "scores": {
-            "overall": 6.1,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.7
+            "overall": 3.4,
+            "novelty": 4.6,
+            "quality": 3.0,
+            "readability": 2.0
           },
           "summary": "Given the challenge of achieving societal welfare ",
           "tags": [
@@ -634,10 +634,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.1,
-            "novelty": 5.0,
-            "quality": 4.3,
-            "readability": 4.9
+            "overall": 3.8,
+            "novelty": 4.6,
+            "quality": 3.0,
+            "readability": 4.0
           },
           "summary": "Artificial intelligence (AI) is advancing exponent",
           "tags": [
@@ -665,10 +665,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.3,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 2.8
           },
           "summary": "Community detection based on modularity maximizati",
           "tags": [
@@ -694,10 +694,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.5,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.3,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "We analyze how frequently instant runoff voting (I",
           "tags": [
@@ -723,10 +723,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.2,
-            "novelty": 4.5,
-            "quality": 4.1,
-            "readability": 4.8
+            "overall": 3.7,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 5.0
           },
           "summary": "This paper develops a general method of inference ",
           "tags": [
@@ -753,10 +753,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 4.5,
-            "quality": 4.4,
-            "readability": 5.0
+            "overall": 3.3,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "We study the $n$-dimensional contest between two a",
           "tags": [
@@ -785,10 +785,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 6.5,
-            "novelty": 5.0,
-            "quality": 4.6,
-            "readability": 5.0
+            "overall": 3.2,
+            "novelty": 3.0,
+            "quality": 3.4,
+            "readability": 3.3
           },
           "summary": "Congestion pricing has emerged as an effective too",
           "tags": [
@@ -815,10 +815,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.4,
-            "novelty": 4.8,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.4,
+            "readability": 4.3
           },
           "summary": "We ask when a normal-form game yields a single equ",
           "tags": [
@@ -856,9 +856,9 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.8,
-            "novelty": 4.5,
-            "quality": 4.5,
+            "overall": 3.6,
+            "novelty": 3.4,
+            "quality": 3.0,
             "readability": 5.0
           },
           "summary": "We generalize the seminal framework of Kyle (1985)",
@@ -887,10 +887,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.8,
-            "novelty": 4.5,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.4,
+            "readability": 4.3
           },
           "summary": "We study an optimal control problem on infinite ti",
           "tags": [
@@ -915,10 +915,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 4.8,
-            "quality": 4.4,
-            "readability": 5.0
+            "overall": 3.6,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "Parametric Portfolio Policies (PPP) estimate optim",
           "tags": [
@@ -947,10 +947,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.5,
-            "novelty": 5.0,
-            "quality": 4.2,
-            "readability": 4.5
+            "overall": 3.7,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 5.0
           },
           "summary": "This paper develops a unified framework that links",
           "tags": [
@@ -978,9 +978,9 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.8,
-            "novelty": 4.2,
-            "quality": 5.0,
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.0,
             "readability": 5.0
           },
           "summary": "We demonstrate market inefficiency in cryptoasset ",
@@ -1010,10 +1010,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.1,
-            "novelty": 4.8,
-            "quality": 4.1,
-            "readability": 4.9
+            "overall": 3.2,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 4.0
           },
           "summary": "We study spillover effects in corporate toxic emis",
           "tags": [
@@ -1038,10 +1038,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.7,
+            "novelty": 3.8,
+            "quality": 3.4,
+            "readability": 4.3
           },
           "summary": "Prediction markets suffer from reduced liquidity a",
           "tags": [
@@ -1073,10 +1073,10 @@
           "researchField": "宏观",
           "keywords": [],
           "scores": {
-            "overall": 6.1,
-            "novelty": 5.0,
-            "quality": 4.0,
-            "readability": 5.0
+            "overall": 3.0,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 2.8
           },
           "summary": "For millennia, human cognition was the primary eng",
           "tags": [
@@ -1106,10 +1106,10 @@
           "researchField": "产业",
           "keywords": [],
           "scores": {
-            "overall": 5.4,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.8
+            "overall": 3.9,
+            "novelty": 4.6,
+            "quality": 3.7,
+            "readability": 2.8
           },
           "summary": "As LLMs become embedded in research workflows and ",
           "tags": [
@@ -1134,10 +1134,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.3,
-            "novelty": 5.0,
-            "quality": 4.2,
-            "readability": 4.9
+            "overall": 4.1,
+            "novelty": 3.8,
+            "quality": 4.3,
+            "readability": 4.3
           },
           "summary": "We develop an empirical Bayes framework for experi",
           "tags": [
@@ -1166,9 +1166,9 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.6,
-            "novelty": 4.9,
-            "quality": 5.0,
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.0,
             "readability": 5.0
           },
           "summary": "We explore stability and fairness considerations i",
@@ -1197,10 +1197,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.6,
-            "novelty": 4.5,
-            "quality": 5.0,
-            "readability": 4.7
+            "overall": 3.3,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 2.8
           },
           "summary": "The long-standing unitary-actor assumption in stra",
           "tags": [
@@ -1227,10 +1227,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.7,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.8
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 5.0
           },
           "summary": "The Vickrey-Clarke-Groves (VCG) mechanism is infam",
           "tags": [
@@ -1257,10 +1257,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.7,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.7
+            "overall": 3.1,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "In practice, auction data are often endogenously c",
           "tags": [
@@ -1293,10 +1293,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.1,
+            "overall": 3.9,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "We study generative modeling for time series using",
           "tags": [
@@ -1324,10 +1324,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 5.0,
-            "quality": 4.0,
-            "readability": 4.8
+            "overall": 3.2,
+            "novelty": 3.4,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "This paper describes a discrete-time model of regu",
           "tags": [
@@ -1358,10 +1358,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.3,
-            "novelty": 4.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.3,
+            "novelty": 3.0,
+            "quality": 3.3,
+            "readability": 4.0
           },
           "summary": "In this paper, we study how class imbalance, typic",
           "tags": [
@@ -1390,10 +1390,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 5.0,
-            "quality": 4.6,
-            "readability": 4.6
+            "overall": 3.4,
+            "novelty": 4.2,
+            "quality": 3.0,
+            "readability": 2.5
           },
           "summary": "Corporate insiders trade for diverse reasons, ofte",
           "tags": [
@@ -1425,10 +1425,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.1,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.6
+            "overall": 3.2,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 4.0
           },
           "summary": "VOLARE (VOLatility Archive for Realized Estimates ",
           "tags": [
@@ -1458,10 +1458,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 5.0,
-            "quality": 4.1,
-            "readability": 5.0
+            "overall": 3.6,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "Market-order flow in financial markets exhibits lo",
           "tags": [
@@ -1487,10 +1487,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 5.0,
-            "quality": 4.3,
-            "readability": 5.0
+            "overall": 3.5,
+            "novelty": 3.4,
+            "quality": 3.6,
+            "readability": 3.3
           },
           "summary": "Concentrated liquidity provision in decentralized ",
           "tags": [
@@ -1519,10 +1519,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.3,
-            "novelty": 5.0,
-            "quality": 4.5,
-            "readability": 5.0
+            "overall": 3.3,
+            "novelty": 3.0,
+            "quality": 3.3,
+            "readability": 4.0
           },
           "summary": "Demographics in Malaysia and Viet Nam are evolving",
           "tags": [
@@ -1548,10 +1548,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.3,
-            "novelty": 4.8,
-            "quality": 4.4,
-            "readability": 5.0
+            "overall": 3.4,
+            "novelty": 3.8,
+            "quality": 3.3,
+            "readability": 2.8
           },
           "summary": "Background. Low earnings are associated with house",
           "tags": [
@@ -1581,10 +1581,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.8,
-            "novelty": 5.0,
-            "quality": 4.4,
-            "readability": 4.8
+            "overall": 3.3,
+            "novelty": 3.8,
+            "quality": 3.3,
+            "readability": 2.5
           },
           "summary": "Purpose. This paper examines the extent to which j",
           "tags": [
@@ -1612,10 +1612,10 @@
           "researchField": "产业",
           "keywords": [],
           "scores": {
-            "overall": 6.3,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.9
+            "overall": 3.6,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "Why do some community-cooperation projects catalys",
           "tags": [
@@ -1642,10 +1642,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.6,
-            "novelty": 5.0,
-            "quality": 4.2,
-            "readability": 4.7
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 5.0
           },
           "summary": "This paper reformulates the Greenwood and Guner (2",
           "tags": [
@@ -1670,10 +1670,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.5,
-            "novelty": 4.7,
-            "quality": 5.0,
-            "readability": 4.7
+            "overall": 3.4,
+            "novelty": 3.4,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "We study the conditions under which technological ",
           "tags": [
@@ -1703,10 +1703,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 4.4,
-            "quality": 4.1,
-            "readability": 5.0
+            "overall": 3.8,
+            "novelty": 5.0,
+            "quality": 3.0,
+            "readability": 3.0
           },
           "summary": "Two-sided platforms must recommend users to users,",
           "tags": [
@@ -1735,10 +1735,10 @@
           "researchField": "其他",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 4.5,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.5,
+            "novelty": 3.8,
+            "quality": 3.6,
+            "readability": 2.8
           },
           "summary": "We introduce Leap+Verify, a framework that applies",
           "tags": [
@@ -1766,10 +1766,10 @@
           "researchField": "行为",
           "keywords": [],
           "scores": {
-            "overall": 6.4,
-            "novelty": 4.1,
-            "quality": 4.5,
-            "readability": 5.0
+            "overall": 3.8,
+            "novelty": 4.2,
+            "quality": 3.4,
+            "readability": 4.0
           },
           "summary": "This paper synthesises the existing research on th",
           "tags": [
@@ -1801,10 +1801,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 4.4,
-            "quality": 4.3,
-            "readability": 5.0
+            "overall": 4.2,
+            "novelty": 4.6,
+            "quality": 4.6,
+            "readability": 2.5
           },
           "summary": "Heterogeneous treatment effects (HTEs) are increas",
           "tags": [
@@ -1836,10 +1836,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.7,
-            "novelty": 5.0,
-            "quality": 4.9,
-            "readability": 5.0
+            "overall": 3.3,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "We study the Gaussian sequence compound decision p",
           "tags": [
@@ -1865,10 +1865,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.8,
-            "novelty": 5.0,
-            "quality": 4.4,
-            "readability": 4.6
+            "overall": 3.3,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 2.8
           },
           "summary": "Sentiment towards the Chinese real estate sector h",
           "tags": [
@@ -1895,10 +1895,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.5,
-            "novelty": 4.9,
-            "quality": 4.8,
-            "readability": 5.0
+            "overall": 3.6,
+            "novelty": 3.8,
+            "quality": 3.9,
+            "readability": 2.8
           },
           "summary": "High-dimensional regression specification and anal",
           "tags": [
@@ -1926,10 +1926,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.1,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 4.1,
+            "novelty": 4.6,
+            "quality": 4.2,
+            "readability": 2.8
           },
           "summary": "We propose a framework for testing the homogeneity",
           "tags": [
@@ -1957,10 +1957,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.6,
-            "novelty": 4.2,
-            "quality": 4.8,
-            "readability": 4.8
+            "overall": 3.7,
+            "novelty": 3.8,
+            "quality": 3.4,
+            "readability": 4.3
           },
           "summary": "This paper presents a Hayashi-Yoshida type estimat",
           "tags": [
@@ -1987,10 +1987,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.3,
-            "novelty": 5.0,
-            "quality": 4.5,
-            "readability": 4.7
+            "overall": 3.7,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 5.0
           },
           "summary": "We show how pre-averaging can be applied to the pr",
           "tags": [
@@ -2018,10 +2018,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.3,
-            "novelty": 4.9,
-            "quality": 4.8,
-            "readability": 4.8
+            "overall": 3.3,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "I prove that competitive market outcomes require c",
           "tags": [
@@ -2046,10 +2046,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.3,
-            "novelty": 4.5,
-            "quality": 5.0,
-            "readability": 4.9
+            "overall": 3.6,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "We study incentive design when multiple principals",
           "tags": [
@@ -2075,10 +2075,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 6.1,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.6
+            "overall": 3.3,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "A principal screens an agent with an arbitrary set",
           "tags": [
@@ -2105,9 +2105,9 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 6.1,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "overall": 3.7,
+            "novelty": 3.8,
+            "quality": 3.0,
             "readability": 5.0
           },
           "summary": "We characterize the identified sets of a wide rang",
@@ -2137,10 +2137,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.7
+            "overall": 3.5,
+            "novelty": 3.4,
+            "quality": 3.3,
+            "readability": 4.3
           },
           "summary": "This paper studies the efficiency of battery stora",
           "tags": [
@@ -2175,10 +2175,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 4.4,
-            "readability": 4.9
+            "overall": 3.5,
+            "novelty": 4.6,
+            "quality": 3.0,
+            "readability": 2.5
           },
           "summary": "This paper documents the work of the Clean Air Tas",
           "tags": [
@@ -2205,10 +2205,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.2,
-            "novelty": 4.1,
-            "quality": 4.8,
-            "readability": 5.0
+            "overall": 3.5,
+            "novelty": 3.0,
+            "quality": 3.6,
+            "readability": 4.3
           },
           "summary": "A growing literature documents how religious insti",
           "tags": [
@@ -2235,10 +2235,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 4.5,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.1,
+            "novelty": 3.0,
+            "quality": 3.4,
+            "readability": 2.8
           },
           "summary": "This paper investigates the extent of political re",
           "tags": [
@@ -2263,10 +2263,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 4.8,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.9,
+            "novelty": 4.2,
+            "quality": 3.3,
+            "readability": 4.3
           },
           "summary": "Robustness checks are routine in empirical work, b",
           "tags": [
@@ -2294,10 +2294,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.1,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.7
+            "overall": 3.7,
+            "novelty": 4.2,
+            "quality": 3.3,
+            "readability": 3.3
           },
           "summary": "Regression discontinuity and kink designs are typi",
           "tags": [
@@ -2324,10 +2324,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.3,
-            "novelty": 4.6,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.3,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "In this paper, we present a realized range-based m",
           "tags": [
@@ -2352,10 +2352,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.6
+            "overall": 3.7,
+            "novelty": 3.8,
+            "quality": 3.3,
+            "readability": 4.3
           },
           "summary": "Distributional effects, characterized by quantile ",
           "tags": [
@@ -2383,10 +2383,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.4,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 4.1,
+            "novelty": 4.6,
+            "quality": 3.6,
+            "readability": 4.3
           },
           "summary": "This paper develops an asymptotic and inferential ",
           "tags": [
@@ -2413,10 +2413,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.4,
-            "novelty": 4.3,
-            "quality": 5.0,
-            "readability": 4.6
+            "overall": 3.7,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 5.0
           },
           "summary": "The BLP model is the workhorse framework in empiri",
           "tags": [
@@ -2450,10 +2450,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.4,
-            "novelty": 4.4,
+            "overall": 3.8,
+            "novelty": 3.0,
             "quality": 5.0,
-            "readability": 5.0
+            "readability": 2.8
           },
           "summary": "This paper investigates whether short-term market ",
           "tags": [
@@ -2484,10 +2484,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.5,
-            "novelty": 4.5,
-            "quality": 4.2,
-            "readability": 5.0
+            "overall": 3.4,
+            "novelty": 3.4,
+            "quality": 3.6,
+            "readability": 3.0
           },
           "summary": "Post-hoc explainability is central to credit risk ",
           "tags": [
@@ -2513,9 +2513,9 @@
           "researchField": "宏观",
           "keywords": [],
           "scores": {
-            "overall": 5.5,
-            "novelty": 4.5,
-            "quality": 5.0,
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.0,
             "readability": 5.0
           },
           "summary": "We quantify the Tariff Laffer Curve for the U.S. u",
@@ -2542,10 +2542,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 4.8,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.3,
+            "novelty": 3.0,
+            "quality": 3.7,
+            "readability": 3.3
           },
           "summary": "This paper investigates systemic risk transmission",
           "tags": [
@@ -2572,10 +2572,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.4,
-            "novelty": 5.0,
-            "quality": 4.4,
-            "readability": 5.0
+            "overall": 3.6,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "We propose a new principal-agent framework where a",
           "tags": [
@@ -2608,10 +2608,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 7.0,
-            "novelty": 4.5,
-            "quality": 4.8,
-            "readability": 5.0
+            "overall": 4.1,
+            "novelty": 4.6,
+            "quality": 4.0,
+            "readability": 3.3
           },
           "summary": "This paper extends our previous work in Chee et al",
           "tags": [
@@ -2640,10 +2640,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.7,
-            "novelty": 4.6,
-            "quality": 4.6,
-            "readability": 5.0
+            "overall": 4.1,
+            "novelty": 5.0,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "Recent advances in continuous-time optimal stoppin",
           "tags": [
@@ -2669,9 +2669,9 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.6,
-            "novelty": 4.1,
-            "quality": 4.9,
+            "overall": 3.7,
+            "novelty": 3.8,
+            "quality": 3.0,
             "readability": 5.0
           },
           "summary": "We study the Merton portfolio management problem w",
@@ -2700,10 +2700,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 5.0,
-            "quality": 4.1,
-            "readability": 4.7
+            "overall": 3.5,
+            "novelty": 4.2,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "Reliable real estate price indicators are typicall",
           "tags": [
@@ -2729,10 +2729,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 4.5,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.5,
+            "novelty": 4.2,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "Understanding how the composition of guest origin ",
           "tags": [
@@ -2759,10 +2759,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 4.7,
-            "readability": 4.7
+            "overall": 3.7,
+            "novelty": 3.8,
+            "quality": 3.3,
+            "readability": 4.3
           },
           "summary": "This paper develops a House Price-at-Risk framewor",
           "tags": [
@@ -2792,9 +2792,9 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.0,
             "readability": 5.0
           },
           "summary": "We prove that computing an $ε$-approximate Nash eq",
@@ -2823,10 +2823,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 6.5,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.5
+            "overall": 3.6,
+            "novelty": 4.6,
+            "quality": 3.0,
+            "readability": 2.8
           },
           "summary": "We study prior-independent pricing for selling a s",
           "tags": [
@@ -2858,10 +2858,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 5.0,
-            "quality": 4.6,
-            "readability": 5.0
+            "overall": 3.4,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "Traditional models of market efficiency assume tha",
           "tags": [
@@ -2890,10 +2890,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 5.0,
-            "quality": 4.3,
-            "readability": 4.6
+            "overall": 3.7,
+            "novelty": 4.2,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "In this paper, we analyse the impacts of exogenous",
           "tags": [
@@ -2919,10 +2919,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.4,
+            "overall": 3.7,
             "novelty": 4.2,
-            "quality": 5.0,
-            "readability": 4.8
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "We explore local risk-minimization, a quadratic he",
           "tags": [
@@ -2952,10 +2952,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.7
+            "overall": 3.2,
+            "novelty": 3.0,
+            "quality": 3.6,
+            "readability": 3.0
           },
           "summary": "Portfolio Management is the process of overseeing ",
           "tags": [
@@ -2983,10 +2983,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.4,
-            "novelty": 5.0,
-            "quality": 4.5,
-            "readability": 5.0
+            "overall": 3.5,
+            "novelty": 3.4,
+            "quality": 3.6,
+            "readability": 3.3
           },
           "summary": "This study establishes the causal effects of marke",
           "tags": [
@@ -3017,10 +3017,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.1,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.6
+            "overall": 3.6,
+            "novelty": 4.2,
+            "quality": 3.3,
+            "readability": 3.0
           },
           "summary": "Background: Many workers with disabilities face ne",
           "tags": [
@@ -3047,10 +3047,10 @@
           "researchField": "行为",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 4.8,
-            "quality": 4.6,
-            "readability": 4.5
+            "overall": 3.9,
+            "novelty": 4.2,
+            "quality": 3.0,
+            "readability": 5.0
           },
           "summary": "We test whether lying aversion can steer equilibri",
           "tags": [
@@ -3083,10 +3083,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.6,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.8
+            "overall": 3.6,
+            "novelty": 3.4,
+            "quality": 4.3,
+            "readability": 2.8
           },
           "summary": "Efficient estimation of causal and structural para",
           "tags": [
@@ -3116,10 +3116,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.3,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.9
+            "overall": 3.6,
+            "novelty": 3.0,
+            "quality": 3.4,
+            "readability": 5.0
           },
           "summary": "Generative modeling builds on and substantially ad",
           "tags": [
@@ -3146,10 +3146,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 4.0,
-            "quality": 4.2,
-            "readability": 5.0
+            "overall": 3.2,
+            "novelty": 3.4,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "We study independent private values auction enviro",
           "tags": [
@@ -3179,10 +3179,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 6.6,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.8,
+            "novelty": 4.2,
+            "quality": 3.6,
+            "readability": 3.3
           },
           "summary": "Dynamic decision-making under model uncertainty is",
           "tags": [
@@ -3219,10 +3219,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.1,
-            "novelty": 5.0,
-            "quality": 4.3,
-            "readability": 4.6
+            "overall": 3.0,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 3.0
           },
           "summary": "We study Stackelberg Equilibria (Bowley optima) in",
           "tags": [
@@ -3249,10 +3249,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 4.6,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.4,
+            "readability": 4.3
           },
           "summary": "Calibration to a surface of option prices requires",
           "tags": [
@@ -3278,10 +3278,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.7
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 5.0
           },
           "summary": "We study entropy-regularized mean-variance portfol",
           "tags": [
@@ -3306,9 +3306,9 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.3,
-            "novelty": 4.5,
-            "quality": 4.2,
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.0,
             "readability": 5.0
           },
           "summary": "Caratheodory's axiom of adiabatic inaccessibility ",
@@ -3336,10 +3336,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 4.8,
-            "readability": 5.0
+            "overall": 3.6,
+            "novelty": 4.2,
+            "quality": 3.3,
+            "readability": 2.8
           },
           "summary": "Money-back guarantees (MBGs) are features of poole",
           "tags": [
@@ -3368,10 +3368,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 4.3,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.4,
+            "novelty": 3.4,
+            "quality": 3.4,
+            "readability": 3.3
           },
           "summary": "Modern financial networks are highly connected and",
           "tags": [
@@ -3399,10 +3399,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.6,
+            "novelty": 4.2,
+            "quality": 3.3,
+            "readability": 3.0
           },
           "summary": "The share of construction trade jobs held by women",
           "tags": [
@@ -3431,10 +3431,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.2,
-            "novelty": 4.0,
-            "quality": 5.0,
-            "readability": 4.8
+            "overall": 3.0,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 3.0
           },
           "summary": "This paper studies the Model Selection Confidence ",
           "tags": [
@@ -3461,9 +3461,9 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.8,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "overall": 3.8,
+            "novelty": 3.8,
+            "quality": 3.3,
             "readability": 5.0
           },
           "summary": "We study inference for linear quantile regression ",
@@ -3494,10 +3494,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.5,
+            "overall": 3.9,
             "novelty": 5.0,
-            "quality": 4.5,
-            "readability": 5.0
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "In empirical research, when we have multiple estim",
           "tags": [
@@ -3524,9 +3524,9 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 4.2,
-            "quality": 5.0,
+            "overall": 3.6,
+            "novelty": 3.0,
+            "quality": 3.4,
             "readability": 5.0
           },
           "summary": "We study a model of auction design where a seller ",
@@ -3562,9 +3562,9 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 4.4,
-            "quality": 5.0,
+            "overall": 4.8,
+            "novelty": 5.0,
+            "quality": 4.6,
             "readability": 5.0
           },
           "summary": "The chain-ladder (CL) method is the most widely us",
@@ -3595,10 +3595,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.8,
-            "novelty": 4.6,
-            "quality": 5.0,
-            "readability": 4.7
+            "overall": 3.4,
+            "novelty": 3.4,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "We analyze numerically the performance of Quantum ",
           "tags": [
@@ -3624,10 +3624,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.1,
-            "novelty": 4.0,
-            "quality": 4.4,
-            "readability": 4.8
+            "overall": 3.3,
+            "novelty": 3.4,
+            "quality": 3.3,
+            "readability": 3.3
           },
           "summary": "Task-based models of AI and labor hold organizatio",
           "tags": [
@@ -3654,10 +3654,10 @@
           "researchField": "其他",
           "keywords": [],
           "scores": {
-            "overall": 5.2,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.8
+            "overall": 3.7,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 5.0
           },
           "summary": "This article provides an overview of the history o",
           "tags": [
@@ -3682,9 +3682,9 @@
           "researchField": "其他",
           "keywords": [],
           "scores": {
-            "overall": 5.8,
-            "novelty": 5.0,
-            "quality": 4.8,
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.0,
             "readability": 5.0
           },
           "summary": "This paper presents a longitudinal open dataset of",
@@ -3714,10 +3714,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.4,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.6
+            "overall": 3.6,
+            "novelty": 4.2,
+            "quality": 3.4,
+            "readability": 3.0
           },
           "summary": "Nonconvexities in markets with discrete decisions ",
           "tags": [
@@ -3744,9 +3744,9 @@
           "researchField": "其他",
           "keywords": [],
           "scores": {
-            "overall": 5.8,
-            "novelty": 5.0,
-            "quality": 4.4,
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.0,
             "readability": 5.0
           },
           "summary": "This paper's objective is pedagogical and interpre",
@@ -3783,10 +3783,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.8,
-            "novelty": 4.5,
-            "quality": 4.2,
-            "readability": 4.9
+            "overall": 3.0,
+            "novelty": 3.4,
+            "quality": 3.0,
+            "readability": 2.0
           },
           "summary": "In June 2026, the UK government will set its carbo",
           "tags": [
@@ -3818,10 +3818,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 4.6,
-            "readability": 5.0
+            "overall": 3.6,
+            "novelty": 4.6,
+            "quality": 3.0,
+            "readability": 2.8
           },
           "summary": "Estimating population quantities such as mean outc",
           "tags": [
@@ -3851,10 +3851,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 5.0,
-            "quality": 4.8,
-            "readability": 5.0
+            "overall": 3.6,
+            "novelty": 3.8,
+            "quality": 3.6,
+            "readability": 3.3
           },
           "summary": "Reproducibility is central to research credibility",
           "tags": [
@@ -3883,10 +3883,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 4.5,
-            "quality": 5.0,
-            "readability": 4.5
+            "overall": 3.3,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 3.0
           },
           "summary": "Understanding the causal effects of text on downst",
           "tags": [
@@ -3913,10 +3913,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.5,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.5,
+            "novelty": 3.8,
+            "quality": 3.3,
+            "readability": 3.3
           },
           "summary": "The empirical literature on the relationship betwe",
           "tags": [
@@ -3945,10 +3945,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.6,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.9
+            "overall": 3.0,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 2.8
           },
           "summary": "This article investigates the causal antecedents o",
           "tags": [
@@ -3977,10 +3977,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 4.1,
-            "quality": 5.0,
-            "readability": 4.8
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.9,
+            "readability": 3.3
           },
           "summary": "Adaptive randomized experiments update treatment p",
           "tags": [
@@ -4015,10 +4015,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.2,
+            "overall": 3.8,
             "novelty": 4.6,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 3.3,
+            "readability": 3.0
           },
           "summary": "Accurately measuring consumer emotions and evaluat",
           "tags": [
@@ -4044,10 +4044,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.7,
-            "novelty": 4.6,
-            "quality": 4.6,
-            "readability": 4.9
+            "overall": 4.2,
+            "novelty": 5.0,
+            "quality": 3.4,
+            "readability": 4.3
           },
           "summary": "This paper develops a novel nonparametric signific",
           "tags": [
@@ -4074,10 +4074,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 4.8,
-            "quality": 4.6,
-            "readability": 4.6
+            "overall": 3.3,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "We demonstrate that a ubiquitous feature of networ",
           "tags": [
@@ -4104,9 +4104,9 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.5,
-            "novelty": 4.8,
-            "quality": 5.0,
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.0,
             "readability": 5.0
           },
           "summary": "We study convergence rates of random-order best-re",
@@ -4135,10 +4135,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 6.5,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.8
+            "overall": 3.7,
+            "novelty": 4.6,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "Complex change is often described as \"evolutionary",
           "tags": [
@@ -4169,10 +4169,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.8,
-            "novelty": 5.0,
-            "quality": 4.0,
-            "readability": 4.8
+            "overall": 3.0,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 3.0
           },
           "summary": "Minimizing volatility and adjustment costs is of c",
           "tags": [
@@ -4200,9 +4200,9 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.5,
-            "novelty": 4.9,
-            "quality": 5.0,
+            "overall": 3.7,
+            "novelty": 3.8,
+            "quality": 3.0,
             "readability": 5.0
           },
           "summary": "We propose a tractable unified framework to study ",
@@ -4236,10 +4236,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.8,
-            "novelty": 4.9,
-            "quality": 4.9,
-            "readability": 4.7
+            "overall": 3.4,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "This paper investigates the impact of the Shanghai",
           "tags": [
@@ -4270,9 +4270,9 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.4,
-            "novelty": 4.9,
-            "quality": 5.0,
+            "overall": 4.0,
+            "novelty": 3.8,
+            "quality": 3.6,
             "readability": 5.0
           },
           "summary": "Invoice or payment dilution is the gap between the",
@@ -4301,10 +4301,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 4.3,
-            "quality": 4.2,
-            "readability": 5.0
+            "overall": 3.6,
+            "novelty": 3.4,
+            "quality": 3.4,
+            "readability": 4.3
           },
           "summary": "We generalize classical results on the existence o",
           "tags": [
@@ -4330,9 +4330,9 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.5,
-            "novelty": 5.0,
-            "quality": 4.7,
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.0,
             "readability": 5.0
           },
           "summary": "The paper treats the financial market as a communi",
@@ -4362,10 +4362,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.7
+            "overall": 3.5,
+            "novelty": 3.8,
+            "quality": 3.4,
+            "readability": 3.3
           },
           "summary": "Portfolio optimization under strict cardinality co",
           "tags": [
@@ -4394,10 +4394,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.6,
-            "novelty": 4.4,
-            "quality": 4.0,
-            "readability": 4.7
+            "overall": 3.7,
+            "novelty": 4.6,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "This paper investigates the impact of environmenta",
           "tags": [
@@ -4428,10 +4428,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.5,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.6
+            "overall": 3.2,
+            "novelty": 3.0,
+            "quality": 3.4,
+            "readability": 3.0
           },
           "summary": "Autodeleveraging (ADL) is a last-resort loss socia",
           "tags": [
@@ -4460,10 +4460,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.7,
-            "novelty": 4.8,
-            "quality": 5.0,
-            "readability": 4.7
+            "overall": 3.1,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "Quasi Monte Carlo (QMC) and Global Sensitivity Ana",
           "tags": [
@@ -4491,10 +4491,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.7
+            "overall": 3.4,
+            "novelty": 3.4,
+            "quality": 3.0,
+            "readability": 4.0
           },
           "summary": "We study the dynamics of token launched on Pump.fu",
           "tags": [
@@ -4528,10 +4528,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 5.0,
-            "quality": 4.0,
-            "readability": 5.0
+            "overall": 3.8,
+            "novelty": 4.6,
+            "quality": 3.3,
+            "readability": 3.0
           },
           "summary": "Formulaic alpha factor mining is a critical yet ch",
           "tags": [
@@ -4558,10 +4558,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.1,
-            "novelty": 5.0,
-            "quality": 4.2,
-            "readability": 4.9
+            "overall": 3.1,
+            "novelty": 3.4,
+            "quality": 3.0,
+            "readability": 2.8
           },
           "summary": "This paper examines the effects of the 2019 univer",
           "tags": [
@@ -4588,10 +4588,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.8,
-            "novelty": 4.4,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.7,
+            "novelty": 3.8,
+            "quality": 3.3,
+            "readability": 4.3
           },
           "summary": "We evaluate how well state-dependent local project",
           "tags": [
@@ -4622,10 +4622,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.8,
-            "novelty": 4.1,
-            "quality": 4.5,
-            "readability": 5.0
+            "overall": 3.3,
+            "novelty": 3.0,
+            "quality": 3.3,
+            "readability": 4.0
           },
           "summary": "Sensitivity analysis is widely used to assess the ",
           "tags": [
@@ -4653,10 +4653,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 6.4,
-            "novelty": 4.9,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.5,
+            "novelty": 4.2,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "We study how a decision-maker (DM) learns from dat",
           "tags": [
@@ -4686,10 +4686,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.6,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.2,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 4.0
           },
           "summary": "A central problem in multiagent systems is the fai",
           "tags": [
@@ -4717,10 +4717,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.6,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.5,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 4.0
           },
           "summary": "In mainstream neoclassical economics, utility maxi",
           "tags": [
@@ -4756,9 +4756,9 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "overall": 3.7,
+            "novelty": 3.8,
+            "quality": 3.0,
             "readability": 5.0
           },
           "summary": "We develop a practical framework for identifying a",
@@ -4788,10 +4788,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.6,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.5,
+            "novelty": 4.2,
+            "quality": 3.0,
+            "readability": 3.0
           },
           "summary": "We propose a peer-to-peer (P2P) insurance scheme c",
           "tags": [
@@ -4816,10 +4816,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 4.5,
-            "quality": 4.5,
-            "readability": 5.0
+            "overall": 3.3,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 2.8
           },
           "summary": "In many consumer electronics and appliance markets",
           "tags": [
@@ -4853,10 +4853,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.5,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.7,
+            "novelty": 4.2,
+            "quality": 3.0,
+            "readability": 4.0
           },
           "summary": "We develop a decision-theoretic model of human-AI ",
           "tags": [
@@ -4882,10 +4882,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.8,
-            "novelty": 4.5,
-            "quality": 4.2,
-            "readability": 4.8
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 5.0
           },
           "summary": "This brief note clarifies that the scenario descri",
           "tags": [
@@ -4920,10 +4920,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 4.5,
-            "quality": 4.6,
-            "readability": 5.0
+            "overall": 3.5,
+            "novelty": 4.6,
+            "quality": 3.0,
+            "readability": 2.5
           },
           "summary": "The classical Merton investment problem predicts d",
           "tags": [
@@ -4952,10 +4952,10 @@
           "researchField": "其他",
           "keywords": [],
           "scores": {
-            "overall": 5.4,
-            "novelty": 4.3,
-            "quality": 4.5,
-            "readability": 5.0
+            "overall": 4.1,
+            "novelty": 4.6,
+            "quality": 3.9,
+            "readability": 3.3
           },
           "summary": "Travel time prediction is central to transport geo",
           "tags": [
@@ -4981,10 +4981,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.6,
-            "novelty": 5.0,
-            "quality": 4.1,
-            "readability": 4.9
+            "overall": 3.7,
+            "novelty": 4.2,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "This paper studies bargaining when buyers can cont",
           "tags": [
@@ -5014,10 +5014,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 5.0,
-            "quality": 4.8,
-            "readability": 4.7
+            "overall": 3.5,
+            "novelty": 4.2,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "Forecasting presents a complex estimation challeng",
           "tags": [
@@ -5045,10 +5045,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.7,
-            "novelty": 4.8,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 4.2,
+            "novelty": 4.6,
+            "quality": 3.9,
+            "readability": 4.0
           },
           "summary": "This paper studies inference for quadratic forms o",
           "tags": [
@@ -5076,10 +5076,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.3,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.1,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "Among two-candidate elections that treat the candi",
           "tags": [
@@ -5105,10 +5105,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 6.3,
-            "novelty": 4.8,
-            "quality": 4.0,
-            "readability": 4.9
+            "overall": 3.3,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "Appropriate decisions depend on information gather",
           "tags": [
@@ -5133,10 +5133,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.2,
+            "novelty": 3.4,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "When multiple informative equilibria are possible ",
           "tags": [
@@ -5172,10 +5172,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 4.8,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 4.1,
+            "novelty": 4.6,
+            "quality": 3.4,
+            "readability": 4.3
           },
           "summary": "Valuing corporate bonds in systemic economies is c",
           "tags": [
@@ -5207,10 +5207,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 5.0,
-            "quality": 4.4,
-            "readability": 4.7
+            "overall": 3.9,
+            "novelty": 4.2,
+            "quality": 3.6,
+            "readability": 4.0
           },
           "summary": "Conditional Value-at-Risk (CoVaR) quantifies syste",
           "tags": [
@@ -5237,10 +5237,10 @@
           "researchField": "环境",
           "keywords": [],
           "scores": {
-            "overall": 5.3,
-            "novelty": 4.9,
-            "quality": 4.1,
-            "readability": 4.8
+            "overall": 3.7,
+            "novelty": 4.2,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "Collective decision-making can be viewed as the pr",
           "tags": [
@@ -5268,10 +5268,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 4.8,
-            "readability": 4.7
+            "overall": 3.5,
+            "novelty": 4.2,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "Generative AI is directional: it performs well in ",
           "tags": [
@@ -5298,10 +5298,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 4.9,
-            "quality": 4.3,
-            "readability": 5.0
+            "overall": 3.4,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "Data on marriage flows are not available in most d",
           "tags": [
@@ -5328,9 +5328,9 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.6,
-            "novelty": 4.1,
-            "quality": 4.8,
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.0,
             "readability": 5.0
           },
           "summary": "Using a representative survey of Korean workers, w",
@@ -5357,10 +5357,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.5,
-            "novelty": 4.1,
-            "quality": 5.0,
-            "readability": 4.6
+            "overall": 4.1,
+            "novelty": 4.6,
+            "quality": 3.9,
+            "readability": 3.3
           },
           "summary": "When estimating treatment effects with two-way fix",
           "tags": [
@@ -5390,10 +5390,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.4,
-            "novelty": 4.9,
-            "quality": 4.1,
-            "readability": 4.9
+            "overall": 3.0,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 2.8
           },
           "summary": "Algorithms for computing equilibria, optima, and f",
           "tags": [
@@ -5420,10 +5420,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 4.4,
-            "quality": 4.7,
-            "readability": 5.0
+            "overall": 3.1,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "While ex-ante screening and static price caps are ",
           "tags": [
@@ -5448,10 +5448,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.2,
-            "novelty": 4.8,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.7,
+            "novelty": 3.8,
+            "quality": 3.3,
+            "readability": 4.3
           },
           "summary": "Standard instrumental variables (IV) methods ident",
           "tags": [
@@ -5480,10 +5480,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.6,
-            "novelty": 4.5,
-            "quality": 4.2,
-            "readability": 4.5
+            "overall": 3.7,
+            "novelty": 4.2,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "A defining feature of digital goods is that replic",
           "tags": [
@@ -5511,10 +5511,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 6.1,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.8
+            "overall": 3.6,
+            "novelty": 4.2,
+            "quality": 3.4,
+            "readability": 2.8
           },
           "summary": "State delegations are often chosen through single-",
           "tags": [
@@ -5540,9 +5540,9 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.0,
             "readability": 5.0
           },
           "summary": "Consider a network game with linear best responses",
@@ -5572,10 +5572,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.7,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.7
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 5.0
           },
           "summary": "We study agents playing a pure coordination game o",
           "tags": [
@@ -5607,10 +5607,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.4,
-            "novelty": 4.0,
-            "quality": 4.3,
-            "readability": 4.6
+            "overall": 3.3,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "The aim of this article is to provide the solution",
           "tags": [
@@ -5638,10 +5638,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.5,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.7
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.3,
+            "readability": 4.3
           },
           "summary": "Liquidation of collateral are the primary safeguar",
           "tags": [
@@ -5671,10 +5671,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.4,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.7
+            "overall": 3.8,
+            "novelty": 3.8,
+            "quality": 3.6,
+            "readability": 4.0
           },
           "summary": "In finance, sequential decision problems are often",
           "tags": [
@@ -5699,10 +5699,10 @@
           "researchField": "环境",
           "keywords": [],
           "scores": {
-            "overall": 5.3,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.6
+            "overall": 3.3,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "This paper asks whether regulatory monitoring exhi",
           "tags": [
@@ -5729,10 +5729,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.2,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.6
+            "overall": 3.3,
+            "novelty": 3.0,
+            "quality": 3.7,
+            "readability": 3.3
           },
           "summary": "Price controls kill the incentive for arbitrage. W",
           "tags": [
@@ -5759,9 +5759,9 @@
           "researchField": "劳动",
           "keywords": [],
           "scores": {
-            "overall": 6.1,
-            "novelty": 4.1,
-            "quality": 4.6,
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.0,
             "readability": 5.0
           },
           "summary": "We conduct a pre-registered randomized controlled ",
@@ -5793,10 +5793,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.3,
-            "novelty": 5.0,
-            "quality": 4.8,
-            "readability": 5.0
+            "overall": 3.8,
+            "novelty": 4.2,
+            "quality": 3.3,
+            "readability": 4.0
           },
           "summary": "Obtaining reliable inferences with traditional dif",
           "tags": [
@@ -5824,10 +5824,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.4,
-            "novelty": 4.2,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.1,
+            "novelty": 3.0,
+            "quality": 3.4,
+            "readability": 2.8
           },
           "summary": "Applied work with interference typically models ou",
           "tags": [
@@ -5857,10 +5857,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.7,
-            "novelty": 4.2,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.6,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "Copyright law focuses on whether a new work is \"su",
           "tags": [
@@ -5891,10 +5891,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 6.5,
-            "novelty": 5.0,
-            "quality": 4.2,
-            "readability": 5.0
+            "overall": 3.6,
+            "novelty": 4.6,
+            "quality": 3.0,
+            "readability": 3.0
           },
           "summary": "Two-sided matching markets rely on preferences fro",
           "tags": [
@@ -5921,10 +5921,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 4.7,
-            "readability": 4.9
+            "overall": 3.6,
+            "novelty": 3.0,
+            "quality": 3.4,
+            "readability": 5.0
           },
           "summary": "We analyze strategic communication when advice is ",
           "tags": [
@@ -5949,10 +5949,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.7,
-            "novelty": 4.7,
-            "quality": 5.0,
-            "readability": 4.8
+            "overall": 3.6,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "Assessing an individual's contribution within a te",
           "tags": [
@@ -5982,10 +5982,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.6,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.6
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 5.0
           },
           "summary": "We present a collaboration ring model -- a network",
           "tags": [
@@ -6020,10 +6020,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.6,
+            "novelty": 4.6,
+            "quality": 3.0,
+            "readability": 2.8
           },
           "summary": "This study introduces a novel approach to walk-for",
           "tags": [
@@ -6056,10 +6056,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 4.9,
-            "readability": 5.0
+            "overall": 2.9,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 2.5
           },
           "summary": "Micro-structural models of contagion and systemic ",
           "tags": [
@@ -6085,10 +6085,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.8,
-            "novelty": 5.0,
-            "quality": 4.5,
-            "readability": 5.0
+            "overall": 3.3,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "We study same-source multi-view learning and adver",
           "tags": [
@@ -6117,10 +6117,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.6,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.9
+            "overall": 3.7,
+            "novelty": 4.2,
+            "quality": 3.3,
+            "readability": 3.3
           },
           "summary": "We develop a mixed control framework that combines",
           "tags": [
@@ -6147,10 +6147,10 @@
           "researchField": "环境",
           "keywords": [],
           "scores": {
-            "overall": 5.4,
-            "novelty": 5.0,
-            "quality": 4.5,
-            "readability": 5.0
+            "overall": 3.1,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "Urban parks play a vital role in delivering variou",
           "tags": [
@@ -6180,10 +6180,10 @@
           "researchField": "宏观",
           "keywords": [],
           "scores": {
-            "overall": 6.8,
+            "overall": 3.9,
             "novelty": 5.0,
-            "quality": 4.2,
-            "readability": 5.0
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "Combining forecasts from multiple experts often yi",
           "tags": [
@@ -6209,10 +6209,10 @@
           "researchField": "宏观",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 4.5,
-            "quality": 4.9,
-            "readability": 5.0
+            "overall": 3.3,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "It is well established that the US prewar output w",
           "tags": [
@@ -6239,10 +6239,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.8,
-            "novelty": 4.8,
-            "quality": 4.1,
-            "readability": 5.0
+            "overall": 4.3,
+            "novelty": 4.6,
+            "quality": 4.0,
+            "readability": 4.3
           },
           "summary": "This paper develops an asymptotic theory for two-s",
           "tags": [
@@ -6274,10 +6274,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.7,
-            "novelty": 4.4,
-            "quality": 4.4,
-            "readability": 5.0
+            "overall": 3.2,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 4.0
           },
           "summary": "Finding, counting, or determining the existence of",
           "tags": [
@@ -6302,10 +6302,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 4.7,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.1,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "A principal delegates choice to an agent whose dec",
           "tags": [
@@ -6333,9 +6333,9 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.4,
-            "novelty": 4.6,
-            "quality": 4.0,
+            "overall": 3.6,
+            "novelty": 3.4,
+            "quality": 3.0,
             "readability": 5.0
           },
           "summary": "We study identification in models of aggregate cho",
@@ -6366,10 +6366,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.8,
+            "overall": 3.5,
             "novelty": 4.2,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 3.3,
+            "readability": 2.5
           },
           "summary": "In a typical school choice application, the studen",
           "tags": [
@@ -6405,10 +6405,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.4,
+            "novelty": 3.4,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "This research explores how human-defined goals inf",
           "tags": [
@@ -6434,10 +6434,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.1,
+            "overall": 4.1,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.6
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "We introduce a new class of automated market maker",
           "tags": [
@@ -6464,10 +6464,10 @@
           "researchField": "理论",
           "keywords": [],
           "scores": {
-            "overall": 5.7,
-            "novelty": 4.4,
-            "quality": 5.0,
-            "readability": 4.8
+            "overall": 3.1,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "We study a monopolistic insurance market with hidd",
           "tags": [
@@ -6500,10 +6500,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 5.0,
-            "quality": 4.9,
-            "readability": 5.0
+            "overall": 3.3,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 3.0
           },
           "summary": "The rapid advancement of Large Language Models (LL",
           "tags": [
@@ -6539,10 +6539,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 4.9,
-            "quality": 5.0,
-            "readability": 4.8
+            "overall": 3.2,
+            "novelty": 3.4,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "The bounded mean betting procedure serves as a cru",
           "tags": [
@@ -6569,10 +6569,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 5.0,
-            "quality": 4.5,
-            "readability": 4.8
+            "overall": 3.1,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "We revisit the classical Merton consumption--inves",
           "tags": [
@@ -6599,10 +6599,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 4.2,
-            "quality": 4.4,
-            "readability": 4.6
+            "overall": 3.4,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "Asset Liability Management (ALM) represents a fund",
           "tags": [
@@ -6630,10 +6630,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.3,
+            "overall": 4.3,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.7
+            "quality": 4.0,
+            "readability": 3.3
           },
           "summary": "Modeling time series with long- or short-memory ch",
           "tags": [
@@ -6671,10 +6671,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.3,
-            "novelty": 4.4,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.7,
+            "novelty": 4.2,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "We study the estimation of repeatedly nested expec",
           "tags": [
@@ -6702,10 +6702,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.8
+            "overall": 3.7,
+            "novelty": 4.6,
+            "quality": 3.4,
+            "readability": 2.5
           },
           "summary": "This paper addresses a key challenge in CDO modeli",
           "tags": [
@@ -6732,10 +6732,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 4.2,
-            "quality": 4.4,
-            "readability": 4.7
+            "overall": 3.9,
+            "novelty": 3.8,
+            "quality": 3.4,
+            "readability": 5.0
           },
           "summary": "This study provides a novel perspective on the met",
           "tags": [
@@ -6773,10 +6773,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.1,
-            "novelty": 4.4,
-            "quality": 4.0,
-            "readability": 5.0
+            "overall": 3.5,
+            "novelty": 4.2,
+            "quality": 3.0,
+            "readability": 3.0
           },
           "summary": "Genetic Programming yields interpretable programs,",
           "tags": [
@@ -6812,10 +6812,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.1,
-            "novelty": 4.5,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.9,
+            "novelty": 5.0,
+            "quality": 3.4,
+            "readability": 2.8
           },
           "summary": "Multivariate shortfall risk measures provide a pri",
           "tags": [
@@ -6844,10 +6844,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.1,
-            "novelty": 5.0,
-            "quality": 4.3,
-            "readability": 5.0
+            "overall": 3.9,
+            "novelty": 4.6,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "This study proposes a linear-rational joint surviv",
           "tags": [
@@ -6874,10 +6874,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.3,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.9,
+            "novelty": 4.6,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "This study introduces a new analytical framework f",
           "tags": [
@@ -6907,10 +6907,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.0,
-            "novelty": 4.9,
-            "quality": 4.9,
-            "readability": 4.7
+            "overall": 3.5,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 4.0
           },
           "summary": "Reliable financial reasoning requires knowing not ",
           "tags": [
@@ -6960,10 +6960,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 4.1,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.3,
+            "novelty": 4.2,
+            "quality": 3.0,
+            "readability": 2.0
           },
           "summary": "Financial markets are noisy and non-stationary, ma",
           "tags": [
@@ -6998,10 +6998,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.4,
-            "novelty": 5.0,
-            "quality": 4.8,
-            "readability": 4.6
+            "overall": 3.6,
+            "novelty": 3.4,
+            "quality": 3.4,
+            "readability": 4.3
           },
           "summary": "We establish a universal approximation theorem for",
           "tags": [
@@ -7027,10 +7027,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.3,
-            "novelty": 5.0,
-            "quality": 4.1,
-            "readability": 4.6
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 5.0
           },
           "summary": "The skew stickiness ratio is a statistic that capt",
           "tags": [
@@ -7056,10 +7056,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.5,
-            "novelty": 5.0,
-            "quality": 4.6,
-            "readability": 5.0
+            "overall": 3.5,
+            "novelty": 3.4,
+            "quality": 3.3,
+            "readability": 4.3
           },
           "summary": "I construct a Market Stress Probability Index (MSP",
           "tags": [
@@ -7089,9 +7089,9 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 4.2,
-            "quality": 5.0,
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.0,
             "readability": 5.0
           },
           "summary": "This paper studies decentralized risk-sharing on n",
@@ -7118,10 +7118,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.7,
-            "novelty": 5.0,
-            "quality": 4.5,
-            "readability": 5.0
+            "overall": 3.3,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "This paper examines whether SEC Form 4 insider pur",
           "tags": [
@@ -7165,10 +7165,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.6,
-            "novelty": 4.9,
-            "quality": 4.9,
-            "readability": 5.0
+            "overall": 3.4,
+            "novelty": 4.2,
+            "quality": 3.0,
+            "readability": 2.5
           },
           "summary": "Mention markets, a type of prediction market in wh",
           "tags": [
@@ -7197,10 +7197,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.5,
-            "novelty": 5.0,
-            "quality": 4.6,
-            "readability": 5.0
+            "overall": 3.2,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 4.0
           },
           "summary": "In the streaming era, music revenues distributed t",
           "tags": [
@@ -7228,10 +7228,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.5,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.3,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 2.8
           },
           "summary": "This paper investigates the robust optimal control",
           "tags": [
@@ -7266,10 +7266,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.7,
-            "novelty": 4.4,
-            "quality": 4.4,
-            "readability": 5.0
+            "overall": 3.5,
+            "novelty": 4.6,
+            "quality": 3.0,
+            "readability": 2.5
           },
           "summary": "Prediction markets provide a unique setting where ",
           "tags": [
@@ -7297,10 +7297,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.4,
-            "novelty": 4.3,
-            "quality": 4.3,
-            "readability": 4.6
+            "overall": 3.1,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "We investigate whether cryptocurrency markets diff",
           "tags": [
@@ -7341,10 +7341,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.1,
-            "novelty": 4.0,
-            "quality": 4.9,
-            "readability": 5.0
+            "overall": 3.9,
+            "novelty": 5.0,
+            "quality": 3.4,
+            "readability": 2.5
           },
           "summary": "This paper explores advancements in quantum algori",
           "tags": [
@@ -7375,10 +7375,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.7,
-            "novelty": 4.6,
-            "quality": 4.5,
-            "readability": 5.0
+            "overall": 3.4,
+            "novelty": 3.4,
+            "quality": 3.4,
+            "readability": 3.3
           },
           "summary": "We establish dual attainment for the multimarginal",
           "tags": [
@@ -7410,10 +7410,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.7,
-            "novelty": 5.0,
-            "quality": 4.9,
-            "readability": 5.0
+            "overall": 4.0,
+            "novelty": 4.6,
+            "quality": 4.0,
+            "readability": 2.8
           },
           "summary": "This paper proposes a machine learning-based frame",
           "tags": [
@@ -7439,10 +7439,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.7,
+            "novelty": 4.2,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "Risk forecasts drive trading constraints and capit",
           "tags": [
@@ -7477,10 +7477,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.4,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.9
+            "overall": 3.6,
+            "novelty": 3.8,
+            "quality": 3.9,
+            "readability": 2.8
           },
           "summary": "This paper evaluates the causal impact of Generati",
           "tags": [
@@ -7509,10 +7509,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.6,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.3,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 2.8
           },
           "summary": "The decision to annuitize wealth in retirement pla",
           "tags": [
@@ -7545,10 +7545,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.8,
-            "novelty": 5.0,
-            "quality": 4.1,
-            "readability": 4.7
+            "overall": 3.9,
+            "novelty": 4.2,
+            "quality": 3.0,
+            "readability": 5.0
           },
           "summary": "Finding similar bonds remains challenging in fixed",
           "tags": [
@@ -7579,10 +7579,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.5,
+            "overall": 4.1,
             "novelty": 4.6,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 3.7,
+            "readability": 4.0
           },
           "summary": "Rapidly evolving market conditions call for real-t",
           "tags": [
@@ -7616,10 +7616,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.5,
-            "novelty": 4.6,
-            "quality": 4.2,
-            "readability": 5.0
+            "overall": 3.2,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 2.5
           },
           "summary": "Recent works have increasingly applied Large Langu",
           "tags": [
@@ -7655,9 +7655,9 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.1,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "overall": 3.6,
+            "novelty": 3.0,
+            "quality": 3.4,
             "readability": 5.0
           },
           "summary": "In this paper, we present a methodology for measur",
@@ -7686,10 +7686,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 5.0,
-            "quality": 4.2,
-            "readability": 4.5
+            "overall": 3.4,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "We introduce the Aggregated Systemic Risk Index (A",
           "tags": [
@@ -7715,10 +7715,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.1,
-            "novelty": 4.9,
-            "quality": 4.6,
-            "readability": 4.8
+            "overall": 3.3,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "Benoit Mandelbrot's scientific legacy spans an ext",
           "tags": [
@@ -7744,10 +7744,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 4.2,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.5,
+            "novelty": 3.4,
+            "quality": 3.6,
+            "readability": 3.3
           },
           "summary": "Using the Crypto Fear & Greed Index and Bitcoin da",
           "tags": [
@@ -7780,9 +7780,9 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.2,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.0,
             "readability": 5.0
           },
           "summary": "We price European options in a class of models in ",
@@ -7812,10 +7812,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.1,
-            "novelty": 5.0,
-            "quality": 4.5,
-            "readability": 4.5
+            "overall": 3.7,
+            "novelty": 3.8,
+            "quality": 3.7,
+            "readability": 3.3
           },
           "summary": "We develop a non-standard analysis framework for c",
           "tags": [
@@ -7843,10 +7843,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.6,
-            "novelty": 5.0,
-            "quality": 4.9,
-            "readability": 5.0
+            "overall": 3.4,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "We document stable cross-asset patterns in cryptoc",
           "tags": [
@@ -7871,10 +7871,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.5,
-            "novelty": 5.0,
-            "quality": 4.4,
-            "readability": 5.0
+            "overall": 3.3,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "This study examines the effects of Trump-era tarif",
           "tags": [
@@ -7912,10 +7912,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.5,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.6
+            "overall": 3.5,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 4.0
           },
           "summary": "We propose a microstructural model for the order f",
           "tags": [
@@ -7941,10 +7941,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 4.7,
-            "quality": 4.7,
-            "readability": 5.0
+            "overall": 3.4,
+            "novelty": 3.4,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "We study whether generative AI can automate featur",
           "tags": [
@@ -7971,10 +7971,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 5.0,
-            "quality": 4.7,
-            "readability": 5.0
+            "overall": 3.3,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "Financial markets exhibit temporal organization th",
           "tags": [
@@ -8010,10 +8010,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.6,
-            "novelty": 4.6,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.9,
+            "novelty": 5.0,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "Overparameterized models have recently challenged ",
           "tags": [
@@ -8040,10 +8040,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.8,
-            "novelty": 5.0,
-            "quality": 4.9,
-            "readability": 4.8
+            "overall": 3.4,
+            "novelty": 3.4,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "This paper investigates the impact of Trade Policy",
           "tags": [
@@ -8071,10 +8071,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.8,
+            "overall": 4.1,
             "novelty": 4.6,
-            "quality": 5.0,
-            "readability": 4.9
+            "quality": 3.6,
+            "readability": 4.3
           },
           "summary": "This paper proposes a new multivariate model speci",
           "tags": [
@@ -8101,10 +8101,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.3,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.5,
+            "novelty": 4.2,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "We present the first application of MAP-Elites, a ",
           "tags": [
@@ -8139,10 +8139,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 4.8,
-            "readability": 4.7
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.3,
+            "readability": 4.3
           },
           "summary": "This paper examines whether a major U.S. regulator",
           "tags": [
@@ -8171,10 +8171,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 4.7,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.1,
+            "novelty": 3.4,
+            "quality": 3.0,
+            "readability": 2.8
           },
           "summary": "The mean-variance model remains the most prevalent",
           "tags": [
@@ -8202,10 +8202,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.1,
-            "novelty": 5.0,
-            "quality": 4.4,
-            "readability": 5.0
+            "overall": 3.5,
+            "novelty": 4.2,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "Survival analysis has become a standard approach f",
           "tags": [
@@ -8233,10 +8233,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.6,
-            "novelty": 5.0,
-            "quality": 4.9,
-            "readability": 5.0
+            "overall": 3.6,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "Prediction markets offer a natural testbed for tra",
           "tags": [
@@ -8266,10 +8266,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.7,
-            "novelty": 4.2,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.7,
+            "novelty": 4.6,
+            "quality": 3.4,
+            "readability": 2.5
           },
           "summary": "Prediction markets mobilize financial incentives t",
           "tags": [
@@ -8305,10 +8305,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.6,
-            "novelty": 4.5,
-            "quality": 4.3,
-            "readability": 5.0
+            "overall": 3.6,
+            "novelty": 4.6,
+            "quality": 3.0,
+            "readability": 3.0
           },
           "summary": "Pricing advanced data products - particularly in c",
           "tags": [
@@ -8338,9 +8338,9 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 5.0,
-            "quality": 4.2,
+            "overall": 3.7,
+            "novelty": 3.8,
+            "quality": 3.0,
             "readability": 5.0
           },
           "summary": "This paper assumes a robust stochastic model where",
@@ -8370,10 +8370,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 4.9,
-            "readability": 4.6
+            "overall": 3.9,
+            "novelty": 3.8,
+            "quality": 4.5,
+            "readability": 2.8
           },
           "summary": "This paper investigates whether structural econome",
           "tags": [
@@ -8401,10 +8401,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.1,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.5,
+            "novelty": 4.2,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "We introduce a structural framework for the geomet",
           "tags": [
@@ -8435,10 +8435,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.3,
-            "novelty": 5.0,
-            "quality": 4.5,
-            "readability": 5.0
+            "overall": 3.4,
+            "novelty": 3.4,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "We show that the Markowitz portfolio is a scalar m",
           "tags": [
@@ -8466,10 +8466,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.3,
-            "novelty": 5.0,
-            "quality": 4.5,
-            "readability": 5.0
+            "overall": 3.3,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 2.8
           },
           "summary": "USDC and USDT are the dominant stablecoins pegged ",
           "tags": [
@@ -8507,10 +8507,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.7,
-            "novelty": 4.8,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.3,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 3.0
           },
           "summary": "This paper introduces MarketGAN, a factor-based ge",
           "tags": [
@@ -8546,10 +8546,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.8
+            "overall": 3.9,
+            "novelty": 4.6,
+            "quality": 3.7,
+            "readability": 2.8
           },
           "summary": "Decentralized Finance (DeFi) has revolutionized fi",
           "tags": [
@@ -8578,9 +8578,9 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 4.8,
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.0,
             "readability": 5.0
           },
           "summary": "We present a study of the short-maturity asymptoti",
@@ -8609,10 +8609,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.7,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.8
+            "overall": 3.5,
+            "novelty": 3.8,
+            "quality": 3.4,
+            "readability": 3.3
           },
           "summary": "The Fundamental Review of the Trading Book (FRTB) ",
           "tags": [
@@ -8639,10 +8639,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 4.6,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 4.2,
+            "novelty": 5.0,
+            "quality": 3.4,
+            "readability": 4.3
           },
           "summary": "In this work, we investigate the market-making pro",
           "tags": [
@@ -8668,10 +8668,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.1,
-            "novelty": 5.0,
-            "quality": 4.3,
-            "readability": 5.0
+            "overall": 3.5,
+            "novelty": 4.2,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "We propose a structural framework for the geometry",
           "tags": [
@@ -8710,10 +8710,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.3,
-            "novelty": 4.7,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.8,
+            "novelty": 5.0,
+            "quality": 3.0,
+            "readability": 3.0
           },
           "summary": "Cyber risk has become a critical financial threat ",
           "tags": [
@@ -8743,10 +8743,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.7,
-            "novelty": 4.9,
-            "quality": 4.6,
-            "readability": 4.7
+            "overall": 3.3,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 2.8
           },
           "summary": "Compositional time series, vectors of proportions ",
           "tags": [
@@ -8781,10 +8781,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.7
+            "overall": 3.4,
+            "novelty": 3.8,
+            "quality": 3.4,
+            "readability": 2.8
           },
           "summary": "Prediction markets are often described as mechanis",
           "tags": [
@@ -8815,10 +8815,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.6,
-            "novelty": 5.0,
-            "quality": 4.1,
-            "readability": 5.0
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.3,
+            "readability": 4.3
           },
           "summary": "This paper addresses stock price movement predicti",
           "tags": [
@@ -8845,10 +8845,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.8,
+            "overall": 4.3,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.9
+            "quality": 4.3,
+            "readability": 2.8
           },
           "summary": "We propose Mixed-Panels-Transformer Encoder (MPTE)",
           "tags": [
@@ -8876,10 +8876,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.3,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.3,
+            "novelty": 3.0,
+            "quality": 3.6,
+            "readability": 3.3
           },
           "summary": "This study addresses the low-volatility Chinese Pu",
           "tags": [
@@ -8905,10 +8905,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.7,
+            "overall": 4.1,
             "novelty": 5.0,
-            "quality": 4.1,
-            "readability": 5.0
+            "quality": 3.6,
+            "readability": 3.3
           },
           "summary": "Overfitting remains a critical challenge in data-d",
           "tags": [
@@ -8939,10 +8939,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.4,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.7,
+            "novelty": 4.2,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "We propose a projection method to estimate risk-ne",
           "tags": [
@@ -8977,10 +8977,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 4.9,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.5,
+            "novelty": 4.2,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "We introduce Look-Ahead-Bench, a standardized benc",
           "tags": [
@@ -9007,9 +9007,9 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 4.8,
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.0,
             "readability": 5.0
           },
           "summary": "In an incomplete financial market with general con",
@@ -9037,10 +9037,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.6,
-            "novelty": 4.3,
-            "quality": 4.9,
-            "readability": 5.0
+            "overall": 3.6,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "We develop a mathematical framework to optimize le",
           "tags": [
@@ -9069,10 +9069,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.6,
-            "novelty": 4.7,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.7,
+            "novelty": 4.2,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "We extend the results of (Liu and Firoozi, 2025), ",
           "tags": [
@@ -9102,10 +9102,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.1,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.8,
+            "novelty": 3.8,
+            "quality": 4.0,
+            "readability": 3.3
           },
           "summary": "This paper presents a Quantum Reinforcement Learni",
           "tags": [
@@ -9135,10 +9135,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.8,
-            "novelty": 4.8,
-            "quality": 4.6,
-            "readability": 5.0
+            "overall": 3.5,
+            "novelty": 3.4,
+            "quality": 3.3,
+            "readability": 4.0
           },
           "summary": "Time series encountered in practice are rarely sta",
           "tags": [
@@ -9168,10 +9168,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
+            "overall": 3.7,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.5
+            "quality": 3.0,
+            "readability": 2.5
           },
           "summary": "Healthcare sector indices consolidate the economic",
           "tags": [
@@ -9207,10 +9207,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.5,
-            "novelty": 4.1,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.4,
+            "novelty": 3.4,
+            "quality": 3.6,
+            "readability": 3.0
           },
           "summary": "The balancing market in the energy sector plays a ",
           "tags": [
@@ -9237,10 +9237,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.9
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 5.0
           },
           "summary": "Dealers in foreign exchange markets provide bid an",
           "tags": [
@@ -9268,9 +9268,9 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 4.2,
-            "quality": 5.0,
+            "overall": 3.7,
+            "novelty": 3.8,
+            "quality": 3.0,
             "readability": 5.0
           },
           "summary": "This paper develops a dynamic insurance market mod",
@@ -9299,10 +9299,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.3,
-            "novelty": 4.9,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.9,
+            "novelty": 5.0,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "We introduce a novel model for time-varying, asymm",
           "tags": [
@@ -9332,10 +9332,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 4.1,
-            "quality": 5.0,
-            "readability": 4.8
+            "overall": 3.7,
+            "novelty": 4.2,
+            "quality": 3.6,
+            "readability": 3.0
           },
           "summary": "Detecting anomalous trajectories in decentralized ",
           "tags": [
@@ -9368,10 +9368,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.7,
-            "novelty": 4.7,
-            "quality": 4.3,
-            "readability": 5.0
+            "overall": 3.3,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 3.0
           },
           "summary": "Generative models for financial time series often ",
           "tags": [
@@ -9403,10 +9403,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.7
+            "overall": 3.9,
+            "novelty": 4.2,
+            "quality": 3.6,
+            "readability": 4.0
           },
           "summary": "In this work, we propose to apply a new model fusi",
           "tags": [
@@ -9438,10 +9438,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 4.2,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.1,
+            "novelty": 3.4,
+            "quality": 3.0,
+            "readability": 2.8
           },
           "summary": "No-arbitrage asset pricing characterizes valuation",
           "tags": [
@@ -9472,10 +9472,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.7,
-            "novelty": 4.5,
-            "quality": 5.0,
-            "readability": 4.6
+            "overall": 3.2,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 2.5
           },
           "summary": "Algorithmic stablecoins promise decentralized mone",
           "tags": [
@@ -9503,10 +9503,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.5,
-            "novelty": 4.9,
-            "quality": 4.5,
-            "readability": 4.8
+            "overall": 3.6,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "We investigate the ordering between two fundamenta",
           "tags": [
@@ -9540,10 +9540,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.6,
-            "novelty": 4.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.0,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 2.8
           },
           "summary": "Can fully agentic AI nowcast stock returns? We dep",
           "tags": [
@@ -9571,10 +9571,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.1,
-            "novelty": 5.0,
-            "quality": 4.3,
-            "readability": 4.9
+            "overall": 3.2,
+            "novelty": 3.4,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "We analyze daily lead-time distributions for two A",
           "tags": [
@@ -9607,10 +9607,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.3,
-            "novelty": 4.7,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.3,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "Mobilising private capital is a critical bottlenec",
           "tags": [
@@ -9640,10 +9640,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 4.8,
-            "quality": 4.5,
-            "readability": 5.0
+            "overall": 3.5,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 4.0
           },
           "summary": "We present a simple, numerically efficient but hig",
           "tags": [
@@ -9668,10 +9668,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.5,
-            "novelty": 4.4,
-            "quality": 4.8,
-            "readability": 5.0
+            "overall": 3.3,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "Three traits of decentralized finance are studied.",
           "tags": [
@@ -9700,9 +9700,9 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.7,
-            "novelty": 4.5,
-            "quality": 5.0,
+            "overall": 3.9,
+            "novelty": 4.2,
+            "quality": 3.0,
             "readability": 5.0
           },
           "summary": "Financial time series exhibit multiscale behavior,",
@@ -9731,9 +9731,9 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.4,
-            "novelty": 5.0,
-            "quality": 4.6,
+            "overall": 4.0,
+            "novelty": 4.6,
+            "quality": 3.0,
             "readability": 5.0
           },
           "summary": "We attempt to mitigate the persistent tradeoff bet",
@@ -9761,10 +9761,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.8,
-            "novelty": 5.0,
-            "quality": 4.5,
-            "readability": 5.0
+            "overall": 3.1,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "Achieving net-zero carbon emissions requires a tra",
           "tags": [
@@ -9793,10 +9793,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.8,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.5
+            "overall": 3.3,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 2.8
           },
           "summary": "Credit risk models are a critical decision-support",
           "tags": [
@@ -9824,10 +9824,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.6,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.4,
+            "novelty": 3.8,
+            "quality": 3.3,
+            "readability": 2.8
           },
           "summary": "The rough Bergomi (rBergomi) model, characterised ",
           "tags": [
@@ -9859,10 +9859,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.3,
+            "overall": 3.7,
             "novelty": 4.6,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "A growing share of the existing real estate stock ",
           "tags": [
@@ -9889,9 +9889,9 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.8,
-            "novelty": 4.7,
-            "quality": 5.0,
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.0,
             "readability": 5.0
           },
           "summary": "An agent holds a position in a perpetual contract ",
@@ -9920,10 +9920,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.4,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.7,
+            "novelty": 4.6,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "This study examines market behavior in critical mi",
           "tags": [
@@ -9953,10 +9953,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.8,
+            "novelty": 3.8,
+            "quality": 4.3,
+            "readability": 2.8
           },
           "summary": "Time Series Foundation Models (TSFMs) have emerged",
           "tags": [
@@ -9988,10 +9988,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 4.6,
-            "readability": 4.9
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 5.0
           },
           "summary": "We formulate a dynamic reinsurance problem in whic",
           "tags": [
@@ -10018,10 +10018,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.6,
+            "overall": 3.9,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.6
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "We introduce the multivariate Log S-fBM model (mLo",
           "tags": [
@@ -10054,10 +10054,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.7,
-            "novelty": 4.6,
-            "quality": 5.0,
-            "readability": 4.7
+            "overall": 3.6,
+            "novelty": 3.4,
+            "quality": 4.2,
+            "readability": 3.0
           },
           "summary": "In quantitative finance, the gap between training ",
           "tags": [
@@ -10090,10 +10090,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.4,
-            "novelty": 4.3,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.9,
+            "novelty": 4.2,
+            "quality": 3.4,
+            "readability": 4.3
           },
           "summary": "We introduce LemonadeBench v0.5, a minimal benchma",
           "tags": [
@@ -10121,10 +10121,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.5,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 4.0,
+            "novelty": 3.8,
+            "quality": 4.0,
+            "readability": 4.3
           },
           "summary": "This paper develops a design-first econometric fra",
           "tags": [
@@ -10149,10 +10149,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.8,
-            "novelty": 4.5,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.6,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "Classical Kyle-type models of informed trading typ",
           "tags": [
@@ -10179,10 +10179,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.8
+            "overall": 3.9,
+            "novelty": 3.8,
+            "quality": 3.4,
+            "readability": 5.0
           },
           "summary": "The martingale expansion provides a refined approx",
           "tags": [
@@ -10208,10 +10208,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.8,
-            "novelty": 4.2,
-            "quality": 5.0,
-            "readability": 4.6
+            "overall": 3.6,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "Robo-advisors (RAs) are automated portfolio manage",
           "tags": [
@@ -10236,10 +10236,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.7,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.0,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 2.8
           },
           "summary": "Value-at-Risk (VaR) estimation at high confidence ",
           "tags": [
@@ -10275,10 +10275,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.5,
+            "novelty": 4.2,
+            "quality": 3.6,
+            "readability": 2.0
           },
           "summary": "Algorithmic trading relies on machine learning mod",
           "tags": [
@@ -10314,10 +10314,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.4,
-            "novelty": 4.7,
-            "quality": 5.0,
-            "readability": 4.5
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.3,
+            "readability": 4.3
           },
           "summary": "Do vulnerabilities in Decentralized Finance (DeFi)",
           "tags": [
@@ -10351,10 +10351,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.5,
-            "novelty": 5.0,
-            "quality": 4.9,
-            "readability": 5.0
+            "overall": 3.2,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 2.5
           },
           "summary": "Financial markets alternate between tranquil perio",
           "tags": [
@@ -10380,10 +10380,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.6,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.3,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 2.8
           },
           "summary": "The integration of thematic satellite allocations ",
           "tags": [
@@ -10411,10 +10411,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 5.0,
-            "quality": 4.2,
-            "readability": 4.7
+            "overall": 3.6,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "Following several episodes of financial market tur",
           "tags": [
@@ -10442,10 +10442,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.7,
-            "novelty": 4.1,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.6,
+            "novelty": 4.6,
+            "quality": 3.0,
+            "readability": 3.0
           },
           "summary": "Systemic risk refers to the overall vulnerability ",
           "tags": [
@@ -10477,10 +10477,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.5,
-            "novelty": 5.0,
-            "quality": 4.4,
-            "readability": 4.6
+            "overall": 3.6,
+            "novelty": 3.8,
+            "quality": 3.9,
+            "readability": 2.5
           },
           "summary": "This study develops a robust machine learning fram",
           "tags": [
@@ -10510,10 +10510,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.4,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.8
+            "overall": 3.5,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 4.0
           },
           "summary": "Copy trading has become the dominant entry strateg",
           "tags": [
@@ -10546,10 +10546,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 4.8,
-            "quality": 4.3,
-            "readability": 5.0
+            "overall": 3.3,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "We estimate risk premia in the cross-section of cr",
           "tags": [
@@ -10575,10 +10575,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.8,
-            "novelty": 4.6,
-            "quality": 5.0,
-            "readability": 4.6
+            "overall": 3.1,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "Universal basic income (UBI) is a tax scheme that ",
           "tags": [
@@ -10605,9 +10605,9 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 5.0,
-            "quality": 4.3,
+            "overall": 3.7,
+            "novelty": 3.8,
+            "quality": 3.0,
             "readability": 5.0
           },
           "summary": "We provide an explicit solution for optimal option",
@@ -10635,9 +10635,9 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.6,
-            "novelty": 5.0,
-            "quality": 5.0,
+            "overall": 4.4,
+            "novelty": 4.2,
+            "quality": 4.2,
             "readability": 5.0
           },
           "summary": "Our work focuses on deep learning (DL) portfolio o",
@@ -10668,10 +10668,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.5,
-            "novelty": 4.8,
-            "quality": 5.0,
-            "readability": 4.7
+            "overall": 3.7,
+            "novelty": 4.6,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "Portfolio optimization under cardinality constrain",
           "tags": [
@@ -10700,10 +10700,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 4.8,
-            "quality": 4.2,
-            "readability": 5.0
+            "overall": 4.0,
+            "novelty": 4.2,
+            "quality": 3.6,
+            "readability": 4.3
           },
           "summary": "We introduce Tab-TRM (Tabular-Tiny Recursive Model",
           "tags": [
@@ -10734,10 +10734,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 4.8,
-            "quality": 5.0,
-            "readability": 4.5
+            "overall": 4.0,
+            "novelty": 5.0,
+            "quality": 3.6,
+            "readability": 3.0
           },
           "summary": "Outstanding claim liabilities are revised repeated",
           "tags": [
@@ -10767,10 +10767,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.1,
-            "novelty": 4.7,
-            "quality": 4.9,
-            "readability": 5.0
+            "overall": 3.0,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 3.0
           },
           "summary": "This paper presents a meta-learning framework for ",
           "tags": [
@@ -10804,10 +10804,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.7,
-            "novelty": 5.0,
-            "quality": 4.2,
-            "readability": 5.0
+            "overall": 3.4,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "We study portfolio choice when firm-level emission",
           "tags": [
@@ -10834,10 +10834,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.5,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.9
+            "overall": 3.3,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "Market integrity monitoring is difficult because s",
           "tags": [
@@ -10870,10 +10870,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 4.8,
-            "quality": 4.4,
-            "readability": 4.6
+            "overall": 3.8,
+            "novelty": 4.6,
+            "quality": 3.4,
+            "readability": 2.8
           },
           "summary": "This paper develops a structural framework for cha",
           "tags": [
@@ -10918,10 +10918,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.3,
-            "novelty": 5.0,
-            "quality": 4.9,
-            "readability": 5.0
+            "overall": 3.2,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 2.5
           },
           "summary": "Multimodal large language models are playing an in",
           "tags": [
@@ -10949,10 +10949,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.8,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.5
+            "overall": 3.5,
+            "novelty": 3.8,
+            "quality": 3.4,
+            "readability": 3.3
           },
           "summary": "The classical mean-variance framework characterize",
           "tags": [
@@ -10980,10 +10980,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 6.5,
+            "overall": 3.9,
             "novelty": 5.0,
-            "quality": 4.5,
-            "readability": 4.6
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "Forecasting accuracy is routinely optimised in fin",
           "tags": [
@@ -11011,10 +11011,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 5.0,
-            "quality": 4.1,
-            "readability": 5.0
+            "overall": 3.7,
+            "novelty": 4.6,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "The integration of cryptocurrencies into instituti",
           "tags": [
@@ -11044,10 +11044,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 4.4,
-            "quality": 4.4,
-            "readability": 5.0
+            "overall": 3.7,
+            "novelty": 4.2,
+            "quality": 3.6,
+            "readability": 2.8
           },
           "summary": "We propose DeePM (Deep Portfolio Manager), a struc",
           "tags": [
@@ -11080,10 +11080,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.3,
-            "novelty": 4.7,
-            "quality": 4.3,
-            "readability": 5.0
+            "overall": 3.7,
+            "novelty": 3.4,
+            "quality": 3.6,
+            "readability": 4.3
           },
           "summary": "We study approximation limits of single-hidden-lay",
           "tags": [
@@ -11110,10 +11110,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.1,
-            "novelty": 4.0,
-            "quality": 5.0,
-            "readability": 4.6
+            "overall": 3.9,
+            "novelty": 4.6,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "We study the problem of forecasting and optimally ",
           "tags": [
@@ -11145,10 +11145,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.8,
-            "novelty": 4.3,
-            "quality": 4.5,
-            "readability": 4.7
+            "overall": 3.0,
+            "novelty": 3.0,
+            "quality": 3.0,
+            "readability": 3.0
           },
           "summary": "Quantitative understanding of stochastic dynamics ",
           "tags": [
@@ -11176,10 +11176,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.0,
-            "novelty": 5.0,
-            "quality": 4.1,
-            "readability": 4.5
+            "overall": 4.0,
+            "novelty": 4.2,
+            "quality": 4.2,
+            "readability": 3.3
           },
           "summary": "This paper studies forward-looking stock-stock cor",
           "tags": [
@@ -11213,10 +11213,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.7,
+            "overall": 4.1,
             "novelty": 5.0,
-            "quality": 4.5,
-            "readability": 4.8
+            "quality": 3.7,
+            "readability": 3.3
           },
           "summary": "This paper introduces an algorithmic framework for",
           "tags": [
@@ -11242,10 +11242,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.7,
-            "novelty": 4.3,
-            "quality": 4.1,
-            "readability": 5.0
+            "overall": 3.5,
+            "novelty": 4.2,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "Improvements in return forecast accuracy do not al",
           "tags": [
@@ -11274,10 +11274,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
+            "overall": 3.9,
             "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "Topological Data Analysis (TDA), an emerging field",
           "tags": [
@@ -11305,10 +11305,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.6,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.6
+            "overall": 4.1,
+            "novelty": 3.8,
+            "quality": 4.8,
+            "readability": 3.3
           },
           "summary": "Index tracking, also known as passive investing, h",
           "tags": [
@@ -11341,10 +11341,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.4,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.5
+            "overall": 3.7,
+            "novelty": 4.2,
+            "quality": 3.6,
+            "readability": 3.0
           },
           "summary": "Reinforcement Learning (RL) has enabled Large Lang",
           "tags": [
@@ -11380,10 +11380,10 @@
           "researchField": "计量",
           "keywords": [],
           "scores": {
-            "overall": 5.5,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.4,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "This paper develops a unified framework for analyz",
           "tags": [
@@ -11410,10 +11410,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.1,
-            "novelty": 4.9,
-            "quality": 5.0,
-            "readability": 4.6
+            "overall": 3.6,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "We consider an optimal trading problem under a mar",
           "tags": [
@@ -11446,10 +11446,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.4,
-            "novelty": 5.0,
-            "quality": 4.8,
-            "readability": 5.0
+            "overall": 3.5,
+            "novelty": 4.2,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "High-Frequency trading (HFT) environments are char",
           "tags": [
@@ -11485,10 +11485,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.8,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 4.6
+            "overall": 4.1,
+            "novelty": 4.2,
+            "quality": 3.6,
+            "readability": 5.0
           },
           "summary": "Machine learning is central to empirical asset pri",
           "tags": [
@@ -11515,10 +11515,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.9,
-            "novelty": 4.2,
-            "quality": 5.0,
-            "readability": 4.6
+            "overall": 3.9,
+            "novelty": 4.6,
+            "quality": 3.0,
+            "readability": 4.3
           },
           "summary": "Capital allocation is a procedure used to assess t",
           "tags": [
@@ -11549,10 +11549,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.5,
-            "novelty": 4.6,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.5,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 4.0
           },
           "summary": "This paper examines the impact of reducing Ethereu",
           "tags": [
@@ -11586,9 +11586,9 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.6,
-            "novelty": 4.7,
-            "quality": 5.0,
+            "overall": 3.4,
+            "novelty": 3.0,
+            "quality": 3.0,
             "readability": 5.0
           },
           "summary": "Kladia Liquidity Deflator (KLD) is an XRPL-based, ",
@@ -11620,10 +11620,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 5.7,
-            "novelty": 4.9,
-            "quality": 5.0,
-            "readability": 4.6
+            "overall": 3.2,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 2.5
           },
           "summary": "Stablecoins have emerged as a rapidly growing digi",
           "tags": [
@@ -11651,10 +11651,10 @@
           "researchField": "金融",
           "keywords": [],
           "scores": {
-            "overall": 6.2,
-            "novelty": 5.0,
-            "quality": 5.0,
-            "readability": 5.0
+            "overall": 3.4,
+            "novelty": 3.8,
+            "quality": 3.0,
+            "readability": 3.3
           },
           "summary": "The deviation of the efficient market hypothesis (",
           "tags": [
