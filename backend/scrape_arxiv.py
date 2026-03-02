@@ -30,16 +30,17 @@ ARXIV_CATEGORIES = [
     "q-fin.ST",
     "q-fin.TR",
     # 经济分类 (Economics)
-    "econ.GN",
-    "econ.EM",
-    "econ.CO",
-    "econ.EC",
-    "econ.HO",
-    "econ.IV",
-    "econ.ME",
-    "econ.MA",
-    "econ.PE",
-    "econ.WR",
+    "econ.GN",   # General Economics
+    "econ.EM",   # Econometrics
+    "econ.TH",   # Theoretical Economics
+    "econ.CO",   # Computational Economics
+    "econ.EC",   # Econometrics (alternative)
+    "econ.HO",   # Economic History
+    "econ.IV",   # International Economics
+    "econ.ME",   # Microeconomics
+    "econ.MA",   # Macroeconomics
+    "econ.PE",   # Political Economy
+    "econ.WR",   # Labor Economics
 ]
 
 
