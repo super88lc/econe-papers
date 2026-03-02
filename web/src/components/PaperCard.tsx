@@ -1,28 +1,58 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Paper } from '@/types';
 
 interface PaperCardProps {
   paper: Paper;
 }
 
-function StarRating({ rating }: { rating: number }) {
-  const fullStars = Math.floor(rating);
-  const hasHalf = rating % 1 >= 0.5;
-  const emptyStars = 5 - fullStars - (hasHalf ? 1 : 0);
+function StarRating({ rating, onRate, readonly = false }: { rating: number; onRate?: (r: number) => void; readonly?: boolean }) {
+  const [hoverRating, setHoverRating] = useState(0);
   
   return (
-    <span className="text-[#d4a574]">
-      {'★'.repeat(fullStars)}
-      {hasHalf && '☆'}
-      {'☆'.repeat(emptyStars)}
+    <span className={readonly ? "" : "cursor-pointer"}>
+      {[1, 2, 3, 4, 5].map((star) => (
+        <span
+          key={star}
+          className={`text-lg ${
+            star <= (hoverRating || rating) ? 'text-yellow-400' : 'text-gray-300'
+          } ${!readonly ? 'hover:text-yellow-400' : ''}`}
+          onClick={(e) => {
+            e.stopPropagation();
+            if (!readonly && onRate) onRate(star);
+          }}
+          onMouseEnter={() => !readonly && setHoverRating(star)}
+          onMouseLeave={() => !readonly && setHoverRating(0)}
+        >
+          ★
+        </span>
+      ))}
     </span>
   );
 }
 
 export default function PaperCard({ paper }: PaperCardProps) {
   const [expanded, setExpanded] = useState(false);
+  const [userRating, setUserRating] = useState(0);
+  
+  // 加载用户评分
+  useEffect(() => {
+    const ratings = JSON.parse(localStorage.getItem('paperRatings') || '{}');
+    const paperId = paper.id.replace('http://arxiv.org/abs/', '');
+    setUserRating(ratings[paperId] || 0);
+  }, [paper.id]);
+  
+  // 保存用户评分
+  const handleRate = (rating: number) => {
+    const ratings = JSON.parse(localStorage.getItem('paperRatings') || '{}');
+    const paperId = paper.id.replace('http://arxiv.org/abs/', '');
+    ratings[paperId] = rating;
+    localStorage.setItem('paperRatings', JSON.stringify(ratings));
+    setUserRating(rating);
+  };
+  
+  const paperId = paper.id.replace('http://arxiv.org/abs/', '');
   
   return (
     <div 
@@ -64,14 +94,23 @@ export default function PaperCard({ paper }: PaperCardProps) {
           
           <div className="flex items-center gap-4 text-sm text-gray-600 mb-3">
             <span>
-              选题新颖度: <StarRating rating={paper.scores.novelty} />
+              选题新颖度: <StarRating rating={paper.scores.novelty} readonly />
             </span>
             <span>
-              研究水平: <StarRating rating={paper.scores.quality} />
+              研究水平: <StarRating rating={paper.scores.quality} readonly />
             </span>
             <span>
-              可读性: <StarRating rating={paper.scores.readability} />
+              可读性: <StarRating rating={paper.scores.readability} readonly />
             </span>
+          </div>
+          
+          {/* 用户评分 */}
+          <div className="flex items-center gap-3 mb-3 p-2 bg-yellow-50 rounded-lg">
+            <span className="text-sm text-gray-600">我的评分:</span>
+            <StarRating rating={userRating} onRate={handleRate} />
+            {userRating > 0 && (
+              <span className="text-xs text-green-600">✓ 已保存</span>
+            )}
           </div>
           
           <div className="flex gap-2">
@@ -85,7 +124,7 @@ export default function PaperCard({ paper }: PaperCardProps) {
               PDF
             </a>
             <a
-              href={`https://arxiv.org/abs/${paper.id}`}
+              href={`https://arxiv.org/abs/${paperId}`}
               target="_blank"
               rel="noopener noreferrer"
               onClick={(e) => e.stopPropagation()}
