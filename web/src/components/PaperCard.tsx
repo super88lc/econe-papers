@@ -68,13 +68,9 @@ export default function PaperCard({ paper }: PaperCardProps) {
   const paperId = paper.id.replace('http://arxiv.org/abs/', '');
   const tags = paper.tags || [];
   
-  // Use Chinese title if available, otherwise use English
-  const displayTitle = paper.chineseTitle && paper.chineseTitle !== paper.title 
-    ? paper.chineseTitle 
-    : paper.title;
-  const displayAbstract = paper.chineseAbstract && paper.chineseAbstract.length > 50
-    ? paper.chineseAbstract
-    : paper.abstract;
+  // 使用英文摘要（更完整）
+  const displayTitle = paper.title || paper.chineseTitle || 'Untitled';
+  const displayAbstract = paper.abstract || paper.chineseAbstract || '';
   
   return (
     <div 
