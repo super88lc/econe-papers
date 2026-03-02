@@ -64,14 +64,13 @@ export default function Header({ selectedCategory, onCategoryChange, selectedTag
         </div>
         
         {onTagChange && (
-          <div>
-            <div className="text-xs text-gray-500 mb-1">标签</div>
-            <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide">
+          <div className="overflow-x-auto pb-2 -mx-4 px-4">
+            <div className="flex gap-2 whitespace-nowrap">
               {TAGS.map((tag) => (
                 <button
                   key={tag}
                   onClick={() => onTagChange(tag)}
-                  className={`px-3 py-1.5 rounded-full text-sm whitespace-nowrap transition-colors ${
+                  className={`px-3 py-1.5 rounded-full text-sm transition-colors ${
                     selectedTag === tag
                       ? 'bg-[#d4a574] text-white'
                       : 'bg-gray-50 text-gray-600 hover:bg-gray-100 border border-gray-200'

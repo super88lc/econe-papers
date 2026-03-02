@@ -32,6 +32,21 @@ function StarRating({ rating, onRate, readonly = false }: { rating: number; onRa
   );
 }
 
+// Tag translation
+const tagTrans: Record<string, string> = {
+  'Game Theory': '博弈论',
+  'Digital Economy': '数字经济',
+  'Platform Economics': '平台经济',
+  'Technology Economics': '技术经济',
+  'Behavioral Economics': '行为经济学',
+  'Econometrics + ML': '计量+ML',
+  'Experimental Economics': '实验经济学',
+  'Labor Economics': '劳动经济学',
+  'Environmental Economics': '环境经济学',
+  'FinTech': '金融科技',
+  'General': '通用'
+};
+
 export default function PaperCard({ paper }: PaperCardProps) {
   const [expanded, setExpanded] = useState(false);
   const [userRating, setUserRating] = useState(0);
@@ -53,6 +68,14 @@ export default function PaperCard({ paper }: PaperCardProps) {
   const paperId = paper.id.replace('http://arxiv.org/abs/', '');
   const tags = paper.tags || [];
   
+  // Use Chinese title if available, otherwise use English
+  const displayTitle = paper.chineseTitle && paper.chineseTitle !== paper.title 
+    ? paper.chineseTitle 
+    : paper.title;
+  const displayAbstract = paper.chineseAbstract && paper.chineseAbstract.length > 50
+    ? paper.chineseAbstract
+    : paper.abstract;
+  
   return (
     <div 
       className="bg-white rounded-lg shadow-sm border border-gray-100 p-4 mb-3 cursor-pointer hover:shadow-md transition-shadow"
@@ -69,13 +92,13 @@ export default function PaperCard({ paper }: PaperCardProps) {
             </span>
             {tags.slice(0, 2).map((tag: string) => (
               <span key={tag} className="px-2 py-0.5 bg-green-50 text-green-700 text-xs rounded border border-green-200">
-                {tag}
+                {tagTrans[tag] || tag}
               </span>
             ))}
           </div>
           
           <h3 className="font-semibold text-gray-900 mb-1 line-clamp-2">
-            {paper.title}
+            {displayTitle}
           </h3>
           
           <p className="text-sm text-gray-500 mb-2">
@@ -84,7 +107,7 @@ export default function PaperCard({ paper }: PaperCardProps) {
           
           {!expanded && (
             <p className="text-sm text-gray-600 line-clamp-3">
-              {paper.abstract}
+              {displayAbstract}
             </p>
           )}
         </div>
@@ -93,27 +116,27 @@ export default function PaperCard({ paper }: PaperCardProps) {
       {expanded && (
         <div className="mt-3 pt-3 border-t border-gray-100">
           <p className="text-sm text-gray-700 mb-3">
-            {paper.abstract}
+            {displayAbstract}
           </p>
           
           <div className="flex items-center gap-4 text-sm text-gray-600 mb-3">
             <span>
-              Novelty: <StarRating rating={paper.scores.novelty} readonly />
+              新颖度: <StarRating rating={paper.scores.novelty} readonly />
             </span>
             <span>
-              Quality: <StarRating rating={paper.scores.quality} readonly />
+              研究水平: <StarRating rating={paper.scores.quality} readonly />
             </span>
             <span>
-              Readability: <StarRating rating={paper.scores.readability} readonly />
+              可读性: <StarRating rating={paper.scores.readability} readonly />
             </span>
           </div>
           
-          {/* User rating */}
+          {/* 用户评分 */}
           <div className="flex items-center gap-3 mb-3 p-2 bg-yellow-50 rounded-lg">
-            <span className="text-sm text-gray-600">Your Rating:</span>
+            <span className="text-sm text-gray-600">我的评分:</span>
             <StarRating rating={userRating} onRate={handleRate} />
             {userRating > 0 && (
-              <span className="text-xs text-green-600">✓ Saved</span>
+              <span className="text-xs text-green-600">✓ 已保存</span>
             )}
           </div>
           
@@ -134,17 +157,25 @@ export default function PaperCard({ paper }: PaperCardProps) {
               onClick={(e) => e.stopPropagation()}
               className="px-3 py-1.5 border border-gray-300 text-gray-700 text-sm rounded hover:bg-gray-50 transition-colors"
             >
-              arXiv
+              arXiv原文
             </a>
           </div>
           
           <div className="flex gap-2 mt-2 flex-wrap">
-            {tags.map((keyword: string) => (
+            {(paper.keywords || []).map((keyword: string) => (
               <span 
                 key={keyword}
                 className="text-xs text-gray-500 bg-gray-100 px-2 py-0.5 rounded"
               >
                 #{keyword}
+              </span>
+            ))}
+            {tags.map((tag: string) => (
+              <span 
+                key={tag}
+                className="text-xs text-gray-500 bg-gray-100 px-2 py-0.5 rounded"
+              >
+                #{tagTrans[tag] || tag}
               </span>
             ))}
           </div>
