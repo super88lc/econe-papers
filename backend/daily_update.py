@@ -76,13 +76,6 @@ def search_arxiv(category, max_results=30):
         return []
 
 
-def simple_translate(text, max_len=500):
-    """简单翻译 - 使用规则提取关键信息"""
-    # 尝试提取中文关键词
-    text = text[:max_len]
-    return text  # 暂时返回原文
-
-
 def determine_field(paper):
     """确定研究领域"""
     abstract = paper.get("abstract", "").lower()
@@ -111,32 +104,36 @@ def determine_field(paper):
 
 
 def scrape_today():
-    """抓取今天的论文"""
+    """抓取最近7天的论文"""
     print("📡 抓取ArXiv论文...")
     
     all_papers = []
     today = datetime.now().strftime("%Y-%m-%d")
+    recent_days = 7
     
     for cat in ARXIV_CATEGORIES:
-        papers = search_arxiv(cat, 20)
+        papers = search_arxiv(cat, 30)
         for p in papers:
-            if p["published"] == today:
+            pub_date = p["published"]
+            pub_dt = datetime.strptime(pub_date, "%Y-%m-%d")
+            today_dt = datetime.strptime(today, "%Y-%m-%d")
+            days_diff = (today_dt - pub_dt).days
+            
+            if 0 <= days_diff <= recent_days:
                 if not any(x["id"] == p["id"] for x in all_papers):
-                    # 添加基本信息
-                    p["chineseTitle"] = p["title"]  # 使用原文标题
-                    p["chineseAbstract"] = p["abstract"]  # 使用原文摘要
+                    p["chineseTitle"] = p["title"]
+                    p["chineseAbstract"] = p["abstract"]
                     p["researchField"] = determine_field(p)
                     p["scores"] = {"overall": 5.5, "novelty": 3, "quality": 3, "readability": 3}
                     p["tags"] = []
                     all_papers.append(p)
         time.sleep(0.5)
     
-    print(f"   今天新增 {len(all_papers)} 篇论文")
+    print(f"   最近7天新增 {len(all_papers)} 篇论文")
     return all_papers
 
 
 def load_existing():
-    """加载现有数据"""
     if os.path.exists(PAPERS_FILE):
         with open(PAPERS_FILE, 'r', encoding='utf-8') as f:
             return json.load(f)
@@ -144,11 +141,9 @@ def load_existing():
 
 
 def save_papers(papers):
-    """保存论文数据"""
     data = load_existing()
     today = datetime.now().strftime("%Y-%m-%d")
     
-    # 查找今天的记录
     today_found = False
     for day in data["days"]:
         if day["date"] == today:
@@ -169,14 +164,12 @@ def save_papers(papers):
     with open(PAPERS_FILE, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     
-    # 复制到web目录
     web_path = os.path.join(os.path.dirname(__file__), "..", "web", "src", "lib", "data.json")
     with open(web_path, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
 def send_email(papers):
-    """发送邮件"""
     if not papers:
         print("⚠️ 没有新论文，跳过发送")
         return
@@ -208,7 +201,6 @@ def send_email(papers):
         </div>
     """
     
-    # 按评分排序
     papers_sorted = sorted(papers, key=lambda x: x.get('scores', {}).get('overall', 0), reverse=True)
     
     for i, paper in enumerate(papers_sorted, 1):
@@ -244,7 +236,6 @@ def send_email(papers):
     </html>
     """
     
-    # 发送邮件
     msg = MIMEMultipart('alternative')
     msg['Subject'] = f"📚 Econe Papers - {today} 精选 {len(papers)} 篇"
     msg['From'] = FROM_EMAIL
@@ -267,27 +258,14 @@ def main():
     print(f"Econe Papers 每日更新")
     print(f"{'='*50}\n")
     
-    # 1. 抓取今天的新论文
     new_papers = scrape_today()
     
     if new_papers:
-        # 2. 保存数据
         save_papers(new_papers)
         print("✅ 数据已保存")
-        
-        # 3. 发送邮件
         send_email(new_papers)
     else:
-        print("⚠️ 今日无新论文")
-        
-        # 即使没有新论文，也发送昨日的论文
-        data = load_existing()
-        if data.get("days"):
-            yesterday = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
-            for day in data["days"]:
-                if day["date"] == yesterday:
-                    send_email(day["papers"])
-                    break
+        print("⚠️ 最近7天无新论文")
 
 
 if __name__ == "__main__":
