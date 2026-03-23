@@ -253,6 +253,55 @@ def send_email(papers):
         print(f"⚠️ 邮件发送失败: {e}")
 
 
+def send_to_feishu(papers):
+    """发送到飞书"""
+    if not papers:
+        return
+    
+    import subprocess
+    
+    today = datetime.now().strftime("%Y年%m月%d日")
+    
+    # 按评分排序
+    papers_sorted = sorted(papers, key=lambda x: x.get('scores', {}).get('overall', 0), reverse=True)[:10]
+    
+    # 生成纯文本格式（带URL）
+    content = f"📚 Econe Papers 每日精选 - {today}\n"
+    content += f"共 {len(papers)} 篇新论文\n\n"
+    
+    for i, paper in enumerate(papers_sorted, 1):
+        score = paper.get('scores', {}).get('overall', 0)
+        title = paper.get('title', 'Untitled')[:60]
+        field = paper.get('researchField', '其他')
+        
+        paper_id = paper.get('id', '').replace('http://arxiv.org/abs/', '')
+        arxiv_link = f"https://arxiv.org/abs/{paper_id}"
+        
+        content += f"{i}. [{title}]({arxiv_link})\n"
+        content += f"   评分: {score:.1f} | 领域: {field}\n"
+        content += f"   链接: {arxiv_link}\n\n"
+    
+    content += f"\n查看全部: https://econe-papers.vercel.app"
+    
+    # 调用 openclaw 发送
+    try:
+        result = subprocess.run(
+            ["openclaw", "message", "send", 
+             "--channel", "feishu",
+             "--target", "ou_69d069bd47ce4f6305f2da3809d2c2b6",
+             "--message", content],
+            capture_output=True,
+            text=True,
+            timeout=30
+        )
+        if result.returncode == 0:
+            print("✅ 已发送到飞书")
+        else:
+            print(f"⚠️ 飞书发送失败: {result.stderr}")
+    except Exception as e:
+        print(f"⚠️ 飞书发送异常: {e}")
+
+
 def main():
     print(f"\n{'='*50}")
     print(f"Econe Papers 每日更新")
@@ -264,6 +313,12 @@ def main():
         save_papers(new_papers)
         print("✅ 数据已保存")
         send_email(new_papers)
+        
+        # 同时发送到飞书
+        try:
+            send_to_feishu(new_papers)
+        except Exception as e:
+            print(f"⚠️ 飞书发送失败: {e}")
     else:
         print("⚠️ 最近7天无新论文")
 
