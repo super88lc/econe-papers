@@ -1,6 +1,12 @@
 #!/bin/bash
 # Econe Papers Daily Update + Git Push (triggers Vercel deploy)
 
+# Set PATH for cron
+export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
+
+# Disable proxy if not running (optional)
+# unset HTTP_PROXY HTTPS_PROXY http_proxy https_proxy
+
 cd ~/.openclaw/workspace/econe-papers/backend
 
 # Activate venv and run update
