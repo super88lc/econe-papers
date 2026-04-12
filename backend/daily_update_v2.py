@@ -36,31 +36,24 @@ TO_EMAIL = "liuchu_pku@foxmail.com"
 PAPERS_FILE = "papers.json"
 WEB_URL = "https://econe-papers.vercel.app"
 
-# MiniMax API 配置（尝试多个来源）
-MINIMAX_API_KEY = os.getenv("MINIMAX_API_KEY", "")
-# 如果环境变量没有，尝试从.zshrc加载
-def load_minimax_key():
-    global MINIMAX_API_KEY
-    if MINIMAX_API_KEY:
-        return MINIMAX_API_KEY
+# 百度千帆 API 配置（从 .env 文件或环境变量加载）
+def load_baidu_api_key():
+    """加载百度 API Key - 优先使用通用 API Key"""
+    # 优先使用硬编码的通用 API Key
+    general_key = "bce-v3/ALTAK-SOMoPE9hXPweaALotFw7A/383d6694a7f34c24a357828ec7f619d528b4afa4"
+    if general_key:
+        return general_key
     
-    # 尝试读取 ~/.zshrc
-    try:
-        zshrc_path = os.path.expanduser("~/.zshrc")
-        if os.path.exists(zshrc_path):
-            with open(zshrc_path, 'r') as f:
-                for line in f:
-                    if 'MINIMAX_API_KEY' in line and 'export' in line:
-                        match = re.search(r'export\s+MINIMAX_API_KEY=["\']?([^"\'\n]+)', line)
-                        if match:
-                            return match.group(1)
-    except:
-        pass
+    # 备用：检查环境变量
+    key = os.getenv("BAIDU_API_KEY", "")
+    if key:
+        return key
     
     return ""
 
-MINIMAX_API_KEY = load_minimax_key()
-MINIMAX_BASE_URL = "https://api.minimaxi.com/v1/text/chatcompletion_v2"
+BAIDU_API_KEY = "bce-v3/ALTAK-SOMoPE9hXPweaALotFw7A/383d6694a7f34c24a357828ec7f619d528b4afa4"
+BAIDU_BASE_URL = "https://qianfan.baidubce.com/v2"  # 使用通用对话 API，非 Coding
+BAIDU_MODEL = "ernie-4.0-turbo-8k"  # 可用模型
 
 # ============ 论文分类 (已移除所有金融类) ============
 # 只保留纯经济学分类，过滤掉 q-fin.* (量化金融)
@@ -88,38 +81,39 @@ FINANCE_KEYWORDS = [
 ]
 
 
-def call_minimax(prompt: str, temperature: float = 0.3) -> str:
-    """调用 MiniMax API"""
-    if not MINIMAX_API_KEY:
-        print("  ⚠️ MINIMAX_API_KEY not set")
+def call_qianfan(prompt: str, temperature: float = 0.3) -> str:
+    """调用百度千帆 API (qianfan-code-latest)"""
+    if not BAIDU_API_KEY:
+        print("  ⚠️ BAIDU_API_KEY 未设置")
         return ""
     
     headers = {
-        "Authorization": f"Bearer {MINIMAX_API_KEY}",
+        "Authorization": f"Bearer {BAIDU_API_KEY}",
         "Content-Type": "application/json"
     }
     
     payload = {
-        "model": "MiniMax-Text-01",
+        "model": "ernie-4.0-turbo-8k",
         "messages": [
             {"role": "system", "content": "你是专业的经济学学术助手，擅长论文分析、翻译和评分。请只返回要求的格式内容。"},
             {"role": "user", "content": prompt}
         ],
-        "temperature": temperature
+        "temperature": temperature,
+        "max_tokens": 2048
     }
     
     try:
-        response = requests.post(
-            MINIMAX_BASE_URL,
-            headers=headers,
-            json=payload,
-            timeout=60
-        )
-        response.raise_for_status()
+        url = f"{BAIDU_BASE_URL}/chat/completions"
+        response = requests.post(url, headers=headers, json=payload, timeout=120)
         result = response.json()
-        return result["choices"][0]["message"]["content"]
+        
+        if "error" in result:
+            print(f"  ⚠️ 百度 API 错误: {result.get('error', 'Unknown')}")
+            return ""
+        
+        return result.get("choices", [{}])[0].get("message", {}).get("content", "")
     except Exception as e:
-        print(f"  ⚠️ MiniMax API error: {e}")
+        print(f"  ⚠️ 百度 API error: {e}")
         return ""
 
 
@@ -253,7 +247,7 @@ def analyze_and_translate(paper: dict) -> dict:
 
 重要：确保评分有区分度，不要所有论文都打相似分数！"""
     
-    result = call_minimax(prompt, temperature=0.4)
+    result = call_qianfan(prompt, temperature=0.4)
     
     if result:
         try:
@@ -442,8 +436,8 @@ def analyze_papers(papers: list, max_analyze: int = 30) -> list:
     if not papers:
         return []
     
-    if not MINIMAX_API_KEY:
-        print("⚠️ 未设置 MINIMAX_API_KEY，使用备用评分")
+    if not BAIDU_API_KEY:
+        print("⚠️ 未设置 BAIDU_API_KEY，使用备用评分")
         analyzed = []
         for paper in papers:
             field = determine_field(paper)
@@ -781,7 +775,7 @@ def main():
         print("⚠️ 最近3天无新论文")
         return
     
-    # 2. AI分析（翻译 + 评分）
+    # 2. AI分析（翻译 + 评分）- 分析所有论文
     analyzed_papers = analyze_papers(new_papers, max_analyze=30)
     
     # 3. 保存数据
