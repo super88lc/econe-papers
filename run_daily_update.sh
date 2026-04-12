@@ -5,11 +5,8 @@
 # Set PATH for cron
 export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
 
-# Load environment variables
+# Load environment variables (包含 BAIDU_API_KEY)
 source ~/.zshrc
-
-# 百度千帆 API Key (硬编码确保可用)
-export BAIDU_API_KEY="bce-v3/ALTAK-SOMoPE9hXPweaALotFw7A/383d6694a7f34c24a357828ec7f619d528b4afa4"
 
 cd ~/.openclaw/workspace/econe-papers/backend
 

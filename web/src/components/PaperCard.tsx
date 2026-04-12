@@ -68,9 +68,9 @@ export default function PaperCard({ paper }: PaperCardProps) {
   const paperId = paper.id.replace('http://arxiv.org/abs/', '');
   const tags = paper.tags || [];
   
-  // 使用英文摘要（更完整）
-  const displayTitle = paper.title || paper.chineseTitle || 'Untitled';
-  const displayAbstract = paper.abstract || paper.chineseAbstract || '';
+  // 优先使用中文摘要和标题
+  const displayTitle = paper.chineseTitle || paper.title || 'Untitled';
+  const displayAbstract = paper.chineseAbstract || paper.abstract || '';
   
   return (
     <div 
@@ -81,7 +81,7 @@ export default function PaperCard({ paper }: PaperCardProps) {
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 mb-1 flex-wrap">
             <span className="text-lg font-bold text-[#d4a574]">
-              ★ {paper.scores.overall.toFixed(1)}/5
+              ★ {paper.scores.overall.toFixed(1)}/10
             </span>
             <span className="px-2 py-0.5 bg-blue-100 text-blue-700 text-xs rounded-full">
               {paper.researchField}

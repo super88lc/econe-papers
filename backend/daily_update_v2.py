@@ -36,27 +36,18 @@ TO_EMAIL = "liuchu_pku@foxmail.com"
 PAPERS_FILE = "papers.json"
 WEB_URL = "https://econe-papers.vercel.app"
 
-# 百度千帆 API 配置（从 .env 文件或环境变量加载）
+# 百度千帆 API 配置(从环境变量加载)
 def load_baidu_api_key():
-    """加载百度 API Key - 优先使用通用 API Key"""
-    # 优先使用硬编码的通用 API Key
-    general_key = "bce-v3/ALTAK-SOMoPE9hXPweaALotFw7A/383d6694a7f34c24a357828ec7f619d528b4afa4"
-    if general_key:
-        return general_key
-    
-    # 备用：检查环境变量
+    """加载百度 API Key - 仅从环境变量读取"""
     key = os.getenv("BAIDU_API_KEY", "")
-    if key:
-        return key
-    
-    return ""
+    return key
 
-BAIDU_API_KEY = "bce-v3/ALTAK-SOMoPE9hXPweaALotFw7A/383d6694a7f34c24a357828ec7f619d528b4afa4"
-BAIDU_BASE_URL = "https://qianfan.baidubce.com/v2"  # 使用通用对话 API，非 Coding
+BAIDU_API_KEY = load_baidu_api_key()
+BAIDU_BASE_URL = "https://qianfan.baidubce.com/v2"  # 使用通用对话 API,非 Coding
 BAIDU_MODEL = "ernie-4.0-turbo-8k"  # 可用模型
 
 # ============ 论文分类 (已移除所有金融类) ============
-# 只保留纯经济学分类，过滤掉 q-fin.* (量化金融)
+# 只保留纯经济学分类,过滤掉 q-fin.* (量化金融)
 ARXIV_CATEGORIES = [
     # 经济学分类 (Economics)
     "econ.GN",   # General Economics - 一般经济学
@@ -71,7 +62,7 @@ ARXIV_CATEGORIES = [
     "econ.WR",   # Labor Economics - 劳动经济学
 ]
 
-# 金融相关关键词（用于二次过滤）
+# 金融相关关键词(用于二次过滤)
 FINANCE_KEYWORDS = [
     "asset pricing", "portfolio", "stock market", "equity", "bond", "option pricing",
     "derivative", "hedge fund", "mutual fund", "trading strategy", "market efficiency",
@@ -95,7 +86,7 @@ def call_qianfan(prompt: str, temperature: float = 0.3) -> str:
     payload = {
         "model": "ernie-4.0-turbo-8k",
         "messages": [
-            {"role": "system", "content": "你是专业的经济学学术助手，擅长论文分析、翻译和评分。请只返回要求的格式内容。"},
+            {"role": "system", "content": "你是专业的经济学学术助手,擅长论文分析、翻译和评分.请只返回要求的格式内容."},
             {"role": "user", "content": prompt}
         ],
         "temperature": temperature,
@@ -118,7 +109,7 @@ def call_qianfan(prompt: str, temperature: float = 0.3) -> str:
 
 
 def is_finance_paper(paper: dict) -> bool:
-    """判断是否为金融类论文（多重检查）"""
+    """判断是否为金融类论文(多重检查)"""
     categories = paper.get("categories", [])
     title = paper.get("title", "").lower()
     abstract = paper.get("abstract", "").lower()
@@ -136,7 +127,7 @@ def is_finance_paper(paper: dict) -> bool:
         if kw.lower() in abstract:
             finance_kw_count += 1
     
-    # 如果金融关键词出现超过3次，认为是金融论文
+    # 如果金融关键词出现超过3次,认为是金融论文
     if finance_kw_count >= 3:
         return True
     
@@ -144,7 +135,7 @@ def is_finance_paper(paper: dict) -> bool:
 
 
 def determine_field(paper: dict) -> str:
-    """确定研究领域（不含金融）"""
+    """确定研究领域(不含金融)"""
     title = paper.get("title", "").lower()
     abstract = paper.get("abstract", "").lower()
     categories = paper.get("categories", [])
@@ -211,7 +202,7 @@ def analyze_and_translate(paper: dict) -> dict:
     authors = paper.get("authors", [])
     categories = paper.get("categories", [])
     
-    prompt = f"""请对以下经济学论文进行深度分析和翻译。
+    prompt = f"""请对以下经济学论文进行深度分析和翻译.
 
 【论文信息】
 标题: {title}
@@ -219,12 +210,12 @@ def analyze_and_translate(paper: dict) -> dict:
 分类: {', '.join(categories)}
 摘要: {abstract}
 
-请严格按照以下JSON格式返回（只返回JSON，不要有其他内容）:
+请严格按照以下JSON格式返回(只返回JSON,不要有其他内容):
 {{
-    "chineseTitle": "中文标题（准确翻译）",
-    "chineseAbstract": "完整中文摘要（200-400字，准确翻译，保留学术术语）",
+    "chineseTitle": "中文标题(准确翻译)",
+    "chineseAbstract": "完整中文摘要(200-400字,准确翻译,保留学术术语)",
     "keywords": ["关键词1", "关键词2", "关键词3", "关键词4", "关键词5"],
-    "researchField": "经济学子领域（计量/宏观/微观/行为/理论/劳动/发展/国际/环境/历史/公共/其他）",
+    "researchField": "经济学子领域(计量/宏观/微观/行为/理论/劳动/发展/国际/环境/历史/公共/其他)",
     "scores": {{
         "overall": 7.5,
         "novelty": 4,
@@ -233,28 +224,35 @@ def analyze_and_translate(paper: dict) -> dict:
         "impact": 4,
         "readability": 4
     }},
-    "scoreReasoning": "评分理由（50字以内，说明主要优缺点）",
-    "summary": "一句话核心贡献（30字以内）"
+    "scoreReasoning": "评分理由(50字以内,说明主要优缺点)",
+    "summary": "一句话核心贡献(30字以内)"
 }}
 
-【评分标准】（1-5分，精确到0.5分，确保区分度）:
-- novelty (创新性): 研究问题/方法是否有新意，1=重复性研究，5=突破性创新
-- methodology (方法论): 研究方法是否严谨先进，1=方法有缺陷，5=方法前沿完善
-- empirical (实证质量): 数据/实验/论证是否扎实，1=证据薄弱，5=证据充分有力
-- impact (影响力): 对学界或政策可能的影响，1=影响有限，5=可能产生重大影响
-- readability (可读性): 写作质量和易懂程度，1=晦涩难懂，5=清晰流畅
-- overall (综合): 综合以上维度，考虑领域重要性，1-10分
+【评分标准】(严格区分度要求):
+- novelty (创新性): 1-5分,精确到0.5分.1=完全重复,2=边际改进,3=有一定新意,4=显著创新,5=突破性贡献
+- methodology (方法论): 1-5分,精确到0.5分.1=方法有严重缺陷,2=方法一般,3=方法规范,4=方法严谨先进,5=方法前沿
+- empirical (实证质量): 1-5分,精确到0.5分.1=证据严重不足,2=证据薄弱,3=实证较扎实,4=实证充分,5=实证非常出色
+- impact (影响力): 1-5分,精确到0.5分.1=影响极小,2=影响有限,3=有一定影响,4=影响较大,5=可能产生重大影响
+- readability (可读性): 1-5分,精确到0.5分.1=非常晦涩,2=较难理解,3=一般可读,4=清晰易懂,5=写作出色
+- overall (综合): 1-10分,精确到0.5分.6分以下=普通工作,6-7分=较好,7-8分=优秀,8分以上=杰出
 
-重要：确保评分有区分度，不要所有论文都打相似分数！"""
-    
+【强制要求】
+1. 每篇论文必须有明显不同的评分组合,禁止所有维度都给相似分数
+2. 根据论文实际质量严格打分,平庸论文应给6-7分,优秀论文才给8分以上
+3. overall = (novelty + methodology + empirical + impact + readability) / 5 * 2,再根据论文整体印象微调±0.5-1分
+4. 评分理由必须指出具体优缺点,不能泛泛而谈
+"""
+
     result = call_qianfan(prompt, temperature=0.4)
     
     if result:
         try:
-            # 提取JSON
-            json_match = re.search(r'\{[\s\S]*\}', result)
-            if json_match:
-                analysis = json.loads(json_match.group())
+            # 提取JSON - 使用字符串查找代替正则
+            start = result.find(chr(123))
+            end = result.rfind(chr(125))
+            if start != -1 and end != -1 and end > start:
+                json_str = result[start:end+1]
+                analysis = json.loads(json_str)
                 print(f"     ✓ AI分析完成: {analysis.get('chineseTitle', '')[:30]}...")
                 return {**paper, **analysis}
         except json.JSONDecodeError as e:
@@ -276,7 +274,7 @@ def analyze_and_translate(paper: dict) -> dict:
 
 
 def calculate_fallback_scores(paper: dict) -> dict:
-    """备用评分算法（AI失败时使用，确保区分度）"""
+    """备用评分算法(AI失败时使用,确保区分度)"""
     title = paper.get("title", "").lower()
     abstract = paper.get("abstract", "").lower()
     authors = paper.get("authors", [])
@@ -325,7 +323,7 @@ def calculate_fallback_scores(paper: dict) -> dict:
     readability += random.uniform(-0.5, 0.5)
     readability = min(5, max(1, readability))
     
-    # 综合评分（1-10分）
+    # 综合评分(1-10分)
     overall = (novelty * 0.25 + methodology * 0.25 + empirical * 0.25 + 
                impact * 0.15 + readability * 0.10)
     overall = overall * 2  # 转换到10分制
@@ -343,7 +341,7 @@ def calculate_fallback_scores(paper: dict) -> dict:
 
 
 def search_arxiv(category: str, max_results: int = 30, max_retries: int = 3) -> list:
-    """从ArXiv搜索论文（带重试机制）"""
+    """从ArXiv搜索论文(带重试机制)"""
     base_url = "https://export.arxiv.org/api/query"
     params = {
         "search_query": f"cat:{category}",
@@ -362,7 +360,7 @@ def search_arxiv(category: str, max_results: int = 30, max_retries: int = 3) -> 
             response = requests.get(base_url, params=params, timeout=60)
             response.raise_for_status()
             
-            # 尝试使用lxml-xml，如果不支持则使用html.parser
+            # 尝试使用lxml-xml,如果不支持则使用html.parser
             try:
                 soup = BeautifulSoup(response.content, "lxml-xml")
             except:
@@ -393,7 +391,7 @@ def search_arxiv(category: str, max_results: int = 30, max_retries: int = 3) -> 
         except Exception as e:
             print(f"   尝试 {attempt+1}/{max_retries} 失败: {str(e)[:50]}")
             if attempt == max_retries - 1:
-                print(f"   ⚠️ 最终失败，跳过 {category}")
+                print(f"   ⚠️ 最终失败,跳过 {category}")
                 return []
     
     return []
@@ -437,7 +435,7 @@ def analyze_papers(papers: list, max_analyze: int = 30) -> list:
         return []
     
     if not BAIDU_API_KEY:
-        print("⚠️ 未设置 BAIDU_API_KEY，使用备用评分")
+        print("⚠️ 未设置 BAIDU_API_KEY,使用备用评分")
         analyzed = []
         for paper in papers:
             field = determine_field(paper)
@@ -448,7 +446,7 @@ def analyze_papers(papers: list, max_analyze: int = 30) -> list:
                 "researchField": field,
                 "keywords": [],
                 "scores": calculate_fallback_scores(paper),
-                "scoreReasoning": "基于关键词自动评估（无AI）",
+                "scoreReasoning": "基于关键词自动评估(无AI)",
                 "summary": paper["abstract"][:50] + "..." if len(paper["abstract"]) > 50 else paper["abstract"]
             })
         return analyzed
@@ -456,7 +454,7 @@ def analyze_papers(papers: list, max_analyze: int = 30) -> list:
     print(f"\n🤖 AI 分析论文 (最多 {max_analyze} 篇)...")
     analyzed = []
     
-    # 优先分析摘要较长的（通常质量更高）
+    # 优先分析摘要较长的(通常质量更高)
     papers_sorted = sorted(papers, key=lambda x: len(x.get("abstract", "")), reverse=True)
     
     for i, paper in enumerate(papers_sorted[:max_analyze]):
@@ -533,49 +531,51 @@ def save_papers(papers):
 
 
 def send_email(papers):
-    """发送邮件（包含中文摘要）"""
+    """发送邮件(包含中文摘要)"""
     if not papers:
-        print("⚠️ 没有新论文，跳过发送")
+        print("⚠️ 没有新论文,跳过发送")
         return
     
     today = datetime.now().strftime("%Y年%m月%d日")
     
-    html = f"""
-    <html>
-    <head>
-        <meta charset="utf-8">
-        <style>
-            body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Microsoft YaHei', sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }}
-            .header {{ background: linear-gradient(135deg, #1e3a5f, #2a4a73); color: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; text-align: center; }}
-            .paper {{ background: #f9f9f9; padding: 20px; margin: 20px 0; border-radius: 8px; border-left: 4px solid #d4a574; }}
-            .paper-header {{ display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; flex-wrap: wrap; }}
-            .score-box {{ background: #1e3a5f; color: white; padding: 8px 15px; border-radius: 20px; font-weight: bold; text-align: center; min-width: 60px; }}
-            .score-label {{ font-size: 11px; opacity: 0.9; }}
-            .score-value {{ font-size: 18px; }}
-            .field-tag {{ background: #e3f2fd; color: #1565c0; padding: 4px 12px; border-radius: 12px; font-size: 12px; margin-right: 5px; }}
-            .title-cn {{ font-size: 18px; font-weight: bold; margin: 10px 0; color: #1e3a5f; }}
-            .title-en {{ font-size: 14px; color: #666; font-style: italic; margin-bottom: 10px; }}
-            .authors {{ font-size: 13px; color: #666; margin: 8px 0; }}
-            .abstract-cn {{ font-size: 14px; color: #333; margin: 15px 0; line-height: 1.8; }}
-            .abstract-label {{ font-weight: bold; color: #1e3a5f; margin-bottom: 5px; }}
-            .score-detail {{ font-size: 12px; color: #666; margin-top: 10px; padding-top: 10px; border-top: 1px dashed #ddd; }}
-            .score-detail span {{ margin-right: 15px; }}
-            .links {{ margin-top: 15px; }}
-            .links a {{ display: inline-block; margin-right: 15px; padding: 6px 15px; background: #1e3a5f; color: white; text-decoration: none; border-radius: 4px; font-size: 13px; }}
-            .links a:hover {{ background: #2a4a73; }}
-            .summary {{ background: #fff3e0; padding: 10px 15px; border-radius: 4px; font-size: 13px; color: #e65100; margin: 10px 0; }}
-            .footer {{ text-align: center; margin-top: 30px; padding: 20px; color: #666; font-size: 12px; border-top: 1px solid #eee; }}
-            .keywords {{ font-size: 12px; color: #888; margin-top: 8px; }}
-            .keywords span {{ background: #f0f0f0; padding: 2px 8px; border-radius: 10px; margin-right: 5px; }}
-        </style>
-    </head>
-    <body>
-        <div class="header">
-            <h1>📚 Econe Papers 每日精选</h1>
-            <p style="font-size: 16px;">{today} 经济学论文精选（已过滤金融类）</p>
-            <p>共 {len(papers)} 篇 | 每篇含中文摘要翻译</p>
-        </div>
-    """
+    # 使用列表拼接避免 f-string 解析问题
+    html_parts = []
+    
+    # HTML 头部
+    html_parts.append('<html>')
+    html_parts.append('<head>')
+    html_parts.append('    <meta charset="utf-8">')
+    html_parts.append('    <style>')
+    html_parts.append('        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft YaHei", sans-serif; line-height: 1.6; color: rgb(51,51,51); max-width: 800px; margin: 0 auto; padding: 20px; }')
+    html_parts.append('        .header { background: linear-gradient(135deg, rgb(30,58,95), rgb(42,74,115)); color: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; text-align: center; }')
+    html_parts.append('        .paper { background: rgb(249,249,249); padding: 20px; margin: 20px 0; border-radius: 8px; border-left: 4px solid rgb(212,165,116); }')
+    html_parts.append('        .paper-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; flex-wrap: wrap; }')
+    html_parts.append('        .score-box { background: rgb(30,58,95); color: white; padding: 8px 15px; border-radius: 20px; font-weight: bold; text-align: center; min-width: 60px; }')
+    html_parts.append('        .score-label { font-size: 11px; opacity: 0.9; }')
+    html_parts.append('        .score-value { font-size: 18px; }')
+    html_parts.append('        .field-tag { background: rgb(227,242,253); color: rgb(21,101,192); padding: 4px 12px; border-radius: 12px; font-size: 12px; margin-right: 5px; }')
+    html_parts.append('        .title-cn { font-size: 18px; font-weight: bold; margin: 10px 0; color: rgb(30,58,95); }')
+    html_parts.append('        .title-en { font-size: 14px; color: rgb(102,102,102); font-style: italic; margin-bottom: 10px; }')
+    html_parts.append('        .authors { font-size: 13px; color: rgb(102,102,102); margin: 8px 0; }')
+    html_parts.append('        .abstract-cn { font-size: 14px; color: rgb(51,51,51); margin: 15px 0; line-height: 1.8; }')
+    html_parts.append('        .abstract-label { font-weight: bold; color: rgb(30,58,95); margin-bottom: 5px; }')
+    html_parts.append('        .score-detail { font-size: 12px; color: rgb(102,102,102); margin-top: 10px; padding-top: 10px; border-top: 1px dashed rgb(221,221,221); }')
+    html_parts.append('        .score-detail span { margin-right: 15px; }')
+    html_parts.append('        .links { margin-top: 15px; }')
+    html_parts.append('        .links a { display: inline-block; margin-right: 15px; padding: 6px 15px; background: rgb(30,58,95); color: white; text-decoration: none; border-radius: 4px; font-size: 13px; }')
+    html_parts.append('        .links a:hover { background: rgb(42,74,115); }')
+    html_parts.append('        .summary { background: rgb(255,243,224); padding: 10px 15px; border-radius: 4px; font-size: 13px; color: rgb(230,81,0); margin: 10px 0; }')
+    html_parts.append('        .footer { text-align: center; margin-top: 30px; padding: 20px; color: rgb(102,102,102); font-size: 12px; border-top: 1px solid rgb(238,238,238); }')
+    html_parts.append('        .keywords { font-size: 12px; color: rgb(136,136,136); margin-top: 8px; }')
+    html_parts.append('        .keywords span { background: rgb(240,240,240); padding: 2px 8px; border-radius: 10px; margin-right: 5px; }')
+    html_parts.append('    </style>')
+    html_parts.append('</head>')
+    html_parts.append('<body>')
+    html_parts.append('    <div class="header">')
+    html_parts.append('        <h1>📚 Econe Papers 每日精选</h1>')
+    html_parts.append('        <p style="font-size: 16px;">' + today + ' 经济学论文精选(已过滤金融类)</p>')
+    html_parts.append('        <p>共 ' + str(len(papers)) + ' 篇 | 每篇含中文摘要翻译</p>')
+    html_parts.append('    </div>')
     
     # 按评分排序
     papers_sorted = sorted(papers, key=lambda x: x.get('scores', {}).get('overall', 0), reverse=True)
@@ -603,66 +603,64 @@ def send_email(papers):
         pdf_link = paper.get('pdfUrl', '')
         
         # 关键词标签
-        keywords_html = ''.join([f'<span>{kw}</span>' for kw in keywords[:5]]) if keywords else ''
+        keywords_html = ''.join(['<span>' + kw + '</span>' for kw in keywords[:5]]) if keywords else ''
         
-        html += f"""
-        <div class="paper">
-            <div class="paper-header">
-                <div>
-                    <span class="field-tag">{field}</span>
-                    <span style="color: #999; font-size: 12px;">#{i}</span>
-                </div>
-                <div class="score-box">
-                    <div class="score-label">综合评分</div>
-                    <div class="score-value">{overall}</div>
-                </div>
-            </div>
-            
-            <div class="title-cn">{title_cn}</div>
-            <div class="title-en">{title_en}</div>
-            
-            <div class="authors">👥 {authors}</div>
-            
-            <div class="summary">💡 {summary}</div>
-            
-            <div class="abstract-cn">
-                <div class="abstract-label">📋 中文摘要</div>
-                {abstract_cn}
-            </div>
-            
-            <div class="keywords">🔑 {keywords_html}</div>
-            
-            <div class="score-detail">
-                <span>🆕 创新: {novelty}</span>
-                <span>📐 方法: {methodology}</span>
-                <span>📊 实证: {empirical}</span>
-                <span>🌍 影响: {impact}</span>
-                <span>📖 可读: {readability}</span>
-            </div>
-            
-            <div class="links">
-                <a href="{arxiv_link}" target="_blank">📄 arXiv原文</a>
-                <a href="{pdf_link}" target="_blank">📥 PDF下载</a>
-            </div>
-        </div>
-        """
+        html_parts.append('        <div class="paper">')
+        html_parts.append('            <div class="paper-header">')
+        html_parts.append('                <div>')
+        html_parts.append('                    <span class="field-tag">' + field + '</span>')
+        html_parts.append('                    <span style="color: rgb(153,153,153); font-size: 12px;">#' + str(i) + '</span>')
+        html_parts.append('                </div>')
+        html_parts.append('                <div class="score-box">')
+        html_parts.append('                    <div class="score-label">综合评分</div>')
+        html_parts.append('                    <div class="score-value">' + str(overall) + '</div>')
+        html_parts.append('                </div>')
+        html_parts.append('            </div>')
+        html_parts.append('')
+        html_parts.append('            <div class="title-cn">' + title_cn + '</div>')
+        html_parts.append('            <div class="title-en">' + title_en + '</div>')
+        html_parts.append('')
+        html_parts.append('            <div class="authors">👥 ' + authors + '</div>')
+        html_parts.append('')
+        html_parts.append('            <div class="summary">💡 ' + summary + '</div>')
+        html_parts.append('')
+        html_parts.append('            <div class="abstract-cn">')
+        html_parts.append('                <div class="abstract-label">📋 中文摘要</div>')
+        html_parts.append('                ' + abstract_cn)
+        html_parts.append('            </div>')
+        html_parts.append('')
+        html_parts.append('            <div class="keywords">🔑 ' + keywords_html + '</div>')
+        html_parts.append('')
+        html_parts.append('            <div class="score-detail">')
+        html_parts.append('                <span>🆕 创新: ' + str(novelty) + '</span>')
+        html_parts.append('                <span>📐 方法: ' + str(methodology) + '</span>')
+        html_parts.append('                <span>📊 实证: ' + str(empirical) + '</span>')
+        html_parts.append('                <span>🌍 影响: ' + str(impact) + '</span>')
+        html_parts.append('                <span>📖 可读: ' + str(readability) + '</span>')
+        html_parts.append('            </div>')
+        html_parts.append('')
+        html_parts.append('            <div class="links">')
+        html_parts.append('                <a href="' + arxiv_link + '" target="_blank">📄 arXiv原文</a>')
+        html_parts.append('                <a href="' + pdf_link + '" target="_blank">📥 PDF下载</a>')
+        html_parts.append('            </div>')
+        html_parts.append('        </div>')
     
-    html += f"""
-        <div class="footer">
-            <p>📌 查看完整论文列表: <a href="{WEB_URL}" target="_blank">{WEB_URL}</a></p>
-            <p>筛选说明：已自动过滤金融(Asset Pricing/Portfolio等)类论文</p>
-            <p>评分维度：创新性 | 方法论 | 实证质量 | 影响力 | 可读性</p>
-            <p>Powered by AI | MiniMax-Text-01 | 每日自动更新</p>
-        </div>
-    </body>
-    </html>
-    """
+    html_parts.append('        <div class="footer">')
+    html_parts.append('            <p>📌 查看完整论文列表: <a href="' + WEB_URL + '" target="_blank">' + WEB_URL + '</a></p>')
+    html_parts.append('            <p>筛选说明：已自动过滤金融(Asset Pricing/Portfolio等)类论文</p>')
+    html_parts.append('            <p>评分维度：创新性 | 方法论 | 实证质量 | 影响力 | 可读性</p>')
+    html_parts.append('            <p>Powered by AI | 每日自动更新</p>')
+    html_parts.append('        </div>')
+    html_parts.append('    </body>')
+    html_parts.append('</html>')
+    
+    html_content = ''.join(html_parts)
     
     msg = MIMEMultipart('alternative')
-    msg['Subject'] = f"📚 Econe Papers - {today} 精选 {len(papers)} 篇（含中文摘要）"
+    msg['Subject'] = f"📚 Econe Papers - {today} 精选 {len(papers)} 篇(含中文摘要)"
     msg['From'] = FROM_EMAIL
     msg['To'] = TO_EMAIL
-    msg.attach(MIMEText(html, 'html', 'utf-8'))
+    msg.attach(MIMEText(html_content, 'html', 'utf-8'))
     
     try:
         server = smtplib.SMTP(SMTP_SERVER, SMTP_PORT)
@@ -676,21 +674,21 @@ def send_email(papers):
 
 
 def send_to_feishu(papers):
-    """发送到飞书（包含中文摘要）"""
+    """发送到飞书(包含中文摘要)"""
     if not papers:
         return
     
     today = datetime.now().strftime("%Y年%m月%d日")
     
-    # 只发送前8篇（避免消息太长）
+    # 只发送前8篇(避免消息太长)
     papers_sorted = sorted(papers, key=lambda x: x.get('scores', {}).get('overall', 0), reverse=True)[:8]
     
     # 构建富文本内容
     content_lines = [
         f"📚 **Econe Papers 每日精选**",
-        f"{today} | 经济学论文（已过滤金融类）",
+        f"{today} | 经济学论文(已过滤金融类)",
         f"",
-        f"共 {len(papers)} 篇新论文，以下是评分最高的前8篇：",
+        f"共 {len(papers)} 篇新论文,以下是评分最高的前8篇：",
         f"",
         f"---",
         f"",
@@ -723,7 +721,7 @@ def send_to_feishu(papers):
     content_lines.extend([
         f"📊 查看全部 {len(papers)} 篇论文：[Econe Papers]({WEB_URL})",
         f"",
-        f"📌 筛选说明：已自动过滤金融类论文（Asset Pricing/Portfolio/Trading等）",
+        f"📌 筛选说明：已自动过滤金融类论文(Asset Pricing/Portfolio/Trading等)",
         f"📌 评分维度：创新性 | 方法论 | 实证质量 | 影响力 | 可读性",
     ])
     
@@ -731,7 +729,7 @@ def send_to_feishu(papers):
     
     # 使用 message 工具发送
     try:
-        # 由于无法直接导入，使用subprocess调用openclaw
+        # 由于无法直接导入,使用subprocess调用openclaw
         import subprocess
         import tempfile
         
@@ -768,14 +766,14 @@ def main():
     print(f"改进：过滤金融 + 中文摘要 + 多维度评分")
     print(f"{'='*60}\n")
     
-    # 1. 抓取论文（已过滤金融）
+    # 1. 抓取论文(已过滤金融)
     new_papers = scrape_today()
     
     if not new_papers:
         print("⚠️ 最近3天无新论文")
         return
     
-    # 2. AI分析（翻译 + 评分）- 分析所有论文
+    # 2. AI分析(翻译 + 评分)- 分析所有论文
     analyzed_papers = analyze_papers(new_papers, max_analyze=30)
     
     # 3. 保存数据
