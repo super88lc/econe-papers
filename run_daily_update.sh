@@ -5,8 +5,12 @@
 # Set PATH for cron
 export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
 
+# 避免 ArXiv 429 限流：随机延迟 0-10 分钟
+sleep $((RANDOM % 600))
+
 # Load environment variables (包含 BAIDU_API_KEY)
-source ~/.zshrc
+# 注意：cron 中使用 bash，zshrc 可能加载失败，直接设置关键变量
+export BAIDU_API_KEY="${BAIDU_API_KEY:-$(grep BAIDU_API_KEY ~/.zshrc 2>/dev/null | head -1 | cut -d'=' -f2 | tr -d \"\')}"
 
 cd ~/.openclaw/workspace/econe-papers/backend
 

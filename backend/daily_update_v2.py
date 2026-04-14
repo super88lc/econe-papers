@@ -353,9 +353,9 @@ def search_arxiv(category: str, max_results: int = 30, max_retries: int = 3) -> 
     
     for attempt in range(max_retries):
         try:
-            # 添加延迟避免请求过快
+            # 添加延迟避免请求过快 (ArXiv 429 限流保护)
             if attempt > 0:
-                time.sleep(2 * attempt)
+                time.sleep(5 * attempt)
             
             response = requests.get(base_url, params=params, timeout=60)
             response.raise_for_status()
@@ -423,7 +423,7 @@ def scrape_today():
                     
                     all_papers.append(p)
         
-        time.sleep(0.5)
+        time.sleep(3)  # 增加延迟避免 ArXiv 429 限流
     
     print(f"\n📊 共抓取 {len(all_papers)} 篇非金融经济学论文")
     return all_papers
