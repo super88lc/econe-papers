@@ -22,6 +22,25 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from collections import defaultdict
 
+
+def is_valid_chinese(text: str, min_ratio: float = 0.3) -> bool:
+    """校验文本是否包含足够的中文内容
+    Args:
+        text: 待检测文本
+        min_ratio: 最小中文字符比例
+    Returns:
+        True if 中文比例达标
+    """
+    if not text or len(text) < 10:
+        return False
+    # 统计中文字符
+    chinese_chars = len(re.findall(r'[\u4e00-\u9fff]', text))
+    total_chars = len(text.replace(' ', '').replace('\n', ''))
+    if total_chars == 0:
+        return False
+    ratio = chinese_chars / total_chars
+    return ratio >= min_ratio
+
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlencode
@@ -37,11 +56,37 @@ TO_EMAIL = "liuchu_pku@foxmail.com"
 PAPERS_FILE = "papers.json"
 WEB_URL = "https://econe-papers.vercel.app"
 
-# 百度千帆 API 配置(从环境变量加载)
+# 百度千帆 API 配置(从环境变量或.zshrc加载)
 def load_baidu_api_key():
-    """加载百度 API Key - 仅从环境变量读取"""
+    """加载百度 API Key - 优先环境变量，其次.zshrc"""
+    # 1. 首先尝试环境变量
     key = os.getenv("BAIDU_API_KEY", "")
-    return key
+    if key:
+        return key
+    
+    # 2. 尝试从 .zshrc 读取
+    zshrc_paths = [
+        os.path.expanduser("~/.zshrc"),
+        os.path.expanduser("~/.bashrc"),
+        os.path.expanduser("~/.bash_profile"),
+    ]
+    
+    for zshrc_path in zshrc_paths:
+        if os.path.exists(zshrc_path):
+            try:
+                with open(zshrc_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                    # 匹配 export BAIDU_API_KEY="..." 或 BAIDU_API_KEY="..."
+                    match = re.search(r'export\s+BAIDU_API_KEY=["\']([^"\']+)["\']', content)
+                    if match:
+                        key = match.group(1)
+                        print(f"   ℹ️ 从 {zshrc_path} 加载 BAIDU_API_KEY")
+                        return key
+            except Exception as e:
+                print(f"   ⚠️ 读取 {zshrc_path} 失败: {e}")
+                continue
+    
+    return ""
 
 BAIDU_API_KEY = load_baidu_api_key()
 BAIDU_BASE_URL = "https://qianfan.baidubce.com/v2"  # 使用通用对话 API,非 Coding
@@ -196,8 +241,8 @@ def determine_field(paper: dict) -> str:
     return "其他"
 
 
-def analyze_and_translate(paper: dict) -> dict:
-    """AI分析：翻译摘要 + 多维度评分"""
+def analyze_and_translate(paper: dict, max_retries: int = 5) -> dict:
+    """AI分析：翻译摘要 + 多维度评分（带校验重试机制）"""
     title = paper.get("title", "")
     abstract = paper.get("abstract", "")
     authors = paper.get("authors", [])
@@ -242,25 +287,62 @@ def analyze_and_translate(paper: dict) -> dict:
 2. 根据论文实际质量严格打分,平庸论文应给6-7分,优秀论文才给8分以上
 3. overall = (novelty + methodology + empirical + impact + readability) / 5 * 2,再根据论文整体印象微调±0.5-1分
 4. 评分理由必须指出具体优缺点,不能泛泛而谈
+5. 中文摘要必须完整翻译，不能保留英文原文
 """
 
-    result = call_qianfan(prompt, temperature=0.4)
+    # 重试循环：直到翻译成功或达到最大重试次数
+    for attempt in range(max_retries):
+        result = call_qianfan(prompt, temperature=0.4)
+        
+        if result:
+            try:
+                # 提取JSON
+                start = result.find(chr(123))
+                end = result.rfind(chr(125))
+                if start != -1 and end != -1 and end > start:
+                    json_str = result[start:end+1]
+                    analysis = json.loads(json_str)
+                    
+                    # 校验翻译质量
+                    chinese_abstract = analysis.get('chineseAbstract', '')
+                    chinese_title = analysis.get('chineseTitle', '')
+                    
+                    # 检查摘要是否包含足够中文（至少30%中文字符）
+                    abstract_valid = is_valid_chinese(chinese_abstract, min_ratio=0.3)
+                    # 标题至少要有一些中文
+                    title_valid = is_valid_chinese(chinese_title, min_ratio=0.2) or len(chinese_title) > 5
+                    
+                    if abstract_valid and title_valid:
+                        print(f"     ✓ AI分析完成 (尝试{attempt+1}/{max_retries}): {chinese_title[:30]}...")
+                        return {**paper, **analysis}
+                    else:
+                        # 翻译不完整，记录问题并重试
+                        issues = []
+                        if not abstract_valid:
+                            issues.append(f"摘要中文比例不足({len(re.findall(r'[\u4e00-\u9fff]', chinese_abstract))}/{len(chinese_abstract)})")
+                        if not title_valid:
+                            issues.append("标题翻译不完整")
+                        print(f"     ⚠️ 翻译校验失败 (尝试{attempt+1}/{max_retries}): {', '.join(issues)}")
+                        
+                        if attempt < max_retries - 1:
+                            wait_time = 2 * (attempt + 1)  # 递增等待
+                            print(f"        ⏳ {wait_time}秒后重试...")
+                            time.sleep(wait_time)
+                            continue
+                            
+            except json.JSONDecodeError as e:
+                print(f"     ⚠️ JSON解析失败 (尝试{attempt+1}/{max_retries}): {e}")
+                if attempt < max_retries - 1:
+                    time.sleep(2 * (attempt + 1))
+                    continue
+        else:
+            print(f"     ⚠️ API无返回 (尝试{attempt+1}/{max_retries})")
+            if attempt < max_retries - 1:
+                time.sleep(2 * (attempt + 1))
+                continue
     
-    if result:
-        try:
-            # 提取JSON - 使用字符串查找代替正则
-            start = result.find(chr(123))
-            end = result.rfind(chr(125))
-            if start != -1 and end != -1 and end > start:
-                json_str = result[start:end+1]
-                analysis = json.loads(json_str)
-                print(f"     ✓ AI分析完成: {analysis.get('chineseTitle', '')[:30]}...")
-                return {**paper, **analysis}
-        except json.JSONDecodeError as e:
-            print(f"  ⚠️ JSON解析失败: {e}")
-    
-    # AI失败时使用备用方案
-    print("     ⚠️ 使用备用分析")
+    # 所有重试失败，使用备用方案
+    print(f"     ⚠️ {max_retries}次尝试均失败，使用备用分析")
     field = determine_field(paper)
     return {
         **paper,
@@ -269,7 +351,7 @@ def analyze_and_translate(paper: dict) -> dict:
         "researchField": field,
         "keywords": [],
         "scores": calculate_fallback_scores(paper),
-        "scoreReasoning": "基于关键词自动评估",
+        "scoreReasoning": "基于关键词自动评估(翻译失败)",
         "summary": paper["abstract"][:50] + "..." if len(paper["abstract"]) > 50 else paper["abstract"]
     }
 
@@ -481,8 +563,42 @@ def scrape_today():
     return all_papers
 
 
+def validate_translations(papers: list, min_ratio: float = 0.3) -> tuple:
+    """校验所有论文的中文翻译质量
+    Returns:
+        (valid_count, invalid_papers) - 有效数量和无效论文列表
+    """
+    invalid = []
+    for paper in papers:
+        abstract = paper.get('chineseAbstract', '')
+        title = paper.get('chineseTitle', '')
+        
+        # 检查摘要
+        abstract_valid = is_valid_chinese(abstract, min_ratio=min_ratio)
+        # 检查标题
+        title_valid = is_valid_chinese(title, min_ratio=0.2) or len(title) > 5
+        
+        if not abstract_valid:
+            invalid.append({
+                'id': paper.get('id', 'unknown'),
+                'title': title[:50],
+                'issue': '摘要翻译无效',
+                'chinese_ratio': len(re.findall(r'[\u4e00-\u9fff]', abstract)) / max(len(abstract), 1)
+            })
+        elif not title_valid:
+            invalid.append({
+                'id': paper.get('id', 'unknown'),
+                'title': title[:50],
+                'issue': '标题翻译不完整',
+                'chinese_ratio': len(re.findall(r'[\u4e00-\u9fff]', title)) / max(len(title), 1)
+            })
+    
+    valid_count = len(papers) - len(invalid)
+    return valid_count, invalid
+
+
 def analyze_papers(papers: list, max_analyze: int = 30) -> list:
-    """批量分析论文"""
+    """批量分析论文（带翻译校验）"""
     if not papers:
         return []
     
@@ -528,6 +644,20 @@ def analyze_papers(papers: list, max_analyze: int = 30) -> list:
             "scoreReasoning": "基于关键词自动评估",
             "summary": paper["abstract"][:50] + "..." if len(paper["abstract"]) > 50 else paper["abstract"]
         })
+    
+    # 翻译质量校验报告
+    print(f"\n📋 翻译质量校验...")
+    valid_count, invalid_papers = validate_translations(analyzed)
+    total = len(analyzed)
+    valid_ratio = valid_count / total * 100 if total > 0 else 0
+    print(f"   有效翻译: {valid_count}/{total} ({valid_ratio:.1f}%)")
+    
+    if invalid_papers:
+        print(f"   ⚠️ 发现 {len(invalid_papers)} 篇翻译不完整:")
+        for p in invalid_papers[:5]:  # 只显示前5个
+            print(f"      - {p['title']}... ({p['issue']})")
+        if len(invalid_papers) > 5:
+            print(f"      ... 还有 {len(invalid_papers) - 5} 篇")
     
     return analyzed
 
@@ -815,7 +945,7 @@ def send_to_feishu(papers):
 def main():
     print(f"\n{'='*60}")
     print(f"Econe Papers 每日精选 v2.0")
-    print(f"改进：过滤金融 + 中文摘要 + 多维度评分")
+    print(f"改进：过滤金融 + 中文摘要 + 多维度评分 + 翻译校验")
     print(f"{'='*60}\n")
     
     # 1. 抓取论文(已过滤金融)
@@ -828,13 +958,34 @@ def main():
     # 2. AI分析(翻译 + 评分)- 分析所有论文
     analyzed_papers = analyze_papers(new_papers, max_analyze=30)
     
-    # 3. 保存数据
+    # 3. 最终翻译质量校验 - 必须达到阈值才推送
+    print(f"\n🔍 最终推送前校验...")
+    valid_count, invalid_papers = validate_translations(analyzed_papers)
+    total = len(analyzed_papers)
+    valid_ratio = (valid_count / total * 100) if total > 0 else 0
+    
+    # 设定阈值：至少70%论文必须有有效翻译
+    MIN_VALID_RATIO = 70.0
+    
+    if valid_ratio < MIN_VALID_RATIO:
+        print(f"\n🚫 推送中止！翻译质量不达标:")
+        print(f"   有效翻译: {valid_count}/{total} ({valid_ratio:.1f}%)")
+        print(f"   最低要求: {MIN_VALID_RATIO}%")
+        print(f"\n⚠️ 建议：")
+        print(f"   1. 检查 BAIDU_API_KEY 是否正确配置")
+        print(f"   2. 检查百度API服务状态")
+        print(f"   3. 稍后重试")
+        return
+    
+    print(f"   ✅ 翻译质量通过: {valid_count}/{total} ({valid_ratio:.1f}%)")
+    
+    # 4. 保存数据
     saved_papers = save_papers(analyzed_papers)
     
-    # 4. 发送邮件
+    # 5. 发送邮件
     send_email(saved_papers)
     
-    # 5. 发送飞书
+    # 6. 发送飞书
     try:
         send_to_feishu(saved_papers)
     except Exception as e:
@@ -843,6 +994,7 @@ def main():
     print(f"\n✅ 每日更新完成！")
     print(f"   - 抓取: {len(new_papers)} 篇")
     print(f"   - 分析: {len(analyzed_papers)} 篇")
+    print(f"   - 有效翻译: {valid_count} 篇 ({valid_ratio:.1f}%)")
     print(f"   - 保存: {len(saved_papers)} 篇")
 
 
