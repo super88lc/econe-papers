@@ -13,6 +13,7 @@ Econe Papers 每日精选 - 改进版
 import argparse
 import json
 import os
+import random
 import re
 import smtplib
 import time
@@ -44,7 +45,7 @@ def load_baidu_api_key():
 
 BAIDU_API_KEY = load_baidu_api_key()
 BAIDU_BASE_URL = "https://qianfan.baidubce.com/v2"  # 使用通用对话 API,非 Coding
-BAIDU_MODEL = "ernie-4.0-turbo-8k"  # 可用模型
+BAIDU_MODEL = "ernie-4.0-turbo-8k-latest"  # 可用模型
 
 # ============ 论文分类 (已移除所有金融类) ============
 # 只保留纯经济学分类,过滤掉 q-fin.* (量化金融)
@@ -84,7 +85,7 @@ def call_qianfan(prompt: str, temperature: float = 0.3) -> str:
     }
     
     payload = {
-        "model": "ernie-4.0-turbo-8k",
+        "model": "ernie-4.0-turbo-8k-latest",
         "messages": [
             {"role": "system", "content": "你是专业的经济学学术助手,擅长论文分析、翻译和评分.请只返回要求的格式内容."},
             {"role": "user", "content": prompt}
@@ -340,8 +341,8 @@ def calculate_fallback_scores(paper: dict) -> dict:
     }
 
 
-def search_arxiv(category: str, max_results: int = 30, max_retries: int = 3) -> list:
-    """从ArXiv搜索论文(带重试机制)"""
+def search_arxiv(category: str, max_results: int = 30, max_retries: int = 20) -> list:
+    """从ArXiv搜索论文(智能限流处理 - 长时间间歇重试直到成功)"""
     base_url = "https://export.arxiv.org/api/query"
     params = {
         "search_query": f"cat:{category}",
@@ -351,14 +352,46 @@ def search_arxiv(category: str, max_results: int = 30, max_retries: int = 3) -> 
         "sortOrder": "descending"
     }
     
+    # 限流处理配置
+    consecutive_429_count = 0  # 连续429计数
+    max_total_wait = 600  # 单个分类最大等待时间10分钟
+    total_waited = 0
+    
     for attempt in range(max_retries):
         try:
-            # 添加延迟避免请求过快 (ArXiv 429 限流保护)
-            if attempt > 0:
-                time.sleep(5 * attempt)
+            # 智能延迟策略
+            if attempt == 0:
+                # 首次请求：随机延迟5-15秒，避免规律性请求
+                initial_delay = random.uniform(5, 15)
+                print(f"     ⏳ 初始延迟 {initial_delay:.1f}秒...")
+                time.sleep(initial_delay)
+                total_waited += initial_delay
+            else:
+                # 根据错误类型调整延迟
+                if consecutive_429_count > 0:
+                    # 连续429：渐进式退避 (30秒 -> 60秒 -> 90秒...)
+                    delay = min(30 * consecutive_429_count, 120)  # 最多2分钟
+                    # 添加随机抖动避免同步
+                    delay = delay + random.uniform(5, 15)
+                    print(f"     🚫 连续限流x{consecutive_429_count}，冷却 {delay:.1f}秒...")
+                else:
+                    # 其他错误：指数退避
+                    delay = min(5 * (2 ** attempt), 60)  # 最多1分钟
+                    print(f"     ⏳ 等待 {delay:.1f}秒后重试 ({attempt+1}/{max_retries})...")
+                
+                time.sleep(delay)
+                total_waited += delay
+            
+            # 检查是否超过最大等待时间
+            if total_waited > max_total_wait:
+                print(f"   ⚠️ {category} 等待时间超过{max_total_wait}秒，跳过")
+                return []
             
             response = requests.get(base_url, params=params, timeout=60)
             response.raise_for_status()
+            
+            # 成功！重置429计数器
+            consecutive_429_count = 0
             
             # 尝试使用lxml-xml,如果不支持则使用html.parser
             try:
@@ -389,9 +422,22 @@ def search_arxiv(category: str, max_results: int = 30, max_retries: int = 3) -> 
             return papers
             
         except Exception as e:
-            print(f"   尝试 {attempt+1}/{max_retries} 失败: {str(e)[:50]}")
+            error_msg = str(e)
+            is_429 = "429" in error_msg or "Too Many Requests" in error_msg or "rate limit" in error_msg.lower()
+            
+            if is_429:
+                consecutive_429_count += 1
+                print(f"   🚫 尝试 {attempt+1}/{max_retries}: 触发限流(429) x{consecutive_429_count}")
+            else:
+                print(f"   ⚠️ 尝试 {attempt+1}/{max_retries} 失败: {error_msg[:60]}")
+                consecutive_429_count = 0  # 非429错误重置计数
+            
+            # 最后一次尝试失败
             if attempt == max_retries - 1:
-                print(f"   ⚠️ 最终失败,跳过 {category}")
+                if consecutive_429_count > 0:
+                    print(f"   ⚠️ {category} 持续触发限流，已重试{max_retries}次，跳过")
+                else:
+                    print(f"   ⚠️ {category} 最终失败,跳过")
                 return []
     
     return []
@@ -401,13 +447,14 @@ def scrape_today():
     """抓取论文并过滤金融类"""
     print("📡 抓取 ArXiv 经济学论文...")
     print(f"   分类: {', '.join(ARXIV_CATEGORIES)}")
+    print(f"   策略: 智能限流保护，429触发时自动延长冷却时间")
     
     all_papers = []
     today = datetime.now().strftime("%Y-%m-%d")
     cutoff_date = (datetime.now() - timedelta(days=3)).strftime("%Y-%m-%d")
     
-    for cat in ARXIV_CATEGORIES:
-        print(f"   正在抓取 {cat}...")
+    for i, cat in enumerate(ARXIV_CATEGORIES):
+        print(f"\n   [{i+1}/{len(ARXIV_CATEGORIES)}] 正在抓取 {cat}...")
         papers = search_arxiv(cat, 25)
         
         for p in papers:
@@ -423,7 +470,12 @@ def scrape_today():
                     
                     all_papers.append(p)
         
-        time.sleep(3)  # 增加延迟避免 ArXiv 429 限流
+        # 分类间延迟：渐进式，避免规律请求
+        if i < len(ARXIV_CATEGORIES) - 1:  # 最后一个分类后不需要延迟
+            # 基础延迟10-15秒 + 随机抖动
+            base_delay = random.uniform(10, 15)
+            print(f"   ⏳ 分类间冷却 {base_delay:.1f}秒...")
+            time.sleep(base_delay)
     
     print(f"\n📊 共抓取 {len(all_papers)} 篇非金融经济学论文")
     return all_papers
