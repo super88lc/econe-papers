@@ -478,8 +478,15 @@ def search_arxiv(category: str, max_results: int = 30, max_retries: int = 30) ->
                 print(f"   ⚠️ {category} 等待时间超过{max_total_wait}秒，跳过")
                 return []
             
-            response = requests.get(base_url, params=params, timeout=60)
-            response.raise_for_status()
+            # 发送请求，禁用代理（ArXiv export API 通常可直接访问）
+            # 尝试直连，如果失败则使用代理
+            try:
+                response = requests.get(base_url, params=params, timeout=30, proxies={})
+                response.raise_for_status()
+            except requests.exceptions.ProxyError:
+                # 代理错误时尝试使用环境变量代理
+                response = requests.get(base_url, params=params, timeout=30)
+                response.raise_for_status()
             
             # 成功！重置429计数器并记录全局时间
             consecutive_429_count = 0

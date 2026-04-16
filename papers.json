@@ -1,0 +1,636 @@
+{
+  "days": [
+    {
+      "date": "2026-04-16",
+      "papers": [
+        {
+          "id": "http://arxiv.org/abs/2604.12992v1",
+          "title": "Causal Diffusion Models for Counterfactual Outcome Distributions in Longitudinal Data",
+          "authors": [
+            "Farbod Alinezhad",
+            "Jianfei Cao",
+            "Gary J. Young",
+            "Brady Post"
+          ],
+          "abstract": "Predicting counterfactual outcomes in longitudinal data, where sequential treatment decisions heavily depend on evolving patient states, is critical yet notoriously challenging due to complex time-dependent confounding and inadequate uncertainty quantification in existing methods. We introduce the Causal Diffusion Model (CDM), the first denoising diffusion probabilistic approach explicitly designed to generate full probabilistic distributions of counterfactual outcomes under sequential interventions. CDM employs a novel residual denoising architecture with relational self-attention, capturing intricate temporal dependencies and multimodal outcome trajectories without requiring explicit adjustments (e.g., inverse-probability weighting or adversarial balancing) for confounding. In rigorous evaluation on a pharmacokinetic-pharmacodynamic tumor-growth simulator widely adopted in prior work, CDM consistently outperforms state-of-the-art longitudinal causal inference methods, achieving a 15-30% relative improvement in distributional accuracy (1-Wasserstein distance) while maintaining competitive or superior point-estimate accuracy (RMSE) under high-confounding regimes. By unifying uncertainty quantification and robust counterfactual prediction in complex, sequentially confounded settings, without tailored deconfounding, CDM offers a flexible, high-impact tool for decision support in medicine, policy evaluation, and other longitudinal domains.",
+          "categories": [
+            "stat.ML",
+            "cs.LG",
+            "econ.EM"
+          ],
+          "published": "2026-04-14",
+          "pdfUrl": "https://arxiv.org/pdf/2604.12992v1",
+          "chineseTitle": "纵向数据中反事实结果分布的因果扩散模型",
+          "chineseAbstract": "在纵向数据中预测反事实结果，其中连续的治疗决策高度依赖于不断变化的患者状态，由于复杂的时间依赖性混杂和现有方法中不确定性的量化不足，这一任务至关重要但极具挑战性。本文引入了因果扩散模型（CDM），这是首个明确设计用于在连续干预下生成反事实结果完整概率分布的去噪扩散概率方法。CDM采用了一种新颖的残差去噪架构与关系自注意力机制，能够捕捉复杂的时间依赖性和多模态结果轨迹，而无需对混杂进行显式调整（例如逆概率加权或对抗性平衡）。在先前研究中广泛采用的药代动力学-药效学肿瘤生长模拟器上的严格评估中，CDM始终优于最先进的纵向因果推断方法，在高度混杂的情况下，分布准确性（1-Wasserstein距离）相对提高了15-30%，同时保持了具有竞争力或更优的点估计准确性（RMSE）。通过在复杂、连续混杂的环境中统一不确定性量化和稳健的反事实预测，而无需定制的去混杂处理，CDM为医学决策支持、政策评估和其他纵向领域提供了一个灵活、高影响力的工具。",
+          "keywords": [
+            "因果扩散模型",
+            "纵向数据",
+            "反事实结果",
+            "去噪扩散概率方法",
+            "关系自注意力"
+          ],
+          "researchField": "计量",
+          "scores": {
+            "overall": 8.0,
+            "novelty": 4.0,
+            "methodology": 4.0,
+            "empirical": 4.0,
+            "impact": 4.0,
+            "readability": 4.0
+          },
+          "scoreReasoning": "创新性显著，方法严谨先进，实证充分，影响较大，可读性清晰。",
+          "summary": "提出CDM模型，提升纵向数据反事实预测的分布准确性。"
+        },
+        {
+          "id": "http://arxiv.org/abs/2604.11243v1",
+          "title": "Knowledge Compounding: An Empirical Economic Analysis of Self-Evolving Knowledge Wikis under the Agentic ROI Framework",
+          "authors": [
+            "Shuide Wen",
+            "Beier Ku"
+          ],
+          "abstract": "Building on the Agentic ROI framework proposed by Liu et al. (2026), this paper introduces knowledge compounding as a new measurable concept in the empirical economics of LLM agents and validates it through a controlled four-query experiment on Qing Claw, an industrial-grade C# reimplementation of the OpenClaw multi-agent framework. Our central theoretical claim is that the cost term in the original Agentic ROI equation contains an unexamined assumption -- that the cost of each task is mutually independent. This assumption holds under the traditional retrieval-augmented generation (RAG) paradigm but breaks down once a persistent, structured knowledge layer is introduced. We propose a dynamic Agentic ROI model in which cost is treated as a time-varying function Cost(t) governed by a knowledge-base coverage rate H(t). Empirical results from four sequential queries on the same domain yield a cumulative token consumption of 47K under the compounding regime versus 305K under a matched RAG baseline -- a savings of 84.6%. Calibrated 30-day projections indicate cumulative savings of 53.7% under medium topic concentration and 81.3% under high concentration, with the gap widening monotonically over time. We further identify three microeconomic mechanisms underlying the compounding effect: (i) one-time INGEST amortized over N retrievals, (ii) auto-feedback of high-value answers into synthesis pages, and (iii) write-back of external search results into entity pages. The theoretical contribution of this paper is a recategorization of LLM tokens from consumables to capital goods, shifting the economic discussion from static marginal cost analysis to dynamic capital accumulation. The engineering contribution is a minimal reproducible implementation in approximately 200 lines of C#, which we believe is the first complete industrial-grade reference implementation of Karpathy's (2026) LLM Wiki paradigm.",
+          "categories": [
+            "econ.EM"
+          ],
+          "published": "2026-04-13",
+          "pdfUrl": "https://arxiv.org/pdf/2604.11243v1",
+          "chineseTitle": "知识复利：在智能体投资回报率框架下对自进化知识维基的实证经济分析",
+          "chineseAbstract": "基于Liu等人（2026年）提出的智能体投资回报率（Agentic ROI）框架，本文引入了知识复利这一新概念，作为大语言模型（LLM）智能体实证经济学中的可测量概念，并通过在Qing Claw（一个工业级C#重新实现的OpenClaw多智能体框架）上进行的受控四查询实验对其进行了验证。我们的核心理论主张是，原始Agentic ROI方程中的成本项包含一个未经检验的假设——即每个任务的成本相互独立。这一假设在传统的检索增强生成（RAG）范式下成立，但一旦引入持久、结构化的知识层，该假设便不再适用。我们提出了一个动态Agentic ROI模型，其中成本被视为由知识库覆盖率H(t)控制的时间变化函数Cost(t)。对同一领域进行的四次连续查询的实证结果显示，在复利制度下，累计令牌消耗量为47K，而在匹配的RAG基线制度下为305K，节省了84.6%。校准后的30天预测显示，在中等主题集中度下累计节省53.7%，在高集中度下节省81.3%，且这一差距随时间单调扩大。我们进一步确定了复利效应背后的三个微观经济机制：（i）一次性摄入（INGEST）在N次检索中的分摊，（ii）高价值答案自动反馈到合成页面中，以及（iii）将外部搜索结果写回实体页面。本文的理论贡献是将LLM令牌从消耗品重新分类为资本品，将经济讨论从静态边际成本分析转向动态资本积累。工程贡献是用约200行C#代码实现的最小可复现实现，据我们所知，这是Karpathy（2026年）LLM Wiki范式的第一个完整的工业级参考实现。",
+          "keywords": [
+            "知识复利",
+            "智能体投资回报率",
+            "大语言模型",
+            "动态模型",
+            "实证经济分析"
+          ],
+          "researchField": "计量",
+          "scores": {
+            "overall": 7.5,
+            "novelty": 4,
+            "methodology": 3.5,
+            "empirical": 4,
+            "impact": 4,
+            "readability": 3.5
+          },
+          "scoreReasoning": "创新性显著，方法较严谨但部分细节待完善，实证充分，影响较大，可读性尚可。",
+          "summary": "提出知识复利概念，验证动态Agentic ROI模型。"
+        },
+        {
+          "id": "http://arxiv.org/abs/2604.12900v1",
+          "title": "Emulating Stepped-Wedge Cluster Randomized Trials to Evaluate Health Policies and Interventions",
+          "authors": [
+            "Haidong Lu",
+            "Gregg S. Gonsalves",
+            "Fan Li",
+            "Guanyu Tong",
+            "Lee Kennedy-Shaffer"
+          ],
+          "abstract": "Both cluster randomized trials and quasi-experimental designs are used to evaluate the impact of health and social policies and interventions. Stepped-wedge cluster randomized trials randomize a staggered adoption approach, while recent difference-in-differences methods allow analysis of non-randomized settings where similar policies are adopted at different time points. These approaches have become common, but the sheer variety of methods for analyzing observational studies with staggered adoption makes it challenging to clearly design and report such studies. We propose that observational and quasi-experimental study investigators can address these challenges by emulating stepped-wedge cluster randomized trials in the target trial emulation framework. The conceptual framework and reporting standards of trial emulation will encourage consideration of key features of these designs, such as policy heterogeneity and time-varying effects, and clear reporting of the estimand and assumptions. It also highlights areas where those interested in randomized trials and quasi-experimental designs can benefit from one another's experience by bringing insights across disciplines. Questions of treatment effect heterogeneity, power, spillovers, and anticipation effects, among others, are common to both fields and can benefit from cross-pollination. This article also demonstrates how trial emulation can identify settings that are not well-served by either approach, thereby avoiding studies unlikely to generate high-quality causal evidence. Finally, it informs the bias-variance-generalizability trade-off that arises with design and analysis choices made in these settings, supporting better evidence generation and interpretation in settings where important questions can be answered.",
+          "categories": [
+            "stat.ME",
+            "econ.EM"
+          ],
+          "published": "2026-04-14",
+          "pdfUrl": "https://arxiv.org/pdf/2604.12900v1",
+          "chineseTitle": "模拟阶梯楔形整群随机试验以评估健康政策与干预措施",
+          "chineseAbstract": "整群随机试验和准实验设计均被用于评估健康和社会政策及干预措施的影响。阶梯楔形整群随机试验采用交错采纳的方法进行随机化，而近期的双重差分法则允许分析在不同时间点采纳类似政策的非随机化环境。这些方法已变得普遍，但分析交错采纳的观察性研究的方法种类繁多，使得清晰设计和报告此类研究变得具有挑战性。我们提出，观察性和准实验性研究的研究人员可以通过在目标试验模拟框架中模拟阶梯楔形整群随机试验来应对这些挑战。试验模拟的概念框架和报告标准将鼓励考虑这些设计的关键特征，如政策异质性和时变效应，并清晰报告估计量和假设。它还强调了那些对随机试验和准实验设计感兴趣的人可以通过跨学科见解相互受益的领域。治疗效应异质性、效力、溢出效应和预期效应等问题是两个领域的共同问题，可以从跨学科交流中受益。本文还展示了试验模拟如何识别出两种方法均无法很好服务的场景，从而避免进行不太可能产生高质量因果证据的研究。最后，它阐述了在这些场景下设计和分析选择所带来的偏差-方差-泛化性权衡，支持在能够回答重要问题的场景中更好地生成和解释证据。",
+          "keywords": [
+            "阶梯楔形整群随机试验",
+            "准实验设计",
+            "双重差分法",
+            "试验模拟",
+            "因果证据"
+          ],
+          "researchField": "计量",
+          "scores": {
+            "overall": 7.5,
+            "novelty": 4,
+            "methodology": 4,
+            "empirical": 3.5,
+            "impact": 4,
+            "readability": 4
+          },
+          "scoreReasoning": "创新性较强，方法论严谨，实证较扎实，影响力较大，可读性良好。",
+          "summary": "提出模拟阶梯楔形整群随机试验以优化健康政策评估方法。"
+        },
+        {
+          "id": "http://arxiv.org/abs/2604.11384v1",
+          "title": "Statehood Without Capacity",
+          "authors": [
+            "Rok Spruk"
+          ],
+          "abstract": "This paper develops a political-economy theory of statehood without capacity. I argue that under specific institutional and geopolitical conditions, a polity can become trapped in an equilibrium of nominal statehood: a state in which claims to sovereignty, external recognition, and symbolic legitimacy persist or even strengthen while the coercive, fiscal, administrative, and legal capacities required for effective statehood remain weak. The mechanism is driven by three forces. First, fragmented elites may privately benefit from preserving autonomous control, patronage, and localized rent extraction rather than consolidating authority into a unified state. Second, externally mediated transfers can reduce the immediate costs of institutional non-consolidation and thereby stabilize a low-capacity equilibrium. Third, international recognition and symbolic endorsement may be only weakly conditioned on domestic administrative performance, allowing recognition capital to accumulate more rapidly than capacity capital. The theory generates a dynamic divergence between juridical or symbolic statehood and effective statehood, with implications for investment, fiscal fragility, corruption, and vulnerability to conflict shocks. The paper derives testable predictions and then interprets Palestine as a flagship application of the broader mechanism. The central implication is that statehood is not only a question of recognition or territorial claim but an equilibrium outcome of institutional consolidation. Where the incentives to consolidate remain weak, sovereignty may be asserted without becoming viable.",
+          "categories": [
+            "econ.GN"
+          ],
+          "published": "2026-04-13",
+          "pdfUrl": "https://arxiv.org/pdf/2604.11384v1",
+          "chineseTitle": "有名无实的国家地位",
+          "chineseAbstract": "本文构建了一个关于有名无实的国家地位的政治经济学理论。我提出，在特定的制度与地缘政治条件下，一个政治实体可能陷入名义国家地位的均衡状态：即该实体在主权主张、外部承认和象征性合法性方面持续存在甚至加强，但有效国家地位所需的强制、财政、行政和法律能力却依然薄弱。这一机制由三种力量驱动：首先，分裂的精英阶层可能从维护自主控制、庇护关系和本地化租金提取中私下获益，而非将权力整合到一个统一国家中；其次，外部调解的转移支付可能降低制度未整合的直接成本，从而稳定低能力均衡；最后，国际承认和象征性支持可能仅微弱地依赖于国内行政表现，使得承认资本的积累速度快于能力资本。该理论揭示了法律或象征性国家地位与有效国家地位之间的动态分歧，对投资、财政脆弱性、腐败和冲突冲击的脆弱性具有影响。本文推导出可检验的预测，并将巴勒斯坦作为这一广泛机制的主要应用案例进行解读。核心启示在于，国家地位不仅是承认或领土主张的问题，而是制度整合的均衡结果。在整合激励薄弱的情况下，主权可能被主张却无法实现可行。",
+          "keywords": [
+            "国家地位",
+            "制度整合",
+            "外部承认",
+            "能力资本",
+            "巴勒斯坦"
+          ],
+          "researchField": "理论经济学",
+          "scores": {
+            "overall": 7.5,
+            "novelty": 4,
+            "methodology": 3.5,
+            "empirical": 3.5,
+            "impact": 4,
+            "readability": 4
+          },
+          "scoreReasoning": "理论创新性强，但实证部分稍显薄弱，方法论规范但不够前沿，整体可读性较好。",
+          "summary": "提出国家地位是制度整合的均衡结果，而非仅是承认问题。"
+        },
+        {
+          "id": "http://arxiv.org/abs/2604.11926v1",
+          "title": "Shock, Communication, and Yield Curve Repricing: A Two-Step Empirical Framework for Copom Events in Brazil",
+          "authors": [
+            "Gabriel de Macedo Santos"
+          ],
+          "abstract": "This paper proposes a two-step empirical framework to study the repricing of the Brazilian DI curve around Copom-related events. The empirical strategy separates the initial market reaction associated with the underlying shock from the subsequent repricing observed between the shock and the first Copom statement that follows it. The dataset combines a hand-built event calendar, daily market data, Focus expectations, and structured textual features extracted from Copom statements, including tone, forward-guidance direction and explicitness, and uncertainty indicators. In the updated sample, 59 events retain both analytical windows, allowing the second stage to include the full set of same-day Copom events. Baseline results suggest that the framework is most informative at the front and intermediate sections of the curve, especially for the DI 252d maturity, for which the baseline OLS specification reaches an in-sample R2 of about 0.43. By contrast, explanatory power is materially weaker for the DI 504d maturity and for slope adjustments, and out-of-sample performance remains limited. The textual variables display economically plausible signs, but their statistical contribution is not uniformly robust across specifications. The main contribution of the paper is therefore methodological and applied: it offers an implementable event-based decomposition for assessing how shocks and Copom communication jointly shape curve dynamics in Brazil.",
+          "categories": [
+            "econ.EM"
+          ],
+          "published": "2026-04-13",
+          "pdfUrl": "https://arxiv.org/pdf/2604.11926v1",
+          "chineseTitle": "冲击、沟通与收益率曲线重定价：巴西Copom事件的两步实证框架",
+          "chineseAbstract": "本文提出了一个两步实证框架，用于研究围绕巴西Copom相关事件的DI曲线重定价。该实证策略将与基础冲击相关的初始市场反应与冲击发生后至首次Copom声明发布前观察到的后续重定价区分开来。数据集结合了手工构建的事件日历、每日市场数据、Focus预期以及从Copom声明中提取的结构化文本特征，包括语气、前瞻指引方向和明确性以及不确定性指标。在更新后的样本中，59个事件保留了两个分析窗口，使得第二阶段能够包含所有同日Copom事件。基线结果表明，该框架在曲线前端和中间部分最具信息性，特别是对于DI 252天期限，基线OLS模型的样本内R2约为0.43。相比之下，DI 504天期限和斜率调整的解释力明显较弱，样本外表现仍然有限。文本变量显示出经济上合理的符号，但其统计贡献在各种模型中并不一致稳健。因此，本文的主要贡献在于方法论和应用：它提供了一个可实施的事件分解方法，用于评估冲击和Copom沟通如何共同塑造巴西的曲线动态。",
+          "keywords": [
+            "Copom事件",
+            "收益率曲线",
+            "实证框架",
+            "前瞻指引",
+            "文本分析"
+          ],
+          "researchField": "计量",
+          "scores": {
+            "overall": 7.5,
+            "novelty": 4,
+            "methodology": 4,
+            "empirical": 4,
+            "impact": 4,
+            "readability": 4
+          },
+          "scoreReasoning": "方法论严谨，实证较扎实，但创新性和影响力一般，可读性较好。",
+          "summary": "提出两步实证框架，评估冲击与Copom沟通对巴西曲线动态的影响。"
+        },
+        {
+          "id": "http://arxiv.org/abs/2604.12368v1",
+          "title": "A Diagnostics-First Composite Index for Macro-Financial Resilience to Socioeconomic Challenges: The Gondauri Index with Benchmarking and Scenario Evidence",
+          "authors": [
+            "Davit Gondauri"
+          ],
+          "abstract": "In the face of socioeconomic challenges, this paper develops and empirically demonstrates the Gondauri Index (GI) as a reproducible diagnostics-first composite framework for benchmarking macro-financial resilience across heterogeneous economies on a unified 0-100 scale. The GI addresses a key limitation of conventional surveillance dashboards: resilience is multi-dimensional and only partially substitutable, so strength in one area cannot sustainably offset fragility in another. The index integrates three interpretable pillars: Inequality Resilience Score (IRS), Liquidity and Systemic Resilience (LNSR), and Inflation Forecast Coherence (IFC). Cross-country comparability is ensured through robust percentile normalization (p5-p95), a consistent annual country-year design, and explicit missing-data handling via component-level weight renormalization. Empirically, the paper provides a 2024 benchmark snapshot and dynamic evidence for 2005-2024 using 5-year rolling diagnostics and Delta log(GI) contribution decomposition, allowing transparent attribution of resilience changes to pillar-level drivers. A forward-looking extension constructs 2026-2030 scenario pathways and introduces a binding-pillar diagnostic that identifies the dominant constraint on resilience across horizons. Overall, the GI offers a scalable tool for comparative resilience assessment, early-warning diagnostics, and evidence-based policy sequencing.",
+          "categories": [
+            "econ.EM"
+          ],
+          "published": "2026-04-14",
+          "pdfUrl": "https://arxiv.org/pdf/2604.12368v1",
+          "chineseTitle": "面向社会经济挑战的宏观金融韧性诊断优先综合指数：戈道里指数及其基准与情景证据",
+          "chineseAbstract": "面对社会经济挑战，本文开发并实证展示了戈道里指数（GI），这是一个可复制的诊断优先综合框架，用于在统一的0-100尺度上对不同经济体的宏观金融韧性进行基准比较。GI解决了传统监测仪表盘的一个关键局限：韧性是多维度的，且仅部分可替代，因此某一领域的优势无法持续抵消另一领域的脆弱性。该指数整合了三个可解释的支柱：不平等韧性评分（IRS）、流动性与系统性韧性（LNSR）和通胀预测一致性（IFC）。通过稳健的百分位数归一化（p5-p95）、一致的年度国家-年份设计以及通过组件级权重重新归一化明确处理缺失数据，确保了跨国可比性。实证上，本文提供了2024年的基准快照以及2005-2024年的动态证据，使用5年滚动诊断和Delta log(GI)贡献分解，允许将韧性变化透明地归因于支柱级驱动因素。前瞻性扩展构建了2026-2030年的情景路径，并引入了约束支柱诊断，以识别不同时间范围内对韧性的主要约束。总体而言，GI为比较韧性评估、预警诊断和基于证据的政策排序提供了一个可扩展的工具。",
+          "keywords": [
+            "戈道里指数",
+            "宏观金融韧性",
+            "社会经济挑战",
+            "基准比较",
+            "情景分析"
+          ],
+          "researchField": "计量",
+          "scores": {
+            "overall": 7.5,
+            "novelty": 4,
+            "methodology": 4,
+            "empirical": 4,
+            "impact": 4,
+            "readability": 4
+          },
+          "scoreReasoning": "创新性显著，方法严谨，实证充分，有一定影响力，可读性较好。",
+          "summary": "开发GI指数，为宏观金融韧性评估提供新工具。"
+        },
+        {
+          "id": "http://arxiv.org/abs/2604.11479v2",
+          "title": "Structural Consequences of Policy-Based Interventions on the Global Supply Chain Network",
+          "authors": [
+            "Lea Karbevska",
+            "Liming Xu",
+            "Zehui Dai",
+            "Sara AlMahri",
+            "Alexandra Brintrup"
+          ],
+          "abstract": "As global political tensions rise and the anticipation of additional tariffs from the United States on international trade increases, the issues of economic independence and supply chain resilience become more prominent. The importance of supply chain resilience has been further underscored by disruptions caused by the COVID-19 pandemic and the ongoing war in Ukraine. In light of these challenges, ranging from geopolitical instability to product supply uncertainties, governments are increasingly focused on adopting new trade policies. This study explores the impact of several of these policies on the global electric vehicle (EV) supply chain network, with a particular focus on their effects on country clusters and the broader structure of international trade. Specifically, we analyse three key policies: Country Plus One, Friendshoring, and Reshoring. Our findings show that Friendshoring, contrary to expectations, leads to greater globalisation by increasing the number of supply links across friendly countries, potentially raising transaction costs. The Country Plus One policy similarly enhances network density through redundant links, while the Reshoring policy creates challenges in the EV sector due to the high number of irreplaceable products. Additionally, the effects of these policies vary across industries; for instance, mining goods being less affected in Country Plus One than the Friendshoring policy.",
+          "categories": [
+            "cs.LG",
+            "econ.GN",
+            "physics.soc-ph"
+          ],
+          "published": "2026-04-13",
+          "pdfUrl": "https://arxiv.org/pdf/2604.11479v2",
+          "chineseTitle": "政策干预对全球供应链网络的结构性影响",
+          "chineseAbstract": "随着全球政治紧张局势的加剧，以及美国对国际贸易加征额外关税的预期增加，经济独立性和供应链韧性问题变得愈发突出。COVID-19疫情和乌克兰持续战争所造成的供应链中断，进一步凸显了供应链韧性的重要性。面对从地缘政治不稳定到产品供应不确定性的诸多挑战，各国政府越来越关注采用新的贸易政策。本研究探讨了这些政策中的几项对全球电动汽车（EV）供应链网络的影响，尤其关注它们对国家集群和国际贸易更广泛结构的影响。具体而言，我们分析了三项关键政策：国家加一政策、友岸外包和回流。我们的研究结果显示，与预期相反，友岸外包通过增加友好国家之间的供应联系数量，导致全球化程度加深，可能提高了交易成本。国家加一政策同样通过冗余联系增强了网络密度，而回流政策则由于存在大量不可替代产品而在电动汽车行业面临挑战。此外，这些政策的影响因行业而异；例如，在“国家加一”政策下，矿业产品受到的影响小于友岸外包政策。",
+          "keywords": [
+            "政策干预",
+            "全球供应链网络",
+            "电动汽车",
+            "友岸外包",
+            "回流政策"
+          ],
+          "researchField": "国际经济学",
+          "scores": {
+            "overall": 7.5,
+            "novelty": 4,
+            "methodology": 3.5,
+            "empirical": 4,
+            "impact": 4,
+            "readability": 4
+          },
+          "scoreReasoning": "论文选题新颖，方法规范，实证较扎实，对政策影响分析深入，但方法论创新性略显不足。",
+          "summary": "分析政策干预对全球电动汽车供应链网络的结构性影响。"
+        },
+        {
+          "id": "http://arxiv.org/abs/2604.12263v1",
+          "title": "Partial Identification of Policy-Relevant Treatment Effects with Instrumental Variables via Optimal Transport",
+          "authors": [
+            "Jiyuan Tan",
+            "Jose Blanchet",
+            "Vasilis Syrgkanis"
+          ],
+          "abstract": "Policy-Relevant Treatment Effects (PRTEs) are generally not point-identified under standard instrumental variable (IV) assumptions when the instrument generates limited support in treatment propensity. Existing approaches typically optimize over marginal treatment response functions subject to moment restrictions and can discard identifying distributional information. We show that PRTE partial identification in the generalized Roy model can instead be formulated as a Constrained Conditional Optimal Transport (CCOT) problem. The resulting multidimensional CCOT problem reduces analytically to separable one-dimensional OT problems with product costs, yielding sharp closed-form bounds and avoiding direct solution of the original high-dimensional CCOT problem. We also develop estimation and inference procedures for these bounds: for discrete instruments, a Double Machine Learning (DML) approach based on Neyman-orthogonal scores that accommodates high-dimensional covariates while achieving the parametric $\\sqrt{n}$ rate and asymptotic normality; for continuous instruments, we explicitly characterize the corresponding nonparametric convergence rates. The framework accommodates covariates, discrete and continuous instruments, and extensions to general treatment settings. In simulations and a bed-net subsidy application, the resulting bounds are substantially tighter than existing moment-relaxation methods.",
+          "categories": [
+            "stat.ME",
+            "econ.EM"
+          ],
+          "published": "2026-04-14",
+          "pdfUrl": "https://arxiv.org/pdf/2604.12263v1",
+          "chineseTitle": "通过最优传输用工具变量部分识别政策相关处理效应",
+          "chineseAbstract": "在标准工具变量（IV）假设下，当工具变量在处理倾向性上产生有限支持时，政策相关处理效应（PRTEs）通常无法被精确识别。现有方法通常在满足矩条件限制的情况下，对边际处理响应函数进行优化，但可能会忽略识别分布信息。本文表明，在广义Roy模型中，PRTE的部分识别可以转化为约束条件下的条件最优传输（CCOT）问题。由此产生的多维CCOT问题在解析上可简化为具有乘积成本的可分离一维最优传输问题，从而得出精确的闭式边界，并避免了直接求解原始的高维CCOT问题。本文还为这些边界开发了估计和推断程序：对于离散工具变量，采用基于Neyman正交分数的双重机器学习（DML）方法，该方法能够处理高维协变量，同时实现参数的√n收敛速率和渐近正态性；对于连续工具变量，本文明确刻画了相应的非参数收敛速率。该框架适用于协变量、离散和连续工具变量，并可扩展至一般处理设置。在模拟和蚊帐补贴应用中，所得边界比现有的矩松弛方法更为紧凑。",
+          "keywords": [
+            "政策相关处理效应",
+            "工具变量",
+            "最优传输",
+            "广义Roy模型",
+            "双重机器学习"
+          ],
+          "researchField": "计量",
+          "scores": {
+            "overall": 7.5,
+            "novelty": 4,
+            "methodology": 4,
+            "empirical": 3.5,
+            "impact": 4,
+            "readability": 3.5
+          },
+          "scoreReasoning": "创新性显著，方法严谨，实证较扎实，影响较大，但可读性一般。",
+          "summary": "提出CCOT方法部分识别PRTE，提供更紧的边界。"
+        },
+        {
+          "id": "http://arxiv.org/abs/2604.12611v1",
+          "title": "Distributional Change in Ordinal Data with Missing Observations: Minimal Mobility and Partial Identification",
+          "authors": [
+            "Rami V. Tabri"
+          ],
+          "abstract": "Empirical analyses often compare distributions of ordinal variables across groups or over time using repeated cross-sectional data, where only marginal distributions are observed and missing data are pervasive. As a result, the joint distribution linking these marginals is not identified, making it difficult to assess how observed differences arise. This paper studies how distributional change can be measured and interpreted under such limited information. I show that the $L_1$ distance between cumulative distribution functions admits an optimal transport representation as the minimal reallocation of probability mass across ordered categories. This representation delivers both a scalar measure of discrepancy and a structured description of how distributional change must occur, which I refer to as minimal-mobility configurations. To address missing data, I adopt a partial identification approach and construct sharp bounds on the marginal distributions. These bounds induce identified sets for both the discrepancy measure and the associated minimal-mobility configurations, providing inference that is robust to nonresponse and a transparent basis for assessing sensitivity to missing data. An empirical illustration using data from the \\emph{Arab Barometer} demonstrates how the framework can be used in practice to quantify and interpret distributional change under limited information.",
+          "categories": [
+            "econ.EM"
+          ],
+          "published": "2026-04-14",
+          "pdfUrl": "https://arxiv.org/pdf/2604.12611v1",
+          "chineseTitle": "缺失观测下序数数据的分布变化：最小迁移与部分识别",
+          "chineseAbstract": "实证分析常使用重复横截面数据比较序数变量在不同组别或时间上的分布，但通常仅观察到边际分布，且缺失数据普遍存在。因此，连接这些边际分布的联合分布无法识别，导致难以评估观察到的差异是如何产生的。本文研究了在有限信息下如何测量和解释分布变化。作者表明，累积分布函数之间的$L_1$距离具有最优传输表示，即有序类别间概率质量的最小重新分配。这一表示既提供了差异的标量度量，又给出了分布变化必须发生的结构化描述，作者称之为最小迁移配置。为处理缺失数据，作者采用部分识别方法，为边际分布构建了尖锐边界。这些边界为差异度量及相关最小迁移配置确定了识别集，提供了对无应答具有鲁棒性的推断，并为评估缺失数据的敏感性提供了透明基础。使用《阿拉伯晴雨表》数据的实证分析展示了如何在实践中应用该框架，以在有限信息下量化和解释分布变化。",
+          "keywords": [
+            "序数数据",
+            "分布变化",
+            "缺失数据",
+            "最优传输",
+            "部分识别"
+          ],
+          "researchField": "计量",
+          "scores": {
+            "overall": 7.5,
+            "novelty": 4,
+            "methodology": 4,
+            "empirical": 3.5,
+            "impact": 4,
+            "readability": 4
+          },
+          "scoreReasoning": "创新性显著，方法严谨，实证较扎实，影响较大，可读性较好。",
+          "summary": "提出最优传输表示，解决缺失观测下序数数据分布变化问题。"
+        },
+        {
+          "id": "http://arxiv.org/abs/2604.11760v1",
+          "title": "Effects of interviewers on response to income and wealth items",
+          "authors": [
+            "Moslem Rashidi"
+          ],
+          "abstract": "Item nonresponse to financial questions is a persistent source of survey error, especially in interviewer-administered surveys. We examine whether interviewers' expectations about respondents' willingness to report income are associated with actual item responses to income and asset questions in Wave 6 of the Survey of Health, Ageing and Retirement in Europe (SHARE). Using data from 41,934 respondents in 12 countries, linked to interviewer survey and roster information, we analyze responses to four financial items with substantial nonresponse. We compare three approaches to handling missing covariates: complete-case analysis, multiple imputation (fill-in methods), and a generalized missing-indicator framework with information-criterion-based model averaging. Across most specifications, respondents interviewed by interviewers with higher expected income response rates are more likely to provide financial information. However, model averaging does not yield clear gains over simpler approaches. The results suggest that interviewer expectations contain useful information for understanding and modeling item nonresponse to sensitive financial items, with potential implications for interviewer training and survey fieldwork design.",
+          "categories": [
+            "econ.GN"
+          ],
+          "published": "2026-04-13",
+          "pdfUrl": "https://arxiv.org/pdf/2604.11760v1",
+          "chineseTitle": "访谈者对收入和财富问题回答的影响",
+          "chineseAbstract": "对财务问题的项目无回答是调查误差的一个持续来源，尤其是在访谈者进行的调查中。本文研究了在欧洲健康、老龄化和退休调查（SHARE）第六波中，访谈者对受访者报告收入意愿的预期是否与收入和资产问题的实际项目回答相关。利用来自12个国家41,934名受访者的数据，结合访谈者调查和名单信息，我们分析了对四个存在大量无回答的财务项目的回答。我们比较了处理缺失协变量的三种方法：完整案例分析、多重插补（填充方法）以及基于信息准则的模型平均的广义缺失指标框架。在大多数设定下，由预期收入回答率较高的访谈者采访的受访者更有可能提供财务信息。然而，模型平均并未比更简单的方法带来明显优势。结果表明，访谈者的预期包含了有助于理解和建模对敏感财务项目无回答的有用信息，这对访谈者培训和调查实地工作设计具有潜在影响。",
+          "keywords": [
+            "访谈者预期",
+            "收入报告",
+            "项目无回答",
+            "模型平均",
+            "调查误差"
+          ],
+          "researchField": "计量经济学",
+          "scores": {
+            "overall": 7.5,
+            "novelty": 4,
+            "methodology": 3.5,
+            "empirical": 4,
+            "impact": 4,
+            "readability": 4
+          },
+          "scoreReasoning": "研究创新性较强，方法论较规范但不够前沿，实证较扎实，影响力较大，可读性较好。",
+          "summary": "访谈者预期影响受访者财务信息提供，对调查设计有启示。"
+        },
+        {
+          "id": "http://arxiv.org/abs/2604.12563v1",
+          "title": "Latent community paths in VAR-type models via dynamic directed spectral co-clustering",
+          "authors": [
+            "Younghoon Kim",
+            "Changryong Baek"
+          ],
+          "abstract": "This paper proposes a dynamic network framework for uncovering latent community paths in high-dimensional VAR-type models. By embedding a degree-corrected stochastic co-blockmodel (ScBM) into the transition matrices of VAR-type systems, we separate sending and receiving roles at the node level and summarize complex directional dependence in an interpretable low-dimensional form. Our method integrates directed spectral co-clustering with eigenvector smoothing to track how directional groups split, merge, or persist over time. This framework accommodates both periodic VAR (PVAR) models for cyclical seasonal evolution and generalized VHAR models for structural transitions across ordered dependence horizons. We establish non-asymptotic misclassification bounds for both procedures and provide supporting evidence through Monte Carlo experiments. Applications to U.S.\\ nonfarm payrolls distinguish a recurrent business-centered core from more mobile, seasonally sensitive sectors. In global stock volatilities, the results reveal a compact U.S.-centered long-horizon block, a Europe-heavy developed core, and a more dynamic short-horizon reallocation of peripheral and bridge markets.",
+          "categories": [
+            "stat.ME",
+            "econ.EM"
+          ],
+          "published": "2026-04-14",
+          "pdfUrl": "https://arxiv.org/pdf/2604.12563v1",
+          "chineseTitle": "通过动态有向谱共聚类在VAR类型模型中揭示潜在社区路径",
+          "chineseAbstract": "本文提出了一种动态网络框架，用于在高维VAR类型模型中揭示潜在社区路径。通过将度校正的随机共块模型（ScBM）嵌入到VAR类型系统的转移矩阵中，我们在节点层面分离发送和接收角色，并以可解释的低维形式总结复杂的方向依赖关系。我们的方法整合了有向谱共聚类和特征向量平滑技术，以追踪方向性群体如何随时间分裂、合并或持续存在。该框架既适用于周期性VAR（PVAR）模型，用于分析周期性季节演变，也适用于广义VHAR模型，用于分析有序依赖跨度上的结构转变。我们为两种程序建立了非渐近误分类边界，并通过蒙特卡洛实验提供了支持证据。对美国非农就业数据的应用区分了一个反复出现的以商业为中心的核心与更具流动性、季节性敏感的部门。在全球股票波动性方面，结果显示了一个紧凑的以美国为中心的长跨度块、一个以欧洲为重的发达核心，以及一个更动态的短跨度外围和桥梁市场再分配。",
+          "keywords": [
+            "动态网络框架",
+            "VAR类型模型",
+            "有向谱共聚类",
+            "特征向量平滑",
+            "误分类边界"
+          ],
+          "researchField": "计量",
+          "scores": {
+            "overall": 7.5,
+            "novelty": 4,
+            "methodology": 4,
+            "empirical": 3.5,
+            "impact": 4,
+            "readability": 4
+          },
+          "scoreReasoning": "创新性显著，方法严谨，实证较扎实，影响较大，可读性较好。",
+          "summary": "提出动态网络框架揭示VAR模型中潜在社区路径。"
+        },
+        {
+          "id": "http://arxiv.org/abs/2604.12818v1",
+          "title": "Causal Graphs for Conditional Parallel Trends",
+          "authors": [
+            "Michael C. Knaus",
+            "Henri Pfleiderer"
+          ],
+          "abstract": "Difference-in-Differences (DiD) is a widely used research design that often relies on a conditional parallel trends (CPT) assumption. In contrast to settings with unconfoundedness, where causal graphs provide powerful frameworks for reasoning about valid conditioning variables, general-purpose graphical tools for CPT are missing. We introduce transformed Single World Intervention Graphs (SWIGs), the $Δ$-SWIGs, and prove that they enable us to read off conditional independencies via $d$-separation that imply CPT. Using $Δ$-SWIGs, we study valid conditioning strategies for DiD in complex settings with multiple periods and time-varying covariates. We show that when time-varying covariates affect the outcome, controlling for post-treatment variables is required for identification. However, even when such controls are included, pre-treatment parallel trends are only informative about a subset of the assumptions required for unbiased post-treatment effects, highlighting the limitations of purely empirical justifications of CPT.",
+          "categories": [
+            "econ.EM"
+          ],
+          "published": "2026-04-14",
+          "pdfUrl": "https://arxiv.org/pdf/2604.12818v1",
+          "chineseTitle": "条件平行趋势的因果图",
+          "chineseAbstract": "双重差分法（DiD）是一种广泛使用的研究设计，其往往依赖于条件平行趋势（CPT）假设。与无混杂性设定不同，在无混杂性设定中，因果图为推理有效调节变量提供了强大的框架，而针对CPT的通用图形工具尚不存在。本文引入了变换后的单一世界干预图（SWIGs），即Δ-SWIGs，并证明了它们能够通过d-分离读取条件独立性，从而推导出CPT。利用Δ-SWIGs，我们研究了在具有多个时期和时变协变量的复杂设定中，DiD的有效调节策略。我们发现，当时变协变量影响结果时，为进行识别需要控制处理后变量。然而，即使纳入了此类控制变量，处理前的平行趋势也仅能提供关于无偏处理后效应所需假设的一个子集的信息，这凸显了纯粹基于实证的CPT合理性的局限性。",
+          "keywords": [
+            "双重差分法",
+            "条件平行趋势",
+            "因果图",
+            "单一世界干预图",
+            "时变协变量"
+          ],
+          "researchField": "计量",
+          "scores": {
+            "overall": 7.5,
+            "novelty": 4,
+            "methodology": 4,
+            "empirical": 3.5,
+            "impact": 4,
+            "readability": 4
+          },
+          "scoreReasoning": "论文提出了新方法，创新性显著，方法论严谨，实证较扎实，影响较大，可读性较好。",
+          "summary": "提出Δ-SWIGs，为DiD研究中的CPT假设提供图形工具。"
+        },
+        {
+          "id": "http://arxiv.org/abs/2604.12991v1",
+          "title": "Investigating the Impacts of Exchange Rate and Inflation on Exports: A Double Threat or Opportunity for Turkiye?",
+          "authors": [
+            "Emre Akusta"
+          ],
+          "abstract": "This study analyzes the impacts of exchange rate and inflation on exports in Turkiye. Annual data for the period 1995-2023 were used in the analysis. The Johansen cointegration analysis and Dynamic Least Squares (DOLS) method were employed in the study. Identifying the cointegration relationship enabled the estimation of the long-run coefficients. The results show that an increase in the real effective exchange rate (appreciation of the Turkish lira) and inflation reduce exports with coefficients of -0.185 and -0.125, respectively. Foreign direct investment and imports, added to the study as control variables, have a positive impact on exports with coefficients of 0.117 and 0.849, respectively. These findings indicate that exchange rate stability and inflation control are priorities for improving foreign trade performance. Furthermore, policies that increase foreign direct investment and strategically manage imports complement this process.",
+          "categories": [
+            "econ.GN"
+          ],
+          "published": "2026-04-14",
+          "pdfUrl": "https://arxiv.org/pdf/2604.12991v1",
+          "chineseTitle": "汇率与通胀对出口的影响研究：土耳其面临的双重威胁还是机遇？",
+          "chineseAbstract": "本研究分析了汇率与通胀对土耳其出口的影响。分析采用了1995年至2023年的年度数据。研究运用了Johansen协整分析和动态最小二乘法（DOLS）。通过识别协整关系，本研究得以估算长期系数。结果显示，实际有效汇率上升（土耳其里拉升值）和通胀率上升分别以-0.185和-0.125的系数减少出口。作为控制变量加入研究的外国直接投资和进口分别以0.117和0.849的系数对出口产生积极影响。这些发现表明，汇率稳定和通胀控制是改善外贸表现的首要任务。此外，增加外国直接投资和战略管理进口的政策有助于这一过程。",
+          "keywords": [
+            "汇率",
+            "通胀",
+            "出口",
+            "土耳其",
+            "协整分析"
+          ],
+          "researchField": "国际经济学",
+          "scores": {
+            "overall": 7.5,
+            "novelty": 3.5,
+            "methodology": 4,
+            "empirical": 4,
+            "impact": 3.5,
+            "readability": 4
+          },
+          "scoreReasoning": "研究方法规范，实证较扎实，但创新性一般，影响力有限。",
+          "summary": "汇率升值与通胀上升均抑制土耳其出口，需稳定汇率与控制通胀。"
+        },
+        {
+          "id": "http://arxiv.org/abs/2604.12112v1",
+          "title": "What Drives Energy Use? Prices, Efficiency Policies, and the Demand Frontier",
+          "authors": [
+            "David Benatia",
+            "Rémy Molinié",
+            "Pierre-Olivier Pineau"
+          ],
+          "abstract": "What drives cross-state differences in U.S. energy consumption? We combine LMDI decomposition, stochastic frontier analysis, and variable-importance methods on a panel of 50 states plus DC over the 2006--2022 period. The observed 12.8% decline in per capita energy use is driven almost entirely by intensity improvements. A variance decomposition attributes 63% of cross-state variation in log energy use to the demand frontier, 34\\% to inefficiency above it, and 3% to noise. Within the frontier, energy prices account for roughly 26% of cross-state variation and state efficiency policies for about 13%, while GDP and climate together explain only around 10\\%. Efficiency policies also operate through a second channel by reducing inefficiency, adding a further 6 percentage points to their total contribution. The results suggest that pricing and regulation are the primary drivers of cross-state energy use differences.",
+          "categories": [
+            "econ.GN"
+          ],
+          "published": "2026-04-13",
+          "pdfUrl": "https://arxiv.org/pdf/2604.12112v1",
+          "chineseTitle": "什么驱动了能源使用？价格、效率政策与需求前沿",
+          "chineseAbstract": "是什么导致了美国各州之间能源消耗的差异？本文结合对数平均迪氏指数分解法（LMDI）、随机前沿分析和变量重要性方法，对2006年至2022年期间50个州及哥伦比亚特区的数据进行了分析。观察到的12.8%的人均能源使用量下降几乎完全由能源使用强度改善所驱动。方差分解显示，各州能源使用对数差异的63%归因于需求前沿，34%归因于需求前沿之上的低效率，3%归因于噪声。在需求前沿内，能源价格解释了各州差异的约26%，州级效率政策解释了约13%，而国内生产总值（GDP）和气候共同解释了约10%。效率政策还通过第二个渠道发挥作用，即减少低效率，从而使其总贡献额外增加了6个百分点。研究结果表明，定价和监管是各州能源使用差异的主要驱动因素。",
+          "keywords": [
+            "能源使用",
+            "LMDI分解",
+            "随机前沿分析",
+            "需求前沿",
+            "效率政策"
+          ],
+          "researchField": "环境经济学",
+          "scores": {
+            "overall": 7.5,
+            "novelty": 3.5,
+            "methodology": 4,
+            "empirical": 4,
+            "impact": 3.5,
+            "readability": 4
+          },
+          "scoreReasoning": "研究方法严谨，实证分析充分，但创新性稍显不足，影响力有待观察。",
+          "summary": "定价和监管是驱动美国各州能源使用差异的主要因素。"
+        },
+        {
+          "id": "http://arxiv.org/abs/2604.12125v1",
+          "title": "The Design of Optimally Balanced Pay-as-you-go Social Security Systems",
+          "authors": [
+            "Leandro Lyra Braga Dognini"
+          ],
+          "abstract": "This paper bridges social security design and general equilibrium theory to conceive optimally balanced pay-as-you-go systems. The design is based on the backward calculation algorithm from Dognini (2025), which is used to find optimal monetary equilibria of prone-to-savings non-stationary overlapping generations economies with heterogeneous households. In particular, this algorithm makes the design applicable for reforming pay-as-you-go systems in countries undergoing demographic transitions. Due to households balanced budgets under equilibrium prices (i.e., Walras' law), these optimally balanced pay-as-you-go systems resemble the well-known notional accounts systems. The design is illustrated in a simplified framework using the past and forecast demographic and productivity dynamics of Brazil, China, India, Italy, and the United States from 1950 to 2070.",
+          "categories": [
+            "econ.TH",
+            "econ.GN"
+          ],
+          "published": "2026-04-13",
+          "pdfUrl": "https://arxiv.org/pdf/2604.12125v1",
+          "chineseTitle": "最优平衡现收现付制社会保障体系的设计",
+          "chineseAbstract": "本文将社会保障体系设计与一般均衡理论相结合，提出了最优平衡现收现付制体系的设计方案。该设计基于Dognini（2025）提出的逆向计算算法，该算法用于寻找具有异质家庭、储蓄倾向且非平稳世代交叠经济体的最优货币均衡。特别是，该算法使得设计适用于正在经历人口结构转型的国家的现收现付制体系改革。由于家庭在均衡价格下保持预算平衡（即瓦尔拉斯定律），这些最优平衡现收现付制体系与著名的名义账户制相似。本文在一个简化框架中，利用巴西、中国、印度、意大利和美国1950年至2070年的人口和生产力动态数据（包括历史数据和预测数据）对设计进行了说明。",
+          "keywords": [
+            "现收现付制",
+            "社会保障体系",
+            "一般均衡理论",
+            "逆向计算算法",
+            "世代交叠模型"
+          ],
+          "researchField": "理论",
+          "scores": {
+            "overall": 7.5,
+            "novelty": 4,
+            "methodology": 4,
+            "empirical": 3.5,
+            "impact": 4,
+            "readability": 4
+          },
+          "scoreReasoning": "创新性较强，方法严谨，实证较扎实，影响力较大，可读性较好。",
+          "summary": "提出最优平衡现收现付制体系设计，适用于人口转型国家。"
+        },
+        {
+          "id": "http://arxiv.org/abs/2604.12783v1",
+          "title": "A Bayes-Factor-Guided Approach to Post-Double Selection with Bootstrapped Multiple Imputation",
+          "authors": [
+            "Johannes Bleher\nDepartment of Econometrics and Empirical Economics & Computational Science Hub, University of Hohenheim",
+            "Claudia Tarantola\nDepartment of Economics, Management and Quantitative Methods, University of Milan"
+          ],
+          "abstract": "When variable selection methods are applied to bootstrapped and multiply imputed datasets, the set of selected variables typically varies across iterations. Aggregating results via the union rule can lead to overly dense models. We propose a sequential evidence aggregation procedure that models detection outcomes across perturbation iterations as Bernoulli trials and accumulates evidence for variable relevance through a likelihood-ratio process admitting an approximate Bayes-factor interpretation. The procedure provides both a variable inclusion criterion and a stopping rule that eliminates the need to fix the number of bootstrap-imputation iterations ex ante. A Monte Carlo study across 126 scenarios and an empirical illustration demonstrate the method's performance relative to existing aggregation approaches.",
+          "categories": [
+            "stat.ME",
+            "econ.EM"
+          ],
+          "published": "2026-04-14",
+          "pdfUrl": "https://arxiv.org/pdf/2604.12783v1",
+          "chineseTitle": "基于贝叶斯因子引导的自助多重插补后双重选择方法",
+          "chineseAbstract": "当变量选择方法应用于自助法和多重插补数据集时，所选变量集通常在每次迭代中有所不同。通过并集规则聚合结果可能导致模型过于密集。本文提出了一种顺序证据聚合程序，该程序将扰动迭代中的检测结果建模为伯努利试验，并通过允许近似贝叶斯因子解释的似然比过程累积变量相关性的证据。该程序既提供了变量纳入标准，又提供了停止规则，从而无需事先确定自助插补迭代的次数。通过126种情景下的蒙特卡洛研究以及实证分析，展示了该方法相对于现有聚合方法的性能。",
+          "keywords": [
+            "变量选择",
+            "自助法",
+            "多重插补",
+            "贝叶斯因子",
+            "似然比过程"
+          ],
+          "researchField": "计量",
+          "scores": {
+            "overall": 7.5,
+            "novelty": 4,
+            "methodology": 4,
+            "empirical": 3.5,
+            "impact": 4,
+            "readability": 4
+          },
+          "scoreReasoning": "方法创新且严谨，实证较扎实，但实证部分稍显薄弱，整体影响较大。",
+          "summary": "提出贝叶斯因子引导的证据聚合程序，改进变量选择方法。"
+        },
+        {
+          "id": "http://arxiv.org/abs/2604.12181v1",
+          "title": "How to Use Prices for Efficient Online Matching",
+          "authors": [
+            "Terence Highsmith"
+          ],
+          "abstract": "Many matching markets feature unknown, dynamic arrivals of agents that must match immediately. A caseworker must match an abused child to a foster home, a hospital must assign a patient in critical condition to a room, or a city must place a homeless individual into a shelter. We design an online matching algorithm -- the Sequential Equilibrium Mechanism (SEM) -- that approximates large market equilibria to match arriving agents to objects. SEM is asymptotically efficient, fair, and strategy-proof with probability one. Our application plans to deploy a lab-in-the-field experiment where real caseworkers match vulnerable children to host homes, and we provide simulation evidence that SEM can substantially improve welfare.",
+          "categories": [
+            "econ.TH"
+          ],
+          "published": "2026-04-14",
+          "pdfUrl": "https://arxiv.org/pdf/2604.12181v1",
+          "chineseTitle": "如何利用价格实现高效的在线匹配",
+          "chineseAbstract": "许多匹配市场具有未知且动态到达的参与者，这些参与者必须立即进行匹配。例如，社会工作者必须将受虐儿童匹配到寄养家庭，医院必须将危重病人分配到病房，或者城市必须将无家可归者安置到庇护所。本文设计了一种在线匹配算法——序列均衡机制（SEM），该算法通过近似大型市场均衡来将到达的参与者与对象进行匹配。SEM在概率上具有渐近效率、公平性和策略防伪性。本文计划部署一项实地实验，让真实的社会工作者将弱势儿童匹配到寄养家庭，并提供模拟证据表明SEM可以显著提高福利。",
+          "keywords": [
+            "在线匹配算法",
+            "序列均衡机制",
+            "市场均衡",
+            "策略防伪性",
+            "社会福利"
+          ],
+          "researchField": "理论经济学",
+          "scores": {
+            "overall": 7.5,
+            "novelty": 4,
+            "methodology": 4,
+            "empirical": 3.5,
+            "impact": 4,
+            "readability": 4
+          },
+          "scoreReasoning": "创新性显著，方法严谨，实证较扎实，影响较大，可读性较好。",
+          "summary": "设计SEM算法，实现高效在线匹配，提升社会福利。"
+        },
+        {
+          "id": "http://arxiv.org/abs/2604.11393v1",
+          "title": "Average Marginal Effects in One-Step Partially Linear Instrumental Regressions",
+          "authors": [
+            "Lucas Girard",
+            "Elia Lapenta"
+          ],
+          "abstract": "We propose a novel procedure for estimating and conducting inference on average marginal effects in partially linear instrumental regressions using Reproducing Kernel Hilbert Space methods. Our procedure relies on a single regularization parameter. We obtain the consistency and asymptotic normality of our estimator. Since the variance of the limiting distribution has a complex analytical form, we propose a Bayesian bootstrap method to conduct inference and establish its validity. Our procedure is easy to implement and exhibits good finite-sample performance in simulations. Three empirical applications illustrate its implementation on real data, showing that it yields economically meaningful results.",
+          "categories": [
+            "econ.EM",
+            "math.ST"
+          ],
+          "published": "2026-04-13",
+          "pdfUrl": "https://arxiv.org/pdf/2604.11393v1",
+          "chineseTitle": "一步部分线性工具变量回归中的平均边际效应",
+          "chineseAbstract": "本文提出了一种新方法，用于在部分线性工具变量回归中，利用再生核希尔伯特空间（Reproducing Kernel Hilbert Space, RKHS）方法估计平均边际效应并进行推断。我们的方法仅依赖一个正则化参数。我们证明了估计量的一致性和渐近正态性。由于极限分布的方差具有复杂的解析形式，我们提出了一种贝叶斯自助法来进行推断，并证明了其有效性。我们的方法易于实施，且在模拟中表现出良好的有限样本性能。三个实证应用展示了该方法在真实数据上的应用，结果表明其能产生具有经济意义的结果。",
+          "keywords": [
+            "部分线性工具变量回归",
+            "平均边际效应",
+            "再生核希尔伯特空间",
+            "贝叶斯自助法",
+            "渐近正态性"
+          ],
+          "researchField": "计量",
+          "scores": {
+            "overall": 7.5,
+            "novelty": 4,
+            "methodology": 4,
+            "empirical": 3.5,
+            "impact": 3.5,
+            "readability": 4
+          },
+          "scoreReasoning": "方法创新且严谨，实证较扎实，但影响力和创新性略显不足，可读性较好。",
+          "summary": "提出新方法估计部分线性工具变量回归的平均边际效应。"
+        }
+      ],
+      "total": 18
+    }
+  ],
+  "lastUpdated": "2026-04-16T00:39:00.822325",
+  "total": 0
+}
