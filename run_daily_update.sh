@@ -5,8 +5,9 @@
 # Set PATH for cron
 export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
 
-# 避免 ArXiv 429 限流：随机延迟 0-10 分钟
-sleep $((RANDOM % 600))
+# 避免 ArXiv 429 限流：随机延迟 15-25 分钟
+# 9:00 cron 执行，实际在 9:15-9:25 开始，避开高峰期
+sleep $((900 + RANDOM % 600))
 
 # Load environment variables (包含 BAIDU_API_KEY)
 # 注意：cron 中使用 bash，zshrc 可能加载失败，直接设置关键变量

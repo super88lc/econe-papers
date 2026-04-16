@@ -423,8 +423,8 @@ def calculate_fallback_scores(paper: dict) -> dict:
     }
 
 
-def search_arxiv(category: str, max_results: int = 30, max_retries: int = 20) -> list:
-    """从ArXiv搜索论文(智能限流处理 - 长时间间歇重试直到成功)"""
+def search_arxiv(category: str, max_results: int = 30, max_retries: int = 30) -> list:
+    """从ArXiv搜索论文(增强限流处理 - 超保守策略)"""
     base_url = "https://export.arxiv.org/api/query"
     params = {
         "search_query": f"cat:{category}",
@@ -434,31 +434,40 @@ def search_arxiv(category: str, max_results: int = 30, max_retries: int = 20) ->
         "sortOrder": "descending"
     }
     
-    # 限流处理配置
+    # 限流处理配置 - 超保守策略
     consecutive_429_count = 0  # 连续429计数
-    max_total_wait = 600  # 单个分类最大等待时间10分钟
+    max_total_wait = 900  # 单个分类最大等待时间15分钟
     total_waited = 0
+    
+    # 全局限流保护 - 检查是否需要强制冷却
+    global_last_request_time = getattr(search_arxiv, '_last_request_time', 0)
+    time_since_last = time.time() - global_last_request_time
+    if time_since_last < 30:  # 确保两次请求间隔至少30秒
+        forced_delay = 30 - time_since_last + random.uniform(5, 10)
+        print(f"     🛡️ 全局限流保护: 强制冷却 {forced_delay:.1f}秒...")
+        time.sleep(forced_delay)
+        total_waited += forced_delay
     
     for attempt in range(max_retries):
         try:
-            # 智能延迟策略
+            # 增强延迟策略 - 更保守
             if attempt == 0:
-                # 首次请求：随机延迟5-15秒，避免规律性请求
-                initial_delay = random.uniform(5, 15)
+                # 首次请求：随机延迟15-30秒，避免规律性请求
+                initial_delay = random.uniform(15, 30)
                 print(f"     ⏳ 初始延迟 {initial_delay:.1f}秒...")
                 time.sleep(initial_delay)
                 total_waited += initial_delay
             else:
-                # 根据错误类型调整延迟
+                # 根据错误类型调整延迟 - 大幅增强
                 if consecutive_429_count > 0:
-                    # 连续429：渐进式退避 (30秒 -> 60秒 -> 90秒...)
-                    delay = min(30 * consecutive_429_count, 120)  # 最多2分钟
-                    # 添加随机抖动避免同步
-                    delay = delay + random.uniform(5, 15)
+                    # 连续429：激进退避 (60秒 -> 120秒 -> 180秒...)
+                    delay = min(60 * consecutive_429_count, 300)  # 最多5分钟
+                    # 添加更大随机抖动避免同步
+                    delay = delay + random.uniform(10, 30)
                     print(f"     🚫 连续限流x{consecutive_429_count}，冷却 {delay:.1f}秒...")
                 else:
-                    # 其他错误：指数退避
-                    delay = min(5 * (2 ** attempt), 60)  # 最多1分钟
+                    # 其他错误：更保守的指数退避
+                    delay = min(10 * (2 ** attempt), 120)  # 最多2分钟
                     print(f"     ⏳ 等待 {delay:.1f}秒后重试 ({attempt+1}/{max_retries})...")
                 
                 time.sleep(delay)
@@ -472,8 +481,9 @@ def search_arxiv(category: str, max_results: int = 30, max_retries: int = 20) ->
             response = requests.get(base_url, params=params, timeout=60)
             response.raise_for_status()
             
-            # 成功！重置429计数器
+            # 成功！重置429计数器并记录全局时间
             consecutive_429_count = 0
+            search_arxiv._last_request_time = time.time()
             
             # 尝试使用lxml-xml,如果不支持则使用html.parser
             try:
@@ -509,6 +519,7 @@ def search_arxiv(category: str, max_results: int = 30, max_retries: int = 20) ->
             
             if is_429:
                 consecutive_429_count += 1
+                search_arxiv._last_429_time = time.time()  # 记录全局429时间
                 print(f"   🚫 尝试 {attempt+1}/{max_retries}: 触发限流(429) x{consecutive_429_count}")
             else:
                 print(f"   ⚠️ 尝试 {attempt+1}/{max_retries} 失败: {error_msg[:60]}")
@@ -529,7 +540,11 @@ def scrape_today():
     """抓取论文并过滤金融类"""
     print("📡 抓取 ArXiv 经济学论文...")
     print(f"   分类: {', '.join(ARXIV_CATEGORIES)}")
-    print(f"   策略: 智能限流保护，429触发时自动延长冷却时间")
+    print(f"   策略: 超保守限流保护")
+    print(f"   - 初始延迟: 15-30秒")
+    print(f"   - 429退避: 60-300秒渐进")
+    print(f"   - 分类间隔: 30-60秒基础 + 限流后额外冷却")
+    print(f"   - 全局保护: 确保请求间隔>30秒")
     
     all_papers = []
     today = datetime.now().strftime("%Y-%m-%d")
@@ -552,10 +567,17 @@ def scrape_today():
                     
                     all_papers.append(p)
         
-        # 分类间延迟：渐进式，避免规律请求
+        # 分类间延迟：大幅增强，避免触发限流
         if i < len(ARXIV_CATEGORIES) - 1:  # 最后一个分类后不需要延迟
-            # 基础延迟10-15秒 + 随机抖动
-            base_delay = random.uniform(10, 15)
+            # 基础延迟30-60秒 + 随机抖动
+            base_delay = random.uniform(30, 60)
+            # 如果前一个分类触发了429，额外增加冷却
+            if hasattr(search_arxiv, '_last_429_time'):
+                time_since_429 = time.time() - search_arxiv._last_429_time
+                if time_since_429 < 120:  # 2分钟内发生过429
+                    extra_delay = 60 + random.uniform(10, 30)
+                    print(f"   🛡️ 检测到近期限流，额外冷却 {extra_delay:.1f}秒...")
+                    base_delay += extra_delay
             print(f"   ⏳ 分类间冷却 {base_delay:.1f}秒...")
             time.sleep(base_delay)
     
