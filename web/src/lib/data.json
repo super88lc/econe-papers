@@ -1,6 +1,299 @@
 {
   "days": [
     {
+      "date": "2026-04-26",
+      "papers": [
+        {
+          "id": "http://arxiv.org/abs/2604.21604v1",
+          "title": "Mitigate or Fail: How Risk Management Shapes Cybersecurity Competency",
+          "authors": [
+            "Jeffrey T. Gardiner"
+          ],
+          "abstract": "Contemporary cybersecurity governance assumes that professionals apply risk reasoning. Yet major organisational failures persist despite investment in tools, staffing, and credentials. This study investigates the structural source of that paradox. Cybersecurity speaks the language of risk, but its training architecture has shaped the profession to think in terms of threats. A sequential mixed-methods design integrated four analyses; NLP of the NIST NICE Framework v2.0.0 (2,111 TKS statements), SEM (n = 126 cybersecurity professionals), a control-group comparison (n = 133 general professionals), and thematic coding of seven leadership interviews. Four convergent findings emerged. First, \"likelihood\" and \"probability\" appear zero times across all TKS statements. Risk management content accounts for 4.5% of high-confidence semantic classifications, ranking 18th of 29 competency domains. NICE codifies threat-management activity while invoking risk mainly at the category level. Second, SEM showed that training exposure significantly predicts risk management competence directly and indirectly through conceptual salience, for a total effect of Beta = .629. However, the theoretically four-dimensional competence construct collapsed into a single factor, indicating epistemic compression. Third, cybersecurity professionals showed no measurable advantage over the general professional population in foundational risk reasoning; only 11.9% showed high differentiation. Fourth, all seven leaders expected Likelihood x Impact reasoning, yet five did not articulate the formula themselves. These findings support a structural conclusion: cybersecurity has taken professional form as a threat-management discipline that has borrowed risk vocabulary. Remediation requires redesign of professional formation, not marginal curriculum reform.",
+          "categories": [
+            "cs.CR",
+            "cs.CY",
+            "econ.GN"
+          ],
+          "published": "2026-04-23",
+          "pdfUrl": "https://arxiv.org/pdf/2604.21604v1",
+          "chineseTitle": "缓解或失败：风险管理如何塑造网络安全能力",
+          "chineseAbstract": "当代网络安全治理假设专业人员应用风险推理。然而，尽管在工具、人员配备和资质方面进行了投资，重大组织失败事件仍然持续发生。本研究调查了这一悖论的结构性根源。网络安全使用风险的语言，但其培训架构已将该职业塑造为以威胁为思考方式的职业。本研究采用顺序混合方法设计，整合了四项分析：对NIST NICE框架v2.0.0（2111条TKS声明）的自然语言处理（NLP）、结构方程模型（SEM，n=126名网络安全专业人员）、对照组比较（n=133名普通专业人员）以及对七位领导者的主题编码访谈。研究得出了四个一致的发现。首先，在所有TKS声明中，“可能性”和“概率”出现次数为零。风险管理内容在高置信度语义分类中占4.5%，在29个能力领域中排名第18。NICE将威胁管理活动编码化，而主要在类别层面提及风险。其次，SEM显示，培训暴露通过概念显著性直接和间接预测风险管理能力，总效应为Beta=0.629。然而，理论上四维的能力结构坍缩为一个单一因素，表明知识压缩。第三，网络安全专业人员在基础风险推理方面没有显示出可测量的优势；只有11.9%的人表现出高度分化。第四，所有七位领导者都期望“可能性×影响”推理，但其中五位并未自己阐述该公式。这些发现支持了一个结构性结论：网络安全已作为威胁管理学科形成专业，并借用了风险词汇。补救措施需要重新设计专业形成，而非边缘性的课程改革。",
+          "keywords": [
+            "网络安全",
+            "风险管理",
+            "威胁管理",
+            "专业培训",
+            "结构方程模型"
+          ],
+          "researchField": "行为经济学",
+          "scores": {
+            "overall": 7.5,
+            "novelty": 4,
+            "methodology": 4,
+            "empirical": 4,
+            "impact": 4,
+            "readability": 4
+          },
+          "scoreReasoning": "研究创新性显著，方法严谨，实证充分，但影响力和可读性一般，整体表现优秀。",
+          "summary": "揭示网络安全专业培训中风险管理能力的结构性缺陷。"
+        },
+        {
+          "id": "http://arxiv.org/abs/2604.21260v1",
+          "title": "Calibeating Prediction-Powered Inference",
+          "authors": [
+            "Lars van der Laan",
+            "Mark Van Der Laan"
+          ],
+          "abstract": "We study semisupervised mean estimation with a small labeled sample, a large unlabeled sample, and a black-box prediction model whose output may be miscalibrated. A standard approach in this setting is augmented inverse-probability weighting (AIPW) [Robins et al., 1994], which protects against prediction-model misspecification but can be inefficient when the prediction score is poorly aligned with the outcome scale. We introduce Calibrated Prediction-Powered Inference, which post-hoc calibrates the prediction score on the labeled sample before using it for semisupervised estimation. This simple step requires no retraining and can improve the original score both as a predictor of the outcome and as a regression adjustment for semisupervised inference. We study both linear and isotonic calibration. For isotonic calibration, we establish first-order optimality guarantees: isotonic post-processing can improve predictive accuracy and estimator efficiency relative to the original score and simpler post-processing rules, while no further post-processing of the fitted isotonic score yields additional first-order gains. For linear calibration, we show first-order equivalence to PPI++. We also clarify the relationship among existing estimators, showing that the original PPI estimator is a special case of AIPW and can be inefficient when the prediction model is accurate, while PPI++ is AIPW with empirical efficiency maximization [Rubin et al., 2008]. In simulations and real-data experiments, our calibrated estimators often outperform PPI and are competitive with, or outperform, AIPW and PPI++. We provide an accompanying Python package, ppi_aipw, at https://larsvanderlaan.github.io/ppi-aipw/.",
+          "categories": [
+            "stat.ML",
+            "cs.AI",
+            "cs.LG",
+            "econ.EM",
+            "q-bio.QM",
+            "stat.ME"
+          ],
+          "published": "2026-04-23",
+          "pdfUrl": "https://arxiv.org/pdf/2604.21260v1",
+          "chineseTitle": "校准预测驱动的推断",
+          "chineseAbstract": "本文研究了在小规模有标签样本、大规模无标签样本以及输出可能未校准的黑箱预测模型下的半监督均值估计问题。在此情境下，一种标准方法是增强逆概率加权（AIPW），该方法能抵御预测模型误设，但当预测分数与结果尺度不匹配时效率可能较低。本文引入了校准预测驱动的推断方法，该方法在利用预测分数进行半监督估计前，先在有标签样本上对其进行后验校准。这一简单步骤无需重新训练，既能提升原始分数作为结果预测器的性能，也能改善其作为半监督推断回归调整项的效果。本文研究了线性和等渗校准两种方法。对于等渗校准，本文建立了其一阶最优性保证：等渗后处理能提升预测准确性和估计量效率，优于原始分数和更简单的后处理规则，且对拟合的等渗分数进行进一步后处理不会带来额外的一阶增益。对于线性校准，本文展示了其与PPI++的一阶等价性。此外，本文还阐明了现有估计量之间的关系，指出原始PPI估计量是AIPW的特例，在预测模型准确时可能效率低下，而PPI++则是具有经验效率最大化的AIPW。在模拟和真实数据实验中，本文的校准估计量往往优于PPI，且与AIPW和PPI++相比具有竞争力或更优。本文还提供了一个配套的Python包ppi_aipw，可在https://larsvanderlaan.github.io/ppi-aipw/获取。",
+          "keywords": [
+            "半监督均值估计",
+            "校准预测驱动的推断",
+            "增强逆概率加权",
+            "等渗校准",
+            "线性校准"
+          ],
+          "researchField": "计量",
+          "scores": {
+            "overall": 7.5,
+            "novelty": 4,
+            "methodology": 4,
+            "empirical": 4,
+            "impact": 4,
+            "readability": 3.5
+          },
+          "scoreReasoning": "论文提出了校准预测驱动的推断方法，创新性较强，方法论严谨，实证充分，但可读性一般。",
+          "summary": "提出校准预测驱动的推断方法，提升半监督均值估计效率。"
+        },
+        {
+          "id": "http://arxiv.org/abs/2604.21334v1",
+          "title": "Ideological Bias in LLMs' Economic Causal Reasoning",
+          "authors": [
+            "Donggyu Lee",
+            "Hyeok Yun",
+            "Jungwon Kim",
+            "Junsik Min",
+            "Sungwon Park",
+            "Sangyoon Park",
+            "Jihee Kim"
+          ],
+          "abstract": "Do large language models (LLMs) exhibit systematic ideological bias when reasoning about economic causal effects? As LLMs are increasingly used in policy analysis and economic reporting, where directionally correct causal judgments are essential, this question has direct practical stakes. We present a systematic evaluation by extending the EconCausal benchmark with ideology-contested cases - instances where intervention-oriented (pro-government) and market-oriented (pro-market) perspectives predict divergent causal signs. From 10,490 causal triplets (treatment-outcome pairs with empirically verified effect directions) derived from top-tier economics and finance journals, we identify 1,056 ideology-contested instances and evaluate 20 state-of-the-art LLMs on their ability to predict empirically supported causal directions. We find that ideology-contested items are consistently harder than non-contested ones, and that across 18 of 20 models, accuracy is systematically higher when the empirically verified causal sign aligns with intervention-oriented expectations than with market-oriented ones. Moreover, when models err, their incorrect predictions disproportionately lean intervention-oriented, and this directional skew is not eliminated by one-shot in-context prompting. These results highlight that LLMs are not only less accurate on ideologically contested economic questions, but systematically less reliable in one ideological direction than the other, underscoring the need for direction-aware evaluation in high-stakes economic and policy settings.",
+          "categories": [
+            "cs.AI",
+            "cs.CE",
+            "cs.CL",
+            "cs.LG",
+            "econ.GN"
+          ],
+          "published": "2026-04-23",
+          "pdfUrl": "https://arxiv.org/pdf/2604.21334v1",
+          "chineseTitle": "大型语言模型在经济因果推理中的意识形态偏见",
+          "chineseAbstract": "当大型语言模型（LLMs）推理经济因果效应时，是否会表现出系统的意识形态偏见？随着LLMs在政策分析和经济报道中的应用日益广泛，在这些领域中，方向正确的因果判断至关重要，因此这一问题具有直接的实践意义。本研究通过扩展EconCausal基准，纳入意识形态争议案例——即干预导向（亲政府）和市场导向（亲市场）视角预测因果符号分歧的实例，进行了系统评估。我们从顶级经济学和金融期刊中提取了10,490个因果三元组（具有经验验证效应方向的处理-结果对），识别出1,056个意识形态争议实例，并评估了20个最先进的LLMs预测经验支持因果方向的能力。我们发现，意识形态争议项始终比非争议项更难，且在20个模型中的18个中，当经验验证的因果符号与干预导向预期一致时，准确性系统性地高于与市场导向预期一致时。此外，当模型出错时，其错误预测不成比例地倾向于干预导向，且这种方向性偏差无法通过单次上下文提示消除。这些结果表明，LLMs在意识形态争议的经济问题上不仅准确性较低，而且在一个意识形态方向上系统性地比另一个方向更不可靠，凸显了在高风险经济和政策环境中进行方向感知评估的必要性。",
+          "keywords": [
+            "大型语言模型",
+            "经济因果推理",
+            "意识形态偏见",
+            "政策分析",
+            "EconCausal基准"
+          ],
+          "researchField": "计量经济学",
+          "scores": {
+            "overall": 7.5,
+            "novelty": 4,
+            "methodology": 4,
+            "empirical": 4,
+            "impact": 4,
+            "readability": 3.5
+          },
+          "scoreReasoning": "论文选题新颖，方法规范，实证充分，但可读性一般，影响力待观察。",
+          "summary": "揭示LLMs在经济因果推理中存在意识形态偏见。"
+        },
+        {
+          "id": "http://arxiv.org/abs/2604.21258v1",
+          "title": "Flexible Bayesian Models for Time-Varying Income Distributions",
+          "authors": [
+            "David Gunawan"
+          ],
+          "abstract": "Survey data are widely used to study how income inequality, poverty, and welfare evolve over time. A common practice is to estimate the income distribution separately for each year, treating annual observations as independent cross-sections. For population subgroups with relatively small sample sizes, however, this approach can produce unstable parameter estimates, imprecise inference for inequality and poverty measures, and potentially misleading posterior probabilities of Lorenz and stochastic dominance. This paper develops flexible Bayesian models for time-varying income distributions that borrow strength across adjacent years by allowing the parameters of income distributions to evolve dynamically. We consider a random walk specification and an extended model with shrinkage priors. The proposed framework yields coherent inference for the full income distributions over time, as well as for associated inequality measures, poverty indices, and dominance probabilities. Simulation studies show that, relative to independent year-by-year models, the proposed approach produces substantially more precise and stable inference, while avoiding spurious variation in welfare comparisons. An application to the Aboriginal and residents of the Australian Capital Territory (ACT) population subgroups in the Household, Income and Labour Dynamics in Australia survey shows that the dynamic models deliver improved inference for income distributions and related welfare measures, and can change conclusions about distributional dominance over time.",
+          "categories": [
+            "econ.EM"
+          ],
+          "published": "2026-04-23",
+          "pdfUrl": "https://arxiv.org/pdf/2604.21258v1",
+          "chineseTitle": "时变收入分布的灵活贝叶斯模型",
+          "chineseAbstract": "调查数据被广泛用于研究收入不平等、贫困和福利如何随时间演变。一种常见做法是分别估计每年的收入分布，将年度观测视为独立的横截面数据。然而，对于样本量相对较小的群体，这种方法可能导致参数估计不稳定、不平等和贫困度量推断不精确，以及洛伦兹和随机占优的后验概率可能产生误导。本文开发了时变收入分布的灵活贝叶斯模型，通过允许收入分布参数动态演变，从而在相邻年份间借用信息。我们考虑了随机游走规范和带有收缩先验的扩展模型。所提出的框架为整个时期的收入分布以及相关的不平等度量、贫困指数和占优概率提供了连贯的推断。模拟研究表明，与独立的逐年模型相比，所提出的方法产生了更精确和稳定的推断，同时避免了福利比较中的虚假变化。对澳大利亚家庭、收入和劳动力动态调查中澳大利亚首都领地（ACT）的原住民和居民子群体的应用表明，动态模型为收入分布和相关福利度量提供了改进的推断，并可能改变关于分布占优随时间变化的结论。",
+          "keywords": [
+            "时变收入分布",
+            "贝叶斯模型",
+            "随机游走",
+            "收缩先验",
+            "收入不平等"
+          ],
+          "researchField": "计量",
+          "scores": {
+            "overall": 7.5,
+            "novelty": 4,
+            "methodology": 4,
+            "empirical": 3.5,
+            "impact": 4,
+            "readability": 4
+          },
+          "scoreReasoning": "论文在方法论和实证上表现稳健，创新性显著，但实证部分略显薄弱，整体影响较大。",
+          "summary": "开发时变收入分布的贝叶斯模型，改进推断并影响占优结论。"
+        },
+        {
+          "id": "http://arxiv.org/abs/2604.21202v1",
+          "title": "Participation and Representation in Local Government Speech",
+          "authors": [
+            "Olivia Martin",
+            "Amar Venugopal"
+          ],
+          "abstract": "Local government meetings are the most common formal channel through which residents speak directly with elected officials, contest policies, and shape local agendas. However, data constraints typically limit the empirical study of these meetings to agendas, single cities, or short time horizons. We collect and transcribe a massive new dataset of city council meetings from 115 California cities over the last decade, using advanced transcription and diarization techniques to analyze the speech content of the meetings themselves. We document two sets of descriptive findings: First, city council meetings are frequent, long, and vary modestly across towns and time in topical content. Second, public participants are substantially older, whiter, more male, more liberal, and more likely to own homes than the registered voter population, and public participation surges when topics related to land use and zoning are included in meeting agendas. Given this skew, we examine the main policy lever municipalities have to shift participation patterns: meeting access costs. Exploiting pandemic-era variation in remote access, we show that eliminating remote options reduces the number of speakers, but does not clearly change the composition of speakers. Collectively, these results provide the most comprehensive empirical portrait to date of who participates in local democracy, what draws them in, and how institutional design choices shape both the volume and composition of public input.",
+          "categories": [
+            "econ.EM",
+            "cs.CL"
+          ],
+          "published": "2026-04-23",
+          "pdfUrl": "https://arxiv.org/pdf/2604.21202v1",
+          "chineseTitle": "地方政府会议中的参与与代表性",
+          "chineseAbstract": "地方政府会议是居民与当选官员直接对话、质疑政策以及影响地方议程的最常见正式渠道。然而，数据限制通常使这些会议的实证研究局限于议程、单一城市或短时间范围。本文收集并转录了过去十年中来自115个加州城市的市议会会议的大量新数据集，利用先进的转录和 diarization 技术分析会议本身的发言内容。本文记录了两组描述性发现：首先，市议会会议频繁、冗长，且在不同城镇和时间上的主题内容变化不大。其次，与注册选民群体相比，公共参与者年龄更大、白人更多、男性更多、更自由主义，且更可能拥有住房，而当会议议程中包含与土地使用和分区相关的主题时，公共参与度会激增。鉴于这种偏差，本文研究了市政当局改变参与模式的主要政策杠杆：会议准入成本。利用疫情期间远程访问的变化，本文表明取消远程选项会减少发言者数量，但不会明显改变发言者的构成。这些结果共同提供了迄今为止关于谁参与地方民主、什么吸引他们参与以及制度设计选择如何影响公共意见的数量和构成的最为全面的实证描述。",
+          "keywords": [
+            "地方政府会议",
+            "公共参与",
+            "发言内容分析",
+            "会议准入成本",
+            "远程访问"
+          ],
+          "researchField": "公共经济学",
+          "scores": {
+            "overall": 7.5,
+            "novelty": 3.5,
+            "methodology": 4,
+            "empirical": 4,
+            "impact": 4,
+            "readability": 3.5
+          },
+          "scoreReasoning": "研究视角新颖，方法规范，实证充分，但创新性一般，可读性尚可。",
+          "summary": "揭示地方政府会议参与者的特征及影响因素。"
+        },
+        {
+          "id": "http://arxiv.org/abs/2604.21548v1",
+          "title": "Nonparametric Point Identification of Treatment Effect Distributions via Rank Stickiness",
+          "authors": [
+            "Tengyuan Liang"
+          ],
+          "abstract": "Treatment effect distributions are not identified without restrictions on the joint distribution of potential outcomes. Existing approaches either impose rank preservation -- a strong assumption -- or derive partial identification bounds that are often wide. We show that a single scalar parameter, rank stickiness, suffices for nonparametric point identification while permitting rank violations. The identified joint distribution -- the coupling that maximizes average rank correlation subject to a relative entropy constraint, which we call the Bregman-Sinkhorn copula -- is uniquely determined by the marginals and rank stickiness. Its conditional distribution is an exponential tilt of the marginal with a Bregman divergence as the exponent, yielding closed-form conditional moments and rank violation probabilities; the copula nests the comonotonic and Gaussian copulas as special cases. The empirical Bregman-Sinkhorn copula converges at the parametric $\\sqrt{n}$-rate with a Gaussian process limit, despite the infinite-dimensional parameter space. We apply the framework to estimate the full treatment effect distribution, derive a variance estimator for the average treatment effect tighter than the Fréchet--Hoeffding and Neyman bounds, and extend to observational studies under unconfoundedness.",
+          "categories": [
+            "econ.EM",
+            "stat.ME"
+          ],
+          "published": "2026-04-23",
+          "pdfUrl": "https://arxiv.org/pdf/2604.21548v1",
+          "chineseTitle": "通过秩粘性实现处理效应分布的非参数点识别",
+          "chineseAbstract": "在不对潜在结果的联合分布施加限制的情况下，处理效应分布是无法识别的。现有方法要么施加秩保持这一强假设，要么推导出通常较宽的部分识别边界。本文表明，单个标量参数——秩粘性，足以在允许秩违反的情况下实现处理效应分布的非参数点识别。所识别的联合分布——即在相对熵约束下使平均秩相关性最大化的耦合，我们称之为Bregman-Sinkhorn连接函数——由边际分布和秩粘性唯一确定。其条件分布是边际分布的指数倾斜，以Bregman散度为指数，从而得出封闭形式的条件矩和秩违反概率；该连接函数将共单调和正态连接函数作为特例。尽管参数空间是无限维的，但经验Bregman-Sinkhorn连接函数以参数√n的速率收敛到高斯过程极限。我们将该框架应用于估计完整的处理效应分布，推导出比Fréchet-Hoeffding和Neyman边界更紧的平均处理效应方差估计量，并将其扩展到无混杂假设下的观察性研究。",
+          "keywords": [
+            "处理效应分布",
+            "秩粘性",
+            "非参数点识别",
+            "Bregman-Sinkhorn连接函数",
+            "观察性研究"
+          ],
+          "researchField": "计量",
+          "scores": {
+            "overall": 7.5,
+            "novelty": 4,
+            "methodology": 4,
+            "empirical": 3.5,
+            "impact": 4,
+            "readability": 3.5
+          },
+          "scoreReasoning": "创新性显著，方法严谨，实证较扎实，影响较大，但可读性一般。",
+          "summary": "提出秩粘性参数，实现处理效应分布的非参数点识别。"
+        },
+        {
+          "id": "http://arxiv.org/abs/2604.21216v1",
+          "title": "Post-AGI Economies: Autonomy and the First Fundamental Theorem of Welfare Economics",
+          "authors": [
+            "Elija Perrier"
+          ],
+          "abstract": "The First Fundamental Theorem of Welfare Economics assumes that welfare-bearing agents are autonomous and implicitly relies on a binary distinction between autonomy and instrumentality. Welfare subjects are those who have autonomy and therefore the capacity to choose and enter into utility comparisons, while everything else does not. In post-AGI economies this presupposition becomes nontrivial because artificial systems may exhibit varying degrees of autonomy, functioning as tools, delegates, strategic market actors, manipulators of choice environments, or possible welfare subjects. We argue that the theorem ought to be subject to an autonomy qualification where the impact of these changes in autonomy assumptions is incorporated. Using a minimal general-equilibrium model with autonomy-conditioned welfare, welfare-status assignment, delegation accounting, and verification institutions, we set out conditions for which autonomy-complete competitive equilibrium is autonomy-Pareto efficient. The classical theorem is recovered as the low-autonomy limit.",
+          "categories": [
+            "econ.TH",
+            "cs.AI",
+            "cs.GT"
+          ],
+          "published": "2026-04-23",
+          "pdfUrl": "https://arxiv.org/pdf/2604.21216v1",
+          "chineseTitle": "后AGI经济：自主性与福利经济学第一基本定理",
+          "chineseAbstract": "福利经济学第一基本定理假定承载福利的主体是自主的，并隐含地依赖于自主性与工具性之间的二元区分。福利主体是那些具有自主性，因此有能力进行选择并参与效用比较的对象，而其他一切则不具备这种能力。在后AGI经济中，这一前提变得不再微不足道，因为人工系统可能表现出不同程度的自主性，它们可以作为工具、代表、战略市场参与者、选择环境的操纵者或可能的福利主体。我们认为，该定理应受到自主性条件的限制，其中应纳入这些自主性假设变化的影响。我们使用一个包含自主性条件福利、福利状态分配、委托核算和验证机构的最小一般均衡模型，设定了自主性完全竞争均衡是自主性帕累托有效的条件。经典定理被恢复为低自主性极限。",
+          "keywords": [
+            "后AGI经济",
+            "自主性",
+            "福利经济学",
+            "一般均衡模型",
+            "帕累托效率"
+          ],
+          "researchField": "理论经济学",
+          "scores": {
+            "overall": 7.5,
+            "novelty": 4,
+            "methodology": 4,
+            "empirical": 3,
+            "impact": 4,
+            "readability": 3.5
+          },
+          "scoreReasoning": "论文提出了新视角，方法严谨，但实证较弱，可读性一般，整体影响较大。",
+          "summary": "提出后AGI经济中自主性对福利经济学第一基本定理的影响及条件。"
+        },
+        {
+          "id": "http://arxiv.org/abs/2604.21423v1",
+          "title": "Demand Curvature and Pass-Through in Differentiated Oligopoly",
+          "authors": [
+            "Paul S. Koh"
+          ],
+          "abstract": "This paper studies cost pass-through in differentiated-product oligopoly. I derive a general representation of the pass-through matrix that decomposes equilibrium price responses into the roles of demand curvature, substitution, and multiproduct ownership. This extends the classic insight in single-product monopoly to multiproduct settings in which diversion and ownership also matter. I then develop a tractable first-order approximation that yields a sufficient-statistics characterization for empirically relevant demand systems. Finally, I characterize the small-share limit and show how common demand specifications impose tail restrictions that shape pass-through. The results provide a practical framework for applied work on tax incidence, merger analysis, and related questions in imperfect competition.",
+          "categories": [
+            "econ.GN"
+          ],
+          "published": "2026-04-23",
+          "pdfUrl": "https://arxiv.org/pdf/2604.21423v1",
+          "chineseTitle": "差异化寡头市场中的需求曲率与成本转嫁",
+          "chineseAbstract": "本文研究了差异化产品寡头市场中的成本转嫁问题。作者推导出了转嫁矩阵的一般表示形式，将均衡价格反应分解为需求曲率、替代效应和多产品所有权的作用。这一研究将单一产品垄断中的经典洞见扩展到了多产品环境中，其中转移效应和所有权结构也起着重要作用。随后，作者开发了一个易于处理的一阶近似方法，为经验上相关的需求系统提供了充分统计量的描述。最后，作者描述了小份额极限情况，并展示了常见的需求设定如何施加尾部限制，从而影响成本转嫁。研究结果为不完全竞争中的税收归宿、合并分析及相关问题提供了实用的分析框架。",
+          "keywords": [
+            "差异化寡头",
+            "成本转嫁",
+            "需求曲率",
+            "多产品所有权",
+            "不完全竞争"
+          ],
+          "researchField": "微观经济学",
+          "scores": {
+            "overall": 7.5,
+            "novelty": 4,
+            "methodology": 4,
+            "empirical": 3.5,
+            "impact": 4,
+            "readability": 4
+          },
+          "scoreReasoning": "创新性显著，方法严谨，实证较扎实，影响较大，可读性较好。",
+          "summary": "提出差异化寡头市场中成本转嫁的实用分析框架。"
+        }
+      ],
+      "total": 8
+    },
+    {
       "date": "2026-04-24",
       "papers": [
         {
@@ -30478,1313 +30771,8 @@
         }
       ],
       "total": 76
-    },
-    {
-      "date": "2026-03-10",
-      "papers": [
-        {
-          "id": "http://arxiv.org/abs/2603.07213v1",
-          "title": "From debt crises to financial crashes (and back): a stock-flow consistent model for stock price bubbles",
-          "authors": [
-            "Matheus R. Grasselli",
-            "Adrien Nguyen-Huu"
-          ],
-          "abstract": "We develop a stochastic macro-financial model in continuous time by integrating two specifications of the Keen economic framework with a financial market driven by a jump-diffusion process. The economic block of the model combines monetary debt-deflation mechanisms with Ponzi-type financial destabilization and is influenced by the financial market through a stochastic interest rate that depends on asset price returns. The financial market block of the model consists of an asset with jump--diffusion price process with endogenous, state-dependent jump intensities driven by speculative credit flows. The model formalizes a feedback loop linking credit expansion, crash risk, perceived return dynamics, and bank lending spreads. Under suitable parameter restrictions, we establish global existence and non-explosion of the coupled system. Numerical experiments illustrate how variations in credit sensitivity and jump parameters generate regimes ranging from stable growth to recurrent boom--bust cycles. The framework provides a tractable setting for analyzing endogenous financial fragility within a mathematically well-posed macro--financial system.",
-          "categories": [
-            "q-fin.GN",
-            "econ.GN"
-          ],
-          "published": "2026-03-07",
-          "pdfUrl": "https://arxiv.org/pdf/2603.07213v1",
-          "chineseTitle": "From debt crises to financial crashes (and back): a stock-flow consistent model for stock price bubbles",
-          "chineseAbstract": "We develop a stochastic macro-financial model in continuous time by integrating two specifications of the Keen economic framework with a financial market driven by a jump-diffusion process. The economic block of the model combines monetary debt-deflation mechanisms with Ponzi-type financial destabilization and is influenced by the financial market through a stochastic interest rate that depends on asset price returns. The financial market block of the model consists of an asset with jump--diffusion price process with endogenous, state-dependent jump intensities driven by speculative credit flows. The model formalizes a feedback loop linking credit expansion, crash risk, perceived return dynamics, and bank lending spreads. Under suitable parameter restrictions, we establish global existence and non-explosion of the coupled system. Numerical experiments illustrate how variations in credit sensitivity and jump parameters generate regimes ranging from stable growth to recurrent boom--bust cycles. The framework provides a tractable setting for analyzing endogenous financial fragility within a mathematically well-posed macro--financial system.",
-          "researchField": "金融",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.05624v1",
-          "title": "Mean-field games with unbounded controls: a weak formulation approach to global solutions",
-          "authors": [
-            "Ulrich Horst",
-            "Takashi Sato"
-          ],
-          "abstract": "We establish an existence of equilibrium result for a class of non-Markovian mean-field games with unbounded control space in weak formulation. Our result is based on new existence and stability results for quadratic-growth generalized McKean-Vlasov BSDEs. Unlike earlier approaches, our approach does not require boundedness assumptions on the model parameters or time horizons and allows for running costs that are quadratic in the control variable.",
-          "categories": [
-            "math.OC",
-            "math.PR",
-            "q-fin.MF"
-          ],
-          "published": "2026-03-05",
-          "pdfUrl": "https://arxiv.org/pdf/2603.05624v1",
-          "chineseTitle": "Mean-field games with unbounded controls: a weak formulation approach to global solutions",
-          "chineseAbstract": "We establish an existence of equilibrium result for a class of non-Markovian mean-field games with unbounded control space in weak formulation. Our result is based on new existence and stability results for quadratic-growth generalized McKean-Vlasov BSDEs. Unlike earlier approaches, our approach does not require boundedness assumptions on the model parameters or time horizons and allows for running costs that are quadratic in the control variable.",
-          "researchField": "金融",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.05326v1",
-          "title": "Riemannian Geometry of Optimal Rebalancing in Dynamic Weight Automated Market Makers",
-          "authors": [
-            "Matthew Willetts"
-          ],
-          "abstract": "In Temporal Function Market Making (TFMM), a dynamic weight AMM pool rebalances from initial to final holdings by creating a series of arbitrage opportunities whose total cost depends on the weight trajectory taken. We show that the per-step arbitrage loss is the KL divergence between new and old weight vectors, meaning the Fisher--Rao metric is the natural Riemannian metric on the weight simplex. The loss-minimising interpolation under the leading-order expansion of this KL cost is SLERP (Spherical Linear Interpolation) in the Hellinger coordinates $η_i = \\sqrt{w_i}$, i.e.\\ a geodesic on the positive orthant of the unit sphere traversed at constant speed. The SLERP midpoint equals the (AM+GM)/normalise heuristic of prior work (Willetts & Harrington, 2024), so the heuristic lies on the geodesic. This identity holds for any number of tokens and any magnitude of weight change; using this link, all dyadic points on the geodesic can be reached by recursive AM-GM bisection without trigonometric functions. SLERP's relative sub-optimality on the full KL cost is proportional to the squared magnitude of the overall weight change and to $1/f^2$, where $f$ is the number of interpolation steps.",
-          "categories": [
-            "q-fin.MF",
-            "cs.IT",
-            "math.DG",
-            "q-fin.TR"
-          ],
-          "published": "2026-03-05",
-          "pdfUrl": "https://arxiv.org/pdf/2603.05326v1",
-          "chineseTitle": "Riemannian Geometry of Optimal Rebalancing in Dynamic Weight Automated Market Makers",
-          "chineseAbstract": "In Temporal Function Market Making (TFMM), a dynamic weight AMM pool rebalances from initial to final holdings by creating a series of arbitrage opportunities whose total cost depends on the weight trajectory taken. We show that the per-step arbitrage loss is the KL divergence between new and old weight vectors, meaning the Fisher--Rao metric is the natural Riemannian metric on the weight simplex. The loss-minimising interpolation under the leading-order expansion of this KL cost is SLERP (Spherical Linear Interpolation) in the Hellinger coordinates $η_i = \\sqrt{w_i}$, i.e.\\ a geodesic on the positive orthant of the unit sphere traversed at constant speed. The SLERP midpoint equals the (AM+GM)/normalise heuristic of prior work (Willetts & Harrington, 2024), so the heuristic lies on the geodesic. This identity holds for any number of tokens and any magnitude of weight change; using this link, all dyadic points on the geodesic can be reached by recursive AM-GM bisection without trigonometric functions. SLERP's relative sub-optimality on the full KL cost is proportional to the squared magnitude of the overall weight change and to $1/f^2$, where $f$ is the number of interpolation steps.",
-          "researchField": "金融",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.04880v1",
-          "title": "A class of stochastic control problems with state constraints",
-          "authors": [
-            "Tiziano De Angelis",
-            "Erik Ekström"
-          ],
-          "abstract": "We obtain a probabilistic solution to linear-quadratic optimal control problems with state constraints. Given a closed set $\\mathcal{D}\\subseteq [0,T]\\times\\mathbb{R}^d$, a diffusion $X$ in $\\mathbb{R}^d$ must be linearly controlled in order to keep the time-space process $(t,X_t)$ inside the set $\\mathcal{C}:=([0,T]\\times\\mathbb{R}^d)\\setminus\\mathcal{D}$, while at the same time minimising an expected cost that depends on the state $(t,X_t)$ and is quadratic in the speed of the control exerted. We find a probabilistic representation for the value function and an optimal control under a set of mild sufficient conditions concerning the coefficients of the underlying dynamics and the regularity of the set $\\mathcal{D}$. The optimally controlled dynamics is in strong form, in the sense that it is adapted to the filtration generated by the driving Brownian motion. Fully explicit formulae are presented in some relevant examples.",
-          "categories": [
-            "math.OC",
-            "math.PR",
-            "q-fin.MF"
-          ],
-          "published": "2026-03-05",
-          "pdfUrl": "https://arxiv.org/pdf/2603.04880v1",
-          "chineseTitle": "A class of stochastic control problems with state constraints",
-          "chineseAbstract": "We obtain a probabilistic solution to linear-quadratic optimal control problems with state constraints. Given a closed set $\\mathcal{D}\\subseteq [0,T]\\times\\mathbb{R}^d$, a diffusion $X$ in $\\mathbb{R}^d$ must be linearly controlled in order to keep the time-space process $(t,X_t)$ inside the set $\\mathcal{C}:=([0,T]\\times\\mathbb{R}^d)\\setminus\\mathcal{D}$, while at the same time minimising an expected cost that depends on the state $(t,X_t)$ and is quadratic in the speed of the control exerted. We find a probabilistic representation for the value function and an optimal control under a set of mild sufficient conditions concerning the coefficients of the underlying dynamics and the regularity of the set $\\mathcal{D}$. The optimally controlled dynamics is in strong form, in the sense that it is adapted to the filtration generated by the driving Brownian motion. Fully explicit formulae are presented in some relevant examples.",
-          "researchField": "金融",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.02946v1",
-          "title": "Fast simulation of Volterra processes using random Fourier features with application to the log-stationary fractional Brownian motion",
-          "authors": [
-            "Othmane Zarhali",
-            "Nicolas Langrené"
-          ],
-          "abstract": "A fast simulation framework for stochastic Volterra processes based on Random Fourier Features (RFF) approximation of the kernel is developed. After recalling the main properties of Volterra processes and reviewing existing numerical simulation methods, an accelerated scheme is introduced that relies on a spectral representation of the kernel. A particular attention is devoted to sampling from the kernel spectral density using Hamiltonian Monte Carlo, whose efficiency and stability bring more convenience than alternative sampling procedures. Quantitative guarantees for the proposed method are established, including moment estimates and strong error bounds. The approach is further compared with the kernel approximation by sum of exponentials (Random Laplace Features) commonly used in the literature, emphasizing the broader generality of the present framework. As a primary application, Volterra processes associated with the Stationary fractional Brownian Motion (S-fBM) kernel are investigated. A spectral density representation is derived in closed form using hypergeometric functions, a condition for positive definiteness is established, and explicit truncation as well as Monte Carlo error bounds are provided for the RFF approximation in this setting. Numerical experiments in dimensions one and two illustrate the accuracy of the kernel approximation, the reliable recovery of model parameters, and the competitiveness of the accelerated simulation scheme in terms of computational efficiency and both weak and strong error performance.",
-          "categories": [
-            "q-fin.MF",
-            "math.NA",
-            "math.PR"
-          ],
-          "published": "2026-03-03",
-          "pdfUrl": "https://arxiv.org/pdf/2603.02946v1",
-          "chineseTitle": "Fast simulation of Volterra processes using random Fourier features with application to the log-stationary fractional Brownian motion",
-          "chineseAbstract": "A fast simulation framework for stochastic Volterra processes based on Random Fourier Features (RFF) approximation of the kernel is developed. After recalling the main properties of Volterra processes and reviewing existing numerical simulation methods, an accelerated scheme is introduced that relies on a spectral representation of the kernel. A particular attention is devoted to sampling from the kernel spectral density using Hamiltonian Monte Carlo, whose efficiency and stability bring more convenience than alternative sampling procedures. Quantitative guarantees for the proposed method are established, including moment estimates and strong error bounds. The approach is further compared with the kernel approximation by sum of exponentials (Random Laplace Features) commonly used in the literature, emphasizing the broader generality of the present framework. As a primary application, Volterra processes associated with the Stationary fractional Brownian Motion (S-fBM) kernel are investigated. A spectral density representation is derived in closed form using hypergeometric functions, a condition for positive definiteness is established, and explicit truncation as well as Monte Carlo error bounds are provided for the RFF approximation in this setting. Numerical experiments in dimensions one and two illustrate the accuracy of the kernel approximation, the reliable recovery of model parameters, and the competitiveness of the accelerated simulation scheme in terms of computational efficiency and both weak and strong error performance.",
-          "researchField": "金融",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.02844v1",
-          "title": "Optimal Routing across Constant Function Market Makers with Gas Fees",
-          "authors": [
-            "Carlos Escudero",
-            "Felipe Lara",
-            "Miguel Sama"
-          ],
-          "abstract": "We study the optimal routing problem in decentralized exchanges built on Constant Function Market Makers when trades can be split across multiple heterogeneous pools and execution incurs fixed on-chain costs (gas fees). While prior routing formulations typically abstract from fixed activation costs, real on-chain execution presents non-negligible gas fees. They also become convex under concavity/convexity assumptions on the invariant functions. We propose a general optimization framework that allows differentiable invariant functions beyond global convexity and incorporates fixed gas fees through a mixed-integer model that induces activation thresholds. Subsequently, we introduce a relaxed formulation of this model, whereby we deduce necessary optimality conditions, obtaining an explicit Karush-Kuhn-Tucker system that links prices, fees, and activation. We further establish sufficient optimality conditions using tools from generalized convexity (pseudoconcavity/pseudoconvexity and quasilinearity), yielding a verifiable optimality characterization without requiring convex trade functions. Finally, we relate the relaxed solution to the original mixed-integer model by providing explicit approximation bounds that quantify the utility gap induced by relaxation. Our results extend the mathematical theory for routing by offering no-trade conditions in fragmented on-chain markets in the presence of gas fees.",
-          "categories": [
-            "math.OC",
-            "q-fin.MF"
-          ],
-          "published": "2026-03-03",
-          "pdfUrl": "https://arxiv.org/pdf/2603.02844v1",
-          "chineseTitle": "Optimal Routing across Constant Function Market Makers with Gas Fees",
-          "chineseAbstract": "We study the optimal routing problem in decentralized exchanges built on Constant Function Market Makers when trades can be split across multiple heterogeneous pools and execution incurs fixed on-chain costs (gas fees). While prior routing formulations typically abstract from fixed activation costs, real on-chain execution presents non-negligible gas fees. They also become convex under concavity/convexity assumptions on the invariant functions. We propose a general optimization framework that allows differentiable invariant functions beyond global convexity and incorporates fixed gas fees through a mixed-integer model that induces activation thresholds. Subsequently, we introduce a relaxed formulation of this model, whereby we deduce necessary optimality conditions, obtaining an explicit Karush-Kuhn-Tucker system that links prices, fees, and activation. We further establish sufficient optimality conditions using tools from generalized convexity (pseudoconcavity/pseudoconvexity and quasilinearity), yielding a verifiable optimality characterization without requiring convex trade functions. Finally, we relate the relaxed solution to the original mixed-integer model by providing explicit approximation bounds that quantify the utility gap induced by relaxation. Our results extend the mathematical theory for routing by offering no-trade conditions in fragmented on-chain markets in the presence of gas fees.",
-          "researchField": "金融",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.02820v1",
-          "title": "Optimal Consumption and Portfolio Choice with No-Borrowing Constraint in the Kim-Omberg Model",
-          "authors": [
-            "Giorgio Ferrari",
-            "Tim Niclas Schütz"
-          ],
-          "abstract": "In this paper, we study an intertemporal utility maximization problem in which an investor chooses consumption and portfolio strategies in the presence of a stochastic factor and a no-borrowing constraint. In the spirit of the Kim-Omberg model, the stochastic factor represents the excess return of the risky asset and follows an Ornstein-Uhlenbeck process, capturing the mean reversion of expected excess returns-a feature well supported by empirical evidence in financial markets. The investor seeks to maximize expected utility from consumption, subject to the constraint that wealth remains nonnegative at all times. To address the dynamic no-borrowing constraint, we use Lagrange duality to transform the primal problem into a singular control problem in the dual space. We then characterize the solution to the dual singular control problem via an auxiliary two-dimensional optimal stopping problem featuring stochastic volatility, and subsequently retrieve the primal value function as well as the optimal portfolio and consumption plans. Finally, a numerical study is conducted to derive economic and financial implications.",
-          "categories": [
-            "math.OC",
-            "math.PR",
-            "q-fin.MF"
-          ],
-          "published": "2026-03-03",
-          "pdfUrl": "https://arxiv.org/pdf/2603.02820v1",
-          "chineseTitle": "Optimal Consumption and Portfolio Choice with No-Borrowing Constraint in the Kim-Omberg Model",
-          "chineseAbstract": "In this paper, we study an intertemporal utility maximization problem in which an investor chooses consumption and portfolio strategies in the presence of a stochastic factor and a no-borrowing constraint. In the spirit of the Kim-Omberg model, the stochastic factor represents the excess return of the risky asset and follows an Ornstein-Uhlenbeck process, capturing the mean reversion of expected excess returns-a feature well supported by empirical evidence in financial markets. The investor seeks to maximize expected utility from consumption, subject to the constraint that wealth remains nonnegative at all times. To address the dynamic no-borrowing constraint, we use Lagrange duality to transform the primal problem into a singular control problem in the dual space. We then characterize the solution to the dual singular control problem via an auxiliary two-dimensional optimal stopping problem featuring stochastic volatility, and subsequently retrieve the primal value function as well as the optimal portfolio and consumption plans. Finally, a numerical study is conducted to derive economic and financial implications.",
-          "researchField": "金融",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.05917v1",
-          "title": "Stock Market Prediction Using Node Transformer Architecture Integrated with BERT Sentiment Analysis",
-          "authors": [
-            "Mohammad Al Ridhawi",
-            "Mahtab Haj Ali",
-            "Hussein Al Osman"
-          ],
-          "abstract": "Stock market prediction presents considerable challenges for investors, financial institutions, and policymakers operating in complex market environments characterized by noise, non-stationarity, and behavioral dynamics. Traditional forecasting methods often fail to capture the intricate patterns and cross-sectional dependencies inherent in financial markets. This paper presents an integrated framework combining a node transformer architecture with BERT-based sentiment analysis for stock price forecasting. The proposed model represents the stock market as a graph structure where individual stocks form nodes and edges capture relationships including sectoral affiliations, correlated price movements, and supply chain connections. A fine-tuned BERT model extracts sentiment from social media posts and combines it with quantitative market features through attention-based fusion. The node transformer processes historical market data while capturing both temporal evolution and cross-sectional dependencies among stocks. Experiments on 20 S&P 500 stocks spanning January 1982 to March 2025 demonstrate that the integrated model achieves a mean absolute percentage error (MAPE) of 0.80% for one-day-ahead predictions, compared to 1.20% for ARIMA and 1.00% for LSTM. Sentiment analysis reduces prediction error by 10% overall and 25% during earnings announcements, while graph-based modeling contributes an additional 15% improvement by capturing inter-stock dependencies. Directional accuracy reaches 65% for one-day forecasts. Statistical validation through paired t-tests confirms these improvements (p < 0.05 for all comparisons). The model maintains MAPE below 1.5% during high-volatility periods where baseline models exceed 2%.",
-          "categories": [
-            "cs.LG",
-            "cs.AI",
-            "q-fin.ST"
-          ],
-          "published": "2026-03-06",
-          "pdfUrl": "https://arxiv.org/pdf/2603.05917v1",
-          "chineseTitle": "Stock Market Prediction Using Node Transformer Architecture Integrated with BERT Sentiment Analysis",
-          "chineseAbstract": "Stock market prediction presents considerable challenges for investors, financial institutions, and policymakers operating in complex market environments characterized by noise, non-stationarity, and behavioral dynamics. Traditional forecasting methods often fail to capture the intricate patterns and cross-sectional dependencies inherent in financial markets. This paper presents an integrated framework combining a node transformer architecture with BERT-based sentiment analysis for stock price forecasting. The proposed model represents the stock market as a graph structure where individual stocks form nodes and edges capture relationships including sectoral affiliations, correlated price movements, and supply chain connections. A fine-tuned BERT model extracts sentiment from social media posts and combines it with quantitative market features through attention-based fusion. The node transformer processes historical market data while capturing both temporal evolution and cross-sectional dependencies among stocks. Experiments on 20 S&P 500 stocks spanning January 1982 to March 2025 demonstrate that the integrated model achieves a mean absolute percentage error (MAPE) of 0.80% for one-day-ahead predictions, compared to 1.20% for ARIMA and 1.00% for LSTM. Sentiment analysis reduces prediction error by 10% overall and 25% during earnings announcements, while graph-based modeling contributes an additional 15% improvement by capturing inter-stock dependencies. Directional accuracy reaches 65% for one-day forecasts. Statistical validation through paired t-tests confirms these improvements (p < 0.05 for all comparisons). The model maintains MAPE below 1.5% during high-volatility periods where baseline models exceed 2%.",
-          "researchField": "金融",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.05260v1",
-          "title": "Extreme Value Analysis for Finite, Multivariate and Correlated Systems with Finance as an Example",
-          "authors": [
-            "Benjamin Köhler",
-            "Anton J. Heckens",
-            "Thomas Guhr"
-          ],
-          "abstract": "Extreme values and the tail behavior of probability distributions are essential for quantifying and mitigating risk in complex systems of all kinds. In multivariate settings, accounting for correlations is crucial. Although extreme value analysis for infinite correlated systems remains an open challenge, we propose a practical framework for handling a large but finite number of correlated time series. We develop our approach for finance as a concrete example but emphasize its generality. We study the extremal behavior of high-frequency stock returns after rotating them into the eigenbasis of the correlation matrix. This separates and extracts various collective effects, including information on the correlated market as a whole and on correlated sectoral behavior from idiosyncratic features, while allowing us to use univariate tools of extreme value analysis. This holds even for high-frequency data where discretization effects normally complicate analysis. We employ a peaks-over-threshold approach and thereby fully avoid the analysis of block maxima. We estimate the tail shape of the rotated returns while explicitly accounting for nonstationarity, a key feature in finance and many other complex systems. Our framework facilitates tail risk estimation relative to larger trends and intraday seasonalities at both market and sectoral levels.",
-          "categories": [
-            "q-fin.ST",
-            "physics.data-an",
-            "q-fin.RM"
-          ],
-          "published": "2026-03-05",
-          "pdfUrl": "https://arxiv.org/pdf/2603.05260v1",
-          "chineseTitle": "Extreme Value Analysis for Finite, Multivariate and Correlated Systems with Finance as an Example",
-          "chineseAbstract": "Extreme values and the tail behavior of probability distributions are essential for quantifying and mitigating risk in complex systems of all kinds. In multivariate settings, accounting for correlations is crucial. Although extreme value analysis for infinite correlated systems remains an open challenge, we propose a practical framework for handling a large but finite number of correlated time series. We develop our approach for finance as a concrete example but emphasize its generality. We study the extremal behavior of high-frequency stock returns after rotating them into the eigenbasis of the correlation matrix. This separates and extracts various collective effects, including information on the correlated market as a whole and on correlated sectoral behavior from idiosyncratic features, while allowing us to use univariate tools of extreme value analysis. This holds even for high-frequency data where discretization effects normally complicate analysis. We employ a peaks-over-threshold approach and thereby fully avoid the analysis of block maxima. We estimate the tail shape of the rotated returns while explicitly accounting for nonstationarity, a key feature in finance and many other complex systems. Our framework facilitates tail risk estimation relative to larger trends and intraday seasonalities at both market and sectoral levels.",
-          "researchField": "金融",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.05119v1",
-          "title": "Asymptotic Separability of Diffusion and Jump Components in High-Frequency CIR and CKLS Models",
-          "authors": [
-            "Sourojyoti Barick"
-          ],
-          "abstract": "This paper develops a robust parametric framework for jump detection in discretely observed CKLS-type jump-diffusion processes with high-frequency asymptotics, based on the minimum density power divergence estimator (MDPDE). The methodology exploits the intrinsic asymptotic scale separation between diffusion increments, which decay at rate $\\sqrt{Δ_n}$, and jump increments, which remain of non-vanishing stochastic magnitude. Using robust MDPDE-based estimators of the drift and diffusion coefficients, we construct standardized residuals whose extremal behavior provides a principled basis for statistical discrimination between continuous and discontinuous components. We establish that, over diffusion intervals, the maximum of the normalized residuals converges to the Gumbel extreme-value distribution, yielding an explicit and asymptotically valid detection threshold. Building on this result, we prove classification consistency of the proposed robust detection procedure: the probability of correctly identifying all jump and diffusion increments converges to one under proper asymptotics. The MDPDE-based normalization attenuates the influence of atypical increments and stabilizes the detection boundary in the presence of discontinuities. Simulation results confirm that robustness improves finite-sample stability and reduces spurious detections without compromising asymptotic validity. The proposed methodology provides a theoretically rigorous and practically resilient robust approach to jump identification in high-frequency stochastic systems.",
-          "categories": [
-            "q-fin.ST",
-            "math.ST"
-          ],
-          "published": "2026-03-05",
-          "pdfUrl": "https://arxiv.org/pdf/2603.05119v1",
-          "chineseTitle": "Asymptotic Separability of Diffusion and Jump Components in High-Frequency CIR and CKLS Models",
-          "chineseAbstract": "This paper develops a robust parametric framework for jump detection in discretely observed CKLS-type jump-diffusion processes with high-frequency asymptotics, based on the minimum density power divergence estimator (MDPDE). The methodology exploits the intrinsic asymptotic scale separation between diffusion increments, which decay at rate $\\sqrt{Δ_n}$, and jump increments, which remain of non-vanishing stochastic magnitude. Using robust MDPDE-based estimators of the drift and diffusion coefficients, we construct standardized residuals whose extremal behavior provides a principled basis for statistical discrimination between continuous and discontinuous components. We establish that, over diffusion intervals, the maximum of the normalized residuals converges to the Gumbel extreme-value distribution, yielding an explicit and asymptotically valid detection threshold. Building on this result, we prove classification consistency of the proposed robust detection procedure: the probability of correctly identifying all jump and diffusion increments converges to one under proper asymptotics. The MDPDE-based normalization attenuates the influence of atypical increments and stabilizes the detection boundary in the presence of discontinuities. Simulation results confirm that robustness improves finite-sample stability and reduces spurious detections without compromising asymptotic validity. The proposed methodology provides a theoretically rigorous and practically resilient robust approach to jump identification in high-frequency stochastic systems.",
-          "researchField": "金融",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.02898v1",
-          "title": "Range-Based Volatility Estimators for Monitoring Market Stress: Evidence from Local Food Price Data",
-          "authors": [
-            "Bo Pieter Johannes Andrée"
-          ],
-          "abstract": "Range-based volatility estimators are widely used in financial econometrics to quantify risk and market stress, yet their application to local commodity markets remains limited. This paper shows how open-high--low-close (OHLC) volatility estimators can be adapted to monitor localized market distress across diverse development contexts, including conflict-affected settings, climate-exposed regions, remote and thinly traded markets, and import- and logistics-constrained urban hubs. Using monthly food price data from the World Bank's Real-Time Prices dataset, several volatility measures -- including the Parkinson, Garman-Klass, Rogers-Satchell, and Yang-Zhang estimators -- are constructed and evaluated against independently documented disruption timelines. Across settings, elevated volatility aligns with episodes linked to insecurity and market fragmentation, extreme weather and disaster shocks, policy and fuel-cost adjustments, and global supply-chain and trade disruptions. Volatility also detects stress that standard momentum indicators such as the relative strength index (RSI) can miss, including symmetric or rapidly reversing shocks in which offsetting supply and demand disturbances dampen net directional price movements while amplifying intra-period dispersion. Overall, OHLC-based volatility indicators provide a robust and interpretable signal of market disruptions and complement price-level monitoring for applications spanning financial risk, humanitarian early warning, and trade.",
-          "categories": [
-            "q-fin.ST",
-            "econ.EM",
-            "stat.AP"
-          ],
-          "published": "2026-03-03",
-          "pdfUrl": "https://arxiv.org/pdf/2603.02898v1",
-          "chineseTitle": "Range-Based Volatility Estimators for Monitoring Market Stress: Evidence from Local Food Price Data",
-          "chineseAbstract": "Range-based volatility estimators are widely used in financial econometrics to quantify risk and market stress, yet their application to local commodity markets remains limited. This paper shows how open-high--low-close (OHLC) volatility estimators can be adapted to monitor localized market distress across diverse development contexts, including conflict-affected settings, climate-exposed regions, remote and thinly traded markets, and import- and logistics-constrained urban hubs. Using monthly food price data from the World Bank's Real-Time Prices dataset, several volatility measures -- including the Parkinson, Garman-Klass, Rogers-Satchell, and Yang-Zhang estimators -- are constructed and evaluated against independently documented disruption timelines. Across settings, elevated volatility aligns with episodes linked to insecurity and market fragmentation, extreme weather and disaster shocks, policy and fuel-cost adjustments, and global supply-chain and trade disruptions. Volatility also detects stress that standard momentum indicators such as the relative strength index (RSI) can miss, including symmetric or rapidly reversing shocks in which offsetting supply and demand disturbances dampen net directional price movements while amplifying intra-period dispersion. Overall, OHLC-based volatility indicators provide a robust and interpretable signal of market disruptions and complement price-level monitoring for applications spanning financial risk, humanitarian early warning, and trade.",
-          "researchField": "金融",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.03671v1",
-          "title": "Is an investor stolen their profits by mimic investors? Investigated by an agent-based model",
-          "authors": [
-            "Takanobu Mizuta",
-            "Isao Yagi"
-          ],
-          "abstract": "Some investors say increasing investors with the same strategy decreasing their profits per an investor. On the other hand, some investors using technical analysis used to use same strategy and parameters with other investors, and say that it is better. Those argues are conflicted each other because one argues using with same strategy decreases profits but another argues it increase profits. However, those arguments have not been investigated yet. In this study, the agent-based artificial financial market model(ABAFMM) was built by adding \"additional agents\"(AAs) that includes additional fundamental agents (AFAs) and additional technical agents (ATAs) to the prior model. The AFAs(ATAs) trade obeying simple fundamental(technical) strategy having only the one parameter. We investigated earnings of AAs when AAs increased. We found that in the case with increasing AFAs, market prices are made stable that leads to decrease their profits. In the case with increasing ATAs, market prices are made unstable that leads to gain their profits more.",
-          "categories": [
-            "q-fin.CP",
-            "q-fin.TR"
-          ],
-          "published": "2026-03-04",
-          "pdfUrl": "https://arxiv.org/pdf/2603.03671v1",
-          "chineseTitle": "Is an investor stolen their profits by mimic investors? Investigated by an agent-based model",
-          "chineseAbstract": "Some investors say increasing investors with the same strategy decreasing their profits per an investor. On the other hand, some investors using technical analysis used to use same strategy and parameters with other investors, and say that it is better. Those argues are conflicted each other because one argues using with same strategy decreases profits but another argues it increase profits. However, those arguments have not been investigated yet. In this study, the agent-based artificial financial market model(ABAFMM) was built by adding \"additional agents\"(AAs) that includes additional fundamental agents (AFAs) and additional technical agents (ATAs) to the prior model. The AFAs(ATAs) trade obeying simple fundamental(technical) strategy having only the one parameter. We investigated earnings of AAs when AAs increased. We found that in the case with increasing AFAs, market prices are made stable that leads to decrease their profits. In the case with increasing ATAs, market prices are made unstable that leads to gain their profits more.",
-          "researchField": "金融",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.06118v1",
-          "title": "Sleep and redistribution preferences: Considering allowable tax rates",
-          "authors": [
-            "Eiji Yamamura",
-            "Fumio Ohtake"
-          ],
-          "abstract": "This study explored the association between sleep duration and redistribution preferences. Using an online survey, we propose a hypothetical situation in which the tax paid directly by respondents is redistributed to those earning less than one-fifth of the respondents' income. Next, we asked about the allowable tax rates. We found the following through Tobit and ordered logit regression estimations: (1) The relationship between sleep hours and the allowable tax rate showed an inverted U-shape, where the optimal amount of sleep led to the highest allowable tax rate. (2) High-quality sleep was more positively correlated with the allowable tax rate than was low-quality sleep when the sleep quantity was the same. (3) Sleep hours were more significantly and positively correlated with the allowable tax rate in the high-income group than in the low-income group. (4) Assuming that twice the amount of tax paid goes to those with lower income, individuals who previously preferred a higher tax rate were more likely to increase the allowable tax rate.",
-          "categories": [
-            "econ.GN"
-          ],
-          "published": "2026-03-06",
-          "pdfUrl": "https://arxiv.org/pdf/2603.06118v1",
-          "chineseTitle": "Sleep and redistribution preferences: Considering allowable tax rates",
-          "chineseAbstract": "This study explored the association between sleep duration and redistribution preferences. Using an online survey, we propose a hypothetical situation in which the tax paid directly by respondents is redistributed to those earning less than one-fifth of the respondents' income. Next, we asked about the allowable tax rates. We found the following through Tobit and ordered logit regression estimations: (1) The relationship between sleep hours and the allowable tax rate showed an inverted U-shape, where the optimal amount of sleep led to the highest allowable tax rate. (2) High-quality sleep was more positively correlated with the allowable tax rate than was low-quality sleep when the sleep quantity was the same. (3) Sleep hours were more significantly and positively correlated with the allowable tax rate in the high-income group than in the low-income group. (4) Assuming that twice the amount of tax paid goes to those with lower income, individuals who previously preferred a higher tax rate were more likely to increase the allowable tax rate.",
-          "researchField": "计量",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.06106v1",
-          "title": "Preference for redistribution and institutional trust: Comparison before and after COVID-19",
-          "authors": [
-            "Eiji Yamamura",
-            "Fumio Ohtake"
-          ],
-          "abstract": "Using an individual-level panel dataset from Japan covering the period 2016-2024, we examined how the COVID-19 pandemic, as an unanticipated public crisis, affected preferences for income redistribution. Furthermore, we investigated how the association between redistribution preferences and trust in government changed before and after COVID-19. The major findings are as follows: (1) individuals in the high-income group are less likely to prefer redistribution after COVID-19 than before it; (2) the degree of decline in redistribution preference is lower when trust in government is higher; and (3) generalised trust and reciprocity did not influence the decline in preference.",
-          "categories": [
-            "econ.GN"
-          ],
-          "published": "2026-03-06",
-          "pdfUrl": "https://arxiv.org/pdf/2603.06106v1",
-          "chineseTitle": "Preference for redistribution and institutional trust: Comparison before and after COVID-19",
-          "chineseAbstract": "Using an individual-level panel dataset from Japan covering the period 2016-2024, we examined how the COVID-19 pandemic, as an unanticipated public crisis, affected preferences for income redistribution. Furthermore, we investigated how the association between redistribution preferences and trust in government changed before and after COVID-19. The major findings are as follows: (1) individuals in the high-income group are less likely to prefer redistribution after COVID-19 than before it; (2) the degree of decline in redistribution preference is lower when trust in government is higher; and (3) generalised trust and reciprocity did not influence the decline in preference.",
-          "researchField": "其他",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.06098v1",
-          "title": "The Widening Gap in Tax Attitudes: Role of Government Trust in the post COVID-19 period",
-          "authors": [
-            "Eiji Yamamura",
-            "Fumio Ohtake"
-          ],
-          "abstract": "This study investigates shifts in acceptable tax rate for reducing inequality during the COVID-19 pandemic using Japanese data. We find a transition from norm-based, unconditional support for redistribution to conditional altruism. Before the pandemic, support remained high and independent of institutional trust. The pandemic generated an overall decline in altruistic attitudes while increasing their dependence on trust in government, particularly among high-income individuals. This \"widening gap\" implies that in post-crisis societies, the social contract is no longer anchored in stable social norms but increasingly relies on institutional trust to sustain income redistribution from the rich to the poor.",
-          "categories": [
-            "econ.GN"
-          ],
-          "published": "2026-03-06",
-          "pdfUrl": "https://arxiv.org/pdf/2603.06098v1",
-          "chineseTitle": "The Widening Gap in Tax Attitudes: Role of Government Trust in the post COVID-19 period",
-          "chineseAbstract": "This study investigates shifts in acceptable tax rate for reducing inequality during the COVID-19 pandemic using Japanese data. We find a transition from norm-based, unconditional support for redistribution to conditional altruism. Before the pandemic, support remained high and independent of institutional trust. The pandemic generated an overall decline in altruistic attitudes while increasing their dependence on trust in government, particularly among high-income individuals. This \"widening gap\" implies that in post-crisis societies, the social contract is no longer anchored in stable social norms but increasingly relies on institutional trust to sustain income redistribution from the rich to the poor.",
-          "researchField": "其他",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.05277v1",
-          "title": "Extensions to the Wealth Tax Neutrality Framework",
-          "authors": [
-            "Anders G. Froeseth"
-          ],
-          "abstract": "Froeseth (2026) shows that a proportional wealth tax on market values is neutral with respect to portfolio choice, Sharpe ratios, and equilibrium prices under CRRA preferences and geometric Brownian motion. This paper investigates the robustness of that result along two dimensions. First, we extend the neutrality frontier: portfolio neutrality, including all intertemporal hedging demands, is preserved under stochastic volatility (Heston and general Markov diffusions) and Epstein-Zin recursive utility, but breaks under non-homothetic preferences such as HARA. Second, we identify four channels through which implemented wealth taxes depart from neutrality even under CRRA: non-uniform assessment across asset classes, general equilibrium price effects in inelastic markets, progressive threshold structures, and endogenous labour supply. Each channel is formalised and, where possible, calibrated to the Norwegian wealth tax system. The progressive threshold introduces a tax shield that increases risk-taking near the exemption boundary, an effect opposite in sign to the HARA distortion, and, at the extreme, generates a participation margin at which investors exit the tax jurisdiction entirely. We formalise this tax-induced migration as the extreme response at the progressive threshold and examine the Norwegian post-2022 experience as a case study. The full framework is applied to evaluate the Saez-Zucman proposal for a global minimum wealth tax on billionaires and the related French proposal for a national minimum tax above EUR 100 million.",
-          "categories": [
-            "physics.soc-ph",
-            "econ.GN",
-            "q-fin.PM"
-          ],
-          "published": "2026-03-05",
-          "pdfUrl": "https://arxiv.org/pdf/2603.05277v1",
-          "chineseTitle": "Extensions to the Wealth Tax Neutrality Framework",
-          "chineseAbstract": "Froeseth (2026) shows that a proportional wealth tax on market values is neutral with respect to portfolio choice, Sharpe ratios, and equilibrium prices under CRRA preferences and geometric Brownian motion. This paper investigates the robustness of that result along two dimensions. First, we extend the neutrality frontier: portfolio neutrality, including all intertemporal hedging demands, is preserved under stochastic volatility (Heston and general Markov diffusions) and Epstein-Zin recursive utility, but breaks under non-homothetic preferences such as HARA. Second, we identify four channels through which implemented wealth taxes depart from neutrality even under CRRA: non-uniform assessment across asset classes, general equilibrium price effects in inelastic markets, progressive threshold structures, and endogenous labour supply. Each channel is formalised and, where possible, calibrated to the Norwegian wealth tax system. The progressive threshold introduces a tax shield that increases risk-taking near the exemption boundary, an effect opposite in sign to the HARA distortion, and, at the extreme, generates a participation margin at which investors exit the tax jurisdiction entirely. We formalise this tax-induced migration as the extreme response at the progressive threshold and examine the Norwegian post-2022 experience as a case study. The full framework is applied to evaluate the Saez-Zucman proposal for a global minimum wealth tax on billionaires and the related French proposal for a national minimum tax above EUR 100 million.",
-          "researchField": "金融",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.05264v1",
-          "title": "Asset Returns, Portfolio Choice, and Proportional Wealth Taxation",
-          "authors": [
-            "Anders G. Froeseth"
-          ],
-          "abstract": "We analyse the effect of a proportional wealth tax on asset returns, portfolio choice, and asset pricing. The tax is levied annually on the market value of all holdings at a uniform rate. We show that such a tax is economically equivalent to the government acquiring a proportional stake in the investor's portfolio each period, a form of risk sharing in which expected wealth and risk are reduced by the same factor, while the return per share is unaffected. This multiplicative separability drives four main results: (i) the coefficient of variation of wealth is invariant to the tax rate; (ii) optimal portfolio weights are independent of the tax rate; (iii) the wealth tax is orthogonal to portfolio choice, inducing a homothetic contraction of the opportunity set that preserves the Sharpe ratio of every portfolio; (iv) taxed and untaxed investors price assets identically. Results are derived under geometric Brownian motion and generalised to the location-scale family. A Modigliani-Miller analysis confirms pricing neutrality and identifies an inconsistency in the literature regarding the discount rate for after-tax cash flows. Under CAPM with CRRA preferences, after-tax betas equal pre-tax betas and the security market line contracts by the tax factor; general-equilibrium prices are unchanged. This resolves an error in Fama (2021). The neutrality results depend on three conditions commonly violated in practice: universal taxation at market value, frictionless markets, and dividend consumption. We formalise three channels through which relaxing these conditions breaks neutrality: book-value taxation, liquidity frictions, and dividend extraction, and show they have opposing effects on asset prices.",
-          "categories": [
-            "physics.soc-ph",
-            "econ.GN",
-            "q-fin.PM"
-          ],
-          "published": "2026-03-05",
-          "pdfUrl": "https://arxiv.org/pdf/2603.05264v1",
-          "chineseTitle": "Asset Returns, Portfolio Choice, and Proportional Wealth Taxation",
-          "chineseAbstract": "We analyse the effect of a proportional wealth tax on asset returns, portfolio choice, and asset pricing. The tax is levied annually on the market value of all holdings at a uniform rate. We show that such a tax is economically equivalent to the government acquiring a proportional stake in the investor's portfolio each period, a form of risk sharing in which expected wealth and risk are reduced by the same factor, while the return per share is unaffected. This multiplicative separability drives four main results: (i) the coefficient of variation of wealth is invariant to the tax rate; (ii) optimal portfolio weights are independent of the tax rate; (iii) the wealth tax is orthogonal to portfolio choice, inducing a homothetic contraction of the opportunity set that preserves the Sharpe ratio of every portfolio; (iv) taxed and untaxed investors price assets identically. Results are derived under geometric Brownian motion and generalised to the location-scale family. A Modigliani-Miller analysis confirms pricing neutrality and identifies an inconsistency in the literature regarding the discount rate for after-tax cash flows. Under CAPM with CRRA preferences, after-tax betas equal pre-tax betas and the security market line contracts by the tax factor; general-equilibrium prices are unchanged. This resolves an error in Fama (2021). The neutrality results depend on three conditions commonly violated in practice: universal taxation at market value, frictionless markets, and dividend consumption. We formalise three channels through which relaxing these conditions breaks neutrality: book-value taxation, liquidity frictions, and dividend extraction, and show they have opposing effects on asset prices.",
-          "researchField": "金融",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.05153v1",
-          "title": "Training and Innovation in Italian Manufacturing Firms",
-          "authors": [
-            "Davide Antonioli",
-            "Elisa Chioatto",
-            "Giovanni Guidetti",
-            "Riccardo Leoncini",
-            "Mariele Macaluso"
-          ],
-          "abstract": "This paper analyses how firms' skill development strategies affect their propensity to introduce innovation. We develop an adjustment-cost framework that links human capital theory and institutionalist and evolutionary approaches, considering innovation as an activity that entails costs in labour adjustment arising either from the training activities of workers or the recruitment of skilled employees. Using a two-wave panel of Italian manufacturing firms observed in 2017-2018 and 2019-2020, we analyse firms' adoption of total, product, process, and circular innovation as a function of internal training practices and of external skills acquisition. Overall, the empirical analysis confirms the expected positive relationship between training and innovation, while also revealing important nuances in the workforce upskilling strategies required for different types of innovation. Moreover, while training activities and skills development are essential across all forms of innovation, our findings indicate that internal training is particularly effective in supporting the implementation of circular innovations. By contrast, external recruitment appears to be consistently necessary whenever innovations are introduced, regardless of their type.",
-          "categories": [
-            "econ.GN"
-          ],
-          "published": "2026-03-05",
-          "pdfUrl": "https://arxiv.org/pdf/2603.05153v1",
-          "chineseTitle": "Training and Innovation in Italian Manufacturing Firms",
-          "chineseAbstract": "This paper analyses how firms' skill development strategies affect their propensity to introduce innovation. We develop an adjustment-cost framework that links human capital theory and institutionalist and evolutionary approaches, considering innovation as an activity that entails costs in labour adjustment arising either from the training activities of workers or the recruitment of skilled employees. Using a two-wave panel of Italian manufacturing firms observed in 2017-2018 and 2019-2020, we analyse firms' adoption of total, product, process, and circular innovation as a function of internal training practices and of external skills acquisition. Overall, the empirical analysis confirms the expected positive relationship between training and innovation, while also revealing important nuances in the workforce upskilling strategies required for different types of innovation. Moreover, while training activities and skills development are essential across all forms of innovation, our findings indicate that internal training is particularly effective in supporting the implementation of circular innovations. By contrast, external recruitment appears to be consistently necessary whenever innovations are introduced, regardless of their type.",
-          "researchField": "微观",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.05563v1",
-          "title": "Nonlinear Fiscal Transitions and the Dynamics of Public Expenditure Reform",
-          "authors": [
-            "Diego Vallarino"
-          ],
-          "abstract": "This paper develops a nonlinear theoretical framework to analyze the dynamics of public expenditure reallocation in Uruguay. Motivated by recent debates on fiscal reform and expenditure efficiency, the paper models fiscal adjustment as a dynamic process in which expenditure categories exhibit heterogeneous institutional rigidity and convex adjustment costs.   Using the national budget for the 2026-2030 fiscal period as an institutional reference, the paper presents a calibrated illustration of the theoretical framework that captures key features of the structure of public spending, including transfers, the public wage bill, operating expenditures, and public investment. The calibration translates institutional characteristics of the budget into quantitative transition dynamics rather than estimating structural parameters econometrically.   The framework allows the evaluation of short-, medium-, and long-run fiscal implications of alternative reform strategies, including administrative restructuring, pension reform, and the gradual reallocation of resources toward human capital and productivity-enhancing investment. In contrast to descriptive expenditure reviews based on static budget comparisons, the model explicitly incorporates nonlinear transition dynamics and institutional frictions. Simulations show that structural expenditure reforms generate significant transitional fiscal costs arising from overlapping institutional systems, labor adjustment frictions, and pension transition liabilities.   As a result, fiscal reform produces a J-shaped expenditure trajectory in which total spending initially increases before gradually converging toward a more efficient long-run allocation. These findings highlight the importance of accounting for adjustment costs and transition dynamics when evaluating the feasibility and timing of structural fiscal reforms.",
-          "categories": [
-            "econ.GN",
-            "econ.EM"
-          ],
-          "published": "2026-03-05",
-          "pdfUrl": "https://arxiv.org/pdf/2603.05563v1",
-          "chineseTitle": "Nonlinear Fiscal Transitions and the Dynamics of Public Expenditure Reform",
-          "chineseAbstract": "This paper develops a nonlinear theoretical framework to analyze the dynamics of public expenditure reallocation in Uruguay. Motivated by recent debates on fiscal reform and expenditure efficiency, the paper models fiscal adjustment as a dynamic process in which expenditure categories exhibit heterogeneous institutional rigidity and convex adjustment costs.   Using the national budget for the 2026-2030 fiscal period as an institutional reference, the paper presents a calibrated illustration of the theoretical framework that captures key features of the structure of public spending, including transfers, the public wage bill, operating expenditures, and public investment. The calibration translates institutional characteristics of the budget into quantitative transition dynamics rather than estimating structural parameters econometrically.   The framework allows the evaluation of short-, medium-, and long-run fiscal implications of alternative reform strategies, including administrative restructuring, pension reform, and the gradual reallocation of resources toward human capital and productivity-enhancing investment. In contrast to descriptive expenditure reviews based on static budget comparisons, the model explicitly incorporates nonlinear transition dynamics and institutional frictions. Simulations show that structural expenditure reforms generate significant transitional fiscal costs arising from overlapping institutional systems, labor adjustment frictions, and pension transition liabilities.   As a result, fiscal reform produces a J-shaped expenditure trajectory in which total spending initially increases before gradually converging toward a more efficient long-run allocation. These findings highlight the importance of accounting for adjustment costs and transition dynamics when evaluating the feasibility and timing of structural fiscal reforms.",
-          "researchField": "计量",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.05034v1",
-          "title": "The \"Gold Rush\" in AI and Robotics Patenting Activity. Do innovation systems have a role?",
-          "authors": [
-            "Giovanni Guidetti",
-            "Riccardo Leoncini",
-            "Mariele Macaluso"
-          ],
-          "abstract": "This paper studies patenting trends in artificial intelligence (AI) and robotics from 1980 to 2019. We introduce a novel distinction between traditional robotics and robotics embedding AI functionalities. Using patent data and a time-series econometric approach, we examine whether these domains share common long-run dynamics and how their trajectories differ across major innovation systems. Three main findings emerge. First, patenting activity in core AI, traditional robots, and AI-enhanced robots follows distinct trajectories, with AI-enhanced robotics accelerating sharply from the early 2010s. Second, structural breaks occur predominantly after 2010, indicating an acceleration in the technological dynamics associated with AI diffusion. Third, long-run relationships between AI and robotics vary systematically across countries: China exhibits strong integration between core AI and AI-enhanced robots, alongside a substantial contribution from universities and the public sector, whereas the United States displays a more market-oriented patenting structure and weaker integration between AI and robots. Europe, Japan, and South Korea show intermediate patterns.",
-          "categories": [
-            "econ.GN"
-          ],
-          "published": "2026-03-05",
-          "pdfUrl": "https://arxiv.org/pdf/2603.05034v1",
-          "chineseTitle": "The \"Gold Rush\" in AI and Robotics Patenting Activity. Do innovation systems have a role?",
-          "chineseAbstract": "This paper studies patenting trends in artificial intelligence (AI) and robotics from 1980 to 2019. We introduce a novel distinction between traditional robotics and robotics embedding AI functionalities. Using patent data and a time-series econometric approach, we examine whether these domains share common long-run dynamics and how their trajectories differ across major innovation systems. Three main findings emerge. First, patenting activity in core AI, traditional robots, and AI-enhanced robots follows distinct trajectories, with AI-enhanced robotics accelerating sharply from the early 2010s. Second, structural breaks occur predominantly after 2010, indicating an acceleration in the technological dynamics associated with AI diffusion. Third, long-run relationships between AI and robotics vary systematically across countries: China exhibits strong integration between core AI and AI-enhanced robots, alongside a substantial contribution from universities and the public sector, whereas the United States displays a more market-oriented patenting structure and weaker integration between AI and robots. Europe, Japan, and South Korea show intermediate patterns.",
-          "researchField": "金融",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.04746v1",
-          "title": "Visioning Human-Agentic AI Teaming: Continuity, Tension, and Future Research",
-          "authors": [
-            "Bowen Lou",
-            "Tian Lu",
-            "T. S. Raghu",
-            "Yingjie Zhang"
-          ],
-          "abstract": "Artificial intelligence is undergoing a structural transformation marked by the rise of agentic systems capable of open-ended action trajectories, generative representations and outputs, and evolving objectives. These properties introduce structural uncertainty into human-AI teaming (HAT), including uncertainty about behavior trajectories, epistemic grounding, and the stability of governing logics over time. Under such conditions, alignment cannot be secured through agreement on bounded outputs; it must be continuously sustained as plans unfold and priorities shift. We advance Team Situation Awareness (Team SA) theory, grounded in shared perception, comprehension, and projection, as an integrative anchor for this transition. While Team SA remains analytically foundational, its stabilizing logic presumes that shared awareness, once achieved, will support coordinated action through iterative updating. Agentic AI challenges this presumption. Our argument unfolds in two stages: first, we extend Team SA to reconceptualize both human and AI awareness under open-ended agency, including the sensemaking of projection congruence across heterogeneous systems. Second, we interrogate whether the dynamic processes traditionally assumed to stabilize teaming in relational interaction, cognitive learning, and coordination and control continue to function under adaptive autonomy. By distinguishing continuity from tension, we clarify where foundational insights hold and where structural uncertainty introduces strain, and articulate a forward-looking research agenda for HAT. The central challenge of HAT is not whether humans and AI can agree in the moment, but whether they can remain aligned as futures are continuously generated, revised, enacted, and governed over time.",
-          "categories": [
-            "cs.AI",
-            "cs.HC",
-            "econ.GN"
-          ],
-          "published": "2026-03-05",
-          "pdfUrl": "https://arxiv.org/pdf/2603.04746v1",
-          "chineseTitle": "Visioning Human-Agentic AI Teaming: Continuity, Tension, and Future Research",
-          "chineseAbstract": "Artificial intelligence is undergoing a structural transformation marked by the rise of agentic systems capable of open-ended action trajectories, generative representations and outputs, and evolving objectives. These properties introduce structural uncertainty into human-AI teaming (HAT), including uncertainty about behavior trajectories, epistemic grounding, and the stability of governing logics over time. Under such conditions, alignment cannot be secured through agreement on bounded outputs; it must be continuously sustained as plans unfold and priorities shift. We advance Team Situation Awareness (Team SA) theory, grounded in shared perception, comprehension, and projection, as an integrative anchor for this transition. While Team SA remains analytically foundational, its stabilizing logic presumes that shared awareness, once achieved, will support coordinated action through iterative updating. Agentic AI challenges this presumption. Our argument unfolds in two stages: first, we extend Team SA to reconceptualize both human and AI awareness under open-ended agency, including the sensemaking of projection congruence across heterogeneous systems. Second, we interrogate whether the dynamic processes traditionally assumed to stabilize teaming in relational interaction, cognitive learning, and coordination and control continue to function under adaptive autonomy. By distinguishing continuity from tension, we clarify where foundational insights hold and where structural uncertainty introduces strain, and articulate a forward-looking research agenda for HAT. The central challenge of HAT is not whether humans and AI can agree in the moment, but whether they can remain aligned as futures are continuously generated, revised, enacted, and governed over time.",
-          "researchField": "行为",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.04105v1",
-          "title": "A Random Rule Model",
-          "authors": [
-            "Avner Seror"
-          ],
-          "abstract": "We propose a Random Rule Model (RRM) in which behavior is generated by switching among a small library of transparent, parameter-free decision rules. A differentiable gate learns environment-dependent rule propensities, producing an interpretable mixture over named procedures. We develop a global identification theory based on two verifiable conditions on the observed support. Applied to 10,000 binary lottery problems, rule-gating substantially outperforms structured neural benchmarks based on expected utility and prospect theory, approaching the most flexible benchmark while remaining highly restrictive under permutation-fit tests, and retains predictive content on an independent dataset. Mechanism diagnostics reveal that extreme-outcome screening, salience, and attention rules carry the largest responsibility weights, with systematic shifts along tradeoff complexity and dispersion asymmetry. Robustness checks confirm that the findings are not driven by the ex-ante library choice, marginal dominance relationships, or the availability of additional regressors.",
-          "categories": [
-            "econ.GN"
-          ],
-          "published": "2026-03-04",
-          "pdfUrl": "https://arxiv.org/pdf/2603.04105v1",
-          "chineseTitle": "A Random Rule Model",
-          "chineseAbstract": "We propose a Random Rule Model (RRM) in which behavior is generated by switching among a small library of transparent, parameter-free decision rules. A differentiable gate learns environment-dependent rule propensities, producing an interpretable mixture over named procedures. We develop a global identification theory based on two verifiable conditions on the observed support. Applied to 10,000 binary lottery problems, rule-gating substantially outperforms structured neural benchmarks based on expected utility and prospect theory, approaching the most flexible benchmark while remaining highly restrictive under permutation-fit tests, and retains predictive content on an independent dataset. Mechanism diagnostics reveal that extreme-outcome screening, salience, and attention rules carry the largest responsibility weights, with systematic shifts along tradeoff complexity and dispersion asymmetry. Robustness checks confirm that the findings are not driven by the ex-ante library choice, marginal dominance relationships, or the availability of additional regressors.",
-          "researchField": "计量",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.03619v1",
-          "title": "Candidate Moderation under Instant Runoff and Condorcet Voting: Evidence from the Cooperative Election Survey",
-          "authors": [
-            "David McCune",
-            "Matthew I. Jones",
-            "Andy Schultz",
-            "Adam Graham-Squire",
-            "Ismar Volic",
-            "Belle See",
-            "Karen Xiao",
-            "Malavika Mukundan"
-          ],
-          "abstract": "This article extends the analysis of Atkinson, Foley, and Ganz in \"Beyond the Spoiler Effect: Can Ranked-Choice Voting Solve the Problem of Political Polarization?\". Their work uses a one-dimensional spatial model based on survey data from the Cooperative Election Survey (CES) to examine how instant-runoff voting (IRV) and Condorcet methods promote candidate moderation. Their model assumes an idealized electoral environment in which all voters possess complete information regarding candidates' ideological positions, all voters provide complete preference rankings, etc. Under these assumptions, their results indicate that Condorcet methods tend to yield winners who are substantially more moderate than those produced by IRV. We construct new models based on CES data which take into account more realistic voter behavior, such as the presence of partial ballots. Our general finding is that under more realistic models the differences between Condorcet methods and IRV largely disappear, implying that in real-world settings the moderating effect of Condorcet methods may not be nearly as strong as what is suggested by more theoretical models.",
-          "categories": [
-            "econ.GN"
-          ],
-          "published": "2026-03-04",
-          "pdfUrl": "https://arxiv.org/pdf/2603.03619v1",
-          "chineseTitle": "Candidate Moderation under Instant Runoff and Condorcet Voting: Evidence from the Cooperative Election Survey",
-          "chineseAbstract": "This article extends the analysis of Atkinson, Foley, and Ganz in \"Beyond the Spoiler Effect: Can Ranked-Choice Voting Solve the Problem of Political Polarization?\". Their work uses a one-dimensional spatial model based on survey data from the Cooperative Election Survey (CES) to examine how instant-runoff voting (IRV) and Condorcet methods promote candidate moderation. Their model assumes an idealized electoral environment in which all voters possess complete information regarding candidates' ideological positions, all voters provide complete preference rankings, etc. Under these assumptions, their results indicate that Condorcet methods tend to yield winners who are substantially more moderate than those produced by IRV. We construct new models based on CES data which take into account more realistic voter behavior, such as the presence of partial ballots. Our general finding is that under more realistic models the differences between Condorcet methods and IRV largely disappear, implying that in real-world settings the moderating effect of Condorcet methods may not be nearly as strong as what is suggested by more theoretical models.",
-          "researchField": "行为",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.03465v1",
-          "title": "An Intersectional Analysis of Long COVID Prevalence",
-          "authors": [
-            "Jennifer Cohen",
-            "Yana Rodgers"
-          ],
-          "abstract": "Background. Long COVID symptoms (which include brain fog, depression, and fatigue) are mild at best and debilitating at worst. Some U.S. health surveys have found that women, lower income individuals, and those with less education are overrepresented among adults with long COVID, but these studies do not address intersectionality.   Methods. We use 10 rounds of Household Pulse Survey (HPS) data from 2022 to 2023 to perform an intersectional analysis using descriptive statistics that evaluate the prevalence of long COVID and the interference of long COVID symptoms with day-to-day activities. We also estimate multivariate logistic regressions that relate the odds of having long COVID and activity limitations due to long COVID to a set of individual characteristics and intersections by sex, race/ethnicity, education, and sexual orientation and gender identity.   Results. Women, some people of color, sexual and gender minorities, and people without college degrees are more likely to have long COVID and to have activity limitations from long COVID. Intersectional analysis reveals a striking step-like pattern: college-educated men have the lowest prevalence of long COVID while women without college educations have the highest prevalence. Daily activity limitations are more evenly distributed across demographics, but a different step-like pattern is present: fewer women with degrees have activity limitations while limitations are more widespread among men without degrees. Regression results confirm the negative association of long COVID with being a woman, less educated, Hispanic, and a sexual and gender minority, while results for the intersectional effects are more nuanced.   Conclusions. Results point to systematic disparities in health, highlighting the need for policies that increase access to quality healthcare, strengthen the social safety net, and reduce economic precarity.",
-          "categories": [
-            "econ.GN"
-          ],
-          "published": "2026-03-03",
-          "pdfUrl": "https://arxiv.org/pdf/2603.03465v1",
-          "chineseTitle": "An Intersectional Analysis of Long COVID Prevalence",
-          "chineseAbstract": "Background. Long COVID symptoms (which include brain fog, depression, and fatigue) are mild at best and debilitating at worst. Some U.S. health surveys have found that women, lower income individuals, and those with less education are overrepresented among adults with long COVID, but these studies do not address intersectionality.   Methods. We use 10 rounds of Household Pulse Survey (HPS) data from 2022 to 2023 to perform an intersectional analysis using descriptive statistics that evaluate the prevalence of long COVID and the interference of long COVID symptoms with day-to-day activities. We also estimate multivariate logistic regressions that relate the odds of having long COVID and activity limitations due to long COVID to a set of individual characteristics and intersections by sex, race/ethnicity, education, and sexual orientation and gender identity.   Results. Women, some people of color, sexual and gender minorities, and people without college degrees are more likely to have long COVID and to have activity limitations from long COVID. Intersectional analysis reveals a striking step-like pattern: college-educated men have the lowest prevalence of long COVID while women without college educations have the highest prevalence. Daily activity limitations are more evenly distributed across demographics, but a different step-like pattern is present: fewer women with degrees have activity limitations while limitations are more widespread among men without degrees. Regression results confirm the negative association of long COVID with being a woman, less educated, Hispanic, and a sexual and gender minority, while results for the intersectional effects are more nuanced.   Conclusions. Results point to systematic disparities in health, highlighting the need for policies that increase access to quality healthcare, strengthen the social safety net, and reduce economic precarity.",
-          "researchField": "计量",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.03419v1",
-          "title": "Long COVID Prevalence, Disability, and Accommodations: Analysis Across Demographic Groups",
-          "authors": [
-            "Jennifer Cohen",
-            "Yana Rodgers"
-          ],
-          "abstract": "Purpose: This paper examines the prevalence of long COVID across different demographic groups in the U.S. and the extent to which workers with impairments associated with long COVID have engaged in pandemic-related remote work.   Methods: We use the U.S. Household Pulse Survey to evaluate the proportion of all adults who self-reported to (1) have had long COVID, and (2) have activity limitations due to long COVID. We also use data from the U.S. Current Population Survey to estimate linear probability regressions for the likelihood of pandemic-related remote work among workers with and without disabilities.   Results: Findings indicate that women, Hispanic people, sexual and gender minorities, individuals without four-year college degrees, and people with preexisting disabilities are more likely to have long COVID and to have activity limitations from long COVID. Remote work is a reasonable arrangement for people with such activity limitations and may be an unintentional accommodation for some people who have undisclosed disabilities. However, this study shows that people with disabilities were less likely than people without disabilities to perform pandemic-related remote work.   Conclusion: The data suggest this disparity persists because people with disabilities are clustered in jobs that are not amenable to remote work. Employers need to consider other accommodations, especially shorter workdays and flexible scheduling, to hire and retain employees who are struggling with the impacts of long COVID.",
-          "categories": [
-            "econ.GN"
-          ],
-          "published": "2026-03-03",
-          "pdfUrl": "https://arxiv.org/pdf/2603.03419v1",
-          "chineseTitle": "Long COVID Prevalence, Disability, and Accommodations: Analysis Across Demographic Groups",
-          "chineseAbstract": "Purpose: This paper examines the prevalence of long COVID across different demographic groups in the U.S. and the extent to which workers with impairments associated with long COVID have engaged in pandemic-related remote work.   Methods: We use the U.S. Household Pulse Survey to evaluate the proportion of all adults who self-reported to (1) have had long COVID, and (2) have activity limitations due to long COVID. We also use data from the U.S. Current Population Survey to estimate linear probability regressions for the likelihood of pandemic-related remote work among workers with and without disabilities.   Results: Findings indicate that women, Hispanic people, sexual and gender minorities, individuals without four-year college degrees, and people with preexisting disabilities are more likely to have long COVID and to have activity limitations from long COVID. Remote work is a reasonable arrangement for people with such activity limitations and may be an unintentional accommodation for some people who have undisclosed disabilities. However, this study shows that people with disabilities were less likely than people without disabilities to perform pandemic-related remote work.   Conclusion: The data suggest this disparity persists because people with disabilities are clustered in jobs that are not amenable to remote work. Employers need to consider other accommodations, especially shorter workdays and flexible scheduling, to hire and retain employees who are struggling with the impacts of long COVID.",
-          "researchField": "计量",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.03260v1",
-          "title": "House Price Effects of Commercial Entry: Event Study Evidence from London",
-          "authors": [
-            "Wanqi Liu",
-            "Rong Zhao"
-          ],
-          "abstract": "Restaurants, cafes, and other commercial amenities are among the most visible markers of neighborhood change, yet whether their arrival drives house price appreciation or merely follows rising demand remains an open empirical question. This study investigates the causal effect of commercial entry on residential property values in Greater London. Exploiting the staggered timing of 21,189 restaurant and cafe openings across 4,835 Lower Layer Super Output Areas (LSOAs)--identified through Energy Performance Certificate records--we implement an event study design with LSOA-specific linear trends that passes the parallel trends test (F = 1.04, p = 0.384). We find that house prices rise monotonically after commercial entry, reaching +4.1% at four years post-treatment (p < 0.01). The effect is gradual and cumulative, consistent with amenity capitalisation. By matching EPC records to Google Places API price tier data at the building level, we further show that the effect is driven by upmarket commercial entry (+7.4%, clean pre-trends) rather than budget establishments (questionable pre-trends, unreliable post-treatment effect), establishing that the quality of commercial clustering--not merely its presence--drives neighborhood price dynamics. Results are robust to heterogeneity-robust estimation, alternative treatment thresholds, broader commercial category definitions, and a permutation-based placebo test.",
-          "categories": [
-            "physics.soc-ph",
-            "econ.GN"
-          ],
-          "published": "2026-03-03",
-          "pdfUrl": "https://arxiv.org/pdf/2603.03260v1",
-          "chineseTitle": "House Price Effects of Commercial Entry: Event Study Evidence from London",
-          "chineseAbstract": "Restaurants, cafes, and other commercial amenities are among the most visible markers of neighborhood change, yet whether their arrival drives house price appreciation or merely follows rising demand remains an open empirical question. This study investigates the causal effect of commercial entry on residential property values in Greater London. Exploiting the staggered timing of 21,189 restaurant and cafe openings across 4,835 Lower Layer Super Output Areas (LSOAs)--identified through Energy Performance Certificate records--we implement an event study design with LSOA-specific linear trends that passes the parallel trends test (F = 1.04, p = 0.384). We find that house prices rise monotonically after commercial entry, reaching +4.1% at four years post-treatment (p < 0.01). The effect is gradual and cumulative, consistent with amenity capitalisation. By matching EPC records to Google Places API price tier data at the building level, we further show that the effect is driven by upmarket commercial entry (+7.4%, clean pre-trends) rather than budget establishments (questionable pre-trends, unreliable post-treatment effect), establishing that the quality of commercial clustering--not merely its presence--drives neighborhood price dynamics. Results are robust to heterogeneity-robust estimation, alternative treatment thresholds, broader commercial category definitions, and a permutation-based placebo test.",
-          "researchField": "计量",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.03152v1",
-          "title": "Political Shocks and Price Discovery in Prediction Markets: Evidence from the 2024 U.S. Presidential Election",
-          "authors": [
-            "Kwok Ping Tsang",
-            "Zichao Yang"
-          ],
-          "abstract": "Using transaction-level matched trades from Polymarket's 2024 U.S. presidential-election contracts, we study how prediction markets process major political shocks. We focus on three events with precise timestamps: the first Biden-Trump debate, the Trump assassination attempt, and Biden's drop out. We document large bursts of activity on both extensive and intensive margins, concentrated among high-intensity incumbents, and show that pre-event net exposure predicts abnormal post-event trading and position flips. To link order flow to prices, we estimate a Kyle-style price-impact measure and a Glosten-Harris decomposition that separates permanent from transitory order-flow effects, complemented by variance-ratio dynamics and a bounded two-sidedness index. Across shocks, price discovery differs sharply: the debate exhibits stronger transitory pressure and partial reversal, the assassination attempt features a more permanent repricing, and the drop out episode combines heavy trading with muted net price changes and high two-sidedness, consistent with disagreement under Knightian uncertainty.",
-          "categories": [
-            "econ.GN"
-          ],
-          "published": "2026-03-03",
-          "pdfUrl": "https://arxiv.org/pdf/2603.03152v1",
-          "chineseTitle": "Political Shocks and Price Discovery in Prediction Markets: Evidence from the 2024 U.S. Presidential Election",
-          "chineseAbstract": "Using transaction-level matched trades from Polymarket's 2024 U.S. presidential-election contracts, we study how prediction markets process major political shocks. We focus on three events with precise timestamps: the first Biden-Trump debate, the Trump assassination attempt, and Biden's drop out. We document large bursts of activity on both extensive and intensive margins, concentrated among high-intensity incumbents, and show that pre-event net exposure predicts abnormal post-event trading and position flips. To link order flow to prices, we estimate a Kyle-style price-impact measure and a Glosten-Harris decomposition that separates permanent from transitory order-flow effects, complemented by variance-ratio dynamics and a bounded two-sidedness index. Across shocks, price discovery differs sharply: the debate exhibits stronger transitory pressure and partial reversal, the assassination attempt features a more permanent repricing, and the drop out episode combines heavy trading with muted net price changes and high two-sidedness, consistent with disagreement under Knightian uncertainty.",
-          "researchField": "金融",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.03144v1",
-          "title": "The Household Impact of Generative AI: Evidence from Internet Browsing Behavior",
-          "authors": [
-            "Michael Blank",
-            "Gregor Schubert",
-            "Miao Ben Zhang"
-          ],
-          "abstract": "This paper studies the impact of generative AI on U.S. households' task allocation at home, using detailed Internet browsing data from a large sample of home devices between 2021 and 2024. Leveraging pre-ChatGPT browsing patterns, we measure households' exposure to ChatGPT and use it as an instrument for ChatGPT adoption during the post-release period. Our IV estimates show that adopting generative AI substantially increases leisure browsing on home devices while leaving time spent on productive digital tasks unchanged. To examine mechanisms, we infer the purpose of households' ChatGPT use from surrounding internet activity and find that households primarily employ it for productive non-market tasks. Together, these results suggest that generative AI frees up leisure time by raising the efficiency of productive digital activities. Interpreting these findings through a standard time-allocation model implies economically large productivity gains from generative AI at home.",
-          "categories": [
-            "econ.GN"
-          ],
-          "published": "2026-03-03",
-          "pdfUrl": "https://arxiv.org/pdf/2603.03144v1",
-          "chineseTitle": "The Household Impact of Generative AI: Evidence from Internet Browsing Behavior",
-          "chineseAbstract": "This paper studies the impact of generative AI on U.S. households' task allocation at home, using detailed Internet browsing data from a large sample of home devices between 2021 and 2024. Leveraging pre-ChatGPT browsing patterns, we measure households' exposure to ChatGPT and use it as an instrument for ChatGPT adoption during the post-release period. Our IV estimates show that adopting generative AI substantially increases leisure browsing on home devices while leaving time spent on productive digital tasks unchanged. To examine mechanisms, we infer the purpose of households' ChatGPT use from surrounding internet activity and find that households primarily employ it for productive non-market tasks. Together, these results suggest that generative AI frees up leisure time by raising the efficiency of productive digital activities. Interpreting these findings through a standard time-allocation model implies economically large productivity gains from generative AI at home.",
-          "researchField": "金融",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.03136v1",
-          "title": "The Anatomy of Polymarket: Evidence from the 2024 Presidential Election",
-          "authors": [
-            "Kwok Ping Tsang",
-            "Zichao Yang"
-          ],
-          "abstract": "This paper provides a comprehensive transaction-level analysis of Polymarket's 2024 U.S. Presidential Election market using complete on-chain data from the Polygon blockchain. Because blockchain-based prediction markets involve heterogeneous trade mechanisms: share minting, burning, and conversion alongside conventional exchange, naive aggregation of on-chain flows can misrepresent actual trading volume. To address this, we develop a volume decomposition that yields three complementary measures of market activity: exchange-equivalent trading volume, net inflow, and gross market activity. Applying this framework, we document three key episodes that shaped the market: Biden's withdrawal, the September presidential debate, and the emergence of whale traders in October. As trading volume grew, arbitrage deviations narrowed, Kyle's $λ$ declined by more than an order of magnitude, and cross-market participation broadened, painting a consistent picture of a market that matured over its ten-month life.",
-          "categories": [
-            "econ.GN"
-          ],
-          "published": "2026-03-03",
-          "pdfUrl": "https://arxiv.org/pdf/2603.03136v1",
-          "chineseTitle": "The Anatomy of Polymarket: Evidence from the 2024 Presidential Election",
-          "chineseAbstract": "This paper provides a comprehensive transaction-level analysis of Polymarket's 2024 U.S. Presidential Election market using complete on-chain data from the Polygon blockchain. Because blockchain-based prediction markets involve heterogeneous trade mechanisms: share minting, burning, and conversion alongside conventional exchange, naive aggregation of on-chain flows can misrepresent actual trading volume. To address this, we develop a volume decomposition that yields three complementary measures of market activity: exchange-equivalent trading volume, net inflow, and gross market activity. Applying this framework, we document three key episodes that shaped the market: Biden's withdrawal, the September presidential debate, and the emergence of whale traders in October. As trading volume grew, arbitrage deviations narrowed, Kyle's $λ$ declined by more than an order of magnitude, and cross-market participation broadened, painting a consistent picture of a market that matured over its ten-month life.",
-          "researchField": "金融",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.07255v1",
-          "title": "On the Rates of Convergence of Induced Ordered Statistics and their Applications",
-          "authors": [
-            "Federico A. Bugni",
-            "Ivan A. Canay",
-            "Deborah Kim"
-          ],
-          "abstract": "Induced order statistics (IOS) arise when sample units are reordered according to the value of an auxiliary variable, and the associated responses are analyzed in that induced order. IOS play a central role in applications where the goal is to approximate the conditional distribution of an outcome at a fixed covariate value using observations whose covariates lie closest to that point, including regression discontinuity designs, k-nearest-neighbor methods, and distributionally robust optimization. Existing asymptotic results allow the dimension of the IOS vector to grow with the sample size only under smoothness conditions that are often too restrictive for practical data-generating processes. In particular, these conditions rule out boundary points, which are central to regression discontinuity designs. This paper develops general convergence rates for IOS under primitive and comparatively weak assumptions. We derive sharp marginal rates for the approximation of the target conditional distribution in Hellinger and total variation distances under quadratic mean differentiability and show how these marginal rates translate into joint convergence rates for the IOS vector. Our results are widely applicable: they rely on a standard smoothness condition and accommodate both interior and boundary conditioning points, as required in regression discontinuity and related settings. In the supplementary appendix, we provide complementary results under a Taylor/Holder remainder condition. Our results reveal a clear trade-off between smoothness and speed of convergence, identify regimes in which Hellinger and total variation distances behave differently, and provide explicit growth conditions on the number of nearest neighbors.",
-          "categories": [
-            "econ.EM"
-          ],
-          "published": "2026-03-07",
-          "pdfUrl": "https://arxiv.org/pdf/2603.07255v1",
-          "chineseTitle": "On the Rates of Convergence of Induced Ordered Statistics and their Applications",
-          "chineseAbstract": "Induced order statistics (IOS) arise when sample units are reordered according to the value of an auxiliary variable, and the associated responses are analyzed in that induced order. IOS play a central role in applications where the goal is to approximate the conditional distribution of an outcome at a fixed covariate value using observations whose covariates lie closest to that point, including regression discontinuity designs, k-nearest-neighbor methods, and distributionally robust optimization. Existing asymptotic results allow the dimension of the IOS vector to grow with the sample size only under smoothness conditions that are often too restrictive for practical data-generating processes. In particular, these conditions rule out boundary points, which are central to regression discontinuity designs. This paper develops general convergence rates for IOS under primitive and comparatively weak assumptions. We derive sharp marginal rates for the approximation of the target conditional distribution in Hellinger and total variation distances under quadratic mean differentiability and show how these marginal rates translate into joint convergence rates for the IOS vector. Our results are widely applicable: they rely on a standard smoothness condition and accommodate both interior and boundary conditioning points, as required in regression discontinuity and related settings. In the supplementary appendix, we provide complementary results under a Taylor/Holder remainder condition. Our results reveal a clear trade-off between smoothness and speed of convergence, identify regimes in which Hellinger and total variation distances behave differently, and provide explicit growth conditions on the number of nearest neighbors.",
-          "researchField": "计量",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.07055v1",
-          "title": "Integrating Heterogeneous Information in Randomized Experiments: A Unified Calibration Framework",
-          "authors": [
-            "Wei Ma",
-            "Zeqi Wu",
-            "Zheng Zhang"
-          ],
-          "abstract": "In modern randomized experiments, large-scale data collection increasingly yields rich baseline covariates and auxiliary information from multiple sources. Such information offers opportunities for more precise treatment effect estimation, but it also raises the challenge of integrating heterogeneous information coherently without compromising validity. Covariate-adaptive randomization (CAR) is widely used to improve covariate balance at the design stage, but it typically balances only a small set of covariates used to form strata, making covariate adjustment at the analysis stage essential for more efficient estimation of treatment effects. Beyond standard covariate adjustment, it is often desirable to incorporate auxiliary information, including cross-stratum information, predictions from various machine learning models, and external data from historical trials or real-world sources. While this auxiliary information is widely available, existing covariate adjustment methods under CAR primarily exploit within-stratum covariates and do not provide a coherent mechanism for integrating it. We propose a unified calibration framework that integrates such information through an information proxy vector and calibration weights defined by a convex optimization problem. The resulting estimator recovers many recent covariate adjustment procedures as special cases while providing a systematic mechanism for both internal and external information borrowing within a single framework. We establish large-sample validity and a no-harm efficiency guarantee, showing that incorporating additional information sources cannot increase asymptotic variance, and we extend the theory to settings in which both the number of strata and the number of information sources grow with the sample size.",
-          "categories": [
-            "stat.ME",
-            "econ.EM",
-            "math.ST"
-          ],
-          "published": "2026-03-07",
-          "pdfUrl": "https://arxiv.org/pdf/2603.07055v1",
-          "chineseTitle": "Integrating Heterogeneous Information in Randomized Experiments: A Unified Calibration Framework",
-          "chineseAbstract": "In modern randomized experiments, large-scale data collection increasingly yields rich baseline covariates and auxiliary information from multiple sources. Such information offers opportunities for more precise treatment effect estimation, but it also raises the challenge of integrating heterogeneous information coherently without compromising validity. Covariate-adaptive randomization (CAR) is widely used to improve covariate balance at the design stage, but it typically balances only a small set of covariates used to form strata, making covariate adjustment at the analysis stage essential for more efficient estimation of treatment effects. Beyond standard covariate adjustment, it is often desirable to incorporate auxiliary information, including cross-stratum information, predictions from various machine learning models, and external data from historical trials or real-world sources. While this auxiliary information is widely available, existing covariate adjustment methods under CAR primarily exploit within-stratum covariates and do not provide a coherent mechanism for integrating it. We propose a unified calibration framework that integrates such information through an information proxy vector and calibration weights defined by a convex optimization problem. The resulting estimator recovers many recent covariate adjustment procedures as special cases while providing a systematic mechanism for both internal and external information borrowing within a single framework. We establish large-sample validity and a no-harm efficiency guarantee, showing that incorporating additional information sources cannot increase asymptotic variance, and we extend the theory to settings in which both the number of strata and the number of information sources grow with the sample size.",
-          "researchField": "计量",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.07018v1",
-          "title": "TEA-Time: Transporting Effects Across Time",
-          "authors": [
-            "Harsh Parikh",
-            "Gabriel Levin-Konigsberg",
-            "Dominique Perrault-Joncas",
-            "Alexander Volfovsky"
-          ],
-          "abstract": "Treatment effects estimated from randomized controlled trials are local not only to the study population but also to the time at which the trial was conducted. We develop a framework for temporal transportation: extrapolating treatment effects to time periods where no experiment was conducted. We target the transported average treatment effect (TATE) and show that under a separable temporal effects assumption, the TATE decomposes into an observed average treatment effect and a temporal ratio. We provide two identification strategies -- one using replicated trials comparing the same treatments at different times, another using common treatment arms observed across time -- and develop doubly robust, semiparametrically efficient estimators for each. Monte Carlo simulations confirm that both estimators achieve nominal coverage, with the common arm strategy yielding substantial efficiency gains when its stronger assumptions hold. We apply our methods to A/B tests from the Upworthy Research Archive, demonstrating that the two strategies exhibit a variance-bias tradeoff: the common arm approach offers greater precision but may incur bias when treatments interact heterogeneously with temporal factors.",
-          "categories": [
-            "stat.ME",
-            "cs.LG",
-            "econ.EM"
-          ],
-          "published": "2026-03-07",
-          "pdfUrl": "https://arxiv.org/pdf/2603.07018v1",
-          "chineseTitle": "TEA-Time: Transporting Effects Across Time",
-          "chineseAbstract": "Treatment effects estimated from randomized controlled trials are local not only to the study population but also to the time at which the trial was conducted. We develop a framework for temporal transportation: extrapolating treatment effects to time periods where no experiment was conducted. We target the transported average treatment effect (TATE) and show that under a separable temporal effects assumption, the TATE decomposes into an observed average treatment effect and a temporal ratio. We provide two identification strategies -- one using replicated trials comparing the same treatments at different times, another using common treatment arms observed across time -- and develop doubly robust, semiparametrically efficient estimators for each. Monte Carlo simulations confirm that both estimators achieve nominal coverage, with the common arm strategy yielding substantial efficiency gains when its stronger assumptions hold. We apply our methods to A/B tests from the Upworthy Research Archive, demonstrating that the two strategies exhibit a variance-bias tradeoff: the common arm approach offers greater precision but may incur bias when treatments interact heterogeneously with temporal factors.",
-          "researchField": "计量",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.06820v1",
-          "title": "Hippocratic Utility",
-          "authors": [
-            "Tomasz Strzalecki"
-          ],
-          "abstract": "A utility function has been proposed that values more those lives that are saved by not imposing a harmful treatment and values less those lives that could be saved by treating people who would otherwise die. I do not dispute the ethical motivation behind this kind of asymmetry. However, as my example illustrates, the scope of applicability of such a decision criterion may be limited.",
-          "categories": [
-            "econ.EM"
-          ],
-          "published": "2026-03-06",
-          "pdfUrl": "https://arxiv.org/pdf/2603.06820v1",
-          "chineseTitle": "Hippocratic Utility",
-          "chineseAbstract": "A utility function has been proposed that values more those lives that are saved by not imposing a harmful treatment and values less those lives that could be saved by treating people who would otherwise die. I do not dispute the ethical motivation behind this kind of asymmetry. However, as my example illustrates, the scope of applicability of such a decision criterion may be limited.",
-          "researchField": "计量",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.04997v1",
-          "title": "Bayesian Indicator-Saturated Regression for Climate Policy Evaluation",
-          "authors": [
-            "Lucas D. Konrad",
-            "Lukas Vashold",
-            "Jesus Crespo Cuaresma"
-          ],
-          "abstract": "Structural break identification methods are an important tool for evaluating the effectiveness of climate change mitigation policies. In this paper, we introduce a unified probabilistic framework for detecting structural breaks with unknown timing and arbitrary sequence in longitudinal data. The proposed Bayesian setup uses indicator-saturated regression and a spike-and-slab prior with an inverse-moment density as the slab component to ensure model selection consistency. Simulation results show that the method outperforms comparable frequentist approaches, particularly in environments with a high probability of structural breaks. We apply the framework to identify and evaluate the effects of climate policies in the European road transport sector.",
-          "categories": [
-            "econ.EM"
-          ],
-          "published": "2026-03-05",
-          "pdfUrl": "https://arxiv.org/pdf/2603.04997v1",
-          "chineseTitle": "Bayesian Indicator-Saturated Regression for Climate Policy Evaluation",
-          "chineseAbstract": "Structural break identification methods are an important tool for evaluating the effectiveness of climate change mitigation policies. In this paper, we introduce a unified probabilistic framework for detecting structural breaks with unknown timing and arbitrary sequence in longitudinal data. The proposed Bayesian setup uses indicator-saturated regression and a spike-and-slab prior with an inverse-moment density as the slab component to ensure model selection consistency. Simulation results show that the method outperforms comparable frequentist approaches, particularly in environments with a high probability of structural breaks. We apply the framework to identify and evaluate the effects of climate policies in the European road transport sector.",
-          "researchField": "计量",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.04328v1",
-          "title": "Algorithmic Compliance and Regulatory Loss in Digital Assets",
-          "authors": [
-            "Khem Raj Bhatt",
-            "Krishna Sharma"
-          ],
-          "abstract": "We study the deployment performance of machine learning based enforcement systems used in cryptocurrency anti money laundering (AML). Using forward looking and rolling evaluations on Bitcoin transaction data, we show that strong static classification metrics substantially overstate real world regulatory effectiveness. Temporal nonstationarity induces pronounced instability in cost sensitive enforcement thresholds, generating large and persistent excess regulatory losses relative to dynamically optimal benchmarks. The core failure arises from miscalibration of decision rules rather than from declining predictive accuracy per se. These findings underscore the fragility of fixed AML enforcement policies in evolving digital asset markets and motivate loss-based evaluation frameworks for regulatory oversight.",
-          "categories": [
-            "cs.LG",
-            "econ.EM"
-          ],
-          "published": "2026-03-04",
-          "pdfUrl": "https://arxiv.org/pdf/2603.04328v1",
-          "chineseTitle": "Algorithmic Compliance and Regulatory Loss in Digital Assets",
-          "chineseAbstract": "We study the deployment performance of machine learning based enforcement systems used in cryptocurrency anti money laundering (AML). Using forward looking and rolling evaluations on Bitcoin transaction data, we show that strong static classification metrics substantially overstate real world regulatory effectiveness. Temporal nonstationarity induces pronounced instability in cost sensitive enforcement thresholds, generating large and persistent excess regulatory losses relative to dynamically optimal benchmarks. The core failure arises from miscalibration of decision rules rather than from declining predictive accuracy per se. These findings underscore the fragility of fixed AML enforcement policies in evolving digital asset markets and motivate loss-based evaluation frameworks for regulatory oversight.",
-          "researchField": "计量",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.04276v1",
-          "title": "Causality Elicitation from Large Language Models",
-          "authors": [
-            "Takashi Kameyama",
-            "Masahiro Kato",
-            "Yasuko Hio",
-            "Yasushi Takano",
-            "Naoto Minakawa"
-          ],
-          "abstract": "Large language models (LLMs) are trained on enormous amounts of data and encode knowledge in their parameters. We propose a pipeline to elicit causal relationships from LLMs. Specifically, (i) we sample many documents from LLMs on a given topic, (ii) we extract an event list from from each document, (iii) we group events that appear across documents into canonical events, (iv) we construct a binary indicator vector for each document over canonical events, and (v) we estimate candidate causal graphs using causal discovery methods. Our approach does not guarantee real-world causality. Rather, it provides a framework for presenting the set of causal hypotheses that LLMs can plausibly assume, as an inspectable set of variables and candidate graphs.",
-          "categories": [
-            "cs.LG",
-            "cs.AI",
-            "cs.CL",
-            "econ.EM"
-          ],
-          "published": "2026-03-04",
-          "pdfUrl": "https://arxiv.org/pdf/2603.04276v1",
-          "chineseTitle": "Causality Elicitation from Large Language Models",
-          "chineseAbstract": "Large language models (LLMs) are trained on enormous amounts of data and encode knowledge in their parameters. We propose a pipeline to elicit causal relationships from LLMs. Specifically, (i) we sample many documents from LLMs on a given topic, (ii) we extract an event list from from each document, (iii) we group events that appear across documents into canonical events, (iv) we construct a binary indicator vector for each document over canonical events, and (v) we estimate candidate causal graphs using causal discovery methods. Our approach does not guarantee real-world causality. Rather, it provides a framework for presenting the set of causal hypotheses that LLMs can plausibly assume, as an inspectable set of variables and candidate graphs.",
-          "researchField": "计量",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.04275v1",
-          "title": "Statistical Inference for Score Decompositions",
-          "authors": [
-            "Timo Dimitriadis",
-            "Marius Puke"
-          ],
-          "abstract": "We introduce inference methods for score decompositions, which partition scoring functions for predictive assessment into three interpretable components: miscalibration, discrimination, and uncertainty. Our estimation and inference relies on a linear recalibration of the forecasts, which is applicable to general multi-step ahead point forecasts such as means and quantiles due to its validity for both smooth and non-smooth scoring functions. This approach ensures desirable finite-sample properties, enables asymptotic inference, and establishes a direct connection to the classical Mincer-Zarnowitz regression. The resulting inference framework facilitates tests for equal forecast calibration or discrimination, which yield three key advantages. They enhance the information content of predictive ability tests by decomposing scores, deliver higher statistical power in certain scenarios, and formally connect scoring-function-based evaluation to traditional calibration tests, such as financial backtests. Applications demonstrate the method's utility. We find that for survey inflation forecasts, discrimination abilities can differ significantly even when overall predictive ability does not. In an application to financial risk models, our tests provide deeper insights into the calibration and information content of volatility and Value-at-Risk forecasts. By disentangling forecast accuracy from backtest performance, the method exposes critical shortcomings in current banking regulation.",
-          "categories": [
-            "econ.EM",
-            "q-fin.RM",
-            "stat.ME",
-            "stat.ML"
-          ],
-          "published": "2026-03-04",
-          "pdfUrl": "https://arxiv.org/pdf/2603.04275v1",
-          "chineseTitle": "Statistical Inference for Score Decompositions",
-          "chineseAbstract": "We introduce inference methods for score decompositions, which partition scoring functions for predictive assessment into three interpretable components: miscalibration, discrimination, and uncertainty. Our estimation and inference relies on a linear recalibration of the forecasts, which is applicable to general multi-step ahead point forecasts such as means and quantiles due to its validity for both smooth and non-smooth scoring functions. This approach ensures desirable finite-sample properties, enables asymptotic inference, and establishes a direct connection to the classical Mincer-Zarnowitz regression. The resulting inference framework facilitates tests for equal forecast calibration or discrimination, which yield three key advantages. They enhance the information content of predictive ability tests by decomposing scores, deliver higher statistical power in certain scenarios, and formally connect scoring-function-based evaluation to traditional calibration tests, such as financial backtests. Applications demonstrate the method's utility. We find that for survey inflation forecasts, discrimination abilities can differ significantly even when overall predictive ability does not. In an application to financial risk models, our tests provide deeper insights into the calibration and information content of volatility and Value-at-Risk forecasts. By disentangling forecast accuracy from backtest performance, the method exposes critical shortcomings in current banking regulation.",
-          "researchField": "计量",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.04109v1",
-          "title": "Testing Full Mediation of Treatment Effects and the Identifiability of Causal Mechanisms",
-          "authors": [
-            "Martin Huber",
-            "Kevin Kloiber",
-            "Lukáš Lafférs"
-          ],
-          "abstract": "In causal analysis, understanding the causal mechanisms through which an intervention or treatment affects an outcome is often of central interest. We propose a test to evaluate (i) whether the causal effect of a treatment that is randomly assigned conditional on covariates is fully mediated by, or operates exclusively through, observed intermediate outcomes (referred to as mediators or surrogate outcomes), and (ii) whether the various causal mechanisms operating through different mediators are identifiable conditional on covariates. We demonstrate that if both full mediation and identification of causal mechanisms hold, then the conditionally random treatment is conditionally independent of the outcome given the mediators and covariates. Furthermore, we extend our framework to settings with non-randomly assigned treatments. We show that, in this case, full mediation remains testable, while identification of causal mechanisms is no longer guaranteed. We propose a double machine learning framework for implementing the test that can incorporate high-dimensional covariates and is root-n consistent and asymptotically normal under specific regularity conditions. We also present a simulation study demonstrating good finite-sample performance of our method, along with two empirical applications revisiting randomized experiments on maternal mental health and social norms.",
-          "categories": [
-            "econ.EM",
-            "stat.ML"
-          ],
-          "published": "2026-03-04",
-          "pdfUrl": "https://arxiv.org/pdf/2603.04109v1",
-          "chineseTitle": "Testing Full Mediation of Treatment Effects and the Identifiability of Causal Mechanisms",
-          "chineseAbstract": "In causal analysis, understanding the causal mechanisms through which an intervention or treatment affects an outcome is often of central interest. We propose a test to evaluate (i) whether the causal effect of a treatment that is randomly assigned conditional on covariates is fully mediated by, or operates exclusively through, observed intermediate outcomes (referred to as mediators or surrogate outcomes), and (ii) whether the various causal mechanisms operating through different mediators are identifiable conditional on covariates. We demonstrate that if both full mediation and identification of causal mechanisms hold, then the conditionally random treatment is conditionally independent of the outcome given the mediators and covariates. Furthermore, we extend our framework to settings with non-randomly assigned treatments. We show that, in this case, full mediation remains testable, while identification of causal mechanisms is no longer guaranteed. We propose a double machine learning framework for implementing the test that can incorporate high-dimensional covariates and is root-n consistent and asymptotically normal under specific regularity conditions. We also present a simulation study demonstrating good finite-sample performance of our method, along with two empirical applications revisiting randomized experiments on maternal mental health and social norms.",
-          "researchField": "计量",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.04080v1",
-          "title": "Doubly Robust Estimation of Treatment Effects in Staggered Difference-in-Differences with Time-Varying Covariates",
-          "authors": [
-            "Yuhao Deng",
-            "Le Kang"
-          ],
-          "abstract": "The difference-in-differences (DiD) design is a quasi-experimental method for estimating treatment effects. In staggered DiD with multiple treatment groups and periods, estimation based on the two-way fixed effects model yields negative weights when averaging heterogeneous group-period treatment effects into an overall effect. To address this issue, we first define group-period average treatment effects on the treated (ATT), and then define groupwise, periodwise, dynamic, and overall ATTs nonparametrically, so that the estimands are model-free. We propose doubly robust estimators for these types of ATTs in the form of augmented inverse variance weighting (AIVW). The proposed framework allows time-varying covariates that partially explain the time trends in outcomes. Even if part of the working models is misspecified, the proposed estimators still consistently estimate the parameter of interest. The asymptotic variance can be explicitly computed from influence functions. Under a homoskedastic working model, the AIVW estimator is simplified to an augmented inverse probability weighting (AIPW) estimator. We demonstrate the desirable properties of the proposed estimators through simulation and an application that compares the effects of a parallel admission mechanism with immediate admission on the China National College Entrance Examination.",
-          "categories": [
-            "stat.ME",
-            "econ.EM"
-          ],
-          "published": "2026-03-04",
-          "pdfUrl": "https://arxiv.org/pdf/2603.04080v1",
-          "chineseTitle": "Doubly Robust Estimation of Treatment Effects in Staggered Difference-in-Differences with Time-Varying Covariates",
-          "chineseAbstract": "The difference-in-differences (DiD) design is a quasi-experimental method for estimating treatment effects. In staggered DiD with multiple treatment groups and periods, estimation based on the two-way fixed effects model yields negative weights when averaging heterogeneous group-period treatment effects into an overall effect. To address this issue, we first define group-period average treatment effects on the treated (ATT), and then define groupwise, periodwise, dynamic, and overall ATTs nonparametrically, so that the estimands are model-free. We propose doubly robust estimators for these types of ATTs in the form of augmented inverse variance weighting (AIVW). The proposed framework allows time-varying covariates that partially explain the time trends in outcomes. Even if part of the working models is misspecified, the proposed estimators still consistently estimate the parameter of interest. The asymptotic variance can be explicitly computed from influence functions. Under a homoskedastic working model, the AIVW estimator is simplified to an augmented inverse probability weighting (AIPW) estimator. We demonstrate the desirable properties of the proposed estimators through simulation and an application that compares the effects of a parallel admission mechanism with immediate admission on the China National College Entrance Examination.",
-          "researchField": "计量",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.03997v1",
-          "title": "Bandwidth Selection for Spatial HAC Standard Errors",
-          "authors": [
-            "Alexander Lehner"
-          ],
-          "abstract": "Spatial autocorrelation in regression models can lead to downward biased standard errors and thus incorrect inference. The most common correction in applied economics is the spatial heteroskedasticity and autocorrelation consistent (HAC) standard error estimator introduced by Conley (1999). A critical input is the kernel bandwidth: the distance within which residuals are allowed to be correlated. However, this is still an unresolved problem and there is no formal guidance in the literature. In this paper, I first document that the relationship between the bandwidth and the magnitude of spatial HAC standard errors is inverse-U shaped. This implies that both too narrow and too wide bandwidths lead to underestimated standard errors, contradicting the conventional wisdom that wider bandwidths yield more conservative inference. I then propose a simple, non-parametric, data-driven bandwidth selector based on the empirical covariogram of regression residuals. In extensive Monte Carlo experiments calibrated to empirically relevant spatial correlation structures across the contiguous United States, I show that the proposed method controls the false positive rate at or near the nominal 5% level across a wide range of spatial correlation intensities and sample configurations. I compare six kernel functions and find that the Bartlett and Epanechnikov kernels deliver the best size control. An empirical application using U.S. county-level data illustrates the practical relevance of the method. The R package SpatialInference implements the proposed bandwidth selection method.",
-          "categories": [
-            "econ.EM",
-            "stat.AP",
-            "stat.CO",
-            "stat.ME"
-          ],
-          "published": "2026-03-04",
-          "pdfUrl": "https://arxiv.org/pdf/2603.03997v1",
-          "chineseTitle": "Bandwidth Selection for Spatial HAC Standard Errors",
-          "chineseAbstract": "Spatial autocorrelation in regression models can lead to downward biased standard errors and thus incorrect inference. The most common correction in applied economics is the spatial heteroskedasticity and autocorrelation consistent (HAC) standard error estimator introduced by Conley (1999). A critical input is the kernel bandwidth: the distance within which residuals are allowed to be correlated. However, this is still an unresolved problem and there is no formal guidance in the literature. In this paper, I first document that the relationship between the bandwidth and the magnitude of spatial HAC standard errors is inverse-U shaped. This implies that both too narrow and too wide bandwidths lead to underestimated standard errors, contradicting the conventional wisdom that wider bandwidths yield more conservative inference. I then propose a simple, non-parametric, data-driven bandwidth selector based on the empirical covariogram of regression residuals. In extensive Monte Carlo experiments calibrated to empirically relevant spatial correlation structures across the contiguous United States, I show that the proposed method controls the false positive rate at or near the nominal 5% level across a wide range of spatial correlation intensities and sample configurations. I compare six kernel functions and find that the Bartlett and Epanechnikov kernels deliver the best size control. An empirical application using U.S. county-level data illustrates the practical relevance of the method. The R package SpatialInference implements the proposed bandwidth selection method.",
-          "researchField": "计量",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.03623v1",
-          "title": "A Neural Topic Method Using a Large-Language-Model-in-the-Loop for Business Research",
-          "authors": [
-            "Stephan Ludwig",
-            "Peter J. Danaher",
-            "Xiaohao Yang"
-          ],
-          "abstract": "The growing use of unstructured text in business research makes topic modeling a central tool for constructing explanatory variables from reviews, social media, and open-ended survey responses, yet existing approaches function poorly as measurement instruments. Prior work shows that textual content predicts outcomes such as sales, satisfaction, and firm performance, but probabilistic models often generate conceptually diffuse topics, neural topic models are difficult to interpret in theory-driven settings, and large language model approaches lack standardization, stability, and alignment with document-level representations. We introduce LX Topic, a neural topic method that conceptualizes topics as latent linguistic constructs and produces calibrated document-level topic proportions for empirical analysis. LX Topic builds on FASTopic to ensure strong document representativeness and integrates large language model refinement at the topic-word level using alignment and confidence-weighting mechanisms that enhance semantic coherence without distorting document-topic distributions. Evaluations on large-scale Amazon and Yelp review datasets demonstrate that LX Topic achieves the highest overall topic quality relative to leading models while preserving clustering and classification performance. By unifying topic discovery, refinement, and standardized output in a web-based system, LX Topic establishes topic modeling as a reproducible, interpretable, and measurement-oriented instrument for marketing research and practice.",
-          "categories": [
-            "cs.CL",
-            "econ.EM"
-          ],
-          "published": "2026-03-04",
-          "pdfUrl": "https://arxiv.org/pdf/2603.03623v1",
-          "chineseTitle": "A Neural Topic Method Using a Large-Language-Model-in-the-Loop for Business Research",
-          "chineseAbstract": "The growing use of unstructured text in business research makes topic modeling a central tool for constructing explanatory variables from reviews, social media, and open-ended survey responses, yet existing approaches function poorly as measurement instruments. Prior work shows that textual content predicts outcomes such as sales, satisfaction, and firm performance, but probabilistic models often generate conceptually diffuse topics, neural topic models are difficult to interpret in theory-driven settings, and large language model approaches lack standardization, stability, and alignment with document-level representations. We introduce LX Topic, a neural topic method that conceptualizes topics as latent linguistic constructs and produces calibrated document-level topic proportions for empirical analysis. LX Topic builds on FASTopic to ensure strong document representativeness and integrates large language model refinement at the topic-word level using alignment and confidence-weighting mechanisms that enhance semantic coherence without distorting document-topic distributions. Evaluations on large-scale Amazon and Yelp review datasets demonstrate that LX Topic achieves the highest overall topic quality relative to leading models while preserving clustering and classification performance. By unifying topic discovery, refinement, and standardized output in a web-based system, LX Topic establishes topic modeling as a reproducible, interpretable, and measurement-oriented instrument for marketing research and practice.",
-          "researchField": "计量",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.03526v1",
-          "title": "Multi-Agent Influence Diagrams to Hybrid Threat Modeling",
-          "authors": [
-            "Maarten C. Vonk",
-            "Anna V. Kononova",
-            "Thomas Bäck",
-            "Tim Sweijs"
-          ],
-          "abstract": "Western governments have adopted an assortment of counter-hybrid threat measures to defend against hostile actions below the conventional military threshold. The impact of these measures is unclear because of the ambiguity of hybrid threats, their cross-domain nature, and uncertainty about how countermeasures shape adversarial behavior. This paper offers a novel approach to clarifying this impact by unifying previously bifurcating hybrid threat modeling methods through a (multi-agent) influence diagram framework. The model balances the costs of countermeasures, their ability to dissuade the adversary from executing hybrid threats, and their potential to mitigate the impact of hybrid threats. We run 1000 semi-synthetic variants of a real-world-inspired scenario simulating the strategic interaction between attacking agent A and defending agent B over a cyber attack on critical infrastructure to explore the effectiveness of a set of five different counter-hybrid threat measures. Counter-hybrid measures range from strengthening resilience and denial of the adversary's ability to execute a hybrid threat to dissuasion through the threat of punishment. Our analysis primarily evaluates the overarching characteristics of counter-hybrid threat measures. This approach allows us to generalize the effectiveness of these measures and examine parameter impact sensitivity. In addition, we discuss policy relevance and outline future research avenues.",
-          "categories": [
-            "cs.MA",
-            "cs.AI",
-            "econ.EM"
-          ],
-          "published": "2026-03-03",
-          "pdfUrl": "https://arxiv.org/pdf/2603.03526v1",
-          "chineseTitle": "Multi-Agent Influence Diagrams to Hybrid Threat Modeling",
-          "chineseAbstract": "Western governments have adopted an assortment of counter-hybrid threat measures to defend against hostile actions below the conventional military threshold. The impact of these measures is unclear because of the ambiguity of hybrid threats, their cross-domain nature, and uncertainty about how countermeasures shape adversarial behavior. This paper offers a novel approach to clarifying this impact by unifying previously bifurcating hybrid threat modeling methods through a (multi-agent) influence diagram framework. The model balances the costs of countermeasures, their ability to dissuade the adversary from executing hybrid threats, and their potential to mitigate the impact of hybrid threats. We run 1000 semi-synthetic variants of a real-world-inspired scenario simulating the strategic interaction between attacking agent A and defending agent B over a cyber attack on critical infrastructure to explore the effectiveness of a set of five different counter-hybrid threat measures. Counter-hybrid measures range from strengthening resilience and denial of the adversary's ability to execute a hybrid threat to dissuasion through the threat of punishment. Our analysis primarily evaluates the overarching characteristics of counter-hybrid threat measures. This approach allows us to generalize the effectiveness of these measures and examine parameter impact sensitivity. In addition, we discuss policy relevance and outline future research avenues.",
-          "researchField": "计量",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.03008v1",
-          "title": "Focused Weighted-Average Least Squares Estimator",
-          "authors": [
-            "Shou-Yung Yin"
-          ],
-          "abstract": "We propose a focused weighted-average least squares (FWALS) estimator that addresses the computational burden of focused model averaging. By semi-orthogonalizing auxiliary regressors, the weighting problem is reduced from $2^{k_2}$ sub-models to at most $k_2$ regressor-wise weights, yielding a tractable sub-optimal procedure. Under local-to-zero conditions, we derive the limiting distribution of FWALS for smooth focused functions and provide a plug-in AMSE criterion for data-driven weight selection. Simulations show that FWALS closely matches the focused information criterion (FIC) benchmark and delivers stable performance when focused function is designed for impulse response function. Prior-based WALS can be competitive in some settings, but its performance depends on the signal regime and the design of focused parameter. Overall, FWALS offers a practical and robust alternative with substantial computational savings.",
-          "categories": [
-            "econ.EM",
-            "stat.ME"
-          ],
-          "published": "2026-03-03",
-          "pdfUrl": "https://arxiv.org/pdf/2603.03008v1",
-          "chineseTitle": "Focused Weighted-Average Least Squares Estimator",
-          "chineseAbstract": "We propose a focused weighted-average least squares (FWALS) estimator that addresses the computational burden of focused model averaging. By semi-orthogonalizing auxiliary regressors, the weighting problem is reduced from $2^{k_2}$ sub-models to at most $k_2$ regressor-wise weights, yielding a tractable sub-optimal procedure. Under local-to-zero conditions, we derive the limiting distribution of FWALS for smooth focused functions and provide a plug-in AMSE criterion for data-driven weight selection. Simulations show that FWALS closely matches the focused information criterion (FIC) benchmark and delivers stable performance when focused function is designed for impulse response function. Prior-based WALS can be competitive in some settings, but its performance depends on the signal regime and the design of focused parameter. Overall, FWALS offers a practical and robust alternative with substantial computational savings.",
-          "researchField": "计量",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.05660v1",
-          "title": "Making Serial Dictatorships Fair",
-          "authors": [
-            "Adam Hamdan"
-          ],
-          "abstract": "In priority-based matching, serial dictatorship (SD) is simple, strategyproof, and Pareto efficient, but not free of justified envy (i.e. fair). This paper studies how to fairly order agents in SD as a function of their priorities. I show that if preferences are identical across agents and uniformly distributed, and objects have unit capacities, the serial order that minimizes the expected number of justified envy cases is the Kemeny ranking of agents' priorities. If any of these assumptions -- identical preferences, uniformly distributed preferences, or unit capacities -- is relaxed, the optimal SD follows a weighted Kemeny ranking. Broadly, these results demonstrate how insights from social choice theory can inform the design of practical matching mechanisms.",
-          "categories": [
-            "econ.TH"
-          ],
-          "published": "2026-03-05",
-          "pdfUrl": "https://arxiv.org/pdf/2603.05660v1",
-          "chineseTitle": "Making Serial Dictatorships Fair",
-          "chineseAbstract": "In priority-based matching, serial dictatorship (SD) is simple, strategyproof, and Pareto efficient, but not free of justified envy (i.e. fair). This paper studies how to fairly order agents in SD as a function of their priorities. I show that if preferences are identical across agents and uniformly distributed, and objects have unit capacities, the serial order that minimizes the expected number of justified envy cases is the Kemeny ranking of agents' priorities. If any of these assumptions -- identical preferences, uniformly distributed preferences, or unit capacities -- is relaxed, the optimal SD follows a weighted Kemeny ranking. Broadly, these results demonstrate how insights from social choice theory can inform the design of practical matching mechanisms.",
-          "researchField": "理论",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.05367v1",
-          "title": "Shock Propagation and Macroeconomic Fluctuations",
-          "authors": [
-            "Antoine Mandel",
-            "Vipin P. Veetil"
-          ],
-          "abstract": "We study how idiosyncratic firm-level shocks generate aggregate volatility and tail risk when they propagate through a production network under overlapping adjustment: new productivity draws arrive before the economy reaches the static equilibrium associated with earlier draws. Each innovation generates a `productivity wave' that mixes and dissipates over time as it travels through the production network. Macroeconomic fluctuations emerge from the interference between these waves of different vintages. The interference between these waves is governed by the dominant transient eigenvalue of the production network, and therefore so is the macroeconomic fluctuations they generate. In such a dynamic regime, the tail of the degree distribution is a markedly weaker determinant of macro fluctuations than in the fully adjusted static benchmark. And the macroeconomic significance of the degree-heterogeneity of production networks cannot be known without knowing the rate at which the economy converges to equilibrium or equivalently the spectral properties of the production network. More concretely, once we permit the time-averaging of shocks, granular shocks may account for only a small fraction of the empirically observed aggregate volatility.",
-          "categories": [
-            "econ.TH",
-            "cs.SI"
-          ],
-          "published": "2026-03-05",
-          "pdfUrl": "https://arxiv.org/pdf/2603.05367v1",
-          "chineseTitle": "Shock Propagation and Macroeconomic Fluctuations",
-          "chineseAbstract": "We study how idiosyncratic firm-level shocks generate aggregate volatility and tail risk when they propagate through a production network under overlapping adjustment: new productivity draws arrive before the economy reaches the static equilibrium associated with earlier draws. Each innovation generates a `productivity wave' that mixes and dissipates over time as it travels through the production network. Macroeconomic fluctuations emerge from the interference between these waves of different vintages. The interference between these waves is governed by the dominant transient eigenvalue of the production network, and therefore so is the macroeconomic fluctuations they generate. In such a dynamic regime, the tail of the degree distribution is a markedly weaker determinant of macro fluctuations than in the fully adjusted static benchmark. And the macroeconomic significance of the degree-heterogeneity of production networks cannot be known without knowing the rate at which the economy converges to equilibrium or equivalently the spectral properties of the production network. More concretely, once we permit the time-averaging of shocks, granular shocks may account for only a small fraction of the empirically observed aggregate volatility.",
-          "researchField": "理论",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.06705v1",
-          "title": "Constructal Evolution as a Nonsmooth Dynamical System: Stability and Selection of Flow Architectures",
-          "authors": [
-            "Pascal Stiefenhofer"
-          ],
-          "abstract": "Constructal Law states that a finite-size flow system that persists in time evolves its configuration so as to provide progressively easier access to the currents that flow through it. Classical Constructal theory derives hierarchical flow architectures from static resistance minimization under finite-size constraints, but many transport systems operate under irreversible limits that induce regime switching and discontinuous adjustment laws.   We formulate Constructal evolution as an autonomous nonsmooth dynamical system. The architectural configuration is modeled as the state of a Filippov differential inclusion defined on a compact forward-invariant admissible set. Irreversible transport constraints generate switching manifolds across which the adjustment field is discontinuous. A resistance dissipation inequality encodes the Constructal principle of progressively improving access as a nonsmooth Lyapunov condition, while a uniform contraction assumption provides spectral bounds on the generalized Jacobians of the regime-dependent dynamics.   Under these conditions we prove that the resulting inclusion admits a unique equilibrium architecture and that every admissible trajectory converges to it exponentially. Finite size, irreversibility, and resistance dissipation therefore imply existence, uniqueness, and global stability of persistent flow configurations without invoking static optimization.   As an application, the classical area--to--point transport hierarchy of Bejan et. al. is embedded in the dynamical framework. The optimal assembly ratios appear as switching manifolds, while the classical scaling relations arise as sliding invariant sets of the Filippov inclusion. Their intersection defines the uniquely selected globally attracting architecture.",
-          "categories": [
-            "math.DS",
-            "econ.TH"
-          ],
-          "published": "2026-03-05",
-          "pdfUrl": "https://arxiv.org/pdf/2603.06705v1",
-          "chineseTitle": "Constructal Evolution as a Nonsmooth Dynamical System: Stability and Selection of Flow Architectures",
-          "chineseAbstract": "Constructal Law states that a finite-size flow system that persists in time evolves its configuration so as to provide progressively easier access to the currents that flow through it. Classical Constructal theory derives hierarchical flow architectures from static resistance minimization under finite-size constraints, but many transport systems operate under irreversible limits that induce regime switching and discontinuous adjustment laws.   We formulate Constructal evolution as an autonomous nonsmooth dynamical system. The architectural configuration is modeled as the state of a Filippov differential inclusion defined on a compact forward-invariant admissible set. Irreversible transport constraints generate switching manifolds across which the adjustment field is discontinuous. A resistance dissipation inequality encodes the Constructal principle of progressively improving access as a nonsmooth Lyapunov condition, while a uniform contraction assumption provides spectral bounds on the generalized Jacobians of the regime-dependent dynamics.   Under these conditions we prove that the resulting inclusion admits a unique equilibrium architecture and that every admissible trajectory converges to it exponentially. Finite size, irreversibility, and resistance dissipation therefore imply existence, uniqueness, and global stability of persistent flow configurations without invoking static optimization.   As an application, the classical area--to--point transport hierarchy of Bejan et. al. is embedded in the dynamical framework. The optimal assembly ratios appear as switching manifolds, while the classical scaling relations arise as sliding invariant sets of the Filippov inclusion. Their intersection defines the uniquely selected globally attracting architecture.",
-          "researchField": "理论",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.04345v1",
-          "title": "On the fair abatement of riparian pollution",
-          "authors": [
-            "Ricardo Martinez",
-            "Juan D. Moreno-Ternero"
-          ],
-          "abstract": "We study the design of fair allocation rules for the abatement of riparian pollution. To do so, we consider the so-called river pollution claims model, recently introduced by Yang et al. (2025) to distribute a budget of emissions permits among agents (cities, provinces, or countries) located along a river. In such a model, each agent has a claim reflecting population, emission history, and business-as-usual emissions, and the issue is to allocate among them a budget that is lower (or equal) than the aggregate claim. For environmental reasons, the specific location along the river where pollutants are emitted is an important concern (the more upstream the location is the higher the damage of polluting the river). We characterize a class of geometric rules that adjust proportional allocations to compromise between fairness and environmental concerns. Our class is an alternative to the one proposed by Yang et al. (2025). We compare both alternatives through an axiomatic study, as well as an illustration for the case study of the Tuojiang Basin in China.",
-          "categories": [
-            "econ.TH"
-          ],
-          "published": "2026-03-04",
-          "pdfUrl": "https://arxiv.org/pdf/2603.04345v1",
-          "chineseTitle": "On the fair abatement of riparian pollution",
-          "chineseAbstract": "We study the design of fair allocation rules for the abatement of riparian pollution. To do so, we consider the so-called river pollution claims model, recently introduced by Yang et al. (2025) to distribute a budget of emissions permits among agents (cities, provinces, or countries) located along a river. In such a model, each agent has a claim reflecting population, emission history, and business-as-usual emissions, and the issue is to allocate among them a budget that is lower (or equal) than the aggregate claim. For environmental reasons, the specific location along the river where pollutants are emitted is an important concern (the more upstream the location is the higher the damage of polluting the river). We characterize a class of geometric rules that adjust proportional allocations to compromise between fairness and environmental concerns. Our class is an alternative to the one proposed by Yang et al. (2025). We compare both alternatives through an axiomatic study, as well as an illustration for the case study of the Tuojiang Basin in China.",
-          "researchField": "理论",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.04298v1",
-          "title": "Index and Robustness of Mixed Equilibria: An Algebraic Approach",
-          "authors": [
-            "Lucas Pahl"
-          ],
-          "abstract": "We present a new method for computation of the index of completely mixed equilibria in finite games, based on the work of Eisenbud et al.(1977). We apply this method to solving two questions about the relation of the index of equilibria and the index of fixed points, and the index of equilibria and payoff-robustness: any integer can be the index of an isolated completely mixed equilibrium of a finite game. In a particular class of isolated completely mixed equilibria, called monogenic, the index can be $0$, $+1$ or $-1$ only. In this class non-zero index is equivalent to payoff-robustness. We also discuss extensions of the method of computation to extensive-form games, and cases where the equilibria might be located on the boundary of the strategy set.",
-          "categories": [
-            "econ.TH",
-            "cs.GT",
-            "math.AG"
-          ],
-          "published": "2026-03-04",
-          "pdfUrl": "https://arxiv.org/pdf/2603.04298v1",
-          "chineseTitle": "Index and Robustness of Mixed Equilibria: An Algebraic Approach",
-          "chineseAbstract": "We present a new method for computation of the index of completely mixed equilibria in finite games, based on the work of Eisenbud et al.(1977). We apply this method to solving two questions about the relation of the index of equilibria and the index of fixed points, and the index of equilibria and payoff-robustness: any integer can be the index of an isolated completely mixed equilibrium of a finite game. In a particular class of isolated completely mixed equilibria, called monogenic, the index can be $0$, $+1$ or $-1$ only. In this class non-zero index is equivalent to payoff-robustness. We also discuss extensions of the method of computation to extensive-form games, and cases where the equilibria might be located on the boundary of the strategy set.",
-          "researchField": "理论",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.04226v1",
-          "title": "Optimal strategies in Markov decision processes with finitely additive evaluations",
-          "authors": [
-            "János Flesch",
-            "Arkadi Predtetchinski",
-            "William D Sudderth",
-            "Xavier Venel"
-          ],
-          "abstract": "We study infinite-horizon Markov decision processes (MDPs) where the decision maker evaluates each of her strategies by aggregating the infinite stream of expected stage-rewards. The crucial feature of our approach is that the aggregation is performed by means of a given diffuse charge (a diffuse finitely additive probability measure) on the set of stages. The results of Neyman [2023] imply that in this setting, in every MDP with finite state and action spaces, the decision maker has a pure optimal strategy as long as the diffuse charge satisfies the time value of money principle. His result raises the question of existence of an optimal strategy without additional assumptions on the aggregation charge. We answer this question in the negative with a counterexample. With a delicately constructed aggregation charge, the MDP has no optimal strategy at all, neither pure nor randomized.",
-          "categories": [
-            "math.OC",
-            "econ.TH"
-          ],
-          "published": "2026-03-04",
-          "pdfUrl": "https://arxiv.org/pdf/2603.04226v1",
-          "chineseTitle": "Optimal strategies in Markov decision processes with finitely additive evaluations",
-          "chineseAbstract": "We study infinite-horizon Markov decision processes (MDPs) where the decision maker evaluates each of her strategies by aggregating the infinite stream of expected stage-rewards. The crucial feature of our approach is that the aggregation is performed by means of a given diffuse charge (a diffuse finitely additive probability measure) on the set of stages. The results of Neyman [2023] imply that in this setting, in every MDP with finite state and action spaces, the decision maker has a pure optimal strategy as long as the diffuse charge satisfies the time value of money principle. His result raises the question of existence of an optimal strategy without additional assumptions on the aggregation charge. We answer this question in the negative with a counterexample. With a delicately constructed aggregation charge, the MDP has no optimal strategy at all, neither pure nor randomized.",
-          "researchField": "理论",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.04173v1",
-          "title": "Allocating Resources under Strategic Misrepresentation",
-          "authors": [
-            "Yingkai Li",
-            "Xiaoyun Qiu"
-          ],
-          "abstract": "We study how to allocate resources to participants who can strategically misrepresent their deservingness at a cost. A principal assigns item(s) (or money) among multiple agents on the basis of their costly signals. Each agent's signal reflects their private type in the absence of misrepresentation but can be inflated above their true type at a cost. The principal is a social planner who aims to maximize the weighted average of matching efficiency and a utilitarian objective. Strategic misrepresentation introduces novel incentive-compatibility constraints, under which we characterize the optimal mechanism. We apply our characterization to two kinds of markets, distinguished by resource scarcity, and show that the principal strictly benefits from randomizing the allocations based on costly signals when the population of participants is large enough. Interestingly, in large markets with scarce resources, the format of the optimal mechanism converges to a winner-takes-all contest; however, there is a non-diminishing value in randomizing allocations to middle types as the population of participants grows.",
-          "categories": [
-            "econ.TH"
-          ],
-          "published": "2026-03-04",
-          "pdfUrl": "https://arxiv.org/pdf/2603.04173v1",
-          "chineseTitle": "Allocating Resources under Strategic Misrepresentation",
-          "chineseAbstract": "We study how to allocate resources to participants who can strategically misrepresent their deservingness at a cost. A principal assigns item(s) (or money) among multiple agents on the basis of their costly signals. Each agent's signal reflects their private type in the absence of misrepresentation but can be inflated above their true type at a cost. The principal is a social planner who aims to maximize the weighted average of matching efficiency and a utilitarian objective. Strategic misrepresentation introduces novel incentive-compatibility constraints, under which we characterize the optimal mechanism. We apply our characterization to two kinds of markets, distinguished by resource scarcity, and show that the principal strictly benefits from randomizing the allocations based on costly signals when the population of participants is large enough. Interestingly, in large markets with scarce resources, the format of the optimal mechanism converges to a winner-takes-all contest; however, there is a non-diminishing value in randomizing allocations to middle types as the population of participants grows.",
-          "researchField": "理论",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        },
-        {
-          "id": "http://arxiv.org/abs/2603.02961v1",
-          "title": "Delegation and Verification Under AI",
-          "authors": [
-            "Lingxiao Huang",
-            "Wenyang Xiao",
-            "Nisheeth K. Vishnoi"
-          ],
-          "abstract": "As AI systems enter institutional workflows, workers must decide whether to delegate task execution to AI and how much effort to invest in verifying AI outputs, while institutions evaluate workers using outcome-based standards that may misalign with workers' private costs. We model delegation and verification as the solution to a rational worker's optimization problem, and define worker quality by evaluating an institution-centered utility (distinct from the worker's objective) at the resulting optimal action. We formally characterize optimal worker workflows and show that AI induces *phase transitions*, where arbitrarily small differences in verification ability lead to sharply different behaviors. As a result, AI can amplify workers with strong verification reliability while degrading institutional worker quality for others who rationally over-delegate and reduce oversight, even when baseline task success improves and no behavioral biases are present. These results identify a structural mechanism by which AI reshapes institutional worker quality and amplifies quality disparities between workers with different verification reliability.",
-          "categories": [
-            "cs.GT",
-            "cs.AI",
-            "cs.CY",
-            "econ.TH"
-          ],
-          "published": "2026-03-03",
-          "pdfUrl": "https://arxiv.org/pdf/2603.02961v1",
-          "chineseTitle": "Delegation and Verification Under AI",
-          "chineseAbstract": "As AI systems enter institutional workflows, workers must decide whether to delegate task execution to AI and how much effort to invest in verifying AI outputs, while institutions evaluate workers using outcome-based standards that may misalign with workers' private costs. We model delegation and verification as the solution to a rational worker's optimization problem, and define worker quality by evaluating an institution-centered utility (distinct from the worker's objective) at the resulting optimal action. We formally characterize optimal worker workflows and show that AI induces *phase transitions*, where arbitrarily small differences in verification ability lead to sharply different behaviors. As a result, AI can amplify workers with strong verification reliability while degrading institutional worker quality for others who rationally over-delegate and reduce oversight, even when baseline task success improves and no behavioral biases are present. These results identify a structural mechanism by which AI reshapes institutional worker quality and amplifies quality disparities between workers with different verification reliability.",
-          "researchField": "理论",
-          "scores": {
-            "overall": 5.5,
-            "novelty": 3,
-            "quality": 3,
-            "readability": 3
-          },
-          "tags": []
-        }
-      ],
-      "total": 51
     }
   ],
-  "lastUpdated": "2026-04-24T09:59:55.961657",
+  "lastUpdated": "2026-04-26T09:51:35.074225",
   "total": 359
 }
